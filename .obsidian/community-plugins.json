@@ -1,6 +1,8 @@
 [
-  "obsidian-git",
   "table-editor-obsidian",
   "sliding-panes-obsidian",
-  "text-snippets-obsidian"
+  "text-snippets-obsidian",
+  "obsidian-git",
+  "quickadd",
+  "dataview"
 ]

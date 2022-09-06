@@ -9,20 +9,20 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Back to school.md",
+            "file": "Template/Template - Lesson.md",
             "mode": "source",
             "source": false
           }
         }
       },
       {
-        "id": "e59bfc195db27d99",
+        "id": "fb24ff451b790c39",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Back to school.md",
-            "mode": "preview",
+            "file": "Template/Template - Lesson.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Back to school.md",
+                "file": "Template/Template - Lesson.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Back to school.md",
+                "file": "Template/Template - Lesson.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Back to school.md"
+                "file": "Template/Template - Lesson.md"
               }
             }
           }
@@ -140,6 +140,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "372a8e67b28b885b",
-  "lastOpenFiles": []
+  "active": "3ed2038ec5459906",
+  "lastOpenFiles": [
+    "Back to school.md",
+    "Template/Template - Lesson.md"
+  ]
 }

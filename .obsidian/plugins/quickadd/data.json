@@ -1,14 +1,14 @@
 {
   "choices": [
     {
-      "id": "6af9cd90-306e-48a2-a64a-13b577c8e751",
+      "id": "e207738a-1111-45d5-a726-35ba856bb612",
       "name": "Lesson",
       "type": "Template",
       "command": true,
-      "templatePath": "",
+      "templatePath": "Template/Lesson.md",
       "fileNameFormat": {
         "enabled": false,
-        "format": ""
+        "format": "{{VALUE}}"
       },
       "folder": {
         "enabled": false,
@@ -17,7 +17,7 @@
         "createInSameFolderAsActiveFile": false
       },
       "appendLink": false,
-      "incrementFileName": false,
+      "incrementFileName": true,
       "openFileInNewTab": {
         "enabled": false,
         "direction": "vertical",

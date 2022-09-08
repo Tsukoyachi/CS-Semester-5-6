@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b1a76273eebec917",
+        "id": "1a9ed7ec7da074ba",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Templates/Cours.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Cours.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Cours.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Templates/Cours.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -128,10 +120,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b1a76273eebec917",
+  "active": "3ed2038ec5459906",
   "lastOpenFiles": [
-    "Cours/Sans titre.md",
     "Templates/Cours.md",
+    "Cours/Sans titre.md",
     "Cours/test.md",
     "Template/Lesson.md",
     "Sans titre 1.md",

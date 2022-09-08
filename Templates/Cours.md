@@ -1,7 +1,7 @@
-# <? tp.file.title %>
+# <% tp.file.title %>
 ---
-### subjet : <% tp.file.folder(relative: boolean = false) %> 
-### creation date : <% tp.file.creation_date(format: string = "DD-MM-YYYY HH:mm") %>
+### subjet : <% tp.file.folder() %> 
+### creation date : <% tp.file.creation_date() %>
 ---
 
 

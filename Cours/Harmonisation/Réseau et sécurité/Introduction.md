@@ -170,3 +170,25 @@ Fields :
 	- Class A : 255.0.0.0
 	- Class B : 255.255.0.0
 	- Class C : 255.255.255.0
+- Example :
+	- IP = 172.22.176.1
+	- Masque de sous réseau : 255.255.240.0
+
+##### Netid, Hostid, Mask
+
+![[Pasted image 20220913111948.png | center | 600]]
+
+##### Commands 
+- nslookup
+- tracert
+- route : allow the user to have the route table of the computer.
+
+Traject data :
+ > We send the data to the router, we know the router adress with the cmd command 'route PRINT' I think, and then we need to know the mac adress of the router. The router will check the interface he need to send the data to and will create the frame with his route table.
+ 
+##### Help to associate names and IP adresses
+
+>Domain name server : DNS
+
+![[Pasted image 20220913114237.png | center | 600]]
+

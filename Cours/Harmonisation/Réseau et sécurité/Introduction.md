@@ -140,4 +140,33 @@ Switches have a max bandwitdth or a speed in bytes
 ##### Ethernet :
 Ethernet plug.
 Plug must be compatible with cables.
-#### Thirs layer in OSI/ISO model
+#### Third layer in OSI/ISO model, Internet !
+
+From a network, to another.
+>Internet is the interconnexion of every network and it can't be different because every local network have his own constraint.
+
+Gateway : It's a device that link two network who present a different topology.
+
+Router : He receive a frame, and redirect it to the sender identified by his IP adress.
+
+##### IP Datagram :
+![[Pasted image 20220913110148.png | center | 700]]
+
+Fields :
+- TTL (Time to live) : 
+	- It's a number, who decrement each time he pass a router.
+	- If he reaches 0, the router send a packet to himself and then tell the sender he failed to send the data.
+
+##### IPV4 Address Formats
+
+![[Pasted image 20220913111035.png | center | 600]]
+
+- 32 bytes global Internet address
+- Network part and host part
+
+###### Network Masks
+- Distinguishes wich portion of the address identifies the network and wich portion of the address identifies the node.
+- Default mask :
+	- Class A : 255.0.0.0
+	- Class B : 255.255.0.0
+	- Class C : 255.255.255.0

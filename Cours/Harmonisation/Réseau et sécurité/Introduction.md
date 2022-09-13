@@ -38,9 +38,9 @@
 
 A specialized subset of telecommunications that refers to the electronic collection, processing, and distribution of data -- typically between computer system hardware devices.
 
-> We have a chain of bits : 0110001110100101
+> We have a chain of bytes : 0110001110100101
 > We apply a modulation to it to transfer a signal of our choice.
-> To be able to apply a demodulation to it and obtain our chain of bits in the end.
+> To be able to apply a demodulation to it and obtain our chain of bytes in the end.
 
 ---
 
@@ -65,7 +65,7 @@ A specialized subset of telecommunications that refers to the electronic collect
 
 ---
 
-> **All the previous note were about the transfer of bits (0 or 1), that was the first layer of the OSI/ISO model. But transfering bits isn't enough.** 
+> **All the previous note were about the transfer of bytes (0 or 1), that was the first layer of the OSI/ISO model. But transfering bits isn't enough.** 
 
 ---
 #### Data Communication Management : 
@@ -79,15 +79,13 @@ Personnal note to sum up :
 - The challenge of the first layer was to transfer bits.
 - The challenge of the second layer is to transfer layer (trains de bits in french).
 
----
-
-#### Distinguish consecutives frames :
+##### Distinguish consecutives frames :
 
 (à rattraper...)
 
 ---
 
-#### Shared medium between various connected devices :
+##### Shared medium between various connected devices :
 
 >CSMA stands for Carrier Sense Multiple Access. It is a set of protocols for accessing a medium. These check that the medium is available before starting to send a frame. They also detect or avoid message collisions in transmissions.
 
@@ -98,15 +96,15 @@ Personnal note to sum up :
 
 A system must be able to detect at wich moment he receives multiple thing at once.
 
-##### Collision Detection :
+###### Collision Detection :
 
 The first machine to "talk" is the machine who detect the collision.
 Then all the machine stop "talking".
 Every machine who want to communicate choose a number between 1 and 7, it's the number of period they wait before "talking". The probability of having two machines who talk at the same time is really low.
 
->In a group of person, everyone can talk when they want to (after a silence), and if two people try to speak at the same time they stop and wait a short time (random for )
+>In a group of person, everyone can talk when they want to (after a silence), and if two people try to speak at the same time they stop and wait a short time (random for each person).
 
-##### Collision Resolution :
+###### Collision Resolution :
 
 When we have conflict, we check if it's the same level.
 And when a machine send a signal who is different from the other he's stopped by the bus to let the other "talk".
@@ -115,3 +113,31 @@ And when a machine send a signal who is different from the other he's stopped by
 
 
 
+
+##### Who sent the frame :
+
+(à rattraper j'ai raté un slide...)
+
+###### MAC Address (IEEE 802.1) :
+- For
+	- Local Area Network (LAN, ex : Ethernet)
+	- Wireless Local Area Network (WLAN, ex : Wifi, Lifi)
+	- Personnal Area Network (PAN, ex : Bluetooth)
+	- Low Power Wide Area Network (LPWAN, ex : LoRa, Sigfox, Zigbee)
+- See ifconfig / ipconfig commands
+
+#### LAN Devices :
+- Switch
+- Wifi hostspot
+- Bluetooth hotspot
+- Lifi hotspot
+
+##### Ethernet and Switch devices :
+
+###### Switch :
+Switches have a max bandwitdth or a speed in bytes
+
+##### Ethernet :
+Ethernet plug.
+Plug must be compatible with cables.
+#### Thirs layer in OSI/ISO model

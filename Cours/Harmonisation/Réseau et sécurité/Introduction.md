@@ -14,7 +14,7 @@
 
 #### Analog Communication
 
-![[Pasted image 20220913093145.png | 350 | center]]
+![[senderReceiver.png | 350 | center]]
 
 > The Sender send a signal by using a Transmission medium to the Receiver.
 > 
@@ -150,7 +150,7 @@ Gateway : It's a device that link two network who present a different topology.
 Router : He receive a frame, and redirect it to the sender identified by his IP adress.
 
 ##### IP Datagram :
-![[Pasted image 20220913110148.png | center | 700]]
+![[IP Datagram.png | center | 700]]
 
 Fields :
 - TTL (Time to live) : 
@@ -159,7 +159,7 @@ Fields :
 
 ##### IPV4 Address Formats
 
-![[Pasted image 20220913111035.png | center | 600]]
+![[IP format.png | center | 600]]
 
 - 32 bytes global Internet address
 - Network part and host part
@@ -176,7 +176,7 @@ Fields :
 
 ##### Netid, Hostid, Mask
 
-![[Pasted image 20220913111948.png | center | 600]]
+![[Network Mask.png | center | 600]]
 
 ##### Commands 
 - nslookup
@@ -190,7 +190,7 @@ Traject data :
 
 >Domain name server : DNS
  
-![[Pasted image 20220913114237.png | center | 600]]
+![[DNS Hierarchy.png | center | 600]]
 
 #### Introduction to Transport protocol (à rattraper j'ai give up cette partie)
 

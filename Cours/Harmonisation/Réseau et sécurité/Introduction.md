@@ -189,6 +189,17 @@ Traject data :
 ##### Help to associate names and IP adresses
 
 >Domain name server : DNS
-
+ 
 ![[Pasted image 20220913114237.png | center | 600]]
 
+#### Introduction to Transport protocol (à rattraper j'ai give up cette partie)
+
+IP + Port = Socket
+
+---
+
+#### UDP Datagram (à rattraper j'ai give up aussi)
+
+---
+
+### TCP (à rattraper aussi T_T)

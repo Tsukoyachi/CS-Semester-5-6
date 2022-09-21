@@ -42,4 +42,7 @@ Ces normes définissent l'utilisabilité au travers de :
 - Satisfaction (L'utilisateur doit être satisfait.)
 
 
+### Dimension de l'expérience utilisateur
+Visuel et expérience esthétique, émotion, stimulation, identification, sens et valeur, rapport.
+
 

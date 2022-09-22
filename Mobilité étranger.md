@@ -1,5 +1,7 @@
 # Conférence mobilité à l'étranger
 
+## Check les notes de Tom (Bedino) pour des notes plus approfondies sur la mobilité FISA/FISE
+
 ### Point pour les alternants
 
 - **Minimum de 12 semaines**
@@ -16,3 +18,7 @@
 	- bourse : OPCO (en cas de mise en veille du contrat), ERASMUS+ (condition auprès du CFA Epure), Région (condition auprès du BRI, bureau 205 je crois)
 
 ### Prochaine réunion le 24 Novembre 2022 à 12h...
+
+### Date de candidature : 16 Janvier 2023 pour UCA pour 2023/2024...
+### Sinon 16 décembre 2022 pour Polytech (ERASMUS+ et Bilatéraux) pour 2023/2024...
+

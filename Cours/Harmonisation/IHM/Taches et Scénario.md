@@ -22,12 +22,13 @@ C'est ce que l'on appelle le **modèle de tâche**.
 ```ad-warning
 title: À rechercher pour compléter notes
 
-- [gouffre intéraction (D.Norman)](https://inf1420.teluq.ca/semaine-2/activite-1/) 
+- [ ] [gouffre intéraction (D.Norman)](https://inf1420.teluq.ca/semaine-2/activite-1/) (@2022-09-24 14:00)
 ```
 
 ![[gouffre interaction.png | center | 600 ]]
 
 ### Roles (à compléter)
+
 ### Analyse de Tâche
 
 Réalisation :
@@ -45,9 +46,25 @@ Intérêt :
 
 ```ad-warning
 title: À rechercher pour compléter les notes
-- Il y a différent modèle de tâche (se renseigner)
-
-- HCU jsp ce que c'est
-- UCD c'est un modèle de tâche
+- [ ] Il y a différent modèle de tâche (se renseigner) (@2022-09-24 14:30)
+- [ ] HCU jsp ce que c'est (@2022-09-24 15:00)
+- [ ] UCD c'est un modèle de tâche (@2022-09-24 15:30)
 ```
+
+On part sur un principe d'itération, on commence la conception, et en cas de besoin, de découvertes de nouveau types d'utilisateurs, on peut reprendre l'analyse de tâche avant de recommencer la création du système.
+
+![[Pasted image 20220923150106.png]]
+
+# Scénarios
+**Chaque façon d'exécuter une tâche est un scénario**
+Dans un scénario je ne réalise que certaines tâche dans un certain contexte.
+Le but est de décrire un cas d'usage qui pose problème ainsi que la façon de le régler.
+
+###
+```ad-info
+title: Outils utiles
+- Hamsters editor : permet de faire des modèles de tâches facilement
+- Task simulator : idem
+```
+
 

@@ -18,6 +18,8 @@
 
 ### Choix d'un mini micro projet...
  ---
+
+# A réécrire/simplifier...
 ### C'est quoi l'IHM/ HCI ?
 Discipline consacrée à la conception, la mise en oeuvre et l'évaluation des systèmes interactifs.
 
@@ -45,4 +47,15 @@ Ces normes définissent l'utilisabilité au travers de :
 ### Dimension de l'expérience utilisateur
 Visuel et expérience esthétique, émotion, stimulation, identification, sens et valeur, rapport.
 
+### Personnas
+```ad-note
+title: Définition
+Afin d'améliorer l'utilisabilité et l'accessibilité d'une application, on définit des catégories d'utilisateurs appelées **"Personnas"** afin de définir les buts de ses utilisateurs ainsi que leurs difficultés potentielles dans l'utilisation de notre programme.
+```
+###### Exemple :
+![[Personnas.png | center ]]
+```ad-note
+title: Corrections à apporter
 
+...
+```

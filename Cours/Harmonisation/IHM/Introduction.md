@@ -4,7 +4,7 @@
 - 21/09/22
 
 ### Teachers :
-- 
+- Alba Winckler
 
 ### Tags :
 #IHM, #Interface, #Homme, #Machine, #Harmonisation
@@ -48,14 +48,27 @@ Ces normes définissent l'utilisabilité au travers de :
 Visuel et expérience esthétique, émotion, stimulation, identification, sens et valeur, rapport.
 
 ### Personnas
-```ad-note
+```ad-info
 title: Définition
+collapse: false
 Afin d'améliorer l'utilisabilité et l'accessibilité d'une application, on définit des catégories d'utilisateurs appelées **"Personnas"** afin de définir les buts de ses utilisateurs ainsi que leurs difficultés potentielles dans l'utilisation de notre programme.
+
+Par exemple : un retraité qui va avoir du mal à utiliser un ordinateur qui va avoir un type de besoin particulier.
 ```
 ###### Exemple :
-![[Personnas.png | center ]]
 ```ad-note
-title: Corrections à apporter
-
-...
+title: Projet en lien avec le Personnas
+Une application permettant d'obtenir des suggestions de repas par rapport aux ingrédients présent dans son frigo.
 ```
+![[Personnas.png | center ]]
+```ad-bug
+title: Corrections à apporter
+collapse: false
+- Préciser son niveau en utilisation de matériel informatique.
+- Les appareils sur lesquels il serait plus enclin à utiliser une application pour répondre à son besoin.
+```
+
+###### Comment vérifier qu'un personnas est correct :
+- Vérifier la cohérence du profil
+- Vérifier le besoin
+- (optionnel) Avoir une photo/représentation du profil pour s'imaginer plus facilement le personnas.

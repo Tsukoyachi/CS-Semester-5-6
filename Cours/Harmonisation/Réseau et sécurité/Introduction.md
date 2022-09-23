@@ -61,7 +61,7 @@ A specialized subset of telecommunications that refers to the electronic collect
 
 #### Medium Electromagnetic Spectrum :
 
-- Frequencies are more of less well-caried according to the medium type.
+- Frequencies are more of less well-carried according to the medium type.
 
 ---
 

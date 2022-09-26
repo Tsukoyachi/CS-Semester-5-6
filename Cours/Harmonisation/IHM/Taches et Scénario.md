@@ -53,7 +53,7 @@ title: À rechercher pour compléter les notes
 
 On part sur un principe d'itération, on commence la conception, et en cas de besoin, de découvertes de nouveau types d'utilisateurs, on peut reprendre l'analyse de tâche avant de recommencer la création du système.
 
-![[Pasted image 20220923150106.png]]
+![[modèle de tâches.png]]
 
 # Scénarios
 **Chaque façon d'exécuter une tâche est un scénario**

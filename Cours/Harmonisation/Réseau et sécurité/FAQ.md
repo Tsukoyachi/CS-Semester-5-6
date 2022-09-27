@@ -22,3 +22,7 @@
 - Explication schématisé de masque réseau : ![[Schéma masque réseau.png |center | 750]] 
 ### Internet :
 - topologie : Irrégulière et dynamique, il n'y a pas de topologie fixe parce qu'elle évolue dans le temps.
+
+### Table routage
+- Explication structure/fonctionnement table de routage dans le cas d'un partage de connexion d'un téléphone. Dans cette situation le téléphone à la fonction de modem (modulation/démodulation) et de router donc il possède une table de routage.![[Schéma table de routage.png]]
+- Dans le cas d'un serveur web hébergé localement, pour transférer la requête de notre router à notre serveur web l'on se sert d'un NAT (network adress translation), qui va dire ok j'ai reçu une requête pour cette adresse, je la transmet au serveur web sans la toucher pour qu'il se débrouillera avec.

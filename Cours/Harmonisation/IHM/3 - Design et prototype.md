@@ -87,3 +87,8 @@ Vous n'avez pas un logiciel qui fonctionne, la technique du magicien d'Oz consis
 Cela peut se faire en bougeant une feuille de papier si le prototype est papier par exemple, plusieurs exemples sont trouvable sur internet.
 ```
 ### Il est important d'ajouter des annotations sur la maquette, par exemple si elle est papier on pourrait ajouter des dimensions.
+
+Outils de prototypage :
+- Balsamiq (Une fois le prototypage fini, balasamiq permet d'afficher une prévisualisation pdf avec des liens fonctionnels pour faire la navigation)
+- Figma
+- Axure

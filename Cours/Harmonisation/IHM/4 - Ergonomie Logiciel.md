@@ -106,4 +106,21 @@ title: Danger d'une mauvaise IHM :
 - mettre un bouton close (pour fermer le fichier) à côté d'un bouton exit (pour fermer l'appli) est un mauvais guidage
 - Mettre des boutons OK et Annuler en dehors d'une fenêtre de setting pour ne pas créer d'ambiguité
 - Pour un mot de passe au lieu de juste le cacher, remplacer les caractères par des * pour que l'utilisateur puisse tracker combien de caractères il a tapé.
-- Lorsque l'on tape sur un clavier tel, les lettres sont affiché même si le doigt cache le clavi
+- Lorsque l'on tape sur un clavier tel, les lettres sont affiché même si le doigt cache le clavier.
+
+**Temps de réponse acceptable**
+- 0.1 sec : L'utilisateur voit l'information comme un flou continu.
+- entre 0.1 et 1 sec : L'utilisateur perçoit l'intéraction comme une pause dans une conversation, il faut une réponse visible du système.
+- entre 1 et 10 sec : Temps d'attente max, il faut signaler que le système est en train de faire quelque chose et l'utilisateur doit attendre.
+- > 10 sec : Un plus du signalement, il faut autoriser l'utilisateur à faire autre chose en attendant.
+
+**Lisibilité**
+- Les majuscules sont moins lisible, on préférera Cancel à CANCEL.
+- Les écritures souligné sont moins faciles à lire également.
+
+**Charge de travail**
+Concision
+- On préviligiera de l'auto-complétion à une syntaxe trop compliqué
+Densité Informationnelle
+- Eviter d'avoir trop d'
+

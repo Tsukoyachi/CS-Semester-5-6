@@ -147,4 +147,9 @@ Prise en compte de l'expérience de l'utilisateur
 
 **Signification des codes et dénominations**
 - pas besoin de réinventer la roue, pour un bouton enregistrer l'icône de disquette marche très bien depuis des décennies.
-- pareil pour une vidéo, les bouton pause, next, precedent marche tr
+- pareil pour une vidéo, les bouton pause, next, precedent marche très bien.
+
+**Homogénéité/Cohérence**
+Dans une appli il doit y avoir une certaine constance dans la façon de faire une action.
+Les raccourcis clavier ne doivent pas changer entre deux utilisations de l'appli ou autre.
+Cela permet à l'utilisateur d'acquérir des automatismes.

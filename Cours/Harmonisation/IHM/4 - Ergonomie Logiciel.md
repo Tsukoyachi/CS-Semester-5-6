@@ -143,4 +143,4 @@ Prise en compte de l'expérience de l'utilisateur
 - Qualité des messages :
 	- Message Technique (pour dev mais pas pour utilisateur)
 	- Message User-Friendly
-	- Certains messages peuvent être "Désagréable", avec de l'humour déplacé ou autre.
+	- Eviter certains messages peuvent être "Désagréable", avec de l'humour déplacé ou autre.

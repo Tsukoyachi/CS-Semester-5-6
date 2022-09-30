@@ -122,5 +122,17 @@ title: Danger d'une mauvaise IHM :
 Concision
 - On préviligiera de l'auto-complétion à une syntaxe trop compliqué
 Densité Informationnelle
-- Eviter d'avoir trop d'
+- Eviter d'avoir trop d'information au même moment sans catégorisation (dans une navbar créer des sous menu par exemple : file avec open, open new,...)
 
+**Contrôle Explicite**
+Action Minimales :
+- Mettre des valeurs par défaut dans un menu lorsqu'il n'y a pas d'enjeu de sécurité, par exemple pour régler une police on met une taille et un type de police par défaut.
+- Toujours mettre un bouton pour valider ou refuser au lieu de bloquer l'utilisateur dans un choix qu'il ne veut pas.
+
+**Adaptabilité**
+Flexibilité
+- à rattraper
+Prise en compte de l'expérience de l'utilisateur
+- Créer des raccourci clavier pour les utilisateurs experimentés.
+
+**Gestion des erreurs**

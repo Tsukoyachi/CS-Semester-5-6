@@ -59,3 +59,14 @@ title: Danger d'une mauvaise IHM :
 	
 	- Rappels...
 
+**Théorie de l'action de Don Norman**
+
+![[Don Norman.png | center]]
+
+**Terminologie des connaissances ergonomiques en IHM**
+- Recommendation,
+- Guidelines, règles ergonomiques (par exemple: dans une liste, organiser les éléments par ordre alphabétiques)
+- Critère ergonomique, facteur d'utilisabilité
+- Check-list, heuristiques d'utilisabilité
+- Standart (ISO,...)
+- à compléter....

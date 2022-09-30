@@ -92,10 +92,12 @@ title: Danger d'une mauvaise IHM :
 	- Flexibilité (Donner la possibilité d'avoir plusieurs moyen de réaliser une tâche)
 	- Prise en compte de l'expérience utilisateur
 
-5 - Gestion des erreurs ()
+5 - Gestion des erreurs (L'erreur est humaine, les utilisateurs sont sujets à plusieurs source d'erreur tel que le stress, il est donc possible de créer plusieurs barrière pour empêcher cela, par exemple un message de confirmation, mettre un fichier à la corbeille n'est pas un effacement définitif)
 
-6 - Signifiance des codes et dénominations
+6 - Signification des codes et dénominations (Il faut que les codes fassent sens à l'utilisateur, les notations doivent être compréhensible pour le type d'utilisateur qui utilisera l'appli, par exemple mettre des formules chimiques compact dans une application destinée à des chimiste est acceptable, par contre si c'était d'autres personnes qui utiliseraient l'appli ça ne serait plus acceptable)
 
 7 - Homogénéité/Cohérence
 
 8 - Compatibilité
+
+*

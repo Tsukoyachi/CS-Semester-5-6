@@ -142,4 +142,5 @@ Prise en compte de l'expérience de l'utilisateur
 - Faire des système d'annulation (el famoso Ctrl+Z) et redo (Ctrl + Y en général)
 - Qualité des messages :
 	- Message Technique (pour dev mais pas pour utilisateur)
-	- Message 
+	- Message User-Friendly
+	- Certains messages peuvent être "Désagréable", avec de l'humour déplacé ou autre.

@@ -100,4 +100,10 @@ title: Danger d'une mauvaise IHM :
 
 8 - Compatibilité
 
-*
+**Trouver des exemples en image de Guidage et d'incitation**
+- par exemple, des flèches sur une carte pour la déplacer
+- Mettre des formats de saisie dans les formulaires, par exemple chiffres only, nb de caractères limités, indiquer ses formats pendant le remplissage au lieu d'attendre la validation pour lui dire, ....
+- mettre un bouton close (pour fermer le fichier) à côté d'un bouton exit (pour fermer l'appli) est un mauvais guidage
+- Mettre des boutons OK et Annuler en dehors d'une fenêtre de setting pour ne pas créer d'ambiguité
+- Pour un mot de passe au lieu de juste le cacher, remplacer les caractères par des * pour que l'utilisateur puisse tracker combien de caractères il a tapé.
+- Lorsque l'on tape sur un clavier tel, les lettres sont affiché même si le doigt cache le clavi

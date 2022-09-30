@@ -160,4 +160,14 @@ Garder un ordre de bouton standard, garder une interface intuitive (c'est la seu
 ### Corpus de connaissances ergonomique en IHM
 Va te faire foutre t'a encore skip ton slide de merde....
 
+j'ai skip un slide à compléter
 
+Règle ergonomique :
+Déf : Une règle ergonomique est un principe de conception et/ou d'évaluation à observer en vue d'obtenir et/ou garantir une interface homme-machine ergonomique
+à compléter
+
+Les règles d'ergonomie viennent en général de résultat expérimentaux, d'études, de jugement d'expert, d'expérience pratique, de "bon sens" (sens commun), ...
+
+Critère ou facteur ergonomique : 
+- Un critère ergonomique est un principe de base
+-  

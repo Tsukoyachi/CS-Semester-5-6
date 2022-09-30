@@ -100,7 +100,9 @@ title: Danger d'une mauvaise IHM :
 
 8 - Compatibilité
 
-**Trouver des exemples en image de Guidage et d'incitation**
+**Guidage**
+Incitation
+Trouver des exemples en image de Guidage et d'incitation
 - par exemple, des flèches sur une carte pour la déplacer
 - Mettre des formats de saisie dans les formulaires, par exemple chiffres only, nb de caractères limités, indiquer ses formats pendant le remplissage au lieu d'attendre la validation pour lui dire, ....
 - mettre un bouton close (pour fermer le fichier) à côté d'un bouton exit (pour fermer l'appli) est un mauvais guidage
@@ -108,13 +110,13 @@ title: Danger d'une mauvaise IHM :
 - Pour un mot de passe au lieu de juste le cacher, remplacer les caractères par des * pour que l'utilisateur puisse tracker combien de caractères il a tapé.
 - Lorsque l'on tape sur un clavier tel, les lettres sont affiché même si le doigt cache le clavier.
 
-**Temps de réponse acceptable**
+Temps de réponse acceptable
 - 0.1 sec : L'utilisateur voit l'information comme un flou continu.
 - entre 0.1 et 1 sec : L'utilisateur perçoit l'intéraction comme une pause dans une conversation, il faut une réponse visible du système.
 - entre 1 et 10 sec : Temps d'attente max, il faut signaler que le système est en train de faire quelque chose et l'utilisateur doit attendre.
 - > 10 sec : Un plus du signalement, il faut autoriser l'utilisateur à faire autre chose en attendant.
 
-**Lisibilité**
+Lisibilité
 - Les majuscules sont moins lisible, on préférera Cancel à CANCEL.
 - Les écritures souligné sont moins faciles à lire également.
 
@@ -136,3 +138,8 @@ Prise en compte de l'expérience de l'utilisateur
 - Créer des raccourci clavier pour les utilisateurs experimentés.
 
 **Gestion des erreurs**
+- Missclick (erreur d'exécution) et Mistake (erreur d'intention)
+- Faire des système d'annulation (el famoso Ctrl+Z) et redo (Ctrl + Y en général)
+- Qualité des messages :
+	- Message Technique (pour dev mais pas pour utilisateur)
+	- Message 

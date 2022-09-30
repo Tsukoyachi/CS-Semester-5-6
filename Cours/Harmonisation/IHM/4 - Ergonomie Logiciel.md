@@ -64,9 +64,38 @@ title: Danger d'une mauvaise IHM :
 ![[Don Norman.png | center]]
 
 **Terminologie des connaissances ergonomiques en IHM**
+
 - Recommendation,
 - Guidelines, règles ergonomiques (par exemple: dans une liste, organiser les éléments par ordre alphabétiques)
 - Critère ergonomique, facteur d'utilisabilité
 - Check-list, heuristiques d'utilisabilité
 - Standart (ISO,...)
-- à compléter....
+- **à compléter....**
+
+**Les critères ergonomiques**
+
+1 - Guidage
+	- Incitation
+	- Groupement/distinction entre items
+	- Feed-back immédiat
+	- Lisibilité
+
+2 - Charge de Travail
+	- Briéveté/Concision
+	- Densité informationnelle
+
+3 - Contrôle explicite
+	- Actions explicite
+	- Contrôle utilisateur
+
+4 - Adaptabilité
+	- Flexibilité
+	- Prise en compte de l'expérience utilisateur
+
+5 - Gestion des erreurs
+
+6 - Signifiance des codes et dénominations
+
+7 - Homogénéité/Cohérence
+
+8 - Compatibilité

@@ -85,14 +85,14 @@ title: Danger d'une mauvaise IHM :
 	- Densité informationnelle
 
 3 - Contrôle explicite
-	- Actions explicite
-	- Contrôle utilisateur
+	- Actions explicite (Il faut que ce soit simple de voir quand on peut ou non réaliser une tâche, par exemple : un bouton peut être grisé)
+	- Contrôle utilisateur (Pour faire une bonne IHM, l'utilisateur doit toujours avoir une issue de secours dans la limite physique des opérations (En informatique on peut toujours annuler une tâche en cours, mais quand elle a un impact sur le monde réel par exemple une impression en cours elle n'est pas annulable , pouvoir annuler une tâche en cours à n'importe quel moment)
 
 4 - Adaptabilité
-	- Flexibilité
+	- Flexibilité (Donner la possibilité d'avoir plusieurs moyen de réaliser une tâche)
 	- Prise en compte de l'expérience utilisateur
 
-5 - Gestion des erreurs
+5 - Gestion des erreurs ()
 
 6 - Signifiance des codes et dénominations
 

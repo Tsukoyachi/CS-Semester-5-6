@@ -144,3 +144,7 @@ Prise en compte de l'expérience de l'utilisateur
 	- Message Technique (pour dev mais pas pour utilisateur)
 	- Message User-Friendly
 	- Eviter certains messages peuvent être "Désagréable", avec de l'humour déplacé ou autre.
+
+**Signification des codes et dénominations**
+- pas besoin de réinventer la roue, pour un bouton enregistrer l'icône de disquette marche très bien depuis des décennies.
+- pareil pour une vidéo, les bouton pause, next, precedent marche tr

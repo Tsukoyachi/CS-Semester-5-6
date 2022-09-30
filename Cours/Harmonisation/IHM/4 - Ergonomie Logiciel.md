@@ -153,3 +153,11 @@ Prise en compte de l'expérience de l'utilisateur
 Dans une appli il doit y avoir une certaine constance dans la façon de faire une action.
 Les raccourcis clavier ne doivent pas changer entre deux utilisations de l'appli ou autre.
 Cela permet à l'utilisateur d'acquérir des automatismes.
+
+**Compatibilité**
+Garder un ordre de bouton standard, garder une interface intuitive (c'est la seule chose que j'ai pu noter en voyant le slide)
+
+### Corpus de connaissances ergonomique en IHM
+Va te faire foutre t'a encore skip ton slide de merde....
+
+

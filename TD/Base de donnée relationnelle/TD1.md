@@ -14,3 +14,6 @@ $(t_{1}.NomM = t_{2}.NomM$ ^ $t_{1}.Classe = t_{2}.Classe$ ^ $t_{1}.Pays= t_{2}.
 3. $\forall m_{1} \in marque, \exists s_{1} \in societe \Rightarrow t_{1}.IdProp = t_{2}.IdSoc$ 
 
 4. $\forall m_{1},m_{2} \in marque :$
+($t_{1}.pays = t_{2}.pays$ ^ $t_{1}.NomM = t_{2}.NomM$ ^ $t_{1}.Classe = t_{2}.Classe$) $\Rightarrow$ ($t_{1}.IdM = t_{2}.IdM$ ^ $t_{1}.IdProp = t_{2}.IdProp$)
+
+5. 

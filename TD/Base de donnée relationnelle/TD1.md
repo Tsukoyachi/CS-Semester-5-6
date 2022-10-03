@@ -28,4 +28,11 @@ $t_{1}.Pays = t_{2}.Pays \Rightarrow$  ($t_{1}.NumE = t_{2}.NumE \Rightarrow t_{
 
 7. $\forall t_{1} \in enreg, \exists t_{2} \in marque, t_{1}.Pays= t_2.Pays$ ^ $t_{1}.IdM = t_{2}.IdM$
 
-8. $\forall t_{1} \in enreg, $
+8. $\forall t_{1} \in enreg, \exists t_{2} \in societe, t_1.IdDeposant = t_{2}.IdSoc$ 
+
+9. $\forall t_{1},t_{2} \in enreg:$
+($t_{1}.Pays = t_{2}.Pays$ ^ $t_{1}.NumE \geq t_{2}.NumE$) $\Rightarrow$ ($t_{1}.Pays = t_{2}.Pays$ ^ $t_{1}.DateE \geq t_{2}.DateE$)
+
+10. $\forall t_{1} \in vente, \exists t_{2} \in enreg, t_{1}.IdM = t_{2}.IdM$
+
+11. 

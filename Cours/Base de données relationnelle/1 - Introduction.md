@@ -50,3 +50,9 @@ DIfférentes vues de la structure.
 		- Attribut : Nom x Domaine
 	- Contenant : Instances de relation
 		- Ensemble fini de n'uplets (ou tuples) de valeurs d'attributs.
+
+### Exemples et contre-exemples de domaine
+- entier
+- reel
+- chaine de caracteres
+- Couleur = {Bleu, Blanc, Rouge}

@@ -84,3 +84,11 @@ Programmation Déclarative :
 	- pointeurs (typés, mais non contrôlés)
 	- contrôles de types permissifs (outil lint)
 	- pas de contrôle de type à l'exécution
+- Permettre l'écriture de programmes portables
+	- PCC (Portable C Compiler)
+	- Utilisation d'une bibliothèque standard
+	- les Entrées, Sorties ne sont pas dans le langage
+	- Pas de chaînes de caractères à proprement parler (mais de nombreuse fonctions pour les manipuler)
+	- pas de concurrence dans le langage (mais accessible au travers l'utilisation de fonctions de la bibliothèque)
+- Founrir un ensemble d'outil système bien féfini autour du langage
+	- compilation séparée (on parle du système, ce qui permet d'éviter la définition d)

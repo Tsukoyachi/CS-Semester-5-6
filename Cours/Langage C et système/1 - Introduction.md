@@ -260,7 +260,7 @@ int main()
 	while(getChar() != EOF){
 		nbChar++;
 	}
-	printf("I've read %Id characters\n", nbChar);
+	printf("I've read %ld characters\n", nbChar);
 
 	return 0;
 }
@@ -275,7 +275,7 @@ int main()
 	for(nbCar = 0; getchar() != EOF ; nbChar++){
 	/*rien à faire*/
 	}
-	printf("I've read %Id characters\n", nbChar);
+	printf("I've read %ld characters\n", nbChar);
 }
 ```
 

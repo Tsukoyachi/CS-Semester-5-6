@@ -170,4 +170,15 @@ Les règles d'ergonomie viennent en général de résultat expérimentaux, d'ét
 
 Critère ou facteur ergonomique : 
 - Un critère ergonomique est un principe de base
--  
+à compléter
+
+Vocab en général associé aux connaissances ergonomique :
+- Patron d'interface
+- Check-list
+à compléter
+
+Comment appliquer les connaissances egonomique :
+- En design/conception :
+	- Utiliser les principes pour concevoir l'interface
+	- Inspirer des règles/patron pour faire des choix
+- En évaluation

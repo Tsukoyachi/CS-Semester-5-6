@@ -35,3 +35,18 @@ Différents modèles : clé-valeurs, document, graphe...
 	- Contrôler la qualité des données.
 - Partager les données (Entre plusieurs applications)
 - Gérer la concurrence des accès parallèles.
+
+### Abstraction des données :
+####Architecture ANSI-SPARC
+![[Pasted image 20221003135150.png | center| 650]]
+Indépendance entre représentation physique et logique.
+
+DIfférentes vues de la structure.
+
+### Le modèle relationnel
+- Fondamentaux
+	- Contenant : Schéma de relation
+		- n-uplet d'attributs
+		- Attribut : Nom x Domaine
+	- Contenant : Instances de relation
+		- Ensemble fini de n'uplets (ou tuples) de valeurs d'attributs.

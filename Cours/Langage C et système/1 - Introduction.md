@@ -257,9 +257,27 @@ int main()
 {
 	long nbcar = 0;
 
+	while(getChar() != EOF){
+		nbChar++;
+	}
+	printf("I've read %Id characters\n", nbChar);
+
+	return 0;
+}
+```
+
+```C
+#include <stdio.h>
+int main()
+{
+	long nbcar = 0;
+
 	for(nbCar = 0; getchar() != EOF ; nbChar++){
 	/*rien à faire*/
 	}
-	printf("I've read %Id charac")
+	printf("I've read %Id characters\n", nbChar);
 }
 ```
+
+6. Equation du second degré
+**check le slide pour l'avoir et le comprendre**

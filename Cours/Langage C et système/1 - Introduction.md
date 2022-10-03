@@ -89,6 +89,23 @@ Programmation Déclarative :
 	- Utilisation d'une bibliothèque standard
 	- les Entrées, Sorties ne sont pas dans le langage
 	- Pas de chaînes de caractères à proprement parler (mais de nombreuse fonctions pour les manipuler)
-	- pas de concurrence dans le langage (mais accessible au travers l'utilisation de fonctions de la bibliothèque)
-- Founrir un ensemble d'outil système bien féfini autour du langage
-	- compilation séparée (on parle du système, ce qui permet d'éviter la définition d)
+	- pas de concurrence dans le langage (mais accessible au travers l'utilisation de fonctions de la bibliothèque) (définition non exacte, concurrence ~= fait de laisser plusieurs flots d'exécution accéder à une même référence en même temps)
+- Fournir un ensemble d'outils systèmes bien féfini autour du langage
+	- compilation séparée (on parle du système, ce qui permet d'éviter la définition d'extensions incompatibles)
+	- options de compilation (on retrouve les mêmes options sur la plupart des implémentation du langage)
+
+### Evaluation du langage
+- Avantage :
+	- Efficace
+		- Registres, pointeurs, opérations sur les bits
+		- pas de contrôle à l'exécution
+		- ...
+	- Grande liberté du programmeur (=> le programmeur est responsable)
+	- Bibliothèque très étendue
+		- Concurrence
+		- Entrée, sortie
+		- Manipulation de chaînes de caractères
+		- ...
+	- => Des centaines de millions de lignes écrites en C
+	- Interface claire avec Unix
+		- Donne l'impression qu

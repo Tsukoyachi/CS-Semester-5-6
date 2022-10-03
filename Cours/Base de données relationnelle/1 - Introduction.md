@@ -61,6 +61,14 @@ Mais on ne peut pas faire de types structurés par exemple on ne peut pas mettre
 **Un slide à rattraper**
 
 ### Instances de relation
+**insérer exemple bdd simple**
 - Les lignes peuvent être permutées.
 - Les lignes ne peuvent pas être dupliquées.
-- Les colonnes peuvent être permutées... mais cela complique 
+- Les colonnes peuvent être permutées... mais cela complique l'écriture des tuples :
+	- Imaginons une relation avec deux attributs A et B, tous les deux du même domaine entier. En principe on note un tuple de cette relation sous la **slide à rattraper**.
+- Soit R une relation, ayant comme ensemble d'attributs A = {A1,...,An}.
+- On appelle tuple défini sur R, tout n-uplet de valeurs t = (v1,...,vn) avec v1,...,vn associées respectivement aux attributs A1,...,An et v1 appartient à dom(Ai)
+- Formellement, un tuple est un élément du produit cartésien des **slide à rattraper**
+
+**slide à rattraper car juste écouté**
+

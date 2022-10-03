@@ -19,6 +19,13 @@ $(t_{1}.NomM = t_{2}.NomM$ ^ $t_{1}.Classe = t_{2}.Classe$ ^ $t_{1}.Pays= t_{2}.
 5. $\forall t_{1},t_{2} \in enreg:$
 $t_{1}.IdM = t_{2}.IdM \Rightarrow (t_{1}.NumE = t_{2}.NumE$ ^ $t_{1}.Pays = t_{2}.Pays$ ^ $t_{1}.DateE = t_{2}.DateE$ ^ $t_{1}.IdDeposant = t_{2}.IdDeposant$)
 
-6. $\forall e_{1},e_{2} \in enreg:$
+6. $\forall t_{1},t_{2} \in enreg:$
 ($t_{1}.Pays = t_{2}.Pays$ ^ $t_{1}.NumE = t_{2}.NumE) \Rightarrow t_{1}.IdM= t_{2}.IdM$ 
-**
+**ou**
+($t_{1}.Pays = t_{2}.Pays$ ^ $t_{1}.IdM \neq t_{2}.IdM) \Rightarrow t_{1}.NumE \neq t_{2}.NumE$  
+**ou**
+$t_{1}.Pays = t_{2}.Pays \Rightarrow$  ($t_{1}.NumE = t_{2}.NumE \Rightarrow t_{1}.IdM= t_{2}.IdM$) 
+
+7. $\forall t_{1} \in enreg, \exists t_{2} \in marque, t_{1}.Pays= t_2.Pays$ ^ $t_{1}.IdM = t_{2}.IdM$
+
+8. $\forall t_{1} \in enreg, $

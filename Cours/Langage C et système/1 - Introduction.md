@@ -126,4 +126,36 @@ Programmation Déclarative :
 		- Malheureusement compatibilité K&R peut être un problème
 		- Utilisation des pointeurs peut être "délicate"
 	- Langage ancien
-		- Pas de concepts modernes (généricité, o)
+		- Pas de concepts modernes (généricité, objets, modules, ...)
+		- La modularité est très simpliste
+			- Basée sur les fichiers
+			- Pas adapté pour les gros projets en équipes (quoi que, le noyau Linux...)
+
+### Implémentation du langage C
+- DEC PDP-11 en 1975
+- PCC (Portable C Compiler) en 1978
+	- implémentation publique
+	- la source de la plupart des compilateurs pré-ANSI
+- Aujourd'hui **à rattraper** (1 ligne)
+- Plusieurs normes :
+	- Norme ANSI X3J11
+- Il y a aussi une normes ISO **à rattrapper** (2 lignes)
+
+- Aujourd'hui
+	- Les compilateurs sont conformes à la norme ISO / C99
+	- ** à rattraper** (quelques lignes)
+
+### Quelques Exemples 
+
+1. Hello World
+```C
+#include <stdio.h>
+main()
+{
+	printf("Hello, world!\n")
+}
+```
+Compilation : 
+```
+$ gcc -o hello hello.
+```

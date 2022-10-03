@@ -31,7 +31,20 @@ Programmation impérative :
 	- Programmation Structurée :
 		- Eviter la programmation spaghetti (ex : goto)
 	- Programmation procédurale : C, Ada, Pascal, ...
-	- Pr
+	- Programmation Orientée Objet : C++, Java; C#, ...
+
+Programmation Déclarative :
+	- Programmation Fonctionnelle
+	- Programmation Logique
+	- Programmation par contraintes
+
+![[Pasted image 20221003081541.png | center | 680]]
 
 ## Langage C : Programmation Procédurale
+
+### Pourquoi apprendre le C :
+- A la base de nombreux langages (syntaxiquement)
+- A la base, le langage pour coder Unix
+- Linux Torvalds: "Nothing better than C" (2012)
+- 
 

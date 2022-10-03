@@ -108,4 +108,22 @@ Programmation Déclarative :
 		- ...
 	- => Des centaines de millions de lignes écrites en C
 	- Interface claire avec Unix
-		- Donne l'impression qu
+		- Donne l'impression que l'on est sur Unix, même si ce n'est pas le cas.
+		- => permet l'écriture de programmes indépendants de l'OS cible (dans une certaine mesure)
+	- Bon langage d'assemblage portable utilisé comme langage cible par de nombreux compilateur (C++, Objective C, Scheme, ...)
+	- Vraiment portable
+		- Unix en est la preuve (pratiquement écrit entièrement en C)
+		- Linux qui tourne sur à peu près toutes les architectures matérielles (PC, Arm, Sun Sparc, PowerPC, 68000 machines, ...)
+		- Les outils de projet GNU de la FSF
+		- **(à rattraper..., il manque un point)**
+- Inconvénients :
+	- Syntaxe à deux niveau (préprocesseur)
+	- Grande liberté du programmeur (=> le programmeur doit être responsable)
+	- Les erreurs de compilation n'aident pas toujours
+		- Contrôle de type souvent trop permissifs
+		- lint (pour K&R)
+		- C'est moins vrai en C ANSI
+		- Malheureusement compatibilité K&R peut être un problème
+		- Utilisation des pointeurs peut être "délicate"
+	- Langage ancien
+		- Pas de concepts modernes (généricité, o)

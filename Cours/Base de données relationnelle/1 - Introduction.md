@@ -86,4 +86,15 @@ Société={IdProp, NomSoc, Pays}
 
 Exemple : Deux marques différentes ne peuvent pas avoir le même nom et la même classe
 
-Pour tout t1,t2 appartenant à Marque 
+Pour tout t1,t2 appartenant à Marque,
+( (t1.NomM = t2.NomM ^ t1.Classe = t2.Classe) => (t1.IdM=t2.IdM ^ t1.IdProp = t2.IdProp))
+
+Traduction assertion : Si t1 et t2 ont le même nom et t1 et t2 ont la même classe alors ce sont les même (sous entendu leurs autres attributs sont égaux)
+
+**^** = et (je crois)
+
+#### Clés candidates et clé de la relation
+- une **clé candidate** est un ensemble minimal d'attributs dont la connaissance des valeurs permet d'identifier un tuple unique de la relation considérée
+- Exemple: (NomM, classe) est peut-être une clé candidate de la relation Marque; IdM aussi
+- Parmi toutes les clés candidates, une sera **distinguée** et deviendra la **clé de la relation**.
+

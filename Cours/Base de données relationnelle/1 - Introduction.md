@@ -24,3 +24,14 @@ Définition plus restreinte : Ensemble de données numériques apparentées qui 
 - 1970 : modèle relationnel, Tex Codd (prix turing 1981)
 - Depuis les années 2000 : NoSQL
 Différents modèles : clé-valeurs, document, graphe...
+
+### Système de Gestion de Base de Données (SGBD)
+- Décrire les données (DDL : data definition language)
+- Modifier, Rechercher de l'information de manière fiable (DML : data manipulation language)
+	- Traiter de grands volumes de données
+	- Traiter rapidement les données.
+- Contrôler les données (DCL : data control language)
+	- Sécuriser les accès aux données.
+	- Contrôler la qualité des données.
+- Partager les données (Entre plusieurs applications)
+- Gérer la concurrence des accès parallèles.

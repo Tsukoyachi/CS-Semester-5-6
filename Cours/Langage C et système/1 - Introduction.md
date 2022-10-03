@@ -222,6 +222,44 @@ L'on ajoutera donc "return 0" à la fonction main et l'on changera son type de s
 int main()
 {
 	int c;
-	
+	c = getchar();
+	while (c != EOF) {
+		putchar(c); // Imprime sur la sortie standards
+		c = getchar();
+	}
+	return 0;
+}
+```
+
+- Ce programme :
+	- n'utilise pas le style c
+	- Ne profite pas du fait que C est un langages d'expressions
+
+On aurait dû faire :
+```C
+#include <stdio.h>
+int main()
+{
+	int c;
+	c = getchar();
+	while ((c = getchar()) != EOF) {
+		putchar(c); // Imprime sur la sortie standards
+	}
+	return 0;
+}
+```
+
+5. Comptage de caractère :
+
+```C
+#include <stdio.h>
+int main()
+{
+	long nbcar = 0;
+
+	for(nbCar = 0; getchar() != EOF ; nbChar++){
+	/*rien à faire*/
+	}
+	printf("I've read %Id charac")
 }
 ```

@@ -147,7 +147,8 @@ Programmation Déclarative :
 
 ### Quelques Exemples 
 
-1. Hello World
+1. Le classique "Hello world"
+
 ```C
 #include <stdio.h>
 main()
@@ -155,7 +156,42 @@ main()
 	printf("Hello, world!\n")
 }
 ```
+
 Compilation : 
+
 ```
-$ gcc -o hello hello.
+$ gcc -o hello hello.c
+```
+
+Exécution :
+
+```
+$ hello
+Hello, world!
+$
+```
+
+2. Programme multi-fichiers 
+
+```C
+extern void say_hello(void) /*Fichier main.c*/
+{
+	say_hello();
+}
+```
+```C
+#include <stdio.h> /*Fichier hello.c*/
+void say_hello(void){
+	printf("Hello, world!\n");
+}
+```
+
+```
+$ gcc -o hello main.c hello.c
+```
+
+```
+$ gcc -c main.c
+$ gcc -c hello.c
+$ gcc -o hello main.o hello.o
 ```

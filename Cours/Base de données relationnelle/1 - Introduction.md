@@ -72,3 +72,18 @@ Mais on ne peut pas faire de types structurés par exemple on ne peut pas mettre
 
 **slide à rattraper car juste écouté**
 
+### Schéma de BDD
+- Un schéma de BDD relationnelle est un ensemble S = {R&,..., Rn} de relations.
+Exemple : s = {Marque, Société}, avec Marque = {IsM, NomM, Classe, IdProp} et
+Société={IdProp, NomSoc, Pays}
+- Une instance d'un schéma S = {R1, ..., Rn} est une ensemble d'instance de relations r **slide à rattraper**
+
+### Contrainte
+- Des contraintes peuvent être exprimées qui doivent être vérifiées à tout moment par toute instance d'une relation.
+	- Facilite la conception de la base
+	- Aide au choix d'une représentation physique (clés, ...).
+- Le langage d'expression des contraintes peut être très varié.
+
+Exemple : Deux marques différentes ne peuvent pas avoir le même nom et la même classe
+
+Pour tout t1,t2 appartenant à Marque 

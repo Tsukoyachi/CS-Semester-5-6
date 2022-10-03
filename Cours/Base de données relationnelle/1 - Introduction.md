@@ -106,4 +106,10 @@ Contrainte d'intégrité imposant qu'un attrbut d'une relation ne puisse prendre
 #### Contraintes globale
 En algèbre relationnelle, deux attributs de même nom utilisés dans deux relations (table) différentes véhiculent le même type d'information donc ont le même domaine.
 
-SQL ne tient pas compte de cette 
+SQL ne tient pas compte de cette présupposition. Il est cependant recommandé de la suivre pour faciliter la cohérence de la conception.
+
+#### Contrainte référentielle
+Une contrainte d'intégrité portant sur une reation R1, consiste à imposer que la valeur d'un groupe d'attributs apparaisse omme valeur de clé dans une autre relation R2.
+
+Exemple :
+Dans le schéma S = {Marque, Société} avec Marque = {IdM, NomM, Classe, IdProp}, Société = {IdProp, NomSoc, }

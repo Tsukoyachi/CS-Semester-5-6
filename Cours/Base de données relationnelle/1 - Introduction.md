@@ -98,3 +98,12 @@ Traduction assertion : Si t1 et t2 ont le même nom et t1 et t2 ont la même cla
 - Exemple: (NomM, classe) est peut-être une clé candidate de la relation Marque; IdM aussi
 - Parmi toutes les clés candidates, une sera **distinguée** et deviendra la **clé de la relation**.
 
+(Dans le cas où l'on met une colonne identifiant dans une table et que celui ci est unique à chaque ligne de la table on parle d'une clé à un élément).
+
+#### Contrainte de domaine
+Contrainte d'intégrité imposant qu'un attrbut d'une relation ne puisse prendre que des valeurs vérifiant **à rattraper**
+
+#### Contraintes globale
+En algèbre relationnelle, deux attributs de même nom utilisés dans deux relations (table) différentes véhiculent le même type d'information donc ont le même domaine.
+
+SQL ne tient pas compte de cette 

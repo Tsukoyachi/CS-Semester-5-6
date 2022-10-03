@@ -201,4 +201,27 @@ $ gcc -c hello.c
 $ gcc -o hello main.o hello.o
 ```
 
-3. 
+```ad-warning
+title: Compilateur laxiste
+
+Si dans l'exemple 2, nous n'avions pas mis le extern void... et le \#include ...
+le code aurait compilé sans problème, mais c'est un code non valide, pour éviter cela on peut mettre tous les warnings avec **-Wall** et on peut ajouter **-std=c99** pour être sûr de compiler du C99.
+```
+
+```ad-note
+title: Retour sur Hello World
+
+Si on compile le hello workd avec -Wall, il faut un type de retour à la fonction main.
+L'on ajoutera donc "return 0" à la fonction main et l'on changera son type de sortie de void à int et le code sera correct.
+```
+
+4. La commande cat
+
+```C
+#include <stdio.h>
+int main()
+{
+	int c;
+	
+}
+```

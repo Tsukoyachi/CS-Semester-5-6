@@ -64,4 +64,23 @@ Programmation Déclarative :
 	- B (auteur : K. Thomson ~ 1970)
 - Auteur
 	- Denis Ritchie (Bell Labs 1972)
-	- Première spécification du langage dans le livre de ke
+	- Première spécification du langage dans le livre de Kernigham et Ritchie en 1978 (version K&R)
+- Plusieurs versions de C disponibles :
+	- Traditionnel : celui qui est décrit dans la version originale de K&R 1978 - Version Obsolète
+	- ANSI C et ISO C : sur-ensembles de K&R C (1983 -> 1990)
+	- Version la plus courante
+		- C99 (1999) - La version que nous utiliserons dans ce cours
+		- C11 (08/12/2011) - La dernière incarnation du langage (peu efficace)
+
+### Buts du langage
+- Langage de programmation
+	- "facile" à apprendre
+	- facile à implémenter
+- Langage de programmation pour implémenter des systèmes d'exploitation :
+	- conçu à l'origine pour programmer le noyau d'Unix v6
+	- proche de la sémantique du processeur
+	- simple et efficace
+	- accès facile aux mécanismes de bas niveau
+	- pointeurs (typés, mais non contrôlés)
+	- contrôles de types permissifs (outil lint)
+	- pas de contrôle de type à l'exécution

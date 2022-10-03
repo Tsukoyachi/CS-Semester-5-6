@@ -54,5 +54,13 @@ DIfférentes vues de la structure.
 ### Exemples et contre-exemples de domaine
 - entier
 - reel
-- chaine de caracteres
-- Couleur = {Bleu, Blanc, Rouge}
+- chaîne de caractères
+
+Mais on ne peut pas faire de types structurés par exemple on ne peut pas mettre un Point avec un réel pour x et un réel pour y dans une seule case d'une base de données, par contre on pourra faire un champ pour un réel x et un champ pour un réel y.
+
+**Un slide à rattraper**
+
+### Instances de relation
+- Les lignes peuvent être permutées.
+- Les lignes ne peuvent pas être dupliquées.
+- Les colonnes peuvent être permutées... mais cela complique 

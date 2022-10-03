@@ -37,7 +37,7 @@ Différents modèles : clé-valeurs, document, graphe...
 - Gérer la concurrence des accès parallèles.
 
 ### Abstraction des données :
-####Architecture ANSI-SPARC
+#### Architecture ANSI-SPARC
 ![[Pasted image 20221003135150.png | center| 650]]
 Indépendance entre représentation physique et logique.
 
@@ -61,7 +61,7 @@ Mais on ne peut pas faire de types structurés par exemple on ne peut pas mettre
 **Un slide à rattraper**
 
 ### Instances de relation
-**insérer exemple bdd simple**
+![[Pasted image 20221003143240.png | center | 650]]
 - Les lignes peuvent être permutées.
 - Les lignes ne peuvent pas être dupliquées.
 - Les colonnes peuvent être permutées... mais cela complique l'écriture des tuples :
@@ -112,4 +112,5 @@ SQL ne tient pas compte de cette présupposition. Il est cependant recommandé d
 Une contrainte d'intégrité portant sur une reation R1, consiste à imposer que la valeur d'un groupe d'attributs apparaisse omme valeur de clé dans une autre relation R2.
 
 Exemple :
-Dans le schéma S = {Marque, Société} avec Marque = {IdM, NomM, Classe, IdProp}, Société = {IdProp, NomSoc, }
+Dans le schéma S = {Marque, Société} avec Marque = {IdM, NomM, Classe, IdProp}, Société = {IdProp, NomSoc, Pays}, et IdProp clé de Société, le propriétaire d'une marque doit être une société :
+Pour tout t appartenant à marque, et pour tout v appartenant à Société, t.IdProp = v.IdProp.

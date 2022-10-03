@@ -174,24 +174,31 @@ $
 2. Programme multi-fichiers 
 
 ```C
-extern void say_hello(void) /*Fichier main.c*/
+extern void say_hello(void) /* Fichier main.c */
 {
 	say_hello();
 }
 ```
+
 ```C
-#include <stdio.h> /*Fichier hello.c*/
+#include <stdio.h> /* Fichier hello.c */
 void say_hello(void){
 	printf("Hello, world!\n");
 }
 ```
 
+Compilation :
+
 ```
 $ gcc -o hello main.c hello.c
 ```
+
+Exécution :
 
 ```
 $ gcc -c main.c
 $ gcc -c hello.c
 $ gcc -o hello main.o hello.o
 ```
+
+3. 

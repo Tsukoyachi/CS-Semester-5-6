@@ -11,6 +11,8 @@
 
 ---
 
+![[1_IntroductionAuModule.pdf]]
+
 Le cours va traîter trois grand modules du développement logiciel :
 - La construction du logiciel
 	- définition
@@ -21,4 +23,22 @@ Le cours va traîter trois grand modules du développement logiciel :
 	- Le calcul (algorithmie)
 	- Organisation de ses abstractions
 
-Le but est d'être capable de **prendre des décisions** de modélisation, de choix d'implémentation, de capacité
+Le but est d'être capable de **prendre des décisions** de modélisation, de choix d'implémentation, de capacité à justifier ses décisions/solutions, ...
+
+
+## Prérequis
+- Base de POO
+- Variable
+- Tableaux
+- Boucles
+- Fonctions
+- Modules
+
+# Planning
+- Semestre 1 :
+	- De la POO aux structures de données et algorithmie :
+		- Base de design logiciel
+	- **à rattraper si diapo en ligne**
+- Semestre 2 :
+	- **à rattraper si diapo en ligne**
+

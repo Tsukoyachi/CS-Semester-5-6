@@ -82,3 +82,5 @@ exemple de :
 		- $\exists x$ \[ p(x,f(x))  q(a,g(f(x))) ]
 
 ## Exercice 
+- $\Phi_{1}:$ $\forall x$ (p(f(g(x)),a) $\vee$ q(a)) n'est pas une formules du premier ordre car q à une arité de 2.
+- $\Phi_{2}:$ $\forall x$ \[$\forall y$ ]

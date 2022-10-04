@@ -45,26 +45,29 @@
 	- Des **quantificateurs** : $\forall(universel), \exists(existentiel)$
 	- Les **parenthèses** pour structurer les formules : ()
 - L'objet syntaxique **terme**
-	- Les termes sont des objets auquels on applique des prédicats, ils sont définis inductivement par :
+	- Les termes sont des objets auquels on applique des fonctions, ils sont définis inductivement par :
 		- Base : toute variable est un terme
 		- Constructeurs : si t1, t2,..., tn, sont des termes et f un symbole de fonction d'arité n alors f(t1,t2,...,tn) est un terme
-		- Exemples : $f(x,g(x,y))$ ou $sin(x)$
+		- Exemples : $f(x,g(x,y))$ ou $sin(x)$ 
+		- Remarque : toute constante est un terme.
+		- Remarque 2 : Les termes ne comportent que des variables et des fonctions.
 - L'objet syntaxique atome
-	- Les formules logique du 1er ordre de base (au sens usuel et au sens des définitions inductives) sont les prédicat appliqué à des termes.
+	- Les formules logique du 1er ordre de base (au sens usuel et au sens des définitions inductives) sont les prédicat appliqué à des termes. **La même chose que les termes mais avec des prédicats**
+	- Base : Tout atome est une formule
+	- Constructeurs :
+		- Si $\Phi$ et $\Psi$ sont des atomes alors...
+			- $(\Phi\wedge\Psi),(\Phi\vee\Psi),(\Phi\Rightarrow\Psi),(\Phi\Leftrightarrow\Psi),(\neg\Phi)$ sont également des atomes.
 - L'objet syntaxique formule logique du 1er ordre 
-	- Base : tout atome est une formule
-	- Constructeur : 
-		- **à compléter**
 - Les parenthèses 
 	- Dans la définition précédente, les formules sont complètement parenthésées, ce qui est très vite indigeste ...
 	- On peut/va se passer partiellement du parenthésage :
-		- Règle d'associativité du ou (espece de v) et du et ^
-		- Règle des priorité (par ordre décroissant) :
+		- Règle d'**associativité** du ou ($\vee$) et du et ($\neg$)
+		- **Règle des priorité** (par ordre décroissant) :
 			- négation et quantificateur
 			- puis et
 			- puis ou
 			- puis implique
 			- puis équivalence
-	- Puis on alterne entre () et []
+	- Puis on alterne entre () et [] pour améli
 
 ## Exemples

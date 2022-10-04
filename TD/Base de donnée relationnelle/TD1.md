@@ -43,5 +43,5 @@ $t_{1}.NumV = t_{2}.NumV \Rightarrow (t_{1}.IdM = t_{2}.IdM$ ^ $t_{1}.DateV = t_
 13. $\forall t_{1},t_{2} \in vente:$
 ($t_{1}.Pays = t_{2}.Pays$ ^ $t_{1}.NumV \geq t_{2}.NumV$) $\Rightarrow$ ($t_{1}.Pays = t_{2}.Pays$ ^ $t_{1}.DateE \geq t_{2}.DateE$)
 
-14. $\forall t_{1}\in vente:$
-15. $t_1$
+14. $\forall t_{1}\in vente, \exists t_{2}\in marque, t_{1}.IdVend = t_{2}.IdProp$ ^ $t_{1}.IdM = t_{2}.IdM$
+

@@ -68,6 +68,17 @@
 			- puis ou
 			- puis implique
 			- puis équivalence
-	- Puis on alterne entre () et [] pour améli
+	- Puis on alterne entre () et [] pour améliorer la visibilité.
 
 ## Exemples
+Avec les symboles suivants :
+	- fonctions : f et g d'arité 1 et a d'arité 0
+	- prédicats : p,q et r d'arité 2 et Q d'arité 0
+exemple de :
+	- termes : a, f(a), f(g(a)), f(x), x, f(f(f(x)))
+	- atomes : p(x,y), p(x,f(x)), q(a,g(f(x))), Q
+	- formules : 
+		- \[ p(x,a) $\vee$ p(x,f(x)) ] $\neg$ Q
+		- $\exists x$ \[ p(x,f(x))  q(a,g(f(x))) ]
+
+## Exercice 

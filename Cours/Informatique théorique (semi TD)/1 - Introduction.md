@@ -23,29 +23,32 @@
 	- On part d'une base B et on va fabriquer un constructeur $\Omega$. Le but étant d'être capable de retrouver tous les éléments de l'ensemble à partir du premier élément et du constructeur.
 - Objet syntaxique : formule propositionnelle :
 	- Une formule propositionnelles est définies inductivement par :
-		- Une base : toute **proposition** est une formule (un truc vrai ou faux)
+		- Une base : toute **proposition** est une formule (un truc vrai ou faux).
 		- Constructeur :
-			- Si $\Phi$ et $\Psi$ sont des formules
+			- Si $\Phi$ et $\Psi$ sont des formules alors...
+			- $(\Phi\wedge\Psi),(\Phi\vee\Psi),(\Phi\Rightarrow\Psi),(\Phi\Leftrightarrow\Psi),(\neg\Phi)$ sont également des formules.
 
 ## Logique du 1er ordre
 ### Syntaxe
 - Symboles :
 	- variables : x,y,z,...
 	- Deux symboles pour vrai et faux
-	- Un ensembles de symboles appelés **fonctions**
+	- Un ensembles de symboles appelés **fonctions** (une fonction peut renvoyer tout sauf vrai ou faux)
 		- arité (nombre d'arguments d'une fonction) quelconque : f,g,h,...
 		- Les fonctions 0-aires (arité 0) sont des constantes : a,b,c,...
-	- Un ensemble de symboles appelés **prédicats**
+	- Un ensemble de symboles appelés **prédicats** (une fonction qui renvoie vrai ou faux)
 		- arité quelconque : p,q,r,...
-		- 0-aires sont des propositions : P,Q,R,...
+		- 0-aires sont des **propositions** : P,Q,R,...
 	- Pour écrire la liste des arguments d'une fonction ou d'un prédicat, on utilise aussi **(** et **)** et **,**
 	- Les connecteurs logiques :
-		- **à compléter via le slide parce que je ne sais pas les noter en latex**, $\Rightarrow, **idem que le précédent**
-	- Des quantificateurs 
-- L'objet syntaxique terme
+		- $\neg (non),\wedge (et),\vee (ou),\Rightarrow (implication),\Leftrightarrow (équivalent)$  
+	- Des **quantificateurs** : $\forall(universel), \exists(existentiel)$
+	- Les **parenthèses** pour structurer les formules : ()
+- L'objet syntaxique **terme**
 	- Les termes sont des objets auquels on applique des prédicats, ils sont définis inductivement par :
 		- Base : toute variable est un terme
 		- Constructeurs : si t1, t2,..., tn, sont des termes et f un symbole de fonction d'arité n alors f(t1,t2,...,tn) est un terme
+		- Exemples : $f(x,g(x,y))$ ou $sin(x)$
 - L'objet syntaxique atome
 	- Les formules logique du 1er ordre de base (au sens usuel et au sens des définitions inductives) sont les prédicat appliqué à des termes.
 - L'objet syntaxique formule logique du 1er ordre 

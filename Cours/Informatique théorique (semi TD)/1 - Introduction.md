@@ -18,15 +18,14 @@
 	- Deux constantes Vrai et Faux (ou 0 et 1 ou top et bottom)
 	- Un ensemble de symboles appelé propositions : P,Q,R,...
 	- Les connecteurs logiques :
-		- 
-- Vocabulaire :
-	- On part d'une base B et on va fabriquer un constructeur $\Omega$.
-	- C'est aussi l'unions pour tous les entiers i des $E_{i}$ où $E_{0}=B$ et $E_{i+1}=\Omega(E_{i})$
+		- $\neg (non),\wedge (et),\vee (ou),\Rightarrow (implication),\Leftrightarrow (équivalent)$  
+- Définition d'ensemble :
+	- On part d'une base B et on va fabriquer un constructeur $\Omega$. Le but étant d'être capable de retrouver tous les éléments de l'ensemble à partir du premier élément et du constructeur.
 - Objet syntaxique : formule propositionnelle :
 	- Une formule propositionnelles est définies inductivement par :
 		- Une base : toute **proposition** est une formule (un truc vrai ou faux)
 		- Constructeur :
-			- Si $\Phi$ et $\Psi$ sont **à compléter**
+			- Si $\Phi$ et $\Psi$ sont des formules
 
 ## Logique du 1er ordre
 ### Syntaxe

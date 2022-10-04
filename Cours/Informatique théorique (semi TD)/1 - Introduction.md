@@ -46,4 +46,20 @@
 		- Base : toute variable est un terme
 		- Constructeurs : si t1, t2,..., tn, sont des termes et f un symbole de fonction d'arité n alors f(t1,t2,...,tn) est un terme
 - L'objet syntaxique atome
+	- Les formules logique du 1er ordre de base (au sens usuel et au sens des définitions inductives) sont les prédicat appliqué à des termes.
+- L'objet syntaxique formule logique du 1er ordre 
+	- Base : tout atome est une formule
+	- Constructeur : 
+		- **à compléter**
+- Les parenthèses 
+	- Dans la définition précédente, les formules sont complètement parenthésées, ce qui est très vite indigeste ...
+	- On peut/va se passer partiellement du parenthésage :
+		- Règle d'associativité du ou (espece de v) et du et ^
+		- Règle des priorité (par ordre décroissant) :
+			- négation et quantificateur
+			- puis et
+			- puis ou
+			- puis implique
+			- puis équivalence
+	- Puis on alterne entre () et []
 	- 

@@ -2,5 +2,6 @@
   "enabledCssSnippets": [
     "center-image"
   ],
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "baseFontSize": 20
 }

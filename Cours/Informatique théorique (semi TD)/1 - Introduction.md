@@ -82,5 +82,8 @@ exemple de :
 		- $\exists x$ \[ p(x,f(x))  q(a,g(f(x))) ]
 
 ## Exercice 
+**renoter l'énoncé**
 - $\Phi_{1}:$ $\forall x$ (p(f(g(x)),a) $\vee$ q(a)) n'est pas une formules du premier ordre car q à une arité de 2.
-- $\Phi_{2}:$ $\forall x$ \[$\forall y$ ]
+- $\Phi_{2}:$ $\forall x$ \[$\forall y$ $(f(x) \vee q(x,y))$] n'est pas une formule du premier ordre car f est une fonction et non un prédicat "et l'on ne peut pas appliquer de logique à une fonction"
+- $\Phi_{3}$ est juste et $\Phi_4$ est faux car l'on ne peut pas quantifier une fonction (à rattraper)
+

@@ -31,5 +31,19 @@
 - Symboles :
 	- variables : x,y,z,...
 	- Deux symboles pour vrai et faux
-	- Un ensembles de symboles papelés **fonctions**
-		- arité (nombre d'arguments d'une fonction) q
+	- Un ensembles de symboles appelés **fonctions**
+		- arité (nombre d'arguments d'une fonction) quelconque : f,g,h,...
+		- Les fonctions 0-aires (arité 0) sont des constantes : a,b,c,...
+	- Un ensemble de symboles appelés **prédicats**
+		- arité quelconque : p,q,r,...
+		- 0-aires sont des propositions : P,Q,R,...
+	- Pour écrire la liste des arguments d'une fonction ou d'un prédicat, on utilise aussi **(** et **)** et **,**
+	- Les connecteurs logiques :
+		- **à compléter via le slide parce que je ne sais pas les noter en latex**, $\Rightarrow, **idem que le précédent**
+	- Des quantificateurs 
+- L'objet syntaxique terme
+	- Les termes sont des objets auquels on applique des prédicats, ils sont définis inductivement par :
+		- Base : toute variable est un terme
+		- Constructeurs : si t1, t2,..., tn, sont des termes et f un symbole de fonction d'arité n alors f(t1,t2,...,tn) est un terme
+- L'objet syntaxique atome
+	- 

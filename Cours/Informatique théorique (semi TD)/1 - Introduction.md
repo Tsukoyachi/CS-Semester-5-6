@@ -10,13 +10,15 @@
 #Théorique 
 
 ---
+![[LogiqueDu1eOrdre_SyntaxeV4.1.pdf]]
 
 ## Logique propositionnelles :
 ### Syntaxe
 - Les symboles utilisés pour écrire les formules propositionnelles :
 	- Deux constantes Vrai et Faux (ou 0 et 1 ou top et bottom)
 	- Un ensemble de symboles appelé propositions : P,Q,R,...
-	- **à compléter**
+	- Les connecteurs logiques :
+		- 
 - Vocabulaire :
 	- On part d'une base B et on va fabriquer un constructeur $\Omega$.
 	- C'est aussi l'unions pour tous les entiers i des $E_{i}$ où $E_{0}=B$ et $E_{i+1}=\Omega(E_{i})$
@@ -62,4 +64,5 @@
 			- puis implique
 			- puis équivalence
 	- Puis on alterne entre () et []
-	- 
+
+## Exemples

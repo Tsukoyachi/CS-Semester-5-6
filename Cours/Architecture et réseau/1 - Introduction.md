@@ -17,8 +17,8 @@
 La topologie des réseau dépend de la façon dont ils sont cablés, en voici quelques exemple :
 ![[Pasted image 20221007081330.png | center]]
 - Dans la topologie Ring (anneau), on a pour n machines, n liens.
-- Pour un bus on en a n+1
-- Pour la topologie Star (étoile) pour n machine et un switch, on a n liens des machines vers le switch.
-- Pour la topologie Mesh (maille)
-- Pour la topologie Full mesh (maille complète)
+- Pour un bus **à compléter** pas ouf niveau sécurité.
+- Pour la topologie Star (étoile) pour n machine et un switch, on a n liens des machines vers le switch. Un peu mieux niveau sécurité.
+- Pour la topologie Mesh (maillé), "on va tirer des câbles là où c'est possible". (un peu opportuniste d'après le prof)
+- Pour la topologie Full mesh (pleinement maillé) tous les dispositifs sont interconnecté avec toutes les autres machines, cela nous donne pour n machines, n(n-1) liens.
 - Pour la topologie Tree (arbre) 

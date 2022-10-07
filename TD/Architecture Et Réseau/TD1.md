@@ -13,5 +13,11 @@ Teacher :
 
 3 - Il suffit juste d'ajouter un routeur en haut de l'arbre
 ![[Pasted image 20221007095542.png | center]]
-4 - C'est un réseau en anneau, avec seulement 2 ou 3 routeurs c'est à la fois un anneau  
+4 - C'est un réseau en anneau, avec seulement 2 ou 3 routeurs c'est à la fois un anneau et un mesh et un full mesh.
 ![[Pasted image 20221007095955.png]]
+
+5 - Topologie en anneau (pour les routeur) et en arbre (pour chaque site).
+
+6 - 
+
+7 - 

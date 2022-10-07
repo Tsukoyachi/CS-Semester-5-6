@@ -36,3 +36,6 @@ DHCP = "tcpdump "udp and (port 67 or port 68)" ..."
 DNS = "tcpdump "port 53" ..."
 www.unice.fr = "tcpdump "host www.unice.fr" ..."
 à destination du réseau 134.59.1.0/24 = "tcpdump "dst host 134.59.1.0/24" ..."
+tout le trafic non ICMP : "tcpdimp -i enp0s3 -w not icmp /tmp/test4.1.pcap"
+
+10 - "tcpdump "dst localhost and (port 80 or port 443)" ..."

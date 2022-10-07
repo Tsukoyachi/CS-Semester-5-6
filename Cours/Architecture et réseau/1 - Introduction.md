@@ -41,4 +41,7 @@ Ceci est une configuration **idéale**, en réamité on change un peu le modèle
 
 ### Une vrai topologie de data-center
 ![[Pasted image 20221007084023.png | center]]
-Ici, Spine Block = core switch, 
+Ici, Spine Block = core switch, Edge Aggregation Block c'est l'équivalent des deux couches précédente Edge switch et Aggregation Switch.
+
+**à compléter car j'ai compris à moitité**
+

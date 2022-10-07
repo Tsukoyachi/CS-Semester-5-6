@@ -20,4 +20,4 @@ Teacher :
 
 6 - 
 
-7 - 
+7 - ![[Pasted image 20221007102034.png]]

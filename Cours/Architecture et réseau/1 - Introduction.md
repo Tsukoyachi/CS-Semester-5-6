@@ -57,4 +57,24 @@ Et les appareils intermédiaires ont besoin de switcher d'une conversation à un
 On a 3 types de switching :
 - Circuit switching :
 	- Téléphones fixe et portable
-	- 
+	- Réseau optique (en anneau)
+- Message switching :
+	- Application-layer protocols
+- Packet switching
+	- Internet
+
+#### Circuit switching
+Dans les circuit switching, les resources sont réservé pour toute la durée de la conversation.
+	- ça prends du temps de créer un circuit (virtuel)
+	- Les données utilisateurs vont à la limite des liens
+	- Les périodes de silences entraîne des ressources gaspillées.
+Le chemin complet du début à la fin est appelé circuit/
+Un circuit peut être implémenté en utilisant :
+	- Frequency Division Multiplexing (FDM)
+	- Time Division Multiplexing (TDM)
+
+##### Représentation Circuit (Virtuel)
+![[Pasted image 20221007085734.png | center]]
+##### FDM vs TDM
+FDM :  Frequency Division Multiplexing 
+TDM : Time Division Multiplexing

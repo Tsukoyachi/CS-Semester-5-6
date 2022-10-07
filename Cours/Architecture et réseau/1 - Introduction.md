@@ -45,3 +45,16 @@ Ici, Spine Block = core switch, Edge Aggregation Block c'est l'équivalent des d
 
 **à compléter car j'ai compris à moitité**
 
+### Vue globale
+Internet c'est l'interconnexion des réseaux.
+
+![[Pasted image 20221007084947.png |center]]
+
+### Switching
+Pour permettre à deux utilisateurs (end point) de communiquer, des appareils intemédiaires seront nécessaires.
+Les appareils intermédiaires vont transférer le trafic entre quelques utilisateurs.
+Et les appareils intermédiaires ont besoin de switcher d'une conversation à une autre.
+On a 3 types de switching :
+- Circuit switching :
+	- Téléphones fixe et portable
+	- 

@@ -11,4 +11,7 @@ Teacher :
 
 2 - $(p-1)^{profondeur}\geq n \Leftrightarrow profondeur \geq log_{p-1}(n)$ 
 
-3 - Il suffit juste d'ajouter un routeur en haut d
+3 - Il suffit juste d'ajouter un routeur en haut de l'arbre
+![[Pasted image 20221007095542.png | center]]
+4 - C'est un réseau en anneau, avec seulement 2 ou 3 routeurs c'est à la fois un anneau  
+![[Pasted image 20221007095955.png]]

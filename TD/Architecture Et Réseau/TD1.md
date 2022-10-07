@@ -18,6 +18,11 @@ Teacher :
 
 5 - Topologie en anneau (pour les routeur) et en arbre (pour chaque site).
 
-6 - 
+6 - Quand il y a trop d'envois de paquets par rapport au nombre maximal d'envoi de paquet possible par seconde.
 
-7 - ![[Pasted image 20221007102034.png]]
+7 - On peut connecter 6*(6/2)² = 6\*9 = 54 clients.
+![[Pasted image 20221007102034.png | center]]
+8 - commande ip addr show, l'interface avec le port 24 se nomme : enp0s3
+![[Pasted image 20221007102501.png | center]]
+
+9 - 

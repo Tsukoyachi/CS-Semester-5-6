@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TD/Architecture Et Réseau/TD1.md",
+            "file": "Cours/Architecture et réseau/1 - Introduction.md",
             "mode": "source",
             "source": false
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "911d169df2e013eb",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TD/Architecture Et Réseau/TD1.md",
+                "file": "Cours/Architecture et réseau/1 - Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TD/Architecture Et Réseau/TD1.md",
+                "file": "Cours/Architecture et réseau/1 - Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TD/Architecture Et Réseau/TD1.md"
+                "file": "Cours/Architecture et réseau/1 - Introduction.md"
               }
             }
           },
@@ -148,9 +147,9 @@
   },
   "active": "c194bf65bf6674bc",
   "lastOpenFiles": [
+    "TD/Architecture Et Réseau/TD1.md",
     "TD/Informatique Théorique/TD1.md",
     "TD/Base de donnée relationnelle/TD1.md",
-    "TD/Architecture Et Réseau/TD1.md",
     "Cours/Architecture et réseau/1 - Introduction.md",
     "Cours/Informatique théorique (semi TD)/1 - Introduction.md",
     "Back to school.md",

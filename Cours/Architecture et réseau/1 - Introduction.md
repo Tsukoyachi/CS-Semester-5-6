@@ -78,3 +78,10 @@ Un circuit peut être implémenté en utilisant :
 ##### FDM vs TDM
 FDM :  Frequency Division Multiplexing 
 TDM : Time Division Multiplexing
+![[Pasted image 20221007090049.png |center]]
+
+FDM : On a des fréquences qui sont réservées pour chaque sender, pour écouter on a juste à se mettre sur la bonne fréquence.
+
+TDM : Des intervals de temps sont réservés pour chaque utilisateurs qui parlent chacun leurs tours.
+
+#### Packet switching

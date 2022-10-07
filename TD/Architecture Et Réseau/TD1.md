@@ -9,4 +9,6 @@ Teacher :
 1 - On utilise une topologie en arbre de profondeur 3 (ça commence à 0), avec 7 switch pour 20 clients dans notre schéma.
 ![[Pasted image 20221007094248.png |center]]
 
-2 - 
+2 - $(p-1)^{profondeur}\geq n \Leftrightarrow profondeur \geq log_{p-1}(n)$ 
+
+3 - Il suffit juste d'ajouter un routeur en haut d

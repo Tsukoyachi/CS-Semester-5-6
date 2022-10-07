@@ -26,3 +26,13 @@ La topologie des réseau dépend de la façon dont ils sont cablés, en voici qu
 ### Topologie arbre
 En général dans un data-center, on a une topologie en arbre à 3 niveaux.
 ![[Pasted image 20221007082947.png | center]]
+### Topologie data-center "K-ary fat tree"
+![[Pasted image 20221007083452.png | center]]
+Le réseau est séparé en PoD (Point of Delivery) avec :
+- k PoD
+- (k/2)² serveurs par PoD
+- k/2 edge et aggregation switches par PoD
+- chaque edge switch va se connecter à k/2 serveurs et k/2 aggregation switch
+- chaque aggregation switch va se connecter à k/2 edge switch et k/2 core switch
+- On a (k/2)² core switch, chacun connecté à k PoD.
+Cette configuration 

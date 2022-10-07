@@ -85,3 +85,4 @@ FDM : On a des fréquences qui sont réservées pour chaque sender, pour écoute
 TDM : Des intervals de temps sont réservés pour chaque utilisateurs qui parlent chacun leurs tours.
 
 #### Packet switching
+![[Pasted image 20221007090344.png | center]]

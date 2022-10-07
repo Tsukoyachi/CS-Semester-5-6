@@ -24,5 +24,7 @@ Teacher :
 ![[Pasted image 20221007102034.png | center]]
 8 - commande ip addr show, l'interface avec le port 24 se nomme : enp0s3
 ![[Pasted image 20221007102501.png | center]]
-
-9 - 
+![[Pasted image 20221007102710.png]]
+\-i sert à préciser une interface
+\-w sert à créer un fichier
+![[Pasted image 20221007103016.png |center]]

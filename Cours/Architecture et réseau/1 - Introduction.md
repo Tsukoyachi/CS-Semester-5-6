@@ -21,4 +21,8 @@ La topologie des réseau dépend de la façon dont ils sont cablés, en voici qu
 - Pour la topologie Star (étoile) pour n machine et un switch, on a n liens des machines vers le switch. Un peu mieux niveau sécurité.
 - Pour la topologie Mesh (maillé), "on va tirer des câbles là où c'est possible". (un peu opportuniste d'après le prof)
 - Pour la topologie Full mesh (pleinement maillé) tous les dispositifs sont interconnecté avec toutes les autres machines, cela nous donne pour n machines, n(n-1) liens.
-- Pour la topologie Tree (arbre), topologie normalement utilisé pour les data-center.
+- Pour la topologie Tree (arbre), topologie normalement utilisé pour les data-center. "switch d'accès ?"
+
+### Topologie arbre
+En général dans un data-center, on a une topologie en arbre à 3 niveaux.
+![[Pasted image 20221007082947.png | center]]

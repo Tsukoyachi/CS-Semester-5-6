@@ -32,7 +32,7 @@ Chaque ligne correspond à un paquet qui transite, avec leur point de départ et
 
 9 - La commande "tcpdump "tcp port 80" "-i enp0s3 -w /tmp/test2.1.pcap" refait la même capture que précédemment mais n'écoutera que les paquets à destination ET en provenance du port 80 en utilisant le protocole TCP.
 
-DHCP = tcpdump "udp and (port 67 or port 68)" ...
-DNS = tcpdump "port 53" ...
-www.unice.fr = tcpdump "host www.unice.fr" ...
-à destination du réseau 134.
+DHCP = "tcpdump "udp and (port 67 or port 68)" ..."
+DNS = "tcpdump "port 53" ..."
+www.unice.fr = "tcpdump "host www.unice.fr" ..."
+à destination du réseau 134.59.1.0/24 = "tcpdump "dst host 134.59.1.0/24" ..."

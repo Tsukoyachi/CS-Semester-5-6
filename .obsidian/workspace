@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cours/Informatique théorique (semi TD)/1 - Introduction.md",
+            "file": "Cours/Architecture et réseau/1 - Introduction.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Informatique théorique (semi TD)/1 - Introduction.md",
+                "file": "Cours/Architecture et réseau/1 - Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Informatique théorique (semi TD)/1 - Introduction.md",
+                "file": "Cours/Architecture et réseau/1 - Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/Informatique théorique (semi TD)/1 - Introduction.md"
+                "file": "Cours/Architecture et réseau/1 - Introduction.md"
               }
             }
           },
@@ -147,15 +147,15 @@
   },
   "active": "c194bf65bf6674bc",
   "lastOpenFiles": [
+    "Cours/Informatique théorique (semi TD)/1 - Introduction.md",
+    "Cours/Architecture et réseau/1 - Introduction.md",
     "TD/Informatique Théorique/TD1.md",
     "Back to school.md",
-    "Cours/Informatique théorique (semi TD)/1 - Introduction.md",
     "Cours/Langage C et système/1 - Introduction.md",
     "Cours/Base de données relationnelle/1 - Introduction.md",
     "Cours/POO/1 - Introduction.md",
     "Cours/Harmonisation/IHM/2 - Taches et Scénario.md",
     "Cours/Harmonisation/IHM/1 - Introduction.md",
-    "Cours/Harmonisation/Réseau et sécurité/Introduction.md",
-    "Cours/Harmonisation/Réseau et sécurité/FAQ.md"
+    "Cours/Harmonisation/Réseau et sécurité/Introduction.md"
   ]
 }

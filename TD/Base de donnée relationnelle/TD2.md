@@ -8,4 +8,5 @@
 3. $\Pi_{NomProjet}((\sigma_{(Prenom=Jean,Nom=Muller)}(employe) \cup \sigma_{Prenom=Annie,Nom=Grandjean}(employe)) \Join travaille \Join \Pi_{NomProjet,NumeroProjet}(projet))$
 4. $\Pi_{NomProjet}(\sigma_{(Prenom=Jean,Nom=Muller)}(employe) \Join travaille \Join \Pi_{NomProjet,NumeroProjet}(projet)) \cap \Pi_{NomProjet}(\sigma_{Prenom=Annie,Nom=Grandjean}(employe) \Join travaille \Join \Pi_{NomProjet,NumeroProjet}(projet))$
 5. $\Pi_{Nom,Prenom}(employe)$-$\Pi_{Nom,Prenom}(employe \Join travaille)$
-6. 
+6. $\Pi_{Nom,Prenom}(employe)$-$\Pi_{Nom,Prenom}(employe \Join travaille \Pi_{})$
+7. 

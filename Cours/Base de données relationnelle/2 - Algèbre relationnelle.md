@@ -84,4 +84,13 @@ title: Propriétés **à refaire**
 **à rattraper j'ai pas trop compris**
 
 ### Jointure naturelle
-Contrairement aux autres opérations, elle est définit pour les tuples 
+Contrairement aux autres opérations, elle est définie pour les tuples avant d'être définie pour les relations.
+
+#### Jointure naturelle de tuple
+Si les deux tuples n'ont pas d'attributs commun, alors leurs jointure est la concaténation des deux donc leur produit cartésien.
+
+Sinon, ils ne peuvent se joindre que lorsque leurs attributs de même nom sont de même valeurs.
+
+Bien sûr peut importe la cas, on ne dupplique pas les attributs en commun.
+
+Deux tuples $t_{r}(R)$ et $t_{s}(S)$  sont **joignables** si et seulement si il existe un tuple $t(R\cup S)$ tel que :

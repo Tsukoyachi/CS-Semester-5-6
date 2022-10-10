@@ -142,5 +142,27 @@ enum traffic_lights light3, light4 = green;
 ```C
 enum start_address {mono = 0xb000, color = 0xb800};
 enum escapes {bell = '\a', backspace = '\b', tab = '\t',
-			  newline = '\n', vtab ='\v', }
+			  newline = '\n', vtab ='\v', return = '\r'}
 ```
+
+- Pas de contrôle sur les valeurs utilisées
+```C
+light1 = 20; /* 20 est correct */
+```
+
+**à compléter**
+
+## Structures
+Une structure C:
+	- objet composite constitué d'éléments qui peuvent être de types différents
+	- peut être manipulée comme un tout
+```C
+struct {/* structure anonyme*/
+	short int day, month;
+	int year;
+} date1, date2;
+```
+**Parties sur les structures à rattraper/compléter**
+
+## Unions
+Semblables aux structures où un seul champ n'est valide à un instant don

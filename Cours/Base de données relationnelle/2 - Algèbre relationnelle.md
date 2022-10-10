@@ -55,5 +55,11 @@ Une projection va isoler certains champs d'une table, dans l'exemple si dessous 
 ![[Pasted image 20221010140616.png | center | 600]]
 
 ```ad-important
-title: Dis
+title: Distributivité
+
+On a une distributivité de la projection par rapport à l'union :
+![[Pasted image 20221010141115.png | center]]
+
+Mais on n'a pas la distributivité de la projection par rapport à l'intersection ou la différence :
+![[Pasted image 20221010141215.png | center]]
 ```

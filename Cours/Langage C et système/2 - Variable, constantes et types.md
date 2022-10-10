@@ -122,5 +122,25 @@ char string1[100], string2[10];
 	- Un exemple à rattrapper aussi
 
 ```C
-int str
+int strlen(char s[]){
+	int i = 0;
+	while (s[i] != '\0') i += 1;
+	return i
+}
+
+void strcat(char s1[], char s2[]) /*le strcat standard n'est pas void*/ **exemple à rattraper**
+```
+
+### Types énumérés
+- Ils permettent de nommer des constantes
+```C
+enum traffic_lights {gree, orange, red} light1, light2;
+enum traffic_lights light3, light4 = green;
+**manque une ligne à l'exemple ainsi que l'exemple suivant**
+```
+- Les valeurs par défaut peuvent être définis par l'utilisateur
+```C
+enum start_address {mono = 0xb000, color = 0xb800};
+enum escapes {bell = '\a', backspace = '\b', tab = '\t',
+			  newline = '\n', vtab ='\v', }
 ```

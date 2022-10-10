@@ -189,4 +189,17 @@ union {
 ```
 **Insérer schéma place utilisé union slide union 2/3**
 
-Mais on ne peut que stocker/utiliser qu'**un** seul élément à la fois, et la taille utilisé pour stocker l'objet e
+Mais on ne peut que stocker/utiliser qu'**un** seul élément à la fois, et la taille utilisé pour stocker l'objet est celle du champ le plus volumineux en mémoire parmi les champs de l'union.
+
+**ajouter et comprendre exemple slide Union 3/3**
+
+## Champs de Bits
+- Les champs de bits peuvent être utilisés pour des accès bas niveau.
+- C'est utile :
+	- quand la mémoire est contrainte
+	- pour l'accès aux périphériques au niveau le plus bas
+```C
+struct Date {
+	unsigned int
+}
+```

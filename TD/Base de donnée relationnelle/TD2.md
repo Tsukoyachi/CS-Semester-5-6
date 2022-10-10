@@ -10,4 +10,5 @@
 5. $\Pi_{Nom,Prenom}(employe)$-$\Pi_{Nom,Prenom}(employe \Join travaille)$
 6. $\Pi_{Nom,Prenom}(employe)$-$\Pi_{Nom,Prenom}(\sigma_{lieu=Sophia antipolis}(employe \Join travaille \Join \Pi_{NumeroProjet,Lieu}(projet)))$
 7. $\Pi_{Nom,Prenom}(\sigma_{lieu=Sophia antipolis}(employe \Join travaille \Join \Pi_{NumeroProjet,Lieu}(projet)))$ - $\Pi_{Nom,Prenom}(\sigma_{lieu\neq Sophia antipolis}(employe \Join travaille \Join \Pi_{NumeroProjet,Lieu}(projet)))$
-8. 
+8. $\Pi_{Nom,Prenom}(\sigma_{Superieur=\Pi_{NumeroSecuriteSociale}(\sigma_{Nom=Rochat,Prenom=Juliette}(employe))}(employe))$
+9. 

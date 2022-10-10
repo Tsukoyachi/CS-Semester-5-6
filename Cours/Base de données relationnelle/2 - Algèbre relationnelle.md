@@ -27,7 +27,20 @@ Les trois opérations suivantes définissent chacune une instance du même sché
 - $r\cap s = \{ t|t \in r$ et $ t $\in s\}$
 - r - s = { t | t $\in r$ et $t \notin s$} 
 
- ### Produit cartésien
+```ad-warning
+title: Attention !!!!
+
+Pour effectuer l'une des 3 opérations, les deux relations doivent posséder les mêmes attributs !!!
+![[Pasted image 20221010140254.png | center]]
+```
+
+
+### Produit cartésien
+```ad-warning
+title: Attention !!!
+
+Il est impossible de faire un produit cartésien si les deux relation ont au moins un attribut en commun
+```
 
 ## Opérations relationnelles
 - Projection
@@ -35,3 +48,6 @@ Les trois opérations suivantes définissent chacune une instance du même sché
 - Jointure naturelle
 - Division
 - Renommage
+
+### Projection 
+

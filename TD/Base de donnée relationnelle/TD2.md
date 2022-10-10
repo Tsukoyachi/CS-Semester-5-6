@@ -7,5 +7,5 @@
 2. $\Pi_{Nom,Adresse}(employe \Join \sigma_{NomDepartement=Recherche}(departement))$
 3. $\Pi_{NomProjet}((\sigma_{(Prenom=Jean,Nom=Muller)}(employe) \cup \sigma_{Prenom=Annie,Nom=Grandjean}(employe)) \Join travaille \Join \Pi_{NomProjet,NumeroProjet}(projet))$
 4. $\Pi_{NomProjet}(\sigma_{(Prenom=Jean,Nom=Muller)}(employe) \Join travaille \Join \Pi_{NomProjet,NumeroProjet}(projet)) \cap \Pi_{NomProjet}(\sigma_{Prenom=Annie,Nom=Grandjean}(employe) \Join travaille \Join \Pi_{NomProjet,NumeroProjet}(projet))$
-5. $\Pi_{Nom,Prenom}(employe - )$
+5. $\Pi_{Nom,Prenom}(employe)$-$\Pi_{Nom,Prenom}(employe \Join travaille)$
 6. 

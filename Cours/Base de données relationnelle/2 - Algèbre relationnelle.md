@@ -70,8 +70,18 @@ Mais on n'a pas la distributivité de la projection par rapport à l'intersectio
 L'opération sélection est en réalité une sorte de filtre qui trie les instances d'une relation afin de ne garder que celle respectant tout les critères de la sélection, ici l'on ne garde que les instances ayant une valeur de 14 pour l'attribut classe.
 
 ```ad-info
-title: commutativité
+title: Propriétés **à refaire**
 
+![[Pasted image 20221010142119.png |center |500]]
+
+![[Pasted image 20221010142028.png | center]]
 ![[Pasted image 20221010141857.png | center]]
 ![[Pasted image 20221010142017.png | center]]
 ```
+
+
+#### Sélection étendue
+**à rattraper j'ai pas trop compris**
+
+### Jointure naturelle
+Contrairement aux autres opérations, elle est définit pour les tuples 

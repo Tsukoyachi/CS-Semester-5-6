@@ -44,4 +44,5 @@ $t_{1}.NumV = t_{2}.NumV \Rightarrow (t_{1}.IdM = t_{2}.IdM$ ^ $t_{1}.DateV = t_
 ($t_{1}.Pays = t_{2}.Pays$ ^ $t_{1}.DateE < t_{2}.DateE$) $\Rightarrow$ ($t_{1}.NumV < t_{2}.NumV$)
 
 14. $\forall v_{1}\in Vente$ :
-$\forall v_{2} \in Vente$ ($v_{1}.IdM = v_{2}.IdM$) $\Rightarrow$ ($v_{1}.NumV < v_{2}.NumV \wedge \exists e_{3}\in enreg (v_{1}.IdVend = e_{3}.IdDeposant \wedge v_{1}.IdM = e_{3}.IdM)$) $\vee$ $\exists v_{3}\in Vente, (v_{1}.IdM = v_{3}.IdM) \wedge (v_{1}.NumV <)$ 
+$\forall v_{2} \in Vente$ ($v_{1}.IdM = v_{2}.IdM$) $\Rightarrow$ ($v_{1}.NumV < v_{2}.NumV \wedge \exists e_{3}\in enreg (v_{1}.IdVend = e_{3}.IdDeposant \wedge v_{1}.IdM = e_{3}.IdM)$) $\vee$ $\exists v_{3}\in Vente, (v_{1}.IdM = v_{3}.IdM) \wedge (v_{1}.NumV < v_{3}.NumV) \wedge$
+$\neg(\exists v_{4}\in Vente, (v_{1}.IdM = v_{4}.IdM)\Rightarrow (v_{1}.NumV<v_{4}.NumV<v_{3}.NumV)) \wedge (v_{1}.IdAch = v_{3}.IdVend)$  

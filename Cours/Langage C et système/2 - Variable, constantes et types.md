@@ -24,4 +24,32 @@ Les mots clés du language C tel que for, while, int , double, auto, register, .
 \[unsigned | signed] \[long] int
 **Par défaut ses types là sont signé.**
 
+### Types entiers
+- constantes caractères
+- constantes entières
+	- 10 (base décimale), **0**10 (base octale), **0x**10 (base hexadécimale)
+- Nombre réels (float ou double)
+- Le type void
+	- Aucun objet ne peut être de ce type
+	- Pointeur sans type
+	- Utilisé pour dire qu'une fonction ne retourne rien (procédure)
+- Type booléen \_Bool (apport C99)
+	- Souvent utilisé avec le fichier <stdbool.h>
+		- bool est équivalent à \_Bool
+		- 0 = false
+		- 1 = true
+- **à compléter**
 
+## Déclaration de variable
+```C
+
+int x;
+int a, b, c ;
+
+unsigned int v1 = 0xabcd;
+unsigned long int v2, v3 = 1234UL; //seul v3 est initialisé ?
+float v4 = 123.45,
+      v5 = 0.0;
+
+
+```

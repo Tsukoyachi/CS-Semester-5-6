@@ -43,6 +43,5 @@ $t_{1}.NumV = t_{2}.NumV \Rightarrow (t_{1}.IdM = t_{2}.IdM$ ^ $t_{1}.DateV = t_
 13. $\forall t_{1},t_{2} \in vente:$
 ($t_{1}.Pays = t_{2}.Pays$ ^ $t_{1}.DateE < t_{2}.DateE$) $\Rightarrow$ ($t_{1}.NumV < t_{2}.NumV$)
 
-14. $\forall t_{1}\in vente, \exists t_{2}\in marque, t_{1}.IdVend = t_{2}.IdProp$ ^ $t_{1}.IdM = t_{2}.IdM$
-
- 
+14. $\forall v_{1}\in Vente$ :
+$\forall v_{2} \in Vente$ ($v_{1}.IdM = v_{2}.IdM$) $\Rightarrow$ ($v_{1}.NumV < v_{2}.NumV \wedge \exists e_{3}\in enreg (v_{1}.IdVend = e_{3}.IdDeposant \wedge v_{1}.IdM = e_{3}.IdM)$) $\vee$ $\exists v_{3}\in Vente, (v_{1}.IdM = v_{3}.IdM) \wedge (v_{1}.NumV <)$ 

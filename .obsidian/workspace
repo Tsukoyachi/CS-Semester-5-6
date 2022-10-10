@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cours/Langage C et système/2 - Variable, constantes et types.md",
+            "file": "Cours/Langage C et système/1 - Introduction.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Langage C et système/2 - Variable, constantes et types.md",
+                "file": "Cours/Langage C et système/1 - Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Langage C et système/2 - Variable, constantes et types.md",
+                "file": "Cours/Langage C et système/1 - Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/Langage C et système/2 - Variable, constantes et types.md"
+                "file": "Cours/Langage C et système/1 - Introduction.md"
               }
             }
           },
@@ -147,8 +147,8 @@
   },
   "active": "432d5257b7f7888c",
   "lastOpenFiles": [
-    "TD/Informatique Théorique/TD1.md",
     "Cours/Langage C et système/2 - Variable, constantes et types.md",
+    "TD/Informatique Théorique/TD1.md",
     "Cours/Langage C et système/1 - Introduction.md",
     "Cours/Informatique théorique (semi TD)/1 - Introduction.md",
     "TD/Architecture Et Réseau/TD1.md",

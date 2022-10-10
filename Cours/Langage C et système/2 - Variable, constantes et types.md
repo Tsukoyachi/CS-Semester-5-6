@@ -198,8 +198,29 @@ Mais on ne peut que stocker/utiliser qu'**un** seul élément à la fois, et la 
 - C'est utile :
 	- quand la mémoire est contrainte
 	- pour l'accès aux périphériques au niveau le plus bas
+**exemple à rattraper**
 ```C
-struct Date {
-	unsigned int
-}
+
 ```
+
+## Complexe
+Apport de C99
+On peut avoir des \_Complex float ou des \_Complex double
+**à compléter...**
+
+## Définition de types (typedef)
+Possibilité de donner un nom à un type
+	- Permet de simplifier l'écriture
+	- utilisation du mot clé typedef
+	- similitude avec une déclaration de variable
+```C
+typedef int Integer; /* N'a aucun intérêt*/
+typedef int Table[100]; /* Table est un tableau de 100 entiers*/
+typedef struct {
+	int x;
+	int y;
+} Position; /* Position est un type qui contient deux entier x et y*/
+
+Position a = {1.2,0.0};
+```
+**Compléter l'exemple**

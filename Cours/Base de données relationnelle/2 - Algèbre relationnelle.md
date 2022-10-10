@@ -50,4 +50,10 @@ Il est impossible de faire un produit cartésien si les deux relation ont au moi
 - Renommage
 
 ### Projection 
+Une projection va isoler certains champs d'une table, dans l'exemple si dessous la projection par rapport à classe et prop sur la table marque va isoler les colonnes classe et prop et **supprimer les doublons** donc il ne reste que 3 éléments car le tuple {12:Classe, sun:Prop} est présent deux fois.
 
+![[Pasted image 20221010140616.png | center | 600]]
+
+```ad-important
+title: Dis
+```

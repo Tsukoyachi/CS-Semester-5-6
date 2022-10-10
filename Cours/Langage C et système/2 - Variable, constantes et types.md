@@ -42,14 +42,27 @@ Les mots clés du language C tel que for, while, int , double, auto, register, .
 
 ## Déclaration de variable
 ```C
-
+/* déclaration simple*/
 int x;
 int a, b, c ;
 
+/* rattraper le commentaire */
 unsigned int v1 = 0xabcd;
 unsigned long int v2, v3 = 1234UL; //seul v3 est initialisé ?
 float v4 = 123.45,
       v5 = 0.0;
 
-
+/* rattraper le commentaire */
+const int size = 100;
+const double Pi = 3.14159
 ```
+
+La tailles des types simples ne sont pas définies par la norme C. Toutefois :
+- sizeof (char) == 1 par définition
+- sizeof (short) occupe au moins 16 bits
+- sizeof (char) <= sizeof(short) <= sizeof(int) <= sizeof(long) <= sizeof(long long)
+
+**insérer tableau tailles bits variable selon os du slide**
+
+## Type tableau
+- Une seule dimension 

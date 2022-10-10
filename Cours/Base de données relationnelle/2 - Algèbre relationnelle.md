@@ -22,7 +22,12 @@ On va effectuer de opérations sur des relations dont le résultat sera une nouv
 ### Union, intersection, différences
 Soient r et s deux instances d'un même schéma de relation R.
 Les trois opérations suivantes définissent chacune une instance du même schéma de relation R :
-- $r\cup s$  
+
+- $r\cup s = \{t | t \in r$ ou $t \in s\}$ 
+- $r\cap s = \{ t|t \in r$ et $ t $\in s\}$
+- r - s = { t | t $\in r$ et $t \notin s$} 
+
+ ### Produit cartésien
 
 ## Opérations relationnelles
 - Projection

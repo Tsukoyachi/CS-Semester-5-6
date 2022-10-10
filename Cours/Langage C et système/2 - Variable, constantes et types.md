@@ -165,4 +165,28 @@ struct {/* structure anonyme*/
 **Parties sur les structures à rattraper/compléter**
 
 ## Unions
-Semblables aux structures où un seul champ n'est valide à un instant don
+Semblables aux structures où un seul champ n'est valide à un instant donné
+Utile pour :
+	- Partager de la mémoire entre des objets qui sont accéder exclusivement
+	- interpréter la représentation interne d'un objet come s'il était d'un autre type
+
+```C
+struct {
+	int a;
+	char b;
+	double c;
+}
+```
+
+**Insérer schéma place perdu slide union 1/3**
+
+```C
+union {
+	int a;
+	char b;
+	double c;
+}
+```
+**Insérer schéma place utilisé union slide union 2/3**
+
+Mais on ne peut que stocker/utiliser qu'**un** seul élément à la fois, et la taille utilisé pour stocker l'objet e

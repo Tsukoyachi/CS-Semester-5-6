@@ -65,4 +65,31 @@ La tailles des types simples ne sont pas définies par la norme C. Toutefois :
 **insérer tableau tailles bits variable selon os du slide**
 
 ## Type tableau
-- Une seule dimension 
+- Une seule dimension (mais on peut faire des tableaux de tableaux)
+- indice entier
+- Borne inférieur à l'indice 0
+- Initialiation possible avec des agrégats
+- Exemple
+```C
+int t[10];
+	=> t[0] t[1] ... t[9]
+short int t[3] [10];
+	=> t[0][0] t[0][1] ... t[0][9]
+	   t[1][0] t[1][1] ... t[1][9]
+	   t[2][0] t[2][1] ... t[2][9]
+```
+
+On peut déclarer et intialiser un tableau
+```C
+int t[4] = {1,2,3,4}; /* [1, 2, 3, 4]*/
+int t[4] = {1,2}; /* [1, 2, 0, 0]*/
+```
+La dimension peut être calculé par le compilateur
+```C
+int t[] = {1,2,3,4}; /*dimension = 4*/
+short int t[][3] = {
+					{0,1,2},
+					{3,4}
+					{5}
+}
+```

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cours/Informatique théorique (semi TD)/1 - Introduction.md",
+            "file": "Cours/Langage C et système/2 - Variable, constantes et types.md",
             "mode": "source",
             "source": false
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "911d169df2e013eb",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Informatique théorique (semi TD)/1 - Introduction.md",
+                "file": "Cours/Langage C et système/2 - Variable, constantes et types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Informatique théorique (semi TD)/1 - Introduction.md",
+                "file": "Cours/Langage C et système/2 - Variable, constantes et types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/Informatique théorique (semi TD)/1 - Introduction.md"
+                "file": "Cours/Langage C et système/2 - Variable, constantes et types.md"
               }
             }
           },
@@ -149,14 +148,14 @@
   "active": "432d5257b7f7888c",
   "lastOpenFiles": [
     "TD/Informatique Théorique/TD1.md",
+    "Cours/Langage C et système/2 - Variable, constantes et types.md",
+    "Cours/Langage C et système/1 - Introduction.md",
     "Cours/Informatique théorique (semi TD)/1 - Introduction.md",
     "TD/Architecture Et Réseau/TD1.md",
     "Cours/Architecture et réseau/1 - Introduction.md",
     "TD/Base de donnée relationnelle/TD1.md",
     "Back to school.md",
-    "Cours/Langage C et système/1 - Introduction.md",
     "Cours/Base de données relationnelle/1 - Introduction.md",
-    "Cours/POO/1 - Introduction.md",
-    "Cours/Harmonisation/IHM/2 - Taches et Scénario.md"
+    "Cours/POO/1 - Introduction.md"
   ]
 }

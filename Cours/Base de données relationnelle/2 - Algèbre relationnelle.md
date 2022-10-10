@@ -1,4 +1,4 @@
-# Contraintes
+# Algèbre relationnelle
 ---
 ### Lessons date :
 - 10/10/22
@@ -11,3 +11,4 @@
 
 ---
 
+![[BDR2022_cours2.pdf]]

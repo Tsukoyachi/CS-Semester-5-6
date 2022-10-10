@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "432d5257b7f7888c",
+        "id": "8d5acf4049f51e2f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cours/Base de données relationnelle/2 - Contraintes,.md",
+            "file": "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Base de données relationnelle/2 - Contraintes,.md",
+                "file": "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Base de données relationnelle/2 - Contraintes,.md",
+                "file": "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/Base de données relationnelle/2 - Contraintes,.md"
+                "file": "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md"
               }
             }
           },
@@ -145,17 +145,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "432d5257b7f7888c",
+  "active": "8d5acf4049f51e2f",
   "lastOpenFiles": [
+    "Pasted image 20220928140820.png.md",
+    "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
     "Cours/Base de données relationnelle/1 - Introduction.md",
-    "Cours/Base de données relationnelle/2 - Contraintes,.md",
     "Cours/Langage C et système/1 - Introduction.md",
     "Cours/Langage C et système/2 - Variable, constantes et types.md",
     "TD/Informatique Théorique/TD1.md",
     "Cours/Informatique théorique (semi TD)/1 - Introduction.md",
     "TD/Architecture Et Réseau/TD1.md",
     "Cours/Architecture et réseau/1 - Introduction.md",
-    "TD/Base de donnée relationnelle/TD1.md",
-    "Back to school.md"
+    "TD/Base de donnée relationnelle/TD1.md"
   ]
 }

@@ -63,3 +63,15 @@ On a une distributivité de la projection par rapport à l'union :
 Mais on n'a pas la distributivité de la projection par rapport à l'intersection ou la différence :
 ![[Pasted image 20221010141215.png | center]]
 ```
+
+### Sélection
+![[Pasted image 20221010141643.png | center | 600]]
+
+L'opération sélection est en réalité une sorte de filtre qui trie les instances d'une relation afin de ne garder que celle respectant tout les critères de la sélection, ici l'on ne garde que les instances ayant une valeur de 14 pour l'attribut classe.
+
+```ad-info
+title: commutativité
+
+![[Pasted image 20221010141857.png | center]]
+![[Pasted image 20221010142017.png | center]]
+```

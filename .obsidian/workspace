@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8d5acf4049f51e2f",
+        "id": "29f117f82d7358b3",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -61,8 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 399.5,
-    "collapsed": true
+    "width": 399.5
   },
   "right": {
     "id": "911d169df2e013eb",
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md"
-              }
+              "state": {}
             }
           },
           {
@@ -146,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8d5acf4049f51e2f",
+  "active": "29f117f82d7358b3",
   "lastOpenFiles": [
+    "Cours/POO/1 - Introduction.md",
+    "TD/Base de donnée relationnelle/TD1.md",
+    "TD/Base de donnée relationnelle/media/BDR_TD1.pdf",
+    "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
     "Cours/Base de données relationnelle/media/Pasted image 20221010141215.png",
     "Cours/Base de données relationnelle/media/Pasted image 20221010141115.png",
-    "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
     "Cours/Base de données relationnelle/1 - Introduction.md",
     "Pasted image 20220928140820.png.md",
     "Cours/Langage C et système/1 - Introduction.md",
-    "Cours/Langage C et système/2 - Variable, constantes et types.md",
-    "TD/Informatique Théorique/TD1.md",
-    "Cours/Informatique théorique (semi TD)/1 - Introduction.md",
-    "TD/Architecture Et Réseau/TD1.md"
+    "Cours/Langage C et système/2 - Variable, constantes et types.md"
   ]
 }

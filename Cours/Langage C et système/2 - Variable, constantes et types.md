@@ -101,4 +101,26 @@ short int t[][3] = {
 ## Chaînes de Caractères
 - Principales caractéristiques
 	- tableaux de caractères
-	- se terminent par le carac
+	- se terminent par le caractère nul (caractère '\\0')
+	- n'est pas un type C à proprement parlé
+	- possibilité d'avoir des chaînes littérales avec des guillemets
+- Exemples :
+```C
+char string1[100], string2[10];
+
+"I'm a string"
+"Another string with embedded \"quotes\""
+"and another one with a \"\\\" !!!"
+//Ici le '\0' est ajouté automatiquement
+```
+
+- Notes
+	- Le caractère nul n'apparait pas dans une chaîne littérale (automatiquement mis pas le compilateur)
+	- Pas d'opérateur prédéfini sur les chaînes (concaténation, sous-chaîne,...)
+	- Nombreuse fonctions dans la bibliothèque standard
+	- **Un WARNING à rattraper**
+	- Un exemple à rattrapper aussi
+
+```C
+int str
+```

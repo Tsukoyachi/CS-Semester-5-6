@@ -32,3 +32,7 @@
 	g. Vrai car si on prends y = a par exemple, p(f(y),b) est vrai et faux $\vee$ vrai = vrai.
 
 ### II/Interprétation
+1. $\Phi_{1}[(\exists x$ $p(x))\wedge(\exists x$ $q(x))]\Leftrightarrow [\exists x (p(x)\wedge q(x))]$
+Cas où ce n'est pas universellement valide:
+- Domaine : Entiers naturels
+- p(x) : x

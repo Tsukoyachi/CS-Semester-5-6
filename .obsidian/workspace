@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TD/Base de donnée relationnelle/TD2.md",
+            "file": "Cours/Informatique théorique (semi TD)/1 - Introduction.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TD/Base de donnée relationnelle/TD2.md",
+                "file": "Cours/Informatique théorique (semi TD)/1 - Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TD/Base de donnée relationnelle/TD2.md",
+                "file": "Cours/Informatique théorique (semi TD)/1 - Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TD/Base de donnée relationnelle/TD2.md"
+                "file": "Cours/Informatique théorique (semi TD)/1 - Introduction.md"
               }
             }
           },
@@ -147,9 +147,9 @@
   },
   "active": "29f117f82d7358b3",
   "lastOpenFiles": [
+    "TD/Base de donnée relationnelle/TD2.md",
     "Cours/POO/2 - Des classes aux interfaces.md",
     "Cours/POO/1 - Introduction.md",
-    "TD/Base de donnée relationnelle/TD2.md",
     "TD/Base de donnée relationnelle/TD1.md",
     "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
     "Cours/Langage C et système/2 - Variable, constantes et types.md",

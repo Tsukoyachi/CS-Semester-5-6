@@ -27,4 +27,8 @@
 
 	e. Faux car quelque soit x, length(x) < length(x) est faux.
 
-	f. 
+	f. Faux car si on prend x = y.
+
+	g. Vrai car si on prends y = a par exemple, p(f(y),b) est vrai et faux $\vee$ vrai = vrai.
+
+### II/Interprétation

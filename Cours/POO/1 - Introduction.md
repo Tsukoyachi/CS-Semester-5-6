@@ -34,5 +34,5 @@ Le but est d'être capable de **prendre des décisions** de modélisation, de ch
 - Fonctions
 - Modules
 
-Le slide est très complet, prendre d
+Le slide est très complet, prendre des notes serait useless donc pour ce slide je ne prendrai aucune note.
 

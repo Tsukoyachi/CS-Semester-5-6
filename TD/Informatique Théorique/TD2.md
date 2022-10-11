@@ -35,4 +35,20 @@
 1. $\Phi_{1}[(\exists x$ $p(x))\wedge(\exists x$ $q(x))]\Leftrightarrow [\exists x (p(x)\wedge q(x))]$
 Cas où ce n'est pas universellement valide:
 - Domaine : Entiers naturels
-- p(x) : x
+- p(x) : x est pair
+- q(x) : x est impair
+
+Cas où la formule est vraie :
+- Domaine : Entiers naturels
+- p(x) : x est pair
+- q(x) : x est multiple de 4
+
+2. $\Phi_{1}[(\exists x$ $p(x))\vee(\exists x$ $q(x))]\Leftrightarrow [\exists x (p(x)\vee q(x))]$
+Cas où la formule est vraie :
+- Domaine : Entiers naturels
+- p(x) : x est pair
+- q(x) : x est impair
+
+On n'a pas de cas où ce n'est pas universellement valide.
+
+3. 

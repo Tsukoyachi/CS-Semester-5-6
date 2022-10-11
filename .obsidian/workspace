@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TD/Base de donnée relationnelle/TD2.md",
+            "file": "Cours/POO/1 - Introduction.md",
             "mode": "source",
             "source": false
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 399.5,
-    "collapsed": true
+    "width": 399.5
   },
   "right": {
     "id": "911d169df2e013eb",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TD/Base de donnée relationnelle/TD2.md",
+                "file": "Cours/POO/1 - Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TD/Base de donnée relationnelle/TD2.md",
+                "file": "Cours/POO/1 - Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TD/Base de donnée relationnelle/TD2.md"
+                "file": "Cours/POO/1 - Introduction.md"
               }
             }
           },
@@ -148,9 +147,9 @@
   },
   "active": "29f117f82d7358b3",
   "lastOpenFiles": [
+    "TD/Base de donnée relationnelle/TD2.md",
     "TD/Base de donnée relationnelle/TD1.md",
     "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
-    "TD/Base de donnée relationnelle/TD2.md",
     "Cours/Langage C et système/2 - Variable, constantes et types.md",
     "TD/Base de donnée relationnelle/media/BDR_TD1.pdf",
     "Cours/POO/1 - Introduction.md",

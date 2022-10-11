@@ -34,13 +34,5 @@ Le but est d'être capable de **prendre des décisions** de modélisation, de ch
 - Fonctions
 - Modules
 
-## Planning
-- Semestre 1 :
-	- De la POO aux structures de données et algorithmie :
-		- Base de design logiciel
-	- **à rattraper si diapo en ligne**
-- Semestre 2 :
-	- **à rattraper si diapo en ligne**
-
-Le cours commence par des rappels sur les pré-requis et une explication rapide sur les références avec les méthodes, pour le reste, le diapo se suffit à lui même et l'on s'est arrêté au slide n°.
+Le slide est très complet, prendre d
 

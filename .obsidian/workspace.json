@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "489f7d2a40b37836",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.0"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +86,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Architecture et réseau/1 - Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Architecture et réseau/1 - Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +123,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Cours/Architecture et réseau/1 - Introduction.md"
-              }
+              "state": {}
             }
           },
           {
@@ -168,8 +153,9 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "489f7d2a40b37836",
+  "active": "c537f7fc7a3df837",
   "lastOpenFiles": [
+    "Cours/Architecture et réseau/1 - Introduction.md",
     "TD/Informatique Théorique/TD2.md",
     "LogiqueDu1eOrdre_SyntaxeV4.1.pdf.md",
     "Cours/Informatique théorique (semi TD)/1 - Introduction.md",
@@ -178,7 +164,6 @@
     "TD/Base de donnée relationnelle/TD2.md",
     "Cours/POO/2 - Des classes aux interfaces.md",
     "Cours/POO/1 - Introduction.md",
-    "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
-    "Cours/Langage C et système/2 - Variable, constantes et types.md"
+    "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md"
   ]
 }

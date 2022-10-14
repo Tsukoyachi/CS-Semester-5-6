@@ -123,8 +123,16 @@ Les protocoles les plus utilisés :
 
 #### DHCP (Dynamic Host Configuration Protocol)
 - Configuration automatique des fins de systèmes (des end points du réseaux)
-	- Addresse IP, masque réseau, addresse router, serveur DNS, réseau de domaine,...
+	- Adresse IP, masque réseau, addresse router, serveur DNS, réseau de domaine,...
 - DHCP fonctionne avec le protocole UDP
 	- Port numéro 67 et 68
 - Flexible mais avec un contrôle minimal sur les paramètre réseau
-- 
+- Les utilisateurs vérifient rarement la configuration obtenue, cela pose des problèmes de sécurité.
+
+![[Pasted image 20221014081657.png | center]]
+
+Pour qu'un client choisisse entre un serveur 1 et un serveur 2 il fait une requête (broadcast ?) pour ensuite collecter les offres que lui envoient les serveurs ayant reçu la requête, le client fera alors un choix puis enverra une requête à chaque Serveur pour lui dire si oui ou non il a accepté son offre. Enfin le serveur qui a été accepter devra lui envoyer un **DHCP ACK** pour confirmer au client que le choix est effectif. Après cela le client pourra utiliser son adresse IP à souhait.
+
+![[Pasted image 20221014081938.png | center]]
+
+Mais le DHCP étant dynamique, lorsque le serveur nous fournit une adresse IP il nous fournit également un temps d'utilisation de l'adresse IP, se pose

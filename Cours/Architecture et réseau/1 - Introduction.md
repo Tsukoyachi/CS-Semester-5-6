@@ -86,3 +86,17 @@ TDM : Des intervals de temps sont réservés pour chaque utilisateurs qui parlen
 
 #### Packet switching
 ![[Pasted image 20221007090344.png | center]]
+
+### Internet elements
+Internet est un réseau qui interconnecte des appareils
+- Fournisseur de service internet
+- Le réseau des réseaux
+Les appareils, hôtes ou fin de systèmes :
+- PC fixe ou portable, serveurs.
+- Aujourd'hui : Téléphones, objets connectés
+Lien de communications :
+- Câble RJ45, radio fréquence
+- ?
+Packet switches
+- Routeurs, **à compléter**
+

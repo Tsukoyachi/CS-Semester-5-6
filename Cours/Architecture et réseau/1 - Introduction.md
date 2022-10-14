@@ -10,6 +10,8 @@
 #Architecture #Réseaux
 
 ---
+![[slides-intro-net.pdf]]
+
 **Ce cours est divisé en deux parties**
 	- 1 - Introduction Réseau et Programme Sockets
 	- 2 - Architecture de programmes
@@ -95,8 +97,21 @@ Les appareils, hôtes ou fin de systèmes :
 - PC fixe ou portable, serveurs.
 - Aujourd'hui : Téléphones, objets connectés
 Lien de communications :
-- Câble RJ45, radio fréquence
+- Câble ethernet, câble RJ45, radio fréquence
 - ?
 Packet switches
 - Routeurs, **à compléter**
 
+### Internet application
+Applications distribués :
+- Client-server
+- Peer to peer
+
+Les échanges d'informations doivent suivres quelques protocoles.
+
+Il y a différents protocoles pour différents objectives à différents niveau de la pile de différents internet.
+
+Les protocoles les plus utilisés :
+- Configuration de client réseau facile => DHCP
+- Conversion de nom de domaine à IP => DNS (domain name system)
+- 

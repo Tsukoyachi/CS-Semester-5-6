@@ -135,4 +135,14 @@ Pour qu'un client choisisse entre un serveur 1 et un serveur 2 il fait une requ�
 
 ![[Pasted image 20221014081938.png | center]]
 
-Mais le DHCP étant dynamique, lorsque le serveur nous fournit une adresse IP il nous fournit également un temps d'utilisation de l'adresse IP, se pose
+Mais le DHCP étant dynamique, lorsque le serveur nous fournit une adresse IP il nous fournit également un temps d'utilisation de l'adresse IP, se pose alors plusieurs cas de figure :
+- Si le client est présent sur le réseau : au bout de 50% d'utilisation du temps fournit, le client fournit une requête DHCP pour renouveller le temps d'utilisation, si le serveur nous répond avec un DHCP ACK alors c'est bon, s'il nous répond avec un DHCP NACK alors il faudra recommencer la procédure.
+- S'il n'est pas présent quand le temps est écoulé il faudra juste recommencer la procédure
+
+#### DNS (Domain Name System)
+- Permet de traduire un nom qui est user-friendly en une adresse IP
+	- ex : google.com => XXX.XXX.XXX.XXX (flemme de chercher l'ip officielle)
+- Architecture hiérarchique
+- Quelques définitions :
+	- Name server => DNS server software
+	- Resolver => DNS client 

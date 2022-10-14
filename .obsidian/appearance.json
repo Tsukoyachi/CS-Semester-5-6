@@ -3,5 +3,6 @@
     "center-image"
   ],
   "theme": "obsidian",
-  "baseFontSize": 20
+  "baseFontSize": 20,
+  "accentColor": ""
 }

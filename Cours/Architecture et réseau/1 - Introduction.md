@@ -190,9 +190,14 @@ Exemple je vais demander le type A par rapport avec google.com le serveur DNS sa
 
 Si je demandais le type MX d'un DNS le serveur DNS sait que je veux l'adresse SMTP lié au DNS en question.
 
-### Network, Layers and Protocols
-#### Packetization
-** à 
+## Network, Layers and Protocols
+### Packetization
+**à rattraper**
+
+###  The Layering approach
+![[Pasted image 20221014085758.png | center]]
 
 
+Pour le protocole Application on a mit HTTP mais on aurait pu également mettre DHCP et DNS.
 
+Pour le protocole Physical on aurait pu également mettre Wifi et 4G.

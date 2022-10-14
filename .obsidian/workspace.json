@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "844ffae03ffe7432",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7b6991ec8ac6057",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c537f7fc7a3df837",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cours/Architecture et réseau/1 - Introduction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "489f7d2a40b37836",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.0"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "448a18e771d6bb9d",
+    "type": "split",
+    "children": [
+      {
+        "id": "f72974017db89840",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ed2038ec5459906",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bc9efe890c2d45b9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "189777a8f80fddb3",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 399.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "911d169df2e013eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "43e32c599130bfca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bee2ada6778e57b6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Cours/Architecture et réseau/1 - Introduction.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "312808138d638d04",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Cours/Architecture et réseau/1 - Introduction.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "83c57d559bb34730",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "eb1abd7c3a403980",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Cours/Architecture et réseau/1 - Introduction.md"
+              }
+            }
+          },
+          {
+            "id": "f3171380c4b503d5",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "9482ed200f57d831",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "489f7d2a40b37836",
+  "lastOpenFiles": [
+    "TD/Informatique Théorique/TD2.md",
+    "LogiqueDu1eOrdre_SyntaxeV4.1.pdf.md",
+    "Cours/Informatique théorique (semi TD)/1 - Introduction.md",
+    "TD/Informatique Théorique/TD1.md",
+    "TD/Base de donnée relationnelle/TD1.md",
+    "TD/Base de donnée relationnelle/TD2.md",
+    "Cours/POO/2 - Des classes aux interfaces.md",
+    "Cours/POO/1 - Introduction.md",
+    "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
+    "Cours/Langage C et système/2 - Variable, constantes et types.md"
+  ]
+}

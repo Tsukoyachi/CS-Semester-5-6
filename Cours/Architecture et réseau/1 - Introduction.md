@@ -179,8 +179,20 @@ Une réponse avec autorité sur le serveur sera une réponse qui a plus de chanc
 
 Une réponse sans autorité sur le serveur sera quant a elle obtenue via les données en cache du serveur DNS, elle est moins fiable, on ne l'utilisera par exemple pas pour des données sensible je pense.
 
+#### Types d'enregistrements DNS
+En DNS on a plusieurs types de données :
+- type A : adresse IPV4
+- type AAAA : adresse IPV6
+- type MX (Mail eXchange) : adresse SMTP
+- type NS : server name d'un domaine
 
+Exemple je vais demander le type A par rapport avec google.com le serveur DNS sait que je veux l'adresse IPv4 de google.com.
 
+Si je demandais le type MX d'un DNS le serveur DNS sait que je veux l'adresse SMTP lié au DNS en question.
+
+### Network, Layers and Protocols
+#### Packetization
+** à 
 
 
 

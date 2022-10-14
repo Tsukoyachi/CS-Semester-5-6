@@ -51,4 +51,8 @@ Cas où la formule est vraie :
 
 On n'a pas de cas où ce n'est pas universellement valide.
 
-3. 
+### III/Interprétation et véracité
+1. Si on prend y égal à l'élément neutre pour l'addition alors c'est vrai.
+2. Si c'est vrai pour tout c alors c'est vrai pour un x particulier, c'est donc universellement vrai.
+3. C'est faux sauf dans le cas où x = 0.
+4. C'est universellement vrai.

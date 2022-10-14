@@ -175,7 +175,12 @@ Pour la solution itérative, si l'on veut accéder à www.example.com, si le ser
 Pour la solution récursive, le serveur DNS, demande à un serveur local qui va lui même contacter le serveur root qui va contacter le serveur top level DNS puis qui contactera le serveur DNS authoritative.
 
 #### Authoritative vs Non-Authoritative answers
-**à rattraper**
+Une réponse avec autorité sur le serveur sera une réponse qui a plus de chance d'être correcte, elle est plus fiable, on l'obtient en demandant directement au serveur DNS qui contient les informations sur la page de destinations.
+
+Une réponse sans autorité sur le serveur sera quant a elle obtenue via les données en cache du serveur DNS, elle est moins fiable, on ne l'utilisera par exemple pas pour des données sensible je pense.
+
+
+
 
 
 

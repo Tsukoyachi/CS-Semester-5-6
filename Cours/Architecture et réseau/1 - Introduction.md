@@ -157,5 +157,17 @@ Mais le DHCP étant dynamique, lorsque le serveur nous fournit une adresse IP il
 Voici un schéma qui représente l'architecture DNS :
 ![[Pasted image 20221014082841.png | center]]
 
-Un PQDN pourrait être : \www.yahou.com car il manque le . de la racine
-Un FQDN pourrait être : \www.yahou.com**.** 
+Pour construire un PQDN ou un FQDN on part d'en bas et on remonte en ajoutant des point entre chaque mots.
+
+Un PQDN pourrait être : www.yahou.com car il manque le . de la racine
+Un FQDN pourrait être : www.yahou.com. **avec le point à la fin**
+
+En principe on utilise les PQDN sur notre navigateur, et à partir du PQDN le navigateur essaye de retrouver le FQDN.
+
+#### Solution itérative et récursives
+![[Pasted image 20221014083456.png | center]]
+
+À gauche on a la solution itérative et à droite la solution récursives, les deux ayant l'architecture du schéma au milieu.
+
+Pour la solution itérative, 
+

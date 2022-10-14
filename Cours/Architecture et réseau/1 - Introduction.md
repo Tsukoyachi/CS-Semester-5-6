@@ -145,4 +145,17 @@ Mais le DHCP étant dynamique, lorsque le serveur nous fournit une adresse IP il
 - Architecture hiérarchique
 - Quelques définitions :
 	- Name server => DNS server software
-	- Resolver => DNS client 
+	- Resolver => DNS client software
+	- Fully Qualified Domain Name => FQDN
+	- Partially Qualified Domain Name => PQDN
+	- Top level domains => domains just below the root (unamed domain)
+		- Generic top level domains => gTLD (.com, .edu, .gov, ...)
+		- Country code top level domain => ccTLD (.fr, .br, .jp, ...)
+	- subdomain => domain inside a domain
+- DNS utilise TCP et UDP sur le port 53
+
+Voici un schéma qui représente l'architecture DNS :
+![[Pasted image 20221014082841.png | center]]
+
+Un PQDN pourrait être : \www.yahou.com car il manque le . de la racine
+Un FQDN pourrait être : \www.yahou.com**.** 

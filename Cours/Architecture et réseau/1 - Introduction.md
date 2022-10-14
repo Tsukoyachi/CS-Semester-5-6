@@ -114,4 +114,17 @@ Il y a différents protocoles pour différents objectives à différents niveau 
 Les protocoles les plus utilisés :
 - Configuration de client réseau facile => DHCP
 - Conversion de nom de domaine à IP => DNS (domain name system)
+- Télécharger/uploader/modifier/supprimer des documents => HTTP, ?? ...
+- Obtenir l'heure courente (trad approximative) => NTP
+- ...
+- Protocole de transfert de données utilisateurs entre deux application => TCP/UDP
+- Management de réseau, signalement et contrôle
+- ...
+
+#### DHCP (Dynamic Host Configuration Protocol)
+- Configuration automatique des fins de systèmes (des end points du réseaux)
+	- Addresse IP, masque réseau, addresse router, serveur DNS, réseau de domaine,...
+- DHCP fonctionne avec le protocole UDP
+	- Port numéro 67 et 68
+- Flexible mais avec un contrôle minimal sur les paramètre réseau
 - 

@@ -169,5 +169,5 @@ En principe on utilise les PQDN sur notre navigateur, et à partir du PQDN le na
 
 À gauche on a la solution itérative et à droite la solution récursives, les deux ayant l'architecture du schéma au milieu.
 
-Pour la solution itérative, 
+Pour la solution itérative, si l'on veut accéder à www.example.com, si le serveur DNS n'a pas l'information en cache concernant www il va la demander à example,
 

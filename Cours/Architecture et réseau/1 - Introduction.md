@@ -10,6 +10,7 @@
 #Architecture #Réseaux
 
 ---
+**Diapo pas à jour...**
 ![[slides-intro-net.pdf]]
 
 **Ce cours est divisé en deux parties**
@@ -169,5 +170,12 @@ En principe on utilise les PQDN sur notre navigateur, et à partir du PQDN le na
 
 À gauche on a la solution itérative et à droite la solution récursives, les deux ayant l'architecture du schéma au milieu.
 
-Pour la solution itérative, si l'on veut accéder à www.example.com, si le serveur DNS n'a pas l'information en cache concernant www il va la demander à example,
+Pour la solution itérative, si l'on veut accéder à www.example.com, si le serveur DNS n'a pas l'information en cache concernant www il va la demander à example, mais s'il il n'a pas non plus l'information concernant example il va la demander à com et s'il n'a pas l'information en cache concernant com il va la demander à root.
+
+Pour la solution récursive, le serveur DNS, demande à un serveur local qui va lui même contacter le serveur root qui va contacter le serveur top level DNS puis qui contactera le serveur DNS authoritative.
+
+#### Authoritative vs Non-Authoritative answers
+**à rattraper**
+
+
 

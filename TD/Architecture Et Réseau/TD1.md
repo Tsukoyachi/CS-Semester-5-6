@@ -38,4 +38,4 @@ www.unice.fr = "tcpdump "host www.unice.fr" -i enp0s3 -w /tmp/test4.1.pcap"
 à destination du réseau 134.59.1.0/24 = "tcpdump "dst host 134.59.1.0/24" -i enp0s3 -w /tmp/test4.1.pcap"
 tout le trafic non ICMP : "tcpdimp -i enp0s3 -w not icmp /tmp/test4.1.pcap"
 
-10 - "tcpdump "dst localhost and (port 80 or port 443)" -i enp0s3 -w /tmp/test4.1.pcap"
+10 - "tcpdump "dst localhost and (port 80 or port 443)" -i eth0 -w /tmp/test4.1.pcap"

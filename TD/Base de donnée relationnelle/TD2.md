@@ -27,9 +27,9 @@
 ## Exercice 3
 
 1. $$\displaylines{
-   A = societe \div \Pi_{IdM}(marque) \newline
-   res = \Pi_{Nom,Pays}(A)
+   A = 
    }$$
 2. $$\displaylines{
-   A = societe \div \Pi_{IdM}(\sigma_{marque=})
+   A = 
    }$$
+3. 

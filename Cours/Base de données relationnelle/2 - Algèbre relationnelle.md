@@ -114,3 +114,14 @@ Si $(t_{r}\Join t_{s}) existe, alors \Pi_{R}(t_{r}\Join t_{s}) = t_{r}$ et $\Pi_
 	- Associativité : $r \Join (s \Join t) = (r \Join s) \Join t$ 
 	- Distibutivité vis à vis de l'union : $r \Join (s \cup t) = (r \Join s) \cup (r \Join t)$
 	- Jointure et produit cartésien : Si $R \cap S = \emptyset$ alors $r \Join s$ est isomorphe à    r **x** s
+
+### Division
+
+```ad-note
+title: Ce que j'ai compris
+
+Le but de la division est de construire un élément qui lorsque l'on en fait la jointure natuelle avec le 'diviseur' est inclu dans la table de départ.
+```
+
+![[Pasted image 20221017141826.png | center]]
+Ici r est la table de départ, s la table qui divise et q le résultat obtenu, on voit que lors

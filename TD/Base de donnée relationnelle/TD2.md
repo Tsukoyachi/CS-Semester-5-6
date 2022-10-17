@@ -48,6 +48,7 @@
       res = \Pi_{IdM}(enreg \div A)
       }$$
 5. $$\displaylines{
- A = \sigma_\frac{DateE > 29}{\frac{01}{1995}(enreg)}\newl
+ A = \sigma_{DateE \geq 29/01/1995}(enreg) \newline
+ B = \Pi_{IdM,IdDeposant}(A) \Join marque \Join societe
    }$$
    

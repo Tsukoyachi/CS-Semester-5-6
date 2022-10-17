@@ -150,12 +150,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "029be7719f54f27f",
+  "active": "f3171380c4b503d5",
   "lastOpenFiles": [
     "TD/Base de donnée relationnelle/TD2.md",
     "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",

@@ -35,4 +35,7 @@
    B = \sigma_{IdS = X}(societe \Join \delta_{X \rightarrow IdProp}(A)) \newline
    res = \Pi_{Nom,Pays}(B)
    }$$
-3. 
+3. $$\displaylines{
+   A = \sigma_{IdS = X}(societe \Join \delta_{X \rightarrow IdProp}(marque)) \newline
+   B = \sigma 
+   }$$

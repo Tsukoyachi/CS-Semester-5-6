@@ -145,12 +145,37 @@ printf("i = %d j = %d", i,j) /* 4 and 4 */
 sizeof(type)
 sizeof(variable)
 ```
-- Conversion explicite: vasy
+Exemple
+```C
+sizeof(x)
+sizeof(**à compléter**)
+sizeof(a) / sizeof(a[0]) /* donne le nombre d'élément dans a */
+```
+
+- Conversion explicite: cast
 ```C
 (type) expr /* type = type dans lequel expr est convertie */
 ```
 Exemple 
 ```C
-(int) 2.0 /* force l'expression à être un int*
+(int) 2.0 /* force l'expression à être un int */
 3 / (float) 4 /* = 0.75 alors que 3/4 = 0 */
 ```
+
+## Conversion de type impilicites
+- Les conversions de types ont lieux quand les opérandes sont de types différents
+- Les règles sont assez complexe
+- En gros, convertir vers le type le plus grand
+**à rattraper**
+
+- Dans une affectation
+	- Les bits supplémentaires sont perdus quand une expression mélange char, short, int et long
+	- Conversion de la partie droite de l'affectation dans le type de la partie gauche
+```C
+the_char = 0xabcdef; /* the_char = 0xef */
+the_int = 2.3; /* the_int = 2 */
+the_float = 2; /* the_float = 2.0 */
+```
+- Passage de paramètre :
+	- Règles identiques à celles de l'affectation
+- Les conversion 'value preserving' sont toujours légales (mais la précision)

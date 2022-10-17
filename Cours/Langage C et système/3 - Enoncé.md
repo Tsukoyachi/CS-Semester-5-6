@@ -241,3 +241,20 @@ void strcat(char s1[], char s2[]){
  while(s1[i++] = s2[j++]) /* Nothing */
 }
 ```
+
+## Exemple Conversion de chaîne vers entier (atoi)
+
+**à compléter**
+```C
+int atoi(char s[]){
+	int i,n,sign=1;
+	for(int i =0;s[i]=='\t' || s[i]=='\n' || s[i] == ' ';i++){
+		/* Do Nothing*/
+	}
+	if(s[i] == '+' || s[i] == '-'){
+		sign = (s[i++] == '+') ? 1 : -1;
+	}
+	
+}
+```
+

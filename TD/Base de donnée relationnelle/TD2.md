@@ -14,5 +14,6 @@
    B = \Pi_{NumeroSecuriteSociale}(A) \newline
    res = \Pi_{Nom,Prenom}(employe\Join B)}$$
 9. $$\displaylines{
-   A = \Pi_{NumeroDepartement}(departement)
+   A = \Pi_{NumeroDepartement}(departement) \newline
+   B = 
    }$$

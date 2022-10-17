@@ -10,7 +10,7 @@
 5. $$\Pi_{Nom,Prenom}(employe - (employe \Join \Pi_{NumeroSecuriteSociale}(travaille)))$$
 6. $\Pi_{Nom,Prenom}(employe)$-$\Pi_{Nom,Prenom}(\sigma_{lieu=Sophia antipolis}(employe \Join travaille \Join \Pi_{NumeroProjet,Lieu}(projet)))$
 7. $\Pi_{Nom,Prenom}(\sigma_{lieu=Sophia antipolis}(employe \Join travaille \Join \Pi_{NumeroProjet,Lieu}(projet)))$ - $\Pi_{Nom,Prenom}(\sigma_{lieu\neq Sophia antipolis}(employe \Join travaille \Join \Pi_{NumeroProjet,Lieu}(projet)))$
-8. $$\displaylines{A = \delta_{NumeroSecuriteSociale\rightarrow Superieur}(\sigma_{Prenom=Juliette,Nom=Rochat}(employe)) \newline
+8. $$\displaylines{A = \delta_{Superieur\rightarrow NumeroSecuriteSociale}(\sigma_{Prenom=Juliette,Nom=Rochat}(employe)) \newline
    B = \Pi_{NumeroSecuriteSociale}(A) \newline
    res = \Pi_{Nom,Prenom}(employe\Join B)}$$
 9. $$\displaylines{
@@ -27,7 +27,7 @@
 ## Exercice 3
 
 1. $$\displaylines{
-   A = \sigma_{IdS = X}(societe \Join \delta_{})
+   A = \sigma_{IdS = X}(societe \Join \delta_{IdProp \rightarrow X})
    }$$
 2. $$\displaylines{
    A = 

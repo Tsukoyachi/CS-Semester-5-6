@@ -126,6 +126,31 @@ x °= y <=> x = x°y
 
 - Opérateur préfixe et postfixe
 ```C
-i++ <=> i =+ 1 <=> i = i+1
-i-- <=
+i++ <=> i += 1 <=> i = i+1
+i-- <=> i -= 1 <=> i = i-1
+```
+Note : l'évaluation de i n'est faite qu'une fois
+
+Exemple
+```C
+i = 3; j = 3;
+printf("i = %d j = %d", i++,++j) /* 3 and 4 */
+printf("i = %d j = %d", i,j) /* 4 and 4 */
+```
+**à rattraper**
+
+## Opérateur sur les types
+- Taille d'un type : sizeof
+```C
+sizeof(type)
+sizeof(variable)
+```
+- Conversion explicite: vasy
+```C
+(type) expr /* type = type dans lequel expr est convertie */
+```
+Exemple 
+```C
+(int) 2.0 /* force l'expression à être un int*
+3 / (float) 4 /* = 0.75 alors que 3/4 = 0 */
 ```

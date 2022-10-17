@@ -27,7 +27,8 @@
 ## Exercice 3
 
 1. $$\displaylines{
-   A = \sigma_{IdS = X}(societe \Join \delta_{IdProp \rightarrow X})
+   A = \sigma_{IdS = X}(societe \Join \delta_{IdProp \rightarrow X}(marque)) \newline
+   res = \Pi_{Nom,Pays}(A)
    }$$
 2. $$\displaylines{
    A = 

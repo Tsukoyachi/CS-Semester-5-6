@@ -36,7 +36,7 @@
    res = \Pi_{Nom,Pays}(B)
    }$$
 3. $$\displaylines{
-   A = \sigma_{IdS = X}(societe \Join \delta_{X \rightarrow IdProp}(marque)) \newline
+   A = marque \newline
    B = \sigma_{Pays=France}(A \Join \Pi_{IdDeposant}(enreg)) \newline
    C = \Pi_{IdM,IdProp,NomM,Classe}(B) \newline
    D = C \Join \delta_{IdM2\rightarrow IdM,IdProp2 \rightarrow IdProp2,NomM2 \rightarrow NomM,Classe2 \rightarrow Classe}(C) \newline

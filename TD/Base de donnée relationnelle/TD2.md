@@ -12,5 +12,5 @@
 7. $\Pi_{Nom,Prenom}(\sigma_{lieu=Sophia antipolis}(employe \Join travaille \Join \Pi_{NumeroProjet,Lieu}(projet)))$ - $\Pi_{Nom,Prenom}(\sigma_{lieu\neq Sophia antipolis}(employe \Join travaille \Join \Pi_{NumeroProjet,Lieu}(projet)))$
 8. $$\displaylines{A = \delta_{NumeroSecuriteSociale\rightarrow Superieur}(\sigma_{Prenom=Juliette,Nom=Rochat}(employe)) \newline
    B = \Pi_{NumeroSecuriteSociale}(A) \newline
-   res = \Pi_{Nom,Prenom}(\sigma_{NumeroSecuriteSociale=B})}$$
-9. 
+   res = \Pi_{Nom,Prenom}(employe\Join B)}$$
+9. $$d$$

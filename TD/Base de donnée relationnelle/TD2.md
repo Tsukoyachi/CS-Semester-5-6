@@ -15,5 +15,6 @@
    res = \Pi_{Nom,Prenom}(employe\Join B)}$$
 9. $$\displaylines{
    A = \Pi_{NumeroDepartement}(departement) \newline
-   B = 
+   B = employe \Join travaille \Join projet \newline
+   res = \Pi_(B \div A)
    }$$

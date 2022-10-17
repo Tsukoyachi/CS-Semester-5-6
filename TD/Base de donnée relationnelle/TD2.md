@@ -27,7 +27,7 @@
 ## Exercice 3
 
 1. $$\displaylines{
-   A = 
+   A = \sigma_{IdS = X}(societe \Join \delta_{})
    }$$
 2. $$\displaylines{
    A = 

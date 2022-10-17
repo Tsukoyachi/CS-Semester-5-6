@@ -43,4 +43,11 @@
    E = \sigma_{NomM=NomM2,Classe\neq Classe2,IdProp\neq IdProp2, IdM \neq IdM2}(D) \newline
    res = \Pi_{NomM}(E) 
    }$$
-   4.
+4. $$\displaylines{
+      A = \Pi_{Pays}(enreg) \newline
+      res = \Pi_{IdM}(enreg \div A)
+      }$$
+5. $$\displaylines{
+ 
+   }$$
+   

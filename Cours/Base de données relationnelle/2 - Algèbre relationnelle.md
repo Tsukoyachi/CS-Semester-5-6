@@ -102,3 +102,5 @@ Deux tuples $t_{r}(R)$ et $t_{s}(S)$  sont **joignables** si et seulement si il 
 Ce tuple unique est noté :
 	$t = t_{r} \Join t_{s}$
 
+$(t_{r}\Join t_{s}) existe \Leftrightarrow \Pi_{R \cap S}(t_{r}) = \Pi_{R \cap S}(t_{s})$ 
+

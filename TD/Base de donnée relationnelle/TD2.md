@@ -22,4 +22,10 @@
 ## Exercice 2
 
 1. On veut les nom, prénom, des employés ayant un salaire supérieur à leur employeur et ayant dont l'employeur est X.
-2. 
+2. On veut les projets dont les employés ne travaillent pas dans le département du projet.
+---
+## Exercice 3
+
+1. $$\displaylines{
+   A = 
+   }$$

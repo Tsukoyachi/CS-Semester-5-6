@@ -38,5 +38,7 @@
 3. $$\displaylines{
    A = \sigma_{IdS = X}(societe \Join \delta_{X \rightarrow IdProp}(marque)) \newline
    B = \sigma_{Pays=France}(A \Join \Pi_{IdDeposant}(enreg)) \newline
-   C = A \Join \delta_{}(\Pi_{IdM,IdProp,NomM}(B)) 
+   C = \Pi_{IdM,IdProp,NomM,Classe}(B) \newline
+   D = C \Join \delta_{IdM2\rightarrow IdM,IdProp2 \rightarrow IdProp2,NomM2 \rightarrow NomM,Classe2 \rightarrow Classe}(C) \newline
+   E = \sigma_{NomM=NomM2,Classe\neq Classe2,IdProp\neq IdProp2}
    }$$

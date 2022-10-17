@@ -21,4 +21,5 @@
 ---
 ## Exercice 2
 
-1. On veut les nom, prénom
+1. On veut les nom, prénom, des employés ayant un salaire supérieur à leur employeur et ayant dont l'employeur est X.
+2. 

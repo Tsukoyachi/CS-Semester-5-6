@@ -108,3 +108,8 @@ Si $(t_{r}\Join t_{s}) existe, alors \Pi_{R}(t_{r}\Join t_{s}) = t_{r}$ et $\Pi_
 
 ![[Pasted image 20221017140336.png |center]]
 
+![[Pasted image 20221017140425.png |center]]
+
+- Propriétés
+	- Associativité : $r \Join (s \Join t) = (r \Join s) \Join t$ 
+	- Distibutivité vis à vis de l'union : $r \Join (s \cup t) = (r \Join s)$

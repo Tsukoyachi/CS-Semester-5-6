@@ -178,4 +178,30 @@ the_float = 2; /* the_float = 2.0 */
 ```
 - Passage de paramètre :
 	- Règles identiques à celles de l'affectation
-- Les conversion 'value preserving' sont toujours légales (mais la précision)
+- Les conversion '**value preserving**' sont toujours légales (mais la précision peut ne pas être préservée)
+- Les conversions non '**value preserving**' provoquent un warning
+
+## Opérateur de condition
+- C'est un opérateur ternaire
+- Comme un if-then-else mais qui a une valeur
+- Syntaxe :
+```C
+condition ? expr1 : expr 2
+```
+Exemple :
+```C
+int min(int a, int b) {
+	return (a < b) ? a : b;
+}
+```
+ **à compléter**
+### Opérateur virgule
+Syntaxe :
+```C
+expr1, expr2
+```
+- Le résultat de l'évaluation de expr2
+- expr1 est évalué mais sont résultat est perdu
+
+**à rattraper...**
+

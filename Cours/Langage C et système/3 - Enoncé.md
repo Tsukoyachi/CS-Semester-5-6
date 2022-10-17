@@ -104,5 +104,28 @@ int search(int item, int t[], int t_size){
 x = 1; 123 ; y = 2
 /* Ici le 123 ne sert à rien donc le compilateur l'oublie volontairement*/
 
+x = getchar(); getchar(); y = getchar();
+/* Idem pour le résultat du second getchar() est oublié également*/
+```
+**Rattraper fin exemple**
 
+### Affectation
+- Utilise le signe"="
+- est à la fois un énoncé et une expression
+	- a un effet de bord (valeur de l'opérande gauche est changé)
+	- a un résultat (l'opérande gauche après affectation)
+	- a un type (type de l'opérande gauche)
+	- peut être utilisé de façon multiple
+```C
+x = y = z = t[i] = 0
+```
+- peut être composé avec un opérateur ° (avec ° qui peut être +,-,\*,/)
+```C
+x °= y <=> x = x°y
+```
+
+- Opérateur préfixe et postfixe
+```C
+i++ <=> i =+ 1 <=> i = i+1
+i-- <=
 ```

@@ -258,3 +258,7 @@ int atoi(char s[]){
 }
 ```
 
+## Enoncé goto
+Permet de sauter à un endroit particulier.
+**Globalement ce mto clé est à bannir**
+Mais il peut être utile pour traîter des exceptions.

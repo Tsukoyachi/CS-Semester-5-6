@@ -27,10 +27,12 @@
 ## Exercice 3
 
 1. $$\displaylines{
-   A = \sigma_{IdS = X}(societe \Join \delta_{IdProp \rightarrow X}(marque)) \newline
+   A = \sigma_{IdS = X}(societe \Join \delta_{X \rightarrow IdProp}(marque)) \newline
    res = \Pi_{Nom,Pays}(A)
    }$$
 2. $$\displaylines{
-   A = 
+   A = \sigma_{Classe = 24}(marque) \newline
+   B = \sigma_{IdS = X}(societe \Join \delta_{X \rightarrow IdProp}(A)) \newline
+   res = \Pi_{Nom,Pays}(B)
    }$$
 3. 

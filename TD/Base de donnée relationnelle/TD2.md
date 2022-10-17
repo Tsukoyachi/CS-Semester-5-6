@@ -50,6 +50,6 @@
 5. $$\displaylines{
  A = \sigma_{DateE \geq 29/01/1995}(enreg) \newline
  B = \Pi_{IdM,IdDeposant}(A) \Join marque \Join societe \newline
- C = \Pi_{NomM,Nom,Pays}
+ C = \Pi_{NomM,Nom,Pays}(B)
    }$$
    

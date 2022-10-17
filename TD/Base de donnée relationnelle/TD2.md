@@ -48,6 +48,6 @@
       res = \Pi_{IdM}(enreg \div A)
       }$$
 5. $$\displaylines{
- 
+ A = \sigma_\frac{DateE > 29}{\frac{01}{1995}(enreg)}\newl
    }$$
    

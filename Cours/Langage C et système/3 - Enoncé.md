@@ -47,5 +47,30 @@ Quand on passe dans un case le compilateur C continue d'appliquer tout le conten
 
 Le cas default est facultatif.
 
+### Enoncé while et do
+
+```C
+while (<Expression logique>)
+	<énoncé>
+
+do
+	<énoncé>
+while (<Expression logique>)
+```
+
+La première boucle while est un while classique qui ne s'exécute pas si l'expression logique est fausse.
+
+La seconde boucle do while, s'exécute au moins une fois même l'expression logique est fausse.
+
+### Enoncé for
+
+**à rattraper mais c'est une boucle for classique**
+
+### Enoncé break
+- Utiliser dans une boucle ou dans un switch
+- sort de la boucle ou du switch
+**Dans le cas d'une boucle imbriqué dans une boucle le break ne sort que de la première boucle**
+
+** rat
 
 

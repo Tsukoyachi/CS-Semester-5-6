@@ -104,3 +104,7 @@ Ce tuple unique est noté :
 
 $(t_{r}\Join t_{s}) existe \Leftrightarrow \Pi_{R \cap S}(t_{r}) = \Pi_{R \cap S}(t_{s})$ 
 
+Si $(t_{r}\Join t_{s}) existe, alors \Pi_{R}(t_{r}\Join t_{s}) = t_{r}$ et $\Pi_{s}(t_{r}\Join t_{s}) = t_{s}$
+
+![[Pasted image 20221017140336.png |center]]
+

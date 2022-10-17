@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 399.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "911d169df2e013eb",
@@ -156,17 +157,52 @@
   "ribbon": {
     "mostRecentAction": ""
   },
+  "floating": {
+    "id": "3323772160b446ec",
+    "type": "floating",
+    "children": [
+      {
+        "id": "8228a9bd5617c4ab",
+        "type": "window",
+        "children": [
+          {
+            "id": "9863187b467b9fb6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4aadf4d5cdcf9624",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Cours/Base de données relationnelle/media/BDR2022_cours2.pdf"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 0,
+        "width": 960,
+        "height": 1040,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "029be7719f54f27f",
   "lastOpenFiles": [
-    "TD/Base de donnée relationnelle/media/BDR2022_TD2.pdf",
+    "Cours/Base de données relationnelle/media/BDR2022_cours2.pdf",
     "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
+    "TD/Base de donnée relationnelle/media/BDR2022_TD2.pdf",
     "TD/Base de donnée relationnelle/TD2.md",
     "Cours/Langage C et système/3 - Enoncé.md",
     "Cours/Langage C et système/1 - Introduction.md",
     "Cours/Langage C et système/2 - Variable, constantes et types.md",
     "TD/Architecture Et Réseau/TD1.md",
     "Cours/Architecture et réseau/1 - Introduction.md",
-    "TD/Informatique Théorique/TD2.md",
-    "LogiqueDu1eOrdre_SyntaxeV4.1.pdf.md"
+    "TD/Informatique Théorique/TD2.md"
   ]
 }

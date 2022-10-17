@@ -219,10 +219,25 @@ void strcat(char s1[], char s2[]) {
 		s1[i] = s2[j]
 		i+=1, j +=1;
 	}
+	/* Don't forget to set the final null char */
 	s1[i] = '\0';
 }
 ```
 Nouvelle version
 ```C
-
+void strcat(char s1[], char s2[]){
+	int i=0, j=0;
+	while(s1[i]) i+=1;
+	while(s2[j]) s1[i++] = s2[j++];
+	/* Don't forget to set the final null char */
+	s[i] = '\0';
+}
+```
+Version améliorée
+```C
+void strcat(char s1[], char s2[]){
+ int i=0, j=0;
+ while(s1[i]) i+=1;
+ while(s1[i++] = s2[j++]) /* Nothing */
+}
 ```

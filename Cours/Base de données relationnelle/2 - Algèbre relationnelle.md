@@ -112,4 +112,5 @@ Si $(t_{r}\Join t_{s}) existe, alors \Pi_{R}(t_{r}\Join t_{s}) = t_{r}$ et $\Pi_
 
 - Propriétés
 	- Associativité : $r \Join (s \Join t) = (r \Join s) \Join t$ 
-	- Distibutivité vis à vis de l'union : $r \Join (s \cup t) = (r \Join s)$
+	- Distibutivité vis à vis de l'union : $r \Join (s \cup t) = (r \Join s) \cup (r \Join t)$
+	- Jointure et produit cartésien : Si $R \cap S = \emptyset$ alors $\Join$

@@ -129,7 +129,7 @@ Ici r est la table de départ, s la table qui divise et q le résultat obtenu, o
 Si l'on avait tenté d'ajouté Paul à q on aurait eu deux lignes en trop car il n'y a pas les tuples Paul 200m et Paul 800m, idem pour Jacques.
 
 ![[Pasted image 20221017142050.png | center]]
-
+**à rattraper**
 
 ### Renommage
 **à rattraper**

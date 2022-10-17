@@ -130,3 +130,6 @@ Si l'on avait tenté d'ajouté Paul à q on aurait eu deux lignes en trop car il
 
 ![[Pasted image 20221017142050.png | center]]
 
+
+### Renommage
+**à rattraper**

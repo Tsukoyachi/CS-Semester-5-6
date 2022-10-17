@@ -37,5 +37,6 @@
    }$$
 3. $$\displaylines{
    A = \sigma_{IdS = X}(societe \Join \delta_{X \rightarrow IdProp}(marque)) \newline
-   B = \sigma 
+   B = \sigma_{Pays=France}(A \Join \Pi_{IdDeposant}(enreg)) \newline
+   C = A \Join \delta_{}(\Pi_{IdM,IdProp,NomM}(B)) 
    }$$

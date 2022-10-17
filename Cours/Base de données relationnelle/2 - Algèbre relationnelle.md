@@ -91,9 +91,14 @@ Si les deux tuples n'ont pas d'attributs commun, alors leurs jointure est la con
 
 Sinon, ils ne peuvent se joindre que lorsque leurs attributs de même nom sont de même valeurs.
 
-Bien sûr peut importe la cas, on ne dupplique pas les attributs en commun.
+La jointure peut donc retourner **l'ensemble vide** dans deux cas :
+- Si les deux relations n'ont aucun élément alors la jointure retournera l'ensemble vide.
+- Si les deux relations ont des valeurs différentes sur leurs attributs commun cela retournera également l'ensemble vide.
+
+Bien sûr peut importe la cas, on ne duplique pas les attributs en commun.
 
 Deux tuples $t_{r}(R)$ et $t_{s}(S)$  sont **joignables** si et seulement si il existe un tuple $t(R\cup S)$ tel que : $\Pi_{r}(t) = t_{r}$ et $\Pi_{s}(t) = t_{s}$ 
 
 Ce tuple unique est noté :
 	$t = t_{r} \Join t_{s}$
+

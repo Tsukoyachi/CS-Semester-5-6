@@ -13,4 +13,6 @@
 8. $$\displaylines{A = \delta_{NumeroSecuriteSociale\rightarrow Superieur}(\sigma_{Prenom=Juliette,Nom=Rochat}(employe)) \newline
    B = \Pi_{NumeroSecuriteSociale}(A) \newline
    res = \Pi_{Nom,Prenom}(employe\Join B)}$$
-9. $$\displaylines{}$$
+9. $$\displaylines{
+   A = \Pi_{NumeroDepartement}(departement)
+   }$$

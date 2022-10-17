@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "010974d02343c802",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TD/Base de donnée relationnelle/TD2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
+                "file": "TD/Base de donnée relationnelle/TD2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
+                "file": "TD/Base de donnée relationnelle/TD2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md"
+                "file": "TD/Base de donnée relationnelle/TD2.md"
               }
             }
           },
@@ -162,20 +175,20 @@
     "type": "floating",
     "children": [
       {
-        "id": "8228a9bd5617c4ab",
+        "id": "0ae1dd0db2c6843f",
         "type": "window",
         "children": [
           {
-            "id": "9863187b467b9fb6",
+            "id": "5c059012997b3285",
             "type": "tabs",
             "children": [
               {
-                "id": "4aadf4d5cdcf9624",
+                "id": "51272179144d2b10",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "Cours/Base de données relationnelle/media/BDR2022_cours2.pdf"
+                    "file": "TD/Base de donnée relationnelle/media/BDR2022_TD2.pdf"
                   }
                 }
               }
@@ -192,12 +205,12 @@
       }
     ]
   },
-  "active": "029be7719f54f27f",
+  "active": "3ed2038ec5459906",
   "lastOpenFiles": [
-    "Cours/Base de données relationnelle/media/BDR2022_cours2.pdf",
-    "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
     "TD/Base de donnée relationnelle/media/BDR2022_TD2.pdf",
     "TD/Base de donnée relationnelle/TD2.md",
+    "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
+    "Cours/Base de données relationnelle/media/BDR2022_cours2.pdf",
     "Cours/Langage C et système/3 - Enoncé.md",
     "Cours/Langage C et système/1 - Introduction.md",
     "Cours/Langage C et système/2 - Variable, constantes et types.md",

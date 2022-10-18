@@ -45,3 +45,5 @@ La formule du XOR est non simplifiable donc on a besoin de 3 connecteurs logique
 Simplifiez avec l'algorithme de Quine Mc Cluskey les fonctions booléennes suivantes :
 
 ![[Pasted image 20221018145210.png | center]]
+Méthode détaillée dans les screens suivants :
+![[Pasted image 20221018153122.png]]

@@ -9,4 +9,6 @@ $$\displaylines{
 }$$
 3. Une table de vérité qui nécessitera une formule canonique avec plus de 3 connecteurs logique pourrait être :
 ![[Pasted image 20221018141847.png | center]]
-Dans ce cas-ci la formule sera : $(P \wedge \neg Q) \vee (\neg P \wedge Q) \vee (\neg P \wedge \neg Q)$ Et on constate qu'il y 
+Dans ce cas-ci la formule sera : $(P \wedge \neg Q) \vee (\neg P \wedge Q) \vee (\neg P \wedge \neg Q)$ Et on constate qu'il y a bien plus de 3 connecteurs logiques.
+
+4. 

@@ -36,5 +36,5 @@ La formule du XOR est non simplifiable donc on a besoin de 3 connecteurs logique
       ![[Pasted image 20221018144004.png | center]]
   3. $$\displaylines{
      \Leftrightarrow (\neg A \wedge \neg C) \vee (A\wedge B) \wedge (\neg C \vee D \vee (C \wedge \neg D)) \newline
-     \Leftrightarrow
+     \Leftrightarrow (\neg A \wedge \neg C) \vee (A\wedge B) 
      }$$

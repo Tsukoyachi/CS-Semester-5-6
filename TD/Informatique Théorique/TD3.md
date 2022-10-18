@@ -16,4 +16,7 @@ $$\displaylines{
 \neg (P \wedge Q) = \neg P \vee \neg Q
 }$$
 
-5. Form
+5. Formule de base du XOR : $(\neg P \wedge Q) \vee (P \wedge \neg Q)$ 
+La formule du XOR est non simplifiable donc on a besoin de 3 connecteurs logiques pour l'exprimer.
+
+6. 

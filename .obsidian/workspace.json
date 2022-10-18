@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TD/Informatique Théorique/TD3.md",
+                "file": "Cours/Informatique théorique (semi TD)/Simplification logique Quine-Mac Cluskey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TD/Informatique Théorique/TD3.md",
+                "file": "Cours/Informatique théorique (semi TD)/Simplification logique Quine-Mac Cluskey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TD/Informatique Théorique/TD3.md"
+                "file": "Cours/Informatique théorique (semi TD)/Simplification logique Quine-Mac Cluskey.md"
               }
             }
           },
@@ -170,8 +169,9 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "3ed2038ec5459906",
+  "active": "308271b2c31bcb19",
   "lastOpenFiles": [
+    "TD/Informatique Théorique/TD3.md",
     "Cours/Informatique théorique (semi TD)/Simplification logique Quine-Mac Cluskey.md",
     "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
     "TD/Base de donnée relationnelle/TD2.md",
@@ -180,7 +180,6 @@
     "Cours/Langage C et système/3 - Enoncé.md",
     "Cours/Langage C et système/1 - Introduction.md",
     "Cours/Langage C et système/2 - Variable, constantes et types.md",
-    "TD/Architecture Et Réseau/TD1.md",
-    "Cours/Architecture et réseau/1 - Introduction.md"
+    "TD/Architecture Et Réseau/TD1.md"
   ]
 }

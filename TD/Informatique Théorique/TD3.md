@@ -19,4 +19,10 @@ $$\displaylines{
 5. Formule de base du XOR : $(\neg P \wedge Q) \vee (P \wedge \neg Q)$ 
 La formule du XOR est non simplifiable donc on a besoin de 3 connecteurs logiques pour l'exprimer.
 
-6. 
+6. Oui avec le théorème de Morgan.
+---
+## Exercice 2 :
+![[Pasted image 20221018143425.png |center]]
+1. $$\displaylines{
+   
+   }$$

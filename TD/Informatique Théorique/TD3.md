@@ -39,4 +39,9 @@ La formule du XOR est non simplifiable donc on a besoin de 3 connecteurs logique
      \Leftrightarrow (\neg A \wedge \neg C) \vee (A\wedge B) 
      }$$
      En effet : $(\neg C \vee D \vee (C \wedge \neg D)) = 1$, on le sait en faisant la table de vérité de ça.
- 
+---
+## Exercice 3 :
+
+Simplifiez avec l'algorithme de Quine Mc Cluskey les fonctions booléennes suivantes :
+
+![[Pasted image 20221018145210.png | center]]

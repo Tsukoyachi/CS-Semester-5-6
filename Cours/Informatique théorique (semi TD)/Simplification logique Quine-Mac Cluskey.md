@@ -18,3 +18,4 @@
 On les regroupes dans une table, en faisant un étage par nombre de 1 en binaire à gauche pour obtenir :
 ![[Pasted image 20221018134715.png |center]]
 
+**Insérer démonstration dessinée à la main**

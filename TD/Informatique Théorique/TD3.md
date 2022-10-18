@@ -46,4 +46,5 @@ Simplifiez avec l'algorithme de Quine Mc Cluskey les fonctions booléennes suiva
 
 ![[Pasted image 20221018145210.png | center]]
 Méthode détaillée dans les screens suivants :
-![[Pasted image 20221018153122.png]]
+![[Pasted image 20221018153122.png | center]]
+![[Pasted image 20221018153236.png | center]]

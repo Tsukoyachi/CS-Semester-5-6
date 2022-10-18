@@ -22,3 +22,4 @@ On les regroupes dans une table, en faisant un étage par nombre de 1 en binaire
 
 **À l'étape 5 on mets des # à la place de la crois si c'est la seule croix de la colonne**
 **Les # à l'étapes 5 sont les impliquants premiers essentiels.**
+**Pour la couverture on ne regarde que les lignes où il y a au moins un #, sinon on l'ignore**

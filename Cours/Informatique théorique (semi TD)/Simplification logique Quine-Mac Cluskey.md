@@ -12,8 +12,9 @@
 
 ### Exemple Quine-Max Cluskey
 
-![[Pasted image 20221018134608.png]] 
+![[Pasted image 20221018134608.png |center]] 
 À chaque lignes où l'on a un 1 à droite on prends la conversion en décimale du nombre binaire écrit à gauche, ex : 0010 = 2.
 
-
+On les regroupes dans une table, en faisant un étage par nombre de 1 en binaire à gauche pour obtenir :
+![[Pasted image 20221018134715.png |center]]
 

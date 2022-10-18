@@ -1,3 +1,0 @@
-
-## Généralisation algo de Karnaugh
-

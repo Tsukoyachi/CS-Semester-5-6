@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "78cf409b966bd237",
+        "id": "b36d6c7945da4b78",
         "type": "tabs",
         "children": [
           {
-            "id": "029be7719f54f27f",
+            "id": "308271b2c31bcb19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "010974d02343c802",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TD/Base de donnée relationnelle/TD2.md",
+                "file": "Cours/Informatique théorique (semi TD)/Simplification logique.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "911d169df2e013eb",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TD/Base de donnée relationnelle/TD2.md",
+                "file": "Cours/Informatique théorique (semi TD)/Simplification logique.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TD/Base de donnée relationnelle/TD2.md",
+                "file": "Cours/Informatique théorique (semi TD)/Simplification logique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TD/Base de donnée relationnelle/TD2.md"
+                "file": "Cours/Informatique théorique (semi TD)/Simplification logique.md"
               }
             }
           },
@@ -170,46 +156,11 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "floating": {
-    "id": "3323772160b446ec",
-    "type": "floating",
-    "children": [
-      {
-        "id": "0ae1dd0db2c6843f",
-        "type": "window",
-        "children": [
-          {
-            "id": "5c059012997b3285",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "51272179144d2b10",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "TD/Base de donnée relationnelle/media/BDR2022_TD2.pdf"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 960,
-        "height": 1040,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "010974d02343c802",
+  "active": "308271b2c31bcb19",
   "lastOpenFiles": [
-    "TD/Base de donnée relationnelle/media/BDR2022_TD2.pdf",
-    "TD/Base de donnée relationnelle/TD2.md",
     "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
+    "TD/Base de donnée relationnelle/TD2.md",
+    "TD/Base de donnée relationnelle/media/BDR2022_TD2.pdf",
     "Cours/Base de données relationnelle/media/BDR2022_cours2.pdf",
     "Cours/Langage C et système/3 - Enoncé.md",
     "Cours/Langage C et système/1 - Introduction.md",

@@ -11,4 +11,7 @@ $$\displaylines{
 ![[Pasted image 20221018141847.png | center]]
 Dans ce cas-ci la formule sera : $(P \wedge \neg Q) \vee (\neg P \wedge Q) \vee (\neg P \wedge \neg Q)$ Et on constate qu'il y a bien plus de 3 connecteurs logiques.
 
-4. 
+4. Si on reprend la table de la question 3, sa formule est équivalente à :
+$$\displaylines{
+\neg P \vee \neg Q
+}$$

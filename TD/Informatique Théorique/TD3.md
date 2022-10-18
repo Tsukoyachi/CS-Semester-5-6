@@ -24,5 +24,11 @@ La formule du XOR est non simplifiable donc on a besoin de 3 connecteurs logique
 ## Exercice 2 :
 ![[Pasted image 20221018143425.png |center]]
 1. $$\displaylines{
-   
+   \Leftrightarrow B \wedge ((A \wedge C) \vee (A \wedge \neg C) \vee (\neg A \wedge \neg C) \vee (\neg A \wedge C)) \newline
+   \Leftrightarrow B \wedge (A \vee \neg A) \newline
+   \Leftrightarrow B
    }$$
+   ![[Pasted image 20221018143734.png | center]]
+   2. $$\displaylines{
+      A \
+      }$$

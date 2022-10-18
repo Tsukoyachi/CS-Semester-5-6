@@ -13,5 +13,7 @@ Dans ce cas-ci la formule sera : $(P \wedge \neg Q) \vee (\neg P \wedge Q) \vee 
 
 4. Si on reprend la table de la question 3, sa formule est équivalente à :
 $$\displaylines{
-\neg P \vee \neg Q
+\neg (P \wedge Q) = \neg P \vee \neg Q
 }$$
+
+5. Form

@@ -202,7 +202,7 @@ Pour le protocole Application on a mit HTTP mais on aurait pu également mettre 
 
 Pour le protocole Physical on aurait pu également mettre Wifi et 4G.
 
-### Encapsulation
+#### Encapsulation
 
 ![[Pasted image 20221021080601.png |center | 600]]
 Lorsque l'on envoie un message il passe par la couche application puis il passe par la couche transport, la couche Réseau, la couche Link, et la couche Physique (pas noté sur l'image mais c'est le cas) qui ajoute chacun une entête puis il est envoyé à un switch.
@@ -215,14 +215,18 @@ Enfin le message arrive à destination et refait le trajet inverse de la premiè
 
 Dans la vraie vie, le router peut également faire le travail du switch ce qui simplifie le trajet des données tout en effectuant les mêmes étapes.
 
-#### Exemple d'utilisation avec le cas des requête HTTP
+##### Exemple d'utilisation avec le cas des requête HTTP
 
 ![[Pasted image 20221021081629.png | center]]
 
-#### L'encapsulation dans la vraie vie
+##### L'encapsulation dans la vraie vie
 
 ![[Pasted image 20221021081722.png | center]]
 
-Sur cette image on voit la liste des paquets capturé lors d'une requête HTTP, et 
+Sur cette image on voit la liste des paquets capturé lors d'une requête HTTP, et si l'on sélectionne la ligne "Internet Protocol Version 4..." on sélectionnera en bas les octets surlignés en bas pour déchiffrer l'entête de la requête.
+
+#### Le multiplexage
+
+On peut faire l'analogie entre les ports d'un serveur et un vraie port avec plusieurs entrée où chacune d'entre elle est dédiée à un type de cargaison
 
 

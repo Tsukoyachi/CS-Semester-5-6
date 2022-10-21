@@ -236,7 +236,7 @@ title: Quelques types de requête avec les ports associé
 
 - Protocole HTTP : port 80
 - Protocole HTTPS : port 443
-- Protocole TCP : port 53 (je crois)
+- DNS : port 53 (je crois)
 ```
 
 ![[Pasted image 20221021082414.png | center]]

@@ -73,6 +73,6 @@ On va découper l'une de nos sous réseau en deux sous réseau distinct on passe
 adresse broadcast du nouveau sous réseau : 
 192.168.15.255 (1100 0000.1010 1000.0000 1111.1111 1111)
 
-![[Pasted image 20221021111938.png |center | 700]]
+
 
 

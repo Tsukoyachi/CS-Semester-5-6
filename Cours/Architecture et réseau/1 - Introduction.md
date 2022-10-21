@@ -308,4 +308,10 @@ Donc de nos jours on fait des réseaux surdimensionnés afin de pouvoir endurer 
 
 ![[Pasted image 20221021085233.png | center | 650]]
 
-Les adresse de classes A ont leur bits significatif (le plus à gauche) à 0.
+Les adresses de classes A ont leur bit significatif (le plus à gauche) à 0.
+(Essayer de comprendre en quoi cela force le masque réseau à valoir 255.0.0.0).
+
+Pour les adresses de classe B le bit le plus significatif va valoir 1 et le second bit le plus significatif va valoir 0.
+Cela force le masque réseau à valloir 255.255.0.0 (voir pourquoi).
+
+Pour les addresses de classe C les 3 bits les plus significatifs vont valloir 110. Cela force le

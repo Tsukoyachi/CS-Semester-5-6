@@ -213,4 +213,16 @@ Le router (**dispsitif de niveau 3** car en plus de ce que fait le switch, le ro
 
 Enfin le message arrive à destination et refait le trajet inverse de la première étape, il passe successivement par la couche physique, la couche liaison des données, la couche réseau, la couche transport en perdant à chaque étape une entête pour enfin arriver à la couche application.
 
+Dans la vraie vie, le router peut également faire le travail du switch ce qui simplifie le trajet des données tout en effectuant les mêmes étapes.
+
+#### Exemple d'utilisation avec le cas des requête HTTP
+
+![[Pasted image 20221021081629.png | center]]
+
+#### L'encapsulation dans la vraie vie
+
+![[Pasted image 20221021081722.png | center]]
+
+Sur cette image on voit la liste des paquets capturé lors d'une requête HTTP, et 
+
 

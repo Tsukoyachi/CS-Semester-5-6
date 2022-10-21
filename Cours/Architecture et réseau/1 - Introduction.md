@@ -274,3 +274,10 @@ On a ensuite le délai de propagation : la vitesse à laquelle les bits s'envoye
 #### Délai d'attente (Queuing delay)
 
 - En reprenant les notation de la partie "End-to-end delay", l'intensité du traffic est défini aves le ratio **aL/R**, où a est le ratio moyen d'arrivée de paquets par seconde (pkts/s)
+- Le nombre de paquets stockés dans le buffer grandira si le ratio d'arrivée dépasse la capacité de la liaison de sortie.
+	- **aL/R > 1**
+**reste du diapo à rattraper**
+![[Pasted image 20221021084456.png |center]]
+
+#### Pourquoi la latence c'est importent
+**rattrappe

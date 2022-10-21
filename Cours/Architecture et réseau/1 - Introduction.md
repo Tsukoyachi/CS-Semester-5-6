@@ -236,9 +236,10 @@ title: Quelques types de requête avec les ports associé
 
 - Protocole HTTP : port 80
 - Protocole HTTPS : port 443
-- Protocole ... : port 53
+- Protocole TCP : port 53 (je crois)
 ```
 
-![[Pasted image 20221021082414.png ]]
+![[Pasted image 20221021082414.png | center]]
+Pour une connexion à un site internet on va utiliser le protocole TCP et la radio va utiliser le protocole UDP, si les données viennent du même serveur rien ne les empêche d'arriver sur le même port mais ce qui permettra alors de les distinguer sera le protocole liée à chaque paquet, ici TCP et UDP.
 
 

@@ -209,6 +209,8 @@ Lorsque l'on envoie un message il passe par la couche application puis il passe 
 
 Le switch (**dispositif de niveau 2** car dans ce type d'équipement on déploie le protocole de la couche physique pour décripter les données de la couche physique, puis on déploie le protocole de la couche liaison des données) renvoie le message au router.
 
-Le router (**dispsitif de niveau 3** car en plus de ce que fait le switch, le router déploie également le protocole de la couche réseau)
+Le router (**dispsitif de niveau 3** car en plus de ce que fait le switch, le router déploie également le protocole de la couche réseau, lors du passage par la couche réseau une entête est supprimée avant de la récupérer lors du second passage par la couche liaison des données) qui choisira d'envoyer le message au sein de son réseau ou vers l'extérieur.
+
+Enfin le message arrive à destination et refait le trajet inverse de la première étape, il passe successivement par la couche physique, la couche liaison des données, la couche réseau, la couche transport en perdant à chaque étape une entête pour enfin arriver à la couche application.
 
 

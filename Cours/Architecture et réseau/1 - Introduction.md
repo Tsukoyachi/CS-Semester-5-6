@@ -324,4 +324,4 @@ Pour les adresses de Classe E les 4 bits les plus significatifs vont valloir 111
 
 ![[Pasted image 20221021090043.png | center]]
 
-$\sum_{k=0}^{n-1}\left(\frac{kL}{R}\right)= $    
+     

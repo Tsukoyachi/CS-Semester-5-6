@@ -260,4 +260,12 @@ Le nombre de paquets envoyé à la fois (x) est défini par la bande passante.
 Le délais total de l'envoie d'un paquets à un noeud est consitué de :
 - Un délai de traitement : Est ce qu'un paquet doit être envoyé ? Si oui, par quel port ?
 - Un délai d'attente : On est limité par la bande passante donc on doit fait patienter les paquets avant envoi
-- 
+- Un délai de transmission : On découpe le paquets en plein de morceau pour l'envoi et on envoie les morceau x par x mais cela nécessite du temps.
+
+On a ensuite le délai de propagation : la vitesse à laquelle les bits s'envoyent à travers un lien.
+
+#### End-to-end delay
+
+![[Pasted image 20221021083551.png | center]]
+
+- Un paquet passe

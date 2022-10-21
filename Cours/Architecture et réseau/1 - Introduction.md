@@ -268,4 +268,7 @@ On a ensuite le délai de propagation : la vitesse à laquelle les bits s'envoye
 
 ![[Pasted image 20221021083551.png | center]]
 
-- Un paquet passe
+- Un paquet passera par **N lien et N-1 appareil de redirection** (switch, router,...) lors de son envoi.
+- Un paquet composé de **L bits**, transmis à une vitesse de **R bits/sec** aura besoin de **L/R secondes** pour être transmis => **délai de transmission**.
+	- Le calcul précédent est pour l'envoi d'un noeud à un autre, si un paquet passe par N lien (donc N-1 appareil de redirection) aura besoin de **NL/R** secondes
+- Mais les réseaux ne sont pas symétri

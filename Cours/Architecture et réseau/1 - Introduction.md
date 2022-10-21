@@ -290,3 +290,14 @@ La vitesse moyenne d'envoi d'un paquets est limité par la vitesse minimum d'env
 
 Donc de nos jours on fait des réseaux surdimensionnés afin de pouvoir endurer le traffic réseau de tous les clients.
 
+### Adressage IPv4
+
+#### Récap' définition adresse Ipv4
+
+![[Pasted image 20221021084903.png | center]]
+
+#### Cibler un appareil sur le réseau
+
+- Pour identifier un routeur ou un hôte d'arrivée, pour lui envoyer un paquet particulier, on aura besoin d'une adresse.
+- Les adresses IP identifient les sous-réseaux et indiquent l'ID de l'hôte d'un appareil sur le réseau.
+	- Cela permet de savoi

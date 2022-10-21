@@ -83,6 +83,6 @@ Le schéma :![[Pasted image 20221021112621.png | center |700]]
 
 
 
-10. 
+10. Le iperf entre n3 et n4 avec les commandes de l'exercice fonctionne, donc on a bien un lien bidirectionnel entre n3 et n4.
 
 

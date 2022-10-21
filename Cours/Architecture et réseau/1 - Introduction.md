@@ -280,4 +280,13 @@ On a ensuite le délai de propagation : la vitesse à laquelle les bits s'envoye
 ![[Pasted image 20221021084456.png |center]]
 
 #### Pourquoi la latence c'est importent
-**rattrappe
+**rattrapper les quelques slide sur ça**
+
+#### End-to-End throughput (client performance)
+
+![[Pasted image 20221021084805.png |center]]
+
+La vitesse moyenne d'envoi d'un paquets est limité par la vitesse minimum d'envoi des paquets au sein du réseau, peu importe si l'un des lien envoie 12 Gigabits/sec, si l'un des liens est limité à 100 Megabits/sec le réseau sera limité à 100 Megabits/sec.
+
+Donc de nos jours on fait des réseaux surdimensionnés afin de pouvoir endurer le traffic réseau de tous les clients.
+

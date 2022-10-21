@@ -227,6 +227,18 @@ Sur cette image on voit la liste des paquets capturé lors d'une requête HTTP, 
 
 #### Le multiplexage
 
-On peut faire l'analogie entre les ports d'un serveur et un vraie port avec plusieurs entrée où chacune d'entre elle est dédiée à un type de cargaison
+On peut faire l'analogie entre les ports d'un serveur et un vraie port avec plusieurs entrée où chacune d'entre elle est dédiée à un type de cargaison (de donnée/requête)
+
+![[Pasted image 20221021082137.png | center]]
+
+```ad-note
+title: Quelques types de requête avec les ports associé
+
+- Protocole HTTP : port 80
+- Protocole HTTPS : port 443
+- Protocole ... : port 53
+```
+
+![[Pasted image 20221021082414.png ]]
 
 

@@ -201,3 +201,9 @@ Si je demandais le type MX d'un DNS le serveur DNS sait que je veux l'adresse SM
 Pour le protocole Application on a mit HTTP mais on aurait pu également mettre DHCP et DNS.
 
 Pour le protocole Physical on aurait pu également mettre Wifi et 4G.
+
+### Encapsulation
+
+![[Pasted image 20221021080601.png |center | 600]]
+
+

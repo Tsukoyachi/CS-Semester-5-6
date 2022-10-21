@@ -4,35 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "b36d6c7945da4b78",
+        "id": "40345f4d3e684734",
         "type": "tabs",
         "children": [
           {
-            "id": "308271b2c31bcb19",
+            "id": "79a029e2c6fe8b2e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Cours/Informatique théorique (semi TD)/Simplification logique Quine-Mac Cluskey.md",
-                "mode": "source",
-                "source": false
+                "file": "Cours/Architecture et réseau/media/slides-intro-net.pdf"
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "2359e79911bef083",
+        "type": "tabs",
+        "children": [
           {
-            "id": "39325b1dd9aeaa66",
+            "id": "c02c700c416c48d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TD/Informatique Théorique/TD3.md",
+                "file": "Cours/Architecture et réseau/1 - Introduction.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TD/Informatique Théorique/TD3.md",
+                "file": "Cours/Architecture et réseau/1 - Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TD/Informatique Théorique/TD3.md",
+                "file": "Cours/Architecture et réseau/1 - Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TD/Informatique Théorique/TD3.md"
+                "file": "Cours/Architecture et réseau/1 - Introduction.md"
               }
             }
           },
@@ -170,8 +173,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "39325b1dd9aeaa66",
+  "active": "c02c700c416c48d1",
   "lastOpenFiles": [
+    "Cours/Architecture et réseau/media/slides-intro-net.pdf",
+    "Cours/Architecture et réseau/1 - Introduction.md",
     "Cours/Informatique théorique (semi TD)/Simplification logique Quine-Mac Cluskey.md",
     "TD/Informatique Théorique/TD3.md",
     "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
@@ -179,8 +184,6 @@
     "TD/Base de donnée relationnelle/media/BDR2022_TD2.pdf",
     "Cours/Base de données relationnelle/media/BDR2022_cours2.pdf",
     "Cours/Langage C et système/3 - Enoncé.md",
-    "Cours/Langage C et système/1 - Introduction.md",
-    "Cours/Langage C et système/2 - Variable, constantes et types.md",
-    "TD/Architecture Et Réseau/TD1.md"
+    "Cours/Langage C et système/1 - Introduction.md"
   ]
 }

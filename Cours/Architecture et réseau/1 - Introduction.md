@@ -319,3 +319,7 @@ Pour les addresses de classe C les 3 bits les plus significatifs vont valloir 11
 Pour les adresses de Classe D les 4 bits les plus significatifs vont valloir 1110. Et ses addresses n'ont pas de masque réseau.
 
 Pour les adresses de Classe E les 4 bits les plus significatifs vont valloir 1111.Et ses addresses n'ont pas de masque réseau.
+
+**rattraper le contenu du slide suivant**
+
+![[Pasted image 20221021090043.png | center]]

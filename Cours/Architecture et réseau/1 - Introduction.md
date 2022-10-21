@@ -324,5 +324,5 @@ Pour les adresses de Classe E les 4 bits les plus significatifs vont valloir 111
 
 ![[Pasted image 20221021090043.png | center]]
 
-
+Les adresses Classless ne réservent plus les premiers bits d'une adresse IP, et elles réservent un certain nombre de bits pour 
  

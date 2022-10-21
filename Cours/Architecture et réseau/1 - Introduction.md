@@ -266,9 +266,11 @@ On a ensuite le délai de propagation : la vitesse à laquelle les bits s'envoye
 
 #### End-to-end delay
 
-![[Pasted image 20221021083551.png | center]]
-
 - Un paquet passera par **N lien et N-1 appareil de redirection** (switch, router,...) lors de son envoi.
 - Un paquet composé de **L bits**, transmis à une vitesse de **R bits/sec** aura besoin de **L/R secondes** pour être transmis => **délai de transmission**.
 	- Le calcul précédent est pour l'envoi d'un noeud à un autre, si un paquet passe par N lien (donc N-1 appareil de redirection) aura besoin de **NL/R** secondes
-- Mais les réseaux ne sont pas symétri
+- Mais les réseaux ne sont pas symétrique (**à rattrapper**).
+
+#### Délai d'attente (Queuing delay)
+
+- En reprenant les notation de la partie "End-to-end delay", l'intensité du traffic est défini aves le ratio **aL/R**, où a est le ratio moyen d'arrivée de paquets par seconde (pkts/s)

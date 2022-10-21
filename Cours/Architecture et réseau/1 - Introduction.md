@@ -205,5 +205,6 @@ Pour le protocole Physical on aurait pu également mettre Wifi et 4G.
 ### Encapsulation
 
 ![[Pasted image 20221021080601.png |center | 600]]
+Lorsque l'on envoie un message il passe par la couche application puis il passe par la couche transport, la couche Réseau, la couche Link, et la couche Physique (pas noté sur l'image mais c'est le cas) qui ajoute chacun une entête puis il est envoyé à un switch (**dispositif de niveau 2** car dans ce type d'équipement on déploie le protocole de la couche physiq).
 
 

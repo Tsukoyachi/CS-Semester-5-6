@@ -249,4 +249,15 @@ Pour une connexion à un site internet on va utiliser le protocole TCP et la rad
 
 - En général on envoie les paquets x par x même si certain protocole pourrait en envoyer plusieurs à la fois, il faut donc stocket les paquets pour les envoyer x par x.
 - Un appareil recevra les paquets et les enregistrera dans un buffer.
-- Une fois que ls packets complet est reçu, le paquet est traîté et puis 
+- Une fois que ls packets complet est reçu, le paquet est traîté et puis redirigé.
+
+Le nombre de paquets envoyé à la fois (x) est défini par la bande passante.
+
+![[Pasted image 20221021083109.png | center | 600]]
+
+(ici l'image parle d'elle même je vais juste faire une traduction)
+
+Le délais total de l'envoie d'un paquets à un noeud est consitué de :
+- Un délai de traitement : Est ce qu'un paquet doit être envoyé ? Si oui, par quel port ?
+- Un délai d'attente : On est limité par la bande passante donc on doit fait patienter les paquets avant envoi
+- 

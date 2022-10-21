@@ -300,4 +300,12 @@ Donc de nos jours on fait des réseaux surdimensionnés afin de pouvoir endurer 
 
 - Pour identifier un routeur ou un hôte d'arrivée, pour lui envoyer un paquet particulier, on aura besoin d'une adresse.
 - Les adresses IP identifient les sous-réseaux et indiquent l'ID de l'hôte d'un appareil sur le réseau.
-	- Cela permet de savoi
+	- Cela permet de savoir si l'appareil est situé sur mon réseau local ou ailleurs.
+	- Ou encore de savoir quel trajet faire prendre au paquets pour l'envoyer à un hôte précis.
+- Parlons du schéma des adresses IPv4.
+
+#### Adresses Classfull
+
+![[Pasted image 20221021085233.png | center | 650]]
+
+Les adresse de classes A ont leur bits significatif (le plus à gauche) à 0.

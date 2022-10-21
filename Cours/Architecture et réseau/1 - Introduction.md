@@ -314,4 +314,8 @@ Les adresses de classes A ont leur bit significatif (le plus à gauche) à 0.
 Pour les adresses de classe B le bit le plus significatif va valoir 1 et le second bit le plus significatif va valoir 0.
 Cela force le masque réseau à valloir 255.255.0.0 (voir pourquoi).
 
-Pour les addresses de classe C les 3 bits les plus significatifs vont valloir 110. Cela force le
+Pour les addresses de classe C les 3 bits les plus significatifs vont valloir 110. Cela force le masque réseau à valoir 255.255.255.0
+
+Pour les adresses de Classe D les 4 bits les plus significatifs vont valloir 1110. Et ses addresses n'ont pas de masque réseau.
+
+Pour les adresses de Classe E les 4 bits les plus significatifs vont valloir 1111.Et ses addresses n'ont pas de masque réseau.

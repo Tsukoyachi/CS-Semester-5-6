@@ -77,3 +77,6 @@ Le schéma :![[Pasted image 20221021112621.png | center |700]]
 
 
 
+9. Une partie des adresse du /28 ne seront jamais atteintes car certaines des adresses en /29 recouvrent certaines des  
+
+

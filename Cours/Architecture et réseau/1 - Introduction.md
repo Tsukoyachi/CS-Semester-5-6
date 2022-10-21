@@ -243,3 +243,10 @@ title: Quelques types de requête avec les ports associé
 Pour une connexion à un site internet on va utiliser le protocole TCP et la radio va utiliser le protocole UDP, si les données viennent du même serveur rien ne les empêche d'arriver sur le même port mais ce qui permettra alors de les distinguer sera le protocole liée à chaque paquet, ici TCP et UDP.
 
 
+### Les délais dans les réseaux
+
+#### Packet forwarding in packet-switched networks
+
+- En général on envoie les paquets x par x même si certain protocole pourrait en envoyer plusieurs à la fois, il faut donc stocket les paquets pour les envoyer x par x.
+- Un appareil recevra les paquets et les enregistrera dans un buffer.
+- Une fois que ls packets complet est reçu, le paquet est traîté et puis 

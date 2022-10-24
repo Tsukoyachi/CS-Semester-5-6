@@ -284,7 +284,25 @@ Origine pour fseek: SEEK_SET,SEEK_CUR ou SEEK_END
 void copy(FILE *fp) {
 	int c; /* et pas char! */
 	while((C= getc(fp)) != EOF) {
-		putc(c,stdout)
+		putc(c,stdout);
 	}
+}
+
+int main(int argc, char *argv[]) {
+	FILE *fp;
+	if (argc == 1) copy (stdin);
+	else {
+		while (--argc) {
+			if((fp = fopen(*++argv, "r")) == NULL) {
+				fprintf(stderr, "cannot open %s\n", *argv);
+				exit(1);
+			}
+			else {
+				copy(fp);
+				fclose(fp);
+			}
+		}
+	}
+	return 0;
 }
 ```

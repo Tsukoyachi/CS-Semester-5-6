@@ -49,7 +49,7 @@
       res = \Pi_{IdM}(enreg \div A)
       }$$
 5. $$\displaylines{
- A = \sigma_{DateE \geq 29/01/1995}(enreg) \newline
+ A = \sigma_{DateE < 29/01/1995}(enreg) \newline
  B = \delta_{IdS \rightarrow IdDeposant}(\Pi_{IdM,IdDeposant}(A)) \Join \Pi_{IdM,NomM}(marque) \Join societe \newline
  C = \Pi_{NomM,Nom,Pays}(B)
    }$$

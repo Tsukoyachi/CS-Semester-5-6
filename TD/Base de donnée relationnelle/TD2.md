@@ -57,4 +57,9 @@
 	      A = \sigma_{Classe \neq 14}(societe \Join \Pi_{Classe,IdS}(\delta_{IdS \rightarrow IdProp}(marque))) \newline
 	      B = societe - \Pi_{IdS,Nom,Pays,Site}(A)
       }$$
-   
+   7. $$\displaylines{
+	      A = \Pi_{IdM}(enreg) \newline
+	      B = \Pi_{IdM}(marque) \newline
+	      C = B-A
+      }$$
+      8. 

@@ -62,4 +62,7 @@
 	      B = \Pi_{IdM}(marque) \newline
 	      C = B-A
       }$$
-      8.
+  8. $$\displaylines{
+	     A = \delta_{IdS \rightarrow IdDeposant}(\Pi_{IdDeposant}(enreg)) \newline
+	     B = \Pi_{Nom,Pays,Site}(societe \Join A)
+     }$$

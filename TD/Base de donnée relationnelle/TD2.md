@@ -60,7 +60,7 @@
    7. $$\displaylines{
 	      A = \Pi_{IdM}(enreg) \newline
 	      B = \Pi_{IdM}(marque) \newline
-	      C = B-A
+	      B-A = \emptyset
       }$$
   8. $$\displaylines{
 	     A = \delta_{IdS \rightarrow IdDeposant}(\Pi_{IdDeposant}(enreg)) \newline

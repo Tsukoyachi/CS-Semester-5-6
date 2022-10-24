@@ -38,10 +38,10 @@
    }$$
 3. $$\displaylines{
    A = marque \newline
-   B = \sigma_{Pays=France}(A \Join \Pi_{IdDeposant}(enreg)) \newline
+   B = \sigma_{Pays=France}(A \Join \Pi_{IdM}(enreg)) \newline
    C = \Pi_{NomM,Classe}(B) \newline
-   D = C \Join \delta_{IdM2\rightarrow IdM,IdProp2 \rightarrow IdProp2,NomM2 \rightarrow NomM,Classe2 \rightarrow Classe}(C) \newline
-   E = \sigma_{NomM=NomM2,Classe\neq Classe2,IdProp\neq IdProp2, IdM \neq IdM2}(D) \newline
+   D = C \Join \delta_{NomM2 \rightarrow NomM,Classe2 \rightarrow Classe}(C) \newline
+   E = \sigma_{NomM=NomM2,Classe\neq Classe2}(D) \newline
    res = \Pi_{NomM}(E) 
    }$$
 4. $$\displaylines{

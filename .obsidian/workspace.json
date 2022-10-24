@@ -4,6 +4,22 @@
     "type": "split",
     "children": [
       {
+        "id": "f4f0c0d1f87b659d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb25c94224859df2",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Cours/Base de données relationnelle/media/BDR2022_cours2.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "59076adb6889014a",
         "type": "tabs",
         "children": [
@@ -13,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/Langage C et système/4 - Fonction et Variable.md",
+                "file": "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "911d169df2e013eb",
@@ -85,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Langage C et système/4 - Fonction et Variable.md",
+                "file": "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Langage C et système/4 - Fonction et Variable.md",
+                "file": "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/Langage C et système/4 - Fonction et Variable.md"
+                "file": "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md"
               }
             }
           },
@@ -158,15 +175,15 @@
   },
   "active": "88a1693a72f989b4",
   "lastOpenFiles": [
+    "Cours/Base de données relationnelle/media/BDR2022_cours2.pdf",
+    "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
+    "Cours/Langage C et système/4 - Fonction et Variable.md",
     "TD/Architecture Et Réseau/TD3.md",
     "Cours/Architecture et réseau/1 - Introduction.md",
     "Cours/Architecture et réseau/media/slides-intro-net.pdf",
     "Cours/Informatique théorique (semi TD)/Simplification logique Quine-Mac Cluskey.md",
     "TD/Informatique Théorique/TD3.md",
-    "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
     "TD/Base de donnée relationnelle/TD2.md",
-    "TD/Base de donnée relationnelle/media/BDR2022_TD2.pdf",
-    "Cours/Base de données relationnelle/media/BDR2022_cours2.pdf",
-    "Cours/Langage C et système/3 - Enoncé.md"
+    "TD/Base de donnée relationnelle/media/BDR2022_TD2.pdf"
   ]
 }

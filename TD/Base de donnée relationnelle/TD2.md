@@ -76,6 +76,7 @@
    }$$
 10. $$\displaylines{
 	    Proprietaire = \Pi_{IdM,IdProp}(\sigma_{NomM = Channel, Classe = 14}(marque) \Join \Pi_{Idm}(\sigma_{Pays=France}(enreg))) \newline
-	    Vendeur = \Pi_{NumV,IdV}(\delta_{IdAch \rightarrow IdProp}(Proprietaire) \Join vente) \newline
-	    Avant-dernier-proprio = Vendeur - \Pi_{NumV,IdV}(\sigma_{NumV<NumV'}())
+	    Vendeur = \Pi_{NumV,IdVend}(\delta_{IdAch \rightarrow IdProp}(Proprietaire) \Join vente) \newline
+	    Avant-dernier-proprio = Vendeur - \Pi_{NumV,IdVend}(\sigma_{NumV<NumV'}(V \Join \delta_{NumV' \rightarrow NumV, IdVend' \rightarrow IdVend}(V)))
     }$$
+    

@@ -200,9 +200,26 @@ int g(void) {
 
 ## Variable statique
 - Toujours dans le cas de programmes mono- fichier
+- Variable statique
+	- Définition dans un bloc (doit être préfixée par static)
+	- Durée de vie : tout le programme (comme une globale)
+	- Visibilité : restreinte au bloc de définition (comme une locale)
 ```C
 void f1(void) {
 	static int counter = 0;
-	printf()
+	printf("f1 was called %d times \n", ++counter);
 }
+
+void f2(void) {
+	static int counter = 0;
+	printf("f2 was called %d times \n", ++counter);
+}
+
+void main(void){
+	f1();f2();f1();
+}
+
+==> f1 was called 1 times
+	f2 was called 1 times
+	f1 was called 2 times
 ```

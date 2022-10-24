@@ -62,4 +62,4 @@
 	      B = \Pi_{IdM}(marque) \newline
 	      C = B-A
       }$$
-      8. 
+      8.

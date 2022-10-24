@@ -21,7 +21,7 @@
 ---
 ## Exercice 2
 
-1. On veut les nom, prénom, des employés ayant un salaire supérieur à leur employeur et ayant dont l'employeur est X.
+1. On veut les nom, prénom, des employés ayant un salaire supérieur à leur employeur et ayant X comme employeur.
 2. On veut les projets dont les employés ne travaillent pas dans le département du projet.
 ---
 ## Exercice 3

@@ -176,5 +176,24 @@ void main(void) {
 	- Durée de vie : tout le programme
 	- Visibilité : depuis son point de définition jusqu'à la fin de fichier
 		- Avec possibilité de masquage dans un bloc
-- Variable locale 
-	- 
+- Variable locale :
+	- Définition : dans un bloc
+	- Durée de vie: **à compléter**
+	- **à compléter**
+
+```C
+int counter = 0;
+
+int f(void) {
+	counter +=1; /* Incrementing global variable */
+	x += 1; /* Error : x unknown */
+}
+
+int x; /* now, x is known */
+
+int g(void) {
+	int counter = 0; /* mask global variable */
+	counter += 1; /* incrementing the local variable */
+	x += 1;
+}
+```

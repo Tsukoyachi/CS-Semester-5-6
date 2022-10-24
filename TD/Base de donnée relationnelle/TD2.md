@@ -66,3 +66,4 @@
 	     A = \delta_{IdS \rightarrow IdDeposant}(\Pi_{IdDeposant}(enreg)) \newline
 	     B = \Pi_{Nom,Pays,Site}(societe \Join A)
      }$$
+9. 

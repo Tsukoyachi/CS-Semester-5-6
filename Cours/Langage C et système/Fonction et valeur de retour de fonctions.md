@@ -106,6 +106,7 @@ double cos(double x); /* en-tête complet */
 - Résultat de type entier
 - **à compléter**
 
+Même en ANSI C, la rétro compatibilité avec le C de K&R peut être source d'erreurs
 #### Exemple
 ```C
 void f2(int a, int b); /* forward declaration */
@@ -117,5 +118,13 @@ void f1(int a, int b){
 	z = f4(b,a): /* auto declaration */
 }
 
-void f2()
+void f2(float a, float b) /* Error detected */
+{ ... }
+
+int f3(void) /* conform to auto-declaration */
+{ ... }
+
+double f4(int a, int b) /* error detected, even in K&R */
+{ ... }
 ```
+

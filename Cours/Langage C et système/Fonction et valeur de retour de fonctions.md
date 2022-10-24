@@ -81,6 +81,23 @@ void f(int x) {
 void main(void) {
 int a = 1;
 f(a);
-printf("After ca")
+printf("After call to f: %d\n",a);
 }
+==> In function f: 2
+	After call to f: a;
+```
+**à compléter**
+
+## Déclaration de fonction
+- Déclarer une fonction = donner son type avec un header ou prototype
+- C'est utile pour utiliser une fonction "avant" sa définition
+- C'est également utile est définie dans un autre fichier
+
+### Définition K&R
+```C
+double cos(); /* paramètres absents (inutiles) */
+```
+### Définition ANSI
+```C
+double cos(double x); /* en-tête complet */
 ```

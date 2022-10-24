@@ -53,4 +53,7 @@
  B = \delta_{IdS \rightarrow IdDeposant}(\Pi_{IdM,IdDeposant}(A)) \Join \Pi_{IdM,NomM}(marque) \Join societe \newline
  C = \Pi_{NomM,Nom,Pays}(B)
    }$$
+   6. $$\displaylines{
+	      A = societe \Join \Pi_{Classe}
+      }$$
    

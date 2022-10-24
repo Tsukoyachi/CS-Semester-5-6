@@ -46,7 +46,7 @@
    }$$
 4. $$\displaylines{
       A = \Pi_{Pays}(enreg) \newline
-      res = \Pi_{IdM}(enreg \div A)
+      res = \Pi_{IdM,Pays}(enreg) \div A
       }$$
 5. $$\displaylines{
  A = \sigma_{DateE < 29/01/1995}(enreg) \newline

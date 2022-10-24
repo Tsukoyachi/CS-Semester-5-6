@@ -26,8 +26,9 @@
 ---
 ## Exercice 3
 
-1. $$\displaylines{
-   A = societe \Join \delta_{IdS \rightarrow IdProp, X \rightarrow}(marque) \newline
+1. On aurait pu également faire une projection sur marque pour ne garder que IdProp à la place du renommage de Pays, le but étant juste d'éviter la jointure entre l'attribut Pays de societe et l'attribut Pays de marque. 
+   $$\displaylines{
+   A = societe \Join \delta_{IdS \rightarrow IdProp, X \rightarrow Pays}(marque) \newline
    res = \Pi_{Nom,Pays}(A)
    }$$
 2. $$\displaylines{

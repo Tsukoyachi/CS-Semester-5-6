@@ -54,6 +54,6 @@
  C = \Pi_{NomM,Nom,Pays}(B)
    }$$
    6. $$\displaylines{
-	      A = societe \Join \Pi_{Classe}
+	      A = \sigma_{Classe \neq 14}(societe \Join \Pi_{Classe,}(\delta_{IdS \rightarrow IdProp}(marque)))
       }$$
    

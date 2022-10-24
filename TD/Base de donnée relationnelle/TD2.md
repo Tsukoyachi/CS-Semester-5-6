@@ -33,7 +33,7 @@
    }$$
 2. $$\displaylines{
    A = \sigma_{Classe = 24}(marque) \newline
-   B = societe \Join \delta_{IdS \rightarrow IdProp}(A) \newline
+   B = societe \Join \delta_{IdS \rightarrow IdProp, X \rightarrow Pays}(A) \newline
    res = \Pi_{Nom,Pays}(B)
    }$$
 3. $$\displaylines{

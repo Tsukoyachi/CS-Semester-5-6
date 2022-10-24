@@ -141,5 +141,28 @@ void ma_fonction(type1 arg1, type2 arg2, ...) {
 - Il doit y avoir au moins 1 paramètre fixe
 - Le fichier <stdarg.h> définit les macros suivantes :
 ```C
-void va_start
+void va_start(va_list ap, last_fixed_parameter)
+type va_arg(va_list ap, type)
+void va_end(va_list ap)
+```
+
+#### Exemple
+```C
+#include <stdarg.h>
+
+int max(int first,...) {
+	va_list ap;
+	int M = 0;
+	va_start(ap,first);
+	while (first > 0) {
+		if(first > 0) M = first;
+		first = va_arg(ap,int);
+	}
+	va_end(ap);
+	return M
+}
+
+void main(void) {
+	
+}
 ```

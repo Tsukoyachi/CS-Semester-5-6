@@ -233,3 +233,24 @@ int printf(const char *format, ...);
 
 - sprintf et sscanf
 	- Identifiques à printf et scanf mais l'E/S se fait dans une chaîne au lieu d'un fichier
+- snprintf
+
+**diapo à rattraper**
+
+-  vprintf et vscanf
+**diapo à rattraper également**
+
+# Le type FILE
+- Le type FILE est définie dans <stdio.h>
+- Un objet de type FILE est un flux
+	- supporte avec séquentiel et direct
+	- accès par caractère
+	- E/S bufferisées
+- Ouverture d'un fichier :
+```C
+FILE *fopen(const char *name, const char *mode);
+/* Le mode peut être "r", "w", "a", ... */
+```
+- Fermeture d'un fichier
+```C
+```

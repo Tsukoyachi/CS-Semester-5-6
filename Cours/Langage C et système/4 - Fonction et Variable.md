@@ -198,12 +198,10 @@ int g(void) {
 }
 ```
 
-## Variable statique
-- Toujours dans le cas de programmes mono- fichier
-- Variable statique
+- Variable statique:
 	- Définition dans un bloc (doit être préfixée par static)
 	- Durée de vie : tout le programme (comme une globale)
-	- Visibilité : restreinte au bloc de définition (comme une locale)
+	-  Visibilité : restreinte au bloc de définition (comme une locale)
 ```C
 void f1(void) {
 	static int counter = 0;
@@ -223,3 +221,15 @@ void main(void){
 	f2 was called 1 times
 	f1 was called 2 times
 ```
+
+# Entrée/Sortie avec format
+- printf
+```C
+int printf(const char *format, ...);
+```
+	- Le format spécifie le nombre, le type et les contraintes sur la représentation textuelle des expressions passées dans la liste variable
+	- Exemple
+**Diapo à rattraper**
+
+- sprintf et sscanf
+	- Identifiques à printf et scanf mais l'E/S se fait dans une chaîne au lieu d'un fichier

@@ -74,4 +74,6 @@
 	   B = \Pi_{IdProp}(marque \Join \delta_{IdVend \rightarrow IdProp, PaysB \rightarrow Pays}(vente)) \newline
 	   C = \Pi_{Nom}(societe \Join \delta_{IdS \rightarrow IdProp}(A - B))
    }$$
-   
+10. $$\displaylines{
+	    A = \Pi_{IdM,IdProp}(\sigma_{NomM = Channel, Classe = 14}(marque) \Join \Pi_{Idm}(\sigma_{Pays}))
+    }$$

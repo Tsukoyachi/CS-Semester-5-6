@@ -1,3 +1,4 @@
+# Fonctions
 ## Fonctions K&R
 ### Syntaxe
 ```
@@ -150,7 +151,7 @@ void va_end(va_list ap)
 ```C
 #include <stdarg.h>
 
-int max(int first,...) {
+int max(int first,...) { /* Liste terminée par un nombre < 0 */
 	va_list ap;
 	int M = 0;
 	va_start(ap,first);
@@ -163,6 +164,17 @@ int max(int first,...) {
 }
 
 void main(void) {
-	
+	int x = max(12,18,17,20,1,34,5,-1);
+	...
 }
 ```
+
+# Variables
+- On ne considère ici que les programmes mono-fichier
+- Variable globale :
+	- Définition : en dehors d'un bloc
+	- Durée de vie : tout le programme
+	- Visibilité : depuis son point de définition jusqu'à la fin de fichier
+		- Avec possibilité de masquage dans un bloc
+- Variable locale 
+	- 

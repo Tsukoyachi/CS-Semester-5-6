@@ -65,6 +65,11 @@
   8. $$\displaylines{
 	     A = \Pi_{IdM,IdProp}(marque) \Join \Pi_{IdM,IdDeposant}(enreg) \newline
 	     ProprioDeposant = \Pi_{IdProp}(\sigma_{IdProp=IdDeposant}(A)) \newline
-	     ProprioNonDeposant = \Pi_{IdProp}(\sigma_{IdProp\neq IdDeposant}(A)) \newline
+	     ProprioNonDeposant = \Pi_{IdProp}(\sigma_{IdProp \neq IdDeposant}(A)) \newline
+	     C = ProprioDeposant - ProprioNonDeposant \newline
+	     D = \Pi_{Nom,Site,Pays}(\delta_{IdS \rightarrow IdProp}(societe) \Join C)
      }$$
-9. 
+9. $$\displaylines{
+	   A = \Pi_{IdProp}(marque) \newline
+	   B = \Pi_{IdProp}(marque \Join \delta_{IdVend \rightarrow IdProp})
+   }$$

@@ -71,5 +71,7 @@
      }$$
 9. $$\displaylines{
 	   A = \Pi_{IdProp}(marque) \newline
-	   B = \Pi_{IdProp}(marque \Join \delta_{IdVend \rightarrow IdProp})
+	   B = \Pi_{IdProp}(marque \Join \delta_{IdVend \rightarrow IdProp, PaysB \rightarrow Pays}(vente)) \newline
+	   C = \Pi_{Nom}(societe \Join \delta_{IdS \rightarrow IdProp}(A - B))
    }$$
+   

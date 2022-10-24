@@ -256,10 +256,35 @@ FILE *fopen(const char *name, const char *mode);
 int fclose(FILE *fp);
 /* renvoie 0 si OK et EOF sinon */
 ```
-- Lecture fichier
+- Lecture fichier **à compléter**
 ```C
 int fscan(filep, format, pointer_expression_list);
 int getc(filep);
 int fgetc(filep);
-char *gets(str*
+char *gets(string); /* allocation de la chaîne par l'appelant */
+
+```
+**diapo à rattraper**
+
+- Accès direct
+```C
+int fseek(FILE *stream, long offset, int whence);
+long ftell(FILE *stream);
+void rewind(FILE *stream);
+```
+Origine pour fseek: SEEK_SET,SEEK_CUR ou SEEK_END
+
+- Gestion des buffers **à compléter**
+```C
+
+```
+
+## Exemple : le programme cat
+```C
+void copy(FILE *fp) {
+	int c; /* et pas char! */
+	while((C= getc(fp)) != EOF) {
+		putc(c,stdout)
+	}
+}
 ```

@@ -253,4 +253,13 @@ FILE *fopen(const char *name, const char *mode);
 ```
 - Fermeture d'un fichier
 ```C
+int fclose(FILE *fp);
+/* renvoie 0 si OK et EOF sinon */
+```
+- Lecture fichier
+```C
+int fscan(filep, format, pointer_expression_list);
+int getc(filep);
+int fgetc(filep);
+char *gets(str*
 ```

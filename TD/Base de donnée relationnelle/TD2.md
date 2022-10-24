@@ -63,7 +63,8 @@
 	      B-A = \emptyset
       }$$
   8. $$\displaylines{
-	     A = \delta_{IdS \rightarrow IdDeposant}(\Pi_{IdDeposant}(enreg)) \newline
-	     B = \Pi_{Nom,Pays,Site}(societe \Join A)
+	     A = \Pi_{IdM,IdProp}(marque) \Join \Pi_{IdM,IdDeposant}(enreg) \newline
+	     ProprioDeposant = \Pi_{IdProp}(\sigma_{IdProp=IdDeposant}(A)) \newline
+	     ProprioNonDeposant = \Pi_{IdProp}(\sigma_{IdProp\neq IdDeposant}(A)) \newline
      }$$
 9. 

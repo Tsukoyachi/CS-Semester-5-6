@@ -128,3 +128,18 @@ double f4(int a, int b) /* error detected, even in K&R */
 { ... }
 ```
 
+### Fonctions à arité variable
+arité = nombre de paramètre
+
+- C'est une extension ANSI
+- La liste de paramètres variables est dénotée par '...' après le dernier paramètre fixe
+```C
+#include <stdarg.h>
+void ma_fonction(type1 arg1, type2 arg2, ...) {
+}
+```
+- Il doit y avoir au moins 1 paramètre fixe
+- Le fichier <stdarg.h> définit les macros suivantes :
+```C
+void va_start
+```

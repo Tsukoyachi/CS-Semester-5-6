@@ -44,7 +44,8 @@ int max(int a, int b){
 	- paramètre formel et paramètre effectif doivent être compatibles (cf pointeur)
 	- la taille peut être **à rattraper...**
 
-## Appel de fonction K&R vs ANSI
+## Appel de fonction K&R vs ANSI 
+**exemple à compléter**
 ```C
 void f(a,b) /* Version K&R */
 	int a; double b;
@@ -60,4 +61,26 @@ f();
 f(1,2,3,4);
 f("false", "even more")
 
+
+```
+
+## Résultat de fonction
+- valeur de la fonction donné par l'énoncé return
+- Type du résultat : donné à l'entrée de la fonction
+- Conversion éventuelle de return vers le type de la fonction
+- **à compléter**
+
+## Passage de paramètre
+- Passage par valeur uniquement
+- Pour les tableaux, on passe un pointeur sur le début du tableau (par valeur)
+```C
+void f(int x) {
+	x = x + 1;
+	printf("In function f: %d\n",x);
+}
+void main(void) {
+int a = 1;
+f(a);
+printf("After ca")
+}
 ```

@@ -197,3 +197,12 @@ int g(void) {
 	x += 1;
 }
 ```
+
+## Variable statique
+- Toujours dans le cas de programmes mono- fichier
+```C
+void f1(void) {
+	static int counter = 0;
+	printf()
+}
+```

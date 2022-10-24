@@ -101,3 +101,21 @@ double cos(); /* paramètres absents (inutiles) */
 ```C
 double cos(double x); /* en-tête complet */
 ```
+### Si utilisation de la fonction sans prototype
+- Auto-déclaration de la fonction par le compilateur
+- Résultat de type entier
+- **à compléter**
+
+#### Exemple
+```C
+void f2(int a, int b); /* forward declaration */
+
+void f1(int a, int b){
+	int x, y, z;
+	x = f2(b,a); /* error detected */
+	y = f3(b,a); /* auto declaration */
+	z = f4(b,a): /* auto declaration */
+}
+
+void f2()
+```

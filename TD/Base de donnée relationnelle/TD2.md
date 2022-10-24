@@ -75,5 +75,7 @@
 	   C = \Pi_{Nom}(societe \Join \delta_{IdS \rightarrow IdProp}(A - B))
    }$$
 10. $$\displaylines{
-	    A = \Pi_{IdM,IdProp}(\sigma_{NomM = Channel, Classe = 14}(marque) \Join \Pi_{Idm}(\sigma_{Pays}))
+	    Proprietaire = \Pi_{IdM,IdProp}(\sigma_{NomM = Channel, Classe = 14}(marque) \Join \Pi_{Idm}(\sigma_{Pays=France}(enreg))) \newline
+	    Vendeur = \Pi_{NumV,IdV}(\delta_{IdAch \rightarrow IdProp}(Proprietaire) \Join vente) \newline
+	    Avant-dernier-proprio = Vendeur - \Pi_{NumV,IdV}(\sigma_{NumV<NumV'}())
     }$$

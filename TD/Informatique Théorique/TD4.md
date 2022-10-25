@@ -22,12 +22,16 @@
       $$\displaylines{
 	      C_{1}= \neg LC \lor LTS \newline
 	      LV \lor LTS \Rightarrow ID \newline
-	      \Leftrightarrow \neg (LV \lor LTS) \lor ID \newline \Leftrightarrow (\neg LV \land \neg LTS) \lor ID \newline \Leftrightarrow (\neg LV \lor ID) \land (\neg LC \lor ID) \newline 
-	      C_{2} = \neg LV \lor ID, C_{3}=\neg LC \lor ID \\
+	      \Leftrightarrow \neg (LV \lor LTS) \lor ID \newline \Leftrightarrow (\neg LV \land \neg LTS) \lor ID \newline \Leftrightarrow (\neg LV \lor ID) \land (\neg LTS \lor ID) \newline 
+	      C_{2} = \neg LV \lor ID, C_{3}=\neg LTS \lor ID \\
 	      C_{4}= \neg LV \\ C_{5}= LC \\
 	      C_{6}= \neg ID \newline \newline
 	      Résolution : \\
-	      C_{1},C_{5} \Rightarrow C_{6} = LTS
-	      \\ 
+	      C_{1},C_{5} \Rightarrow C_{7} = LTS
+	      \\ C_{7},C_{3} \Rightarrow C_{8} = ID \\
+	      C_{8},C_{6} \Rightarrow C_{9} = \emptyset
       }$$
 
+3. $$\displaylines{
+	   \Phi : (A\Rightarrow(B\Rightarrow C)) \Rightarrow ((A \Rightarrow B) \Rightarrow (A \Rightarrow C))
+   }$$

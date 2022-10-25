@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/Informatique théorique (semi TD)/Simplification logique Quine-Mac Cluskey.md",
+                "file": "Cours/Informatique théorique (semi TD)/3 - Preuve en calcul propositionnel.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Informatique théorique (semi TD)/Simplification logique Quine-Mac Cluskey.md",
+                "file": "Cours/Informatique théorique (semi TD)/3 - Preuve en calcul propositionnel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Informatique théorique (semi TD)/Simplification logique Quine-Mac Cluskey.md",
+                "file": "Cours/Informatique théorique (semi TD)/3 - Preuve en calcul propositionnel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/Informatique théorique (semi TD)/Simplification logique Quine-Mac Cluskey.md"
+                "file": "Cours/Informatique théorique (semi TD)/3 - Preuve en calcul propositionnel.md"
               }
             }
           },
@@ -158,9 +158,9 @@
   },
   "active": "553593ccd012dcdd",
   "lastOpenFiles": [
+    "Cours/Informatique théorique (semi TD)/2 - Simplification logique Quine-Mac Cluskey.md",
     "Cours/Informatique théorique (semi TD)/1 - Introduction.md",
     "Cours/Informatique théorique (semi TD)/3 - Preuve en calcul propositionnel.md",
-    "Cours/Informatique théorique (semi TD)/Simplification logique Quine-Mac Cluskey.md",
     "TD/Informatique Théorique/TD3.md",
     "TD/Base de donnée relationnelle/media/BDR2022_TD2.pdf",
     "TD/Base de donnée relationnelle/TD2.md",

@@ -4,32 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e509f1b31c286c21",
+        "id": "35e0e534c03afc84",
         "type": "tabs",
         "children": [
           {
-            "id": "aa7440fc7eda72c5",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "TD/Base de donnée relationnelle/media/BDR2022_TD2.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "2433e1d881ca9bb6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0446cc9dae330b9b",
+            "id": "c0ee48c16889ac0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TD/Base de donnée relationnelle/TD2.md",
+                "file": "Cours/Informatique théorique (semi TD)/Simplification logique Quine-Mac Cluskey.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TD/Base de donnée relationnelle/media/BDR2022_TD2.pdf",
+                "file": "Cours/Informatique théorique (semi TD)/Simplification logique Quine-Mac Cluskey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TD/Base de donnée relationnelle/media/BDR2022_TD2.pdf",
+                "file": "Cours/Informatique théorique (semi TD)/Simplification logique Quine-Mac Cluskey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TD/Base de donnée relationnelle/media/BDR2022_TD2.pdf"
+                "file": "Cours/Informatique théorique (semi TD)/Simplification logique Quine-Mac Cluskey.md"
               }
             }
           },
@@ -172,8 +156,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "3ed2038ec5459906",
+  "active": "c0ee48c16889ac0f",
   "lastOpenFiles": [
+    "TD/Informatique Théorique/TD3.md",
+    "Cours/Informatique théorique (semi TD)/Simplification logique Quine-Mac Cluskey.md",
     "TD/Base de donnée relationnelle/media/BDR2022_TD2.pdf",
     "TD/Base de donnée relationnelle/TD2.md",
     "Cours/Base de données relationnelle/2 - Algèbre relationnelle.md",
@@ -181,8 +167,6 @@
     "Cours/Langage C et système/4 - Fonction et Variable.md",
     "TD/Architecture Et Réseau/TD3.md",
     "Cours/Architecture et réseau/1 - Introduction.md",
-    "Cours/Architecture et réseau/media/slides-intro-net.pdf",
-    "Cours/Informatique théorique (semi TD)/Simplification logique Quine-Mac Cluskey.md",
-    "TD/Informatique Théorique/TD3.md"
+    "Cours/Architecture et réseau/media/slides-intro-net.pdf"
   ]
 }

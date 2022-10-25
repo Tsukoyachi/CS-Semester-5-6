@@ -26,3 +26,4 @@ Pour simplifier à chaque fois on barre les lignes n'ayant qu'un 1 binaire de di
 **Les # à l'étapes 5 sont les impliquants premiers essentiels.**
 **Pour la couverture on ne regarde que les lignes où il y a au moins un #, sinon on l'ignore**
 
+  

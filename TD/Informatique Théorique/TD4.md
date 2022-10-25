@@ -22,7 +22,7 @@
       $$\displaylines{
 	      C_{1}= \neg LC \lor LTS \newline
 	      C_{2}= LV \lor LTS \Rightarrow ID \newline
-	      \Leftrightarrow \neg (LV \lor LTS) \land ID \newline \Leftrightarrow \neg LV \land \neg LTS \land ID \newline
+	      \Leftrightarrow \neg (LV \lor LTS) \lor ID \newline \Leftrightarrow (\neg LV \lor \neg LTS) \lor ID \newline \Leftrightarrow
 	      C_{3}= \neg LV \land LC \newline
 	      C_{4}= \neg ID \newline \newline
 	      Résolution : \newline

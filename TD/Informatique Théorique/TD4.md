@@ -26,6 +26,8 @@
 	      C_{3}= \neg LV \land LC \newline
 	      C_{4}= \neg ID \newline \newline
 	      Résolution : \newline
-	      
+	      C_{1},C_{2} \Rightarrow C_{5}=\neg LC \lor \neg LV \lor ID \newline
+	      C_{3},C_{5}\Rightarrow C_{6}=\neg LV \lor ID \\
+	       
       }$$
 

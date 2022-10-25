@@ -14,5 +14,5 @@
 	   C_{3} = \neg C \lor \neg O_{2} \lor CO_{2} \newline \newline
 	   \neg (CO_{2} \land H_{2}O) \lor (H_{2}CO_{3}) \newline \Leftrightarrow \neg CO_{2} \lor \neg H_{2}O \lor H_{2}CO_{3} \newline C_{4}= \neg CO_{2} \lor \neg H_{2}O \lor H_{2}CO_{3}
 	   \newline C_{5}=MgO, C_{6}= H_{2}, C_{7}=O_{2} \newline C_{8}= C, C_{9} = \neg H_{2}CO_{3} \newline \newline
-	   C_{1},C_{2} \Rightarrow C_{10}= \neg 
+	   C_{3},C_{7} \Rightarrow C_{10}= \neg C \lor CO_{2} \newline C_{10},C_{8} \Rightarrow C_{11}= CO_{2} \newline 
    }$$

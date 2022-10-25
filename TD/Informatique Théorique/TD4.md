@@ -21,16 +21,12 @@
    2. LC = lasagnes cuites, LTS = Lasagnes trop salées, LV = Lasagnes Végétariennes, ID = invités déçus.
       $$\displaylines{
 	      C_{1}= \neg LC \lor LTS \newline
-	      C_{2}= LV \lor LTS \Rightarrow ID \newline
-	      \Leftrightarrow \neg (LV \lor LTS) \lor ID \newline \Leftrightarrow (\neg LV \lor \neg LTS) \lor ID \newline \Leftrightarrow
-	      C_{3}= \neg LV \land LC \newline
+	      LV \lor LTS \Rightarrow ID \newline
+	      \Leftrightarrow \neg (LV \lor LTS) \lor ID \newline \Leftrightarrow (\neg LV \land \neg LTS) \lor ID \newline \Leftrightarrow (\neg LV \lor ID) \land (\neg LC \lor ID) \newline 
+	      C_{2} = \neg LV \lor ID, C_{3}=\neg LC \lor ID \\
+	      C_{4}= \neg LV \land LC \newline
 	      C_{4}= \neg ID \newline \newline
 	      Résolution : \newline
-	      C_{1},C_{2} \Rightarrow C_{5}=\neg LC \lor \neg LV \lor ID \newline
-	      C_{3},C_{5}\Rightarrow C_{6}=\neg LV \lor ID \\
-	      C_{4},C_{6} \Rightarrow C_{7}= \neg LV \\
-	      C_{7},C_{3} \Rightarrow C_{8}= LC \\
-	      C_{1},C_{8}, \Rightarrow C_{9} = LTS \\
-	      C_{7},C_{2}, \Rightarrow C_{10}= 
+	      
       }$$
 

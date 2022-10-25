@@ -22,6 +22,10 @@
       $$\displaylines{
 	      C_{1}= \neg LC \lor LTS \newline
 	      C_{2}= LV \lor LTS \Rightarrow ID \newline
-	      C_{3}= \neg ()
+	      \Leftrightarrow \neg (LV \lor LTS) \land ID \newline \Leftrightarrow \neg LV \land \neg LTS \land ID \newline
+	      C_{3}= \neg LV \land LC \newline
+	      C_{4}= \neg ID \newline \newline
+	      Résolution : \newline
+	      
       }$$
 

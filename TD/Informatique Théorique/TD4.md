@@ -24,9 +24,10 @@
 	      LV \lor LTS \Rightarrow ID \newline
 	      \Leftrightarrow \neg (LV \lor LTS) \lor ID \newline \Leftrightarrow (\neg LV \land \neg LTS) \lor ID \newline \Leftrightarrow (\neg LV \lor ID) \land (\neg LC \lor ID) \newline 
 	      C_{2} = \neg LV \lor ID, C_{3}=\neg LC \lor ID \\
-	      C_{4}= \neg LV \land LC \newline
-	      C_{4}= \neg ID \newline \newline
-	      Résolution : \newline
-	      
+	      C_{4}= \neg LV \\ C_{5}= LC \\
+	      C_{6}= \neg ID \newline \newline
+	      Résolution : \\
+	      C_{1},C_{5} \Rightarrow C_{6} = LTS
+	      \\ 
       }$$
 

@@ -42,6 +42,7 @@
 	   C_{1}= \neg A \lor \neg B \lor C \\
 	   C_{2}= \neg A \lor B \\
 	   C_{3}= A, C_{4}=\neg C \\ \\
+	   Résolution :\\
 	   C_{2},C_{3} \Rightarrow C_{5}= B \\
 	   C_{1},C_{4} \Rightarrow C_{6}= \neg A \lor \neg B \\
 	   C_{5},C_{6} \Rightarrow C_{7}= \neg A \\

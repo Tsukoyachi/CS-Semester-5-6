@@ -18,6 +18,10 @@
 	   C_{11},C_{14} \Rightarrow C_{15}= H_{2}CO_{3} \newline
 	   C_{9},C_{15} \Rightarrow C_{16}= \emptyset
    }$$
-   2. $$\displaylines{
-	      
+   2. LC = lasagnes cuites, LTS = Lasagnes trop salées, LV = Lasagnes Végétariennes, ID = invités déçus.
+      $$\displaylines{
+	      C_{1}= \neg LC \lor LTS \newline
+	      C_{2}= LV \lor LTS \Rightarrow ID \newline
+	      C_{3}= \neg ()
       }$$
+

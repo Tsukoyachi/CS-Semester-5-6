@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TD/Base de donnée relationnelle/TD2.md",
+                "file": "TD/Base de donnée relationnelle/media/BDR2022_TD2.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TD/Base de donnée relationnelle/TD2.md",
+                "file": "TD/Base de donnée relationnelle/media/BDR2022_TD2.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TD/Base de donnée relationnelle/TD2.md"
+                "file": "TD/Base de donnée relationnelle/media/BDR2022_TD2.pdf"
               }
             }
           },

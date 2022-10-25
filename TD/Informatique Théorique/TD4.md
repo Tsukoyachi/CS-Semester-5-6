@@ -13,6 +13,6 @@
 	   \Leftrightarrow \neg C \lor \neg O_{2} \lor CO_{2} \newline
 	   C_{3} = \neg C \lor \neg O_{2} \lor CO_{2} \newline \newline
 	   \neg (CO_{2} \land H_{2}O) \lor (H_{2}CO_{3}) \newline \Leftrightarrow \neg CO_{2} \lor \neg H_{2}O \lor H_{2}CO_{3} \newline C_{4}= \neg CO_{2} \lor \neg H_{2}O \lor H_{2}CO_{3}
-	   \newline \newline
+	   \newline C_{4} = \neg H_{2}CO_{3} \newline \newline
 	   
    }$$

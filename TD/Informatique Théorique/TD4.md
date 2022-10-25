@@ -33,8 +33,8 @@
       }$$
 
 3. $$\displaylines{
-	   \Phi : (A\Rightarrow(B\Rightarrow C)) \Rightarrow ((A \Rightarrow B) \Rightarrow (A \Rightarrow C)) \\
-	   \Leftrightarrow \neg (\neg A \lor (\neg B \lor C)) \lor (\neg (\neg A \lor B) \lor (\neg A \lor C)) \\
-	   \Leftrightarrow \neg (\neg A \lor \neg B \lor C) \lor ((A \land \neg B) \lor (\neg A \lor C)) \\
-	   \Leftrightarrow (A \land B \land \neg C) \lor ()
+	   \neg\Phi : \neg((A\Rightarrow(B\Rightarrow C)) \Rightarrow ((A \Rightarrow B) \Rightarrow (A \Rightarrow C))) \\
+	   \Leftrightarrow \neg (\neg (\neg A \lor (\neg B \lor C)) \lor (\neg (\neg A \lor B) \lor (\neg A \lor C))) \\
+	   \Leftrightarrow \neg(\neg (\neg A \lor \neg B \lor C) \lor ((A \land \neg B) \lor (\neg A \lor C))) \\
+	   \Leftrightarrow \neg ((A\land B \land \neg C) )
    }$$

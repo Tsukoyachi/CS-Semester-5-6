@@ -33,5 +33,7 @@
       }$$
 
 3. $$\displaylines{
-	   \Phi : (A\Rightarrow(B\Rightarrow C)) \Rightarrow ((A \Rightarrow B) \Rightarrow (A \Rightarrow C))
+	   \Phi : (A\Rightarrow(B\Rightarrow C)) \Rightarrow ((A \Rightarrow B) \Rightarrow (A \Rightarrow C)) \\
+	   \Leftrightarrow \neg (\neg A \lor (\neg B \lor C)) \lor (\neg (\neg A \lor B) \lor (\neg A \lor C)) \\
+	   \Leftrightarrow
    }$$

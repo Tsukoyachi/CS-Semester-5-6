@@ -401,4 +401,5 @@ Cette fois-ci on va se focaliser sur le switch, il est là pour assurer une comm
 - Un switch ne possède pas d'adresse IP sur ses ports. Sur un réseau local, un switch ne travaille que sur les adresses MAC
 - La *table de routage* d'un switch s'appelle un **FDB** (forwarding database)
 - Le FDB associe un numéro de port avec l'adresse mac à chaque h^te branché sur le port en question.
-- ****
+- **à compléter...**
+

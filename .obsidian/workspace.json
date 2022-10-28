@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "8218ad1797160d7e",
+            "id": "eddcd10de628a7ae",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "pdf",
               "state": {
-                "currentVersion": "1.0.3"
+                "file": "Cours/Architecture et réseau/media/slides-intro-net.pdf"
               }
             }
           }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Architecture et réseau/1 - Introduction.md",
+                "file": "Cours/Architecture et réseau/media/slides-intro-net.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Architecture et réseau/1 - Introduction.md",
+                "file": "Cours/Architecture et réseau/media/slides-intro-net.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/Architecture et réseau/1 - Introduction.md"
+                "file": "Cours/Architecture et réseau/media/slides-intro-net.pdf"
               }
             }
           },
@@ -164,11 +164,11 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "8218ad1797160d7e",
+  "active": "eddcd10de628a7ae",
   "lastOpenFiles": [
+    "Cours/Architecture et réseau/1 - Introduction.md",
     "TD/Architecture Et Réseau/TD1.md",
     "Cours/Architecture et réseau/media/slides-intro-net.pdf",
-    "Cours/Architecture et réseau/1 - Introduction.md",
     "TD/Informatique Théorique/TD4.md",
     "TD/Informatique Théorique/TD3.md",
     "Cours/Informatique théorique (semi TD)/3 - Preuve en calcul propositionnel.md",

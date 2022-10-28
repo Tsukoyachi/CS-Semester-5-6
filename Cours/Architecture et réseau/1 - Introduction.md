@@ -383,6 +383,10 @@ Pour la commande de Add the default route il y a une erreur, la commande devrait
 
 La mémoir RAM à beau être très rapide, à l'échelle des échanges de données réseau cela reste lent, surtout pour chercher une adresse précise dans une table de routage qui fait parfois plusieurs centaines de lignes.
 
-On utilise donc la mémoire CAM : 
+On utilise donc la mémoire CAM (content adressable memory) : 
 ![[Pasted image 20221028085213.png | center]]
-La principe est simple, la RAM envoie l'adresse à la mémoire CAM
+La principe est simple, la RAM envoie l'adresse à la mémoire CAM, on va chercher l'adresse la plus précise qui match avec notre adresse, sachant que les X correspondent à une info inutile.
+Donc si deux entrées matchent avec notre adresse, on renverra celle qui a le plus de bits en commun. Par exemple sur l'image c'est clairement l'adresse 01 qui nous intéresse.
+Enfin la mémoire CAM renverra l'information à la RAM qui n'aura qu'un nom de port à renvoyer.
+
+### 

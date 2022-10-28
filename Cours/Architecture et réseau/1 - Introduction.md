@@ -338,4 +338,14 @@ Prenons une adresse IP Classless : 134.59.17.36/20
 - Diviser une adresse réseau en sous réseaux
 	- Prendre le nombre de bits minimum en fonction des besoins
 - Exemple, diviser 192.168.1.0/24 en 4 sous réseaux :
-	- **Faire l'exemple plus tard**
+	- **Faire l'exemple plus tard, il est dans les slides** (subnetting)
+	- 
+
+#### Adresse IP publique vs privée
+- Une adresse IP peut être privée ou publique
+	- Les adresse publiques peuvent être routées sur internet
+	- Les adresses privées ne **doivent** pas être routées sur internet
+- Pour communiquer avec internet, une adresse IP privée va utiliser un NAT (network adress translator) qui va attribuer une adresse IP publique à notre adresse IP privée pour communiquer sur internet.
+- Une adresse publique est unique sur internet, une adresse privée est répétable sur internet.
+
+

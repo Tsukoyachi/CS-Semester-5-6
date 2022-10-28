@@ -376,3 +376,8 @@ Dans la seconde image, on ajoute la dernière ligne pour permettre à R2 d'accé
 
 ![[Pasted image 20221028084610.png | center]]
 
+Pour la commande de Add the default route il y a une erreur, la commande devrait être : 
+				**ip r add default via 203.0.113.14 dev eth2**
+
+
+

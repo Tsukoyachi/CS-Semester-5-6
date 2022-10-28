@@ -307,7 +307,6 @@ Donc de nos jours on fait des réseaux surdimensionnés afin de pouvoir endurer 
 #### Adresses Classfull
 
 ![[Pasted image 20221021085233.png | center | 650]]
-![[Pasted image 20221021085233.png]]
 Les adresses de classes A ont leur bit significatif (le plus à gauche) à 0.
 (Essayer de comprendre en quoi cela force le masque réseau à valoir 255.0.0.0).
 
@@ -320,10 +319,13 @@ Pour les adresses de Classe D les 4 bits les plus significatifs vont valloir 111
 
 Pour les adresses de Classe E les 4 bits les plus significatifs vont valloir 1111.Et ses addresses n'ont pas de masque réseau.
 
-**rattraper le contenu du slide suivant**
-
-![[Pasted image 20221021090043.png | center]]
 La première adresse (adresse zéro) est l'adresse réseau, elle n'est pas attribuable.
 La dernière adresse (adresse tout à un) est l'adresse boradcast, elle n'est pas attribuable non plus.
 
-Etant donné qu'on a deux adresse non attribuable, sur un réseau avec n bit utilisé pour l'adresse d'h
+Etant donné qu'on a deux adresse non attribuable, sur un réseau avec n bit utilisé pour l'adresse d'hôte on a $2^n-2$ hôtes possible sur le réseau en question.
+
+#### Adresse Classless
+
+- CIDR (classless inter-domain rooting) est l'adresse actuel utilisé sur internet.
+- La nombre de bits utilisés sur l'adresse réseau ne dépend plus des premiers bits de l'adresse IP.
+- 

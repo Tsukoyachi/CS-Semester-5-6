@@ -328,4 +328,7 @@ Etant donné qu'on a deux adresse non attribuable, sur un réseau avec n bit uti
 
 - CIDR (classless inter-domain rooting) est l'adresse actuel utilisé sur internet.
 - La nombre de bits utilisés sur l'adresse réseau ne dépend plus des premiers bits de l'adresse IP.
-- 
+Prenons une adresse IP Classless : 134.59.17.36/20
+- En binaire : 10000110.00111011.00010001.00100100
+- Son adresse réseau : 10000110.00111011.00010000.00000000 = 134.50.16.0
+- Son adresse de broadcast : 10000110.00111011.00011111.11111111

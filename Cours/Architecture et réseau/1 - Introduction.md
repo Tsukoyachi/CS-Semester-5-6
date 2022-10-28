@@ -366,3 +366,6 @@ Prenons une adresse IP Classless : 134.59.17.36/20
 ![[Pasted image 20221028082414.png | center]]
 ![[Pasted image 20221028083725.png | center]]
 
+On met une étoile pour la passerelle IP lorsque le réseau de destination fait partie du réseau local, dans les autres cas on a besoin d'une passerelle pour aller dans une autre réseau local ou dans l'internet.
+
+On ne liste pas tous les réseaux d'internet, ça serait trop long, lorsque 

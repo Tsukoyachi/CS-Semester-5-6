@@ -364,5 +364,5 @@ Prenons une adresse IP Classless : 134.59.17.36/20
 #### Table de routage d'un *end host*
 
 ![[Pasted image 20221028082414.png | center]]
-![[Pasted image 20221028083725.png |center]]
+![[Pasted image 20221028083725.png | center]]
 

@@ -347,5 +347,12 @@ Prenons une adresse IP Classless : 134.59.17.36/20
 	- Les adresses privées ne **doivent** pas être routées sur internet
 - Pour communiquer avec internet, une adresse IP privée va utiliser un NAT (network adress translator) qui va attribuer une adresse IP publique à notre adresse IP privée pour communiquer sur internet.
 - Une adresse publique est unique sur internet, une adresse privée est répétable sur internet.
+![[Pasted image 20221028081703.png | center | 700]]
+*Illustration fonctionnement NAT pour qu'une adresse privée puisse accéder à internet.*
+
+#### Configuring Ethernet network interface cards in Linux through command line
+
+- Pour afficher les adresses des interfaces réseau : "ip a s"
+- 
 
 

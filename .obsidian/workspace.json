@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8218ad1797160d7e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -153,10 +164,7 @@
     "width": 200,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "c86fae62bee7e8ba",
+  "active": "8218ad1797160d7e",
   "lastOpenFiles": [
     "TD/Architecture Et Réseau/TD1.md",
     "Cours/Architecture et réseau/media/slides-intro-net.pdf",

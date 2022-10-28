@@ -307,7 +307,7 @@ Donc de nos jours on fait des réseaux surdimensionnés afin de pouvoir endurer 
 #### Adresses Classfull
 
 ![[Pasted image 20221021085233.png | center | 650]]
-
+![[Pasted image 20221021085233.png]]
 Les adresses de classes A ont leur bit significatif (le plus à gauche) à 0.
 (Essayer de comprendre en quoi cela force le masque réseau à valoir 255.0.0.0).
 

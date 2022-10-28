@@ -353,6 +353,11 @@ Prenons une adresse IP Classless : 134.59.17.36/20
 #### Configuring Ethernet network interface cards in Linux through command line
 
 - Pour afficher les adresses des interfaces réseau : "ip a s"
-- 
+![[Pasted image 20221028081948.png | center]]
+### Base du routage
+- Chaque réseau local possède un ou plusieurs *gateway* (routeurs). Cela permet d'interconnecter des réseaux.
+- Chaque lien d'un routeur appartient à une adresse réseau différente.
+- Pour atteindre un réseau extérieur (des hôtes extérieurs), les hôtes et les routeurs doivent garder une table de routage.
+	- Compression à t
 
 

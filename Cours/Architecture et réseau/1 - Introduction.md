@@ -368,4 +368,11 @@ Prenons une adresse IP Classless : 134.59.17.36/20
 
 On met une étoile pour la passerelle IP lorsque le réseau de destination fait partie du réseau local, dans les autres cas on a besoin d'une passerelle pour aller dans une autre réseau local ou dans l'internet.
 
-On ne liste pas tous les réseaux d'internet, ça serait trop long, lorsque 
+On ne liste pas tous les réseaux d'internet, ça serait trop long, lorsque l'on peut emprunter le même trajet pour tous les réseaux restant on met une étoile dans réseau de destination.
+
+Dans la seconde image, on ajoute la dernière ligne pour permettre à R2 d'accéder au réseau R1 car sinon R2 renverrai les éléments du réseau R1 vers l'internet au lieu des les envoyer à R1.
+
+#### Route statiques dans une box linux
+
+![[Pasted image 20221028084610.png | center]]
+

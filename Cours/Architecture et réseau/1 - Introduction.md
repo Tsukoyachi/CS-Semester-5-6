@@ -323,5 +323,7 @@ Pour les adresses de Classe E les 4 bits les plus significatifs vont valloir 111
 **rattraper le contenu du slide suivant**
 
 ![[Pasted image 20221021090043.png | center]]
+La première adresse (adresse zéro) est l'adresse réseau, elle n'est pas attribuable.
+La dernière adresse (adresse tout à un) est l'adresse boradcast, elle n'est pas attribuable non plus.
 
- 
+Etant donné qu'on a deux adresse non attribuable, sur un réseau avec n bit utilisé pour l'adresse d'h

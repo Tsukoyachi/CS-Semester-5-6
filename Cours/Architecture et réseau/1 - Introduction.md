@@ -354,7 +354,7 @@ Prenons une adresse IP Classless : 134.59.17.36/20
 
 - Pour afficher les adresses des interfaces réseau : "ip a s"
 ![[Pasted image 20221028081948.png | center]]
-### Base du routage
+### Base du routage (niveau IP)
 - Chaque réseau local possède un ou plusieurs passerelles (routeurs). Cela permet d'interconnecter des réseaux.
 - Chaque lien d'un routeur appartient à une adresse réseau différente.
 - Pour atteindre un réseau extérieur (des hôtes extérieurs), les hôtes et les routeurs doivent garder une table de routage.
@@ -389,4 +389,11 @@ La principe est simple, la RAM envoie l'adresse à la mémoire CAM, on va cherch
 Donc si deux entrées matchent avec notre adresse, on renverra celle qui a le plus de bits en commun. Par exemple sur l'image c'est clairement l'adresse 01 qui nous intéresse.
 Enfin la mémoire CAM renverra l'information à la RAM qui n'aura qu'un nom de port à renvoyer.
 
-### 
+###  Routage de niveau 2 Adressage et Redirection (Layer 2)
+
+Cette fois-ci on va se focaliser sur le switch, il est là pour assurer une communication intra-Lan en s'appuyant sur les adresses **MAC** afin d'envoyer des messages en unicast.
+
+![[Pasted image 20221028085741.png | center]]
+
+##### Exemple :
+![[Pasted image 20221028085830.png]]

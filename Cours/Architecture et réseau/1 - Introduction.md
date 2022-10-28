@@ -379,5 +379,10 @@ Dans la seconde image, on ajoute la dernière ligne pour permettre à R2 d'accé
 Pour la commande de Add the default route il y a une erreur, la commande devrait être : 
 				**ip r add default via 203.0.113.14 dev eth2**
 
+#### The longest prefix matching
 
+La mémoir RAM à beau être très rapide, à l'échelle des échanges de données réseau cela reste lent, surtout pour chercher une adresse précise dans une table de routage qui fait parfois plusieurs centaines de lignes.
 
+On utilise donc la mémoire CAM : 
+![[Pasted image 20221028085213.png | center]]
+La principe est simple, la RAM envoie l'adresse à la mémoire CAM

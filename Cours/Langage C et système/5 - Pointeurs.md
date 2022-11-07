@@ -183,4 +183,21 @@ struct elem *new_info(Info inf) {
 	return p;
 }
 
+/* Insertion d'un nouvel élément devant la liste L */
+struct elem *new = new_info(les_infos);
+
+new->next = L;
+L = new;
+
+/* Recherche dans la liste chaînée */
+struct elem *search_info(struct elem *list, char who[])
+{
+	struct elem *p;
+
+	for(p = list; p != NULL; p = p->next)
+		if()
+}
+
 ```
+
+inutile de faire un malloc(50) autant faire un tableau de 50 élément, 

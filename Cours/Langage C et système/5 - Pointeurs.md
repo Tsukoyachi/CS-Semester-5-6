@@ -96,5 +96,18 @@ En effet ici, on passe la valeur de l'adresse de x et de y donc dans la fonction
 
 ## Pointeurs sur fonction
 ```C
-int plus(int op1, int op2)
+int plus(int op1, int op2) {return op1 + op2;}
+int minus(int op1, int op2) {return op1 - op2;}
+...
+int (*operation) (int, int); /* pointeur sur fonction */
+int a, b, res;
+
+a = read_operand();
+switch (getchar()) {
+	case '+': operation = plus; break;
+	case '-': operation = minus; break;
+	...
+}
+b = read_operand();
+res = (*operation)(a, b); /* En C ANSI: operation(a,b) */
 ```

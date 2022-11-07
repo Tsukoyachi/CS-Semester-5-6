@@ -111,3 +111,18 @@ switch (getchar()) {
 b = read_operand();
 res = (*operation)(a, b); /* En C ANSI: operation(a,b) */
 ```
+```C
+struct Func {
+	char nom[10];
+	double (*f)(double);
+};
+
+struct Func T[] = {
+	{"sinus", sin},
+	{"cosinus", cos},
+	...
+};
+
+double (*fct) (double) = chercher(T, "cosinus");
+printf("cosinus(42) = %lf\n",fct(42));
+```

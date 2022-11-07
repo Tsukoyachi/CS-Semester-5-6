@@ -31,5 +31,10 @@ Un pointeur peut désigner n'importe quelle variable (statique, dynamique, const
 
 ```C
 int (*pfunc) (void); /* pointeur sur une fonction sans paramètre qui renvoie un entier */
-int (*T[5]) (void) /* tableau de 5 pointeur*
+int (*T[5]) (void) /* tableau de 5 pointeurs de ce type, PAS COMPRIS */
 ```
+
+## Opérations sur les pointeurs
+Deux opérations possible sur les pointeurs :
+- \*p permet l'indirection (déréférence)
+- &v renvoie 

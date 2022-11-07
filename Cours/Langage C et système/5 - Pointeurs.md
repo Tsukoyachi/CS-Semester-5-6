@@ -211,4 +211,8 @@ struct elem *search_info(struct elem *list, char who[])
 - Il ne faut pas retourner un tableau dans une fonction car on perd les valeurs faites en local, **pas compris la suite de l'explication**.
 - Il faut toujours allouer un pointeur pour pouvoir faire quelque chose dessus car ici le gets **pas compris la suite**.
 - Bon déjà un malloc de taille fixe comme pour la première erreur est inutile. Et pb de fuite mémoire que j'ai pas compris.
-- 
+- Ici le sizeof ne renvoie pas la longueur de la chaine mais la taille mémoire de la chaîne, ici il faudrait donc se servir de strlen...
+- Mais dans le f7 strlen seul ne suffit pas car on oublie le '/0' donc il faut ajouter un +1
+- **à rattrapper**
+- **à rattrapper**
+- Ici on voit les différences 

@@ -157,6 +157,7 @@ Libération mémoire
 ```C
 void free(void *ptr);
 ```
+- Le pointeur ptr doit avoir été obtenu par une des 3 fonctions précédentes.
 
 ### Allocation dynamique : Liste chaînée
 ```C
@@ -165,5 +166,21 @@ typedef struct {/* Les infos que l'on met dans la liste */
 	...
 } Info;
 
+struct elem { /* maillon de la liste chaînée */
+	Info i;
+	struct elem *next;
+};
+
+/* Allouer un nouvel élement */
+struct elem *new_info(Info inf) {
+	struct elem *p = (struct elem *) malloc(sizeof(elem));
+	if(p == NULL){
+		fprintf(stderr, "allocation error\n");
+		exit(1);
+	}
+	p->i = inf;
+	p->next = NULL;
+	return p;
+}
 
 ```

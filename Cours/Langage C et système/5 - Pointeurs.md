@@ -132,6 +132,16 @@ printf("cosinus(42) = %lf\n",fct(42));
 ![[Pasted image 20221107083837.png]]
 ![[Pasted image 20221107083853.png]]
 
+Donc finalement on est passé d'une version complexe à un code lisible en deux ligne en améliorant notre compréhension de C :
+![[Pasted image 20221107084224.png]]
+
 ## Autre exemple avec strcmp
 ![[Pasted image 20221107083922.png]]
 
+## Tableau de chaîne de caractères
+
+![[Pasted image 20221107084257.png]]
+![[Pasted image 20221107084309.png]]
+![[Pasted image 20221107084321.png]]
+
+## Allocation dynamiq

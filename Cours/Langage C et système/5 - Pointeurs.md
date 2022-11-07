@@ -36,5 +36,10 @@ int (*T[5]) (void) /* tableau de 5 pointeurs de ce type, PAS COMPRIS */
 
 ## Opérations sur les pointeurs
 Deux opérations possible sur les pointeurs :
-- \*p permet l'indirection (déréférence)
-- &v renvoie 
+- \*p permet l'indirection (déréférence) (on accèse à l'élément dans la case mémoire associé à l'adresse p)
+- &v renvoie l'adresse de la variable v (référence)
+
+Exemple :
+![[Pasted image 20221107081607.png | center ]]
+
+Ici faire x = ... est équivalent à faire *p = ...

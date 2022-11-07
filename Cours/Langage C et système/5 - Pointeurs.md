@@ -201,6 +201,14 @@ struct elem *search_info(struct elem *list, char who[])
 }
 ```
 
+### Allocateur basique, exemple à check personnellement car intéressant apparemment :
+![[Pasted image 20221107085819.png]]
+
+## Erreur à ne pas commettre avec les pointeurs 
+
 - Inutile de faire un malloc(50) autant faire un tableau de 50 élément, car faire un malloc à un coup double par rapport à un tableau et un malloc est source de bug.
 - Il ne faut pas perdre une adresse allouée car il faudra faire un free dessus au bout d'un moment pour éviter une fuite mémoire.
-- Il ne faut pas retourner un tableau dans une fonction car on perd les valeurs faites en local, **pas compris la suite de l'explication**
+- Il ne faut pas retourner un tableau dans une fonction car on perd les valeurs faites en local, **pas compris la suite de l'explication**.
+- Il faut toujours allouer un pointeur pour pouvoir faire quelque chose dessus car ici le gets **pas compris la suite**.
+- Bon déjà un malloc de taille fixe comme pour la première erreur est inutile. Et pb de fuite mémoire que j'ai pas compris.
+- 

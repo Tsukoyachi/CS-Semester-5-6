@@ -195,9 +195,12 @@ struct elem *search_info(struct elem *list, char who[])
 	struct elem *p;
 
 	for(p = list; p != NULL; p = p->next)
-		if()
+		if(strcmp(p->i.name, who) == 0)
+			return p;
+	return NULL; /* not found */
 }
-
 ```
 
-inutile de faire un malloc(50) autant faire un tableau de 50 élément, 
+- Inutile de faire un malloc(50) autant faire un tableau de 50 élément, car faire un malloc à un coup double par rapport à un tableau et un malloc est source de bug.
+- Il ne faut pas perdre une adresse allouée car il faudra faire un free dessus au bout d'un moment pour éviter une fuite mémoire.
+- Il ne faut pas retourner un tableau dans une fonction car on perd les valeurs faites en local, **pas compris la suite de l'explication**

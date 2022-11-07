@@ -82,4 +82,19 @@ En effet ici, on passe la valeur de l'adresse de x et de y donc dans la fonction
 - pointeur - pointeur -> pointeur
 - permet de calculer le nombre d'éléments de ce type entre les adresses
 
-### Conve
+### Conversions : 
+- conversion d'un void \* vers (ou depuis) un pointeur quelconque : Toujours OK
+- les autres conversion nécessitent un cast
+
+## Pointeurs et tableaux
+
+- En C, pointeurs et tableaux sont deux concepts proches.
+- En fait, le nom d'un tableau correspond à l'adresse de la première case du tableau.
+- L'arithmétique de pointeurs permet d'indexer un tableau avec des pointeurs.
+
+![[Pasted image 20221107082733.png | center ]]
+
+## Pointeurs sur fonction
+```C
+int plus(int op1, int op2)
+```

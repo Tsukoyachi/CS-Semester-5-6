@@ -42,4 +42,18 @@ Deux opérations possible sur les pointeurs :
 Exemple :
 ![[Pasted image 20221107081607.png | center ]]
 
-Ici faire x = ... est équivalent à faire *p = ...
+Ici faire x = ... est équivalent à faire \*p = ...
+
+### Cas particulier sur les pointeurs sur structure
+```C
+struct {
+	int a, b;
+} x, *p = &x;
+```
+- x est une structure
+- \*p désigne cette structure
+- l'accès au champ a de x : x.a
+- l'accès au même champ avec p : (\*p).a
+
+Notation spéciale :
+- Pour simplifier (\*p).a

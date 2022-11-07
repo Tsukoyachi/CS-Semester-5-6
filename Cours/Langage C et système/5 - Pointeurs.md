@@ -127,3 +127,11 @@ double (*fct) (double) = chercher(T, "cosinus");
 printf("cosinus(42) = %lf\n",fct(42));
 ```
 
+## Exemple d'utilisation des pointeurs en simplifiant strcat (très intéressant)
+
+![[Pasted image 20221107083837.png]]
+![[Pasted image 20221107083853.png]]
+
+## Autre exemple avec strcmp
+![[Pasted image 20221107083922.png]]
+

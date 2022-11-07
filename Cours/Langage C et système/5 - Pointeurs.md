@@ -215,4 +215,6 @@ struct elem *search_info(struct elem *list, char who[])
 - Mais dans le f7 strlen seul ne suffit pas car on oublie le '/0' donc il faut ajouter un +1
 - **à rattrapper**
 - **à rattrapper**
-- Ici on voit les différences 
+- Ici on voit les différences entre pointeurs et tableau.
+- Si a < b dans cette exemple on utilise une zone désallouée donc ça marche pas et dans le compilateur il n'y a pas d'erreur car le compilateur ne check pas quand à lieu les appels à malloc et à free.
+- On appelle deux fois free sur la même zone mémoire.

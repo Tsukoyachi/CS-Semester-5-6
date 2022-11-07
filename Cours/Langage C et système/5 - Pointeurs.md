@@ -56,4 +56,13 @@ struct {
 - l'accès au même champ avec p : (\*p).a
 
 Notation spéciale :
-- Pour simplifier (\*p).a
+- Pour simplifier (\*p).a on peut aussi écrire p->a cela fait la même chose.
+
+## Paramètre de type pointeur
+
+Avant si l'on voulait faire une fonction pour échanger les valeurs de deux variables on avait ce souci :
+![[Pasted image 20221107082051.png |center]]
+
+Comme les fonctions fonctionnent par passage de valeur, ici x et y n'était pas modifiés. Avec les pointeurs cela fonctionne en faisant :
+![[Pasted image 20221107082144.png |center]]
+En effet ici, on pa

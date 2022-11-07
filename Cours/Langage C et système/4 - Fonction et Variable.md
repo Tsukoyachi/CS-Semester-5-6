@@ -34,7 +34,7 @@ int max(int a, int b){
 ```
 ### Type du résultat
 - void (pas de type => procédure)
-- n'importe quel type scalaie (entier, réel, pointeur, enum)
+- n'importe quel type scalaire (entier, réel, pointeur, enum)
 - structure et union
 - Attention : **pas de tableau**
 

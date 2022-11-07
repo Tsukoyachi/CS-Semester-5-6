@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "911d169df2e013eb",
@@ -172,15 +171,15 @@
   },
   "active": "837410976f15ce5d",
   "lastOpenFiles": [
+    "Cours/Langage C et système/4 - Fonction et Variable.md",
+    "Cours/Langage C et système/5 - Pointeurs.md",
     "Cours/Langage C et système/media/05 Pointeurs.pdf",
     "Cours/Langage C et système/media/Pasted image 20221003082019.png",
     "Cours/Langage C et système/media/Pasted image 20221003082025.png",
-    "Cours/Langage C et système/5 - Pointeurs.md",
     "Cours/Architecture et réseau/media/slides-intro-net.pdf",
     "Cours/Architecture et réseau/1 - Introduction.md",
     "TD/Architecture Et Réseau/TD1.md",
     "TD/Informatique Théorique/TD4.md",
-    "TD/Informatique Théorique/TD3.md",
-    "Cours/Informatique théorique (semi TD)/3 - Preuve en calcul propositionnel.md"
+    "TD/Informatique Théorique/TD3.md"
   ]
 }

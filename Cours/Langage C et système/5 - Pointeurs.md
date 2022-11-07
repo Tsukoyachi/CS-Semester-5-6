@@ -65,4 +65,21 @@ Avant si l'on voulait faire une fonction pour échanger les valeurs de deux vari
 
 Comme les fonctions fonctionnent par passage de valeur, ici x et y n'était pas modifiés. Avec les pointeurs cela fonctionne en faisant :
 ![[Pasted image 20221107082144.png |center]]
-En effet ici, on pa
+En effet ici, on passe la valeur de l'adresse de x et de y donc dans la fonction on ne modifie pas les adresse mais le contenu des cases mémoire liés aux adresse de x et de y.
+
+## Opérations arithmétiques sur les pointeurs
+
+### Comparaison
+- == et !=
+- mais aussi <,<=, > et >=
+
+### Addition / soustraction d'un entier
+- pointeur + entier -> pointeur
+- pointeur - entier -> pointeur
+- permet de calculer des décalage d'adresses
+
+### Différence entre deux pointeurs de même type
+- pointeur - pointeur -> pointeur
+- permet de calculer le nombre d'éléments de ce type entre les adresses
+
+### Conve

@@ -126,3 +126,4 @@ struct Func T[] = {
 double (*fct) (double) = chercher(T, "cosinus");
 printf("cosinus(42) = %lf\n",fct(42));
 ```
+

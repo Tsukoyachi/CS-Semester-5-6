@@ -144,4 +144,26 @@ Donc finalement on est passé d'une version complexe à un code lisible en deux 
 ![[Pasted image 20221107084309.png]]
 ![[Pasted image 20221107084321.png]]
 
-## Allocation dynamiq
+## Allocation mémoire dynamique
+Allocation mémoire
+```C
+void *malloc(size_t size);
+void *calloc(size_t nelems, size_t size);
+void *realloc(void *ptr, size_t new_size);
+```
+- Ces fonctions renvoient un pointeur sur la zone allouée ou NULL si l'allocation est impossible.
+
+Libération mémoire
+```C
+void free(void *ptr);
+```
+
+### Allocation dynamique : Liste chaînée
+```C
+typedef struct {/* Les infos que l'on met dans la liste */
+	char name[30];
+	...
+} Info;
+
+
+```

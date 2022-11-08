@@ -74,7 +74,17 @@ C'est une unificateur le plus général possible, tout autre unificateur peut ê
 
 ## Exemples d'unifications
 
-### Exemple 1 
+### Exemple 1 :
 
 ![[Pasted image 20221108152849.png | center]]
+Ici tout fonctionne correctement.
+
+### Exemple 2 :
+
+![[Pasted image 20221108153059.png | center]]
+Ici pour le premier x il n'y a pas de soucis, mais pour le second x on a un x dans la fonction de l'autre côté donc ça ne fonctionne pas.
+
+## Règle de résolution en calcul des prédicats
+
+![[Pasted image 20221108153235.png | center]]
 

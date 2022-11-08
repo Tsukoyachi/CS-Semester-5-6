@@ -46,4 +46,9 @@ Où x = c et y = d avec c,d deux constantes.
 - $z$ et $g(a,y)$ sont unifiables
 - $x$ et $z$ sont unifiables
 - $y$ et $f(b)$ sont unifiables
-On a donc : $(x|z),(y|f(b)),(z|g(a,f(b)))$
+On a donc : $(z|x),(f(b)|y),(g(a,y)|z)$
+
+Donc A et B sont unifiable avec comme plus grand unificateur : 
+- $(g(a,y)|z)$
+
+2. $A = p(f(g()))$

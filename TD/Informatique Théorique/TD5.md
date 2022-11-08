@@ -31,6 +31,11 @@ Où u = f(x,y,z) avec f une fonction d'arité 3.
 Etape 1 : forme prénexe
 $$\displaylines{
 	\exists x (\neg p(x,a) \lor \neg(\forall y, q(x,y) \lor r(x))) \\
-	\exists x (\neg p(x,a) \lor (\exists y, \neg q(x,y))) \\
-	\exists x \exists y (\neg)
+	\exists x (\neg p(x,a) \lor (\exists y, \neg q(x,y) \land \neg r(x))) \\
+	\exists x \exists y (\neg p(x,a) \lor (\neg q(x,y) \land \neg r(x)))
 }$$
+Etape 2 : forme de Skolem
+$$\displaylines{
+	\neg p(c,a) \lor (\neg q(c,d) \land \neg r(c))
+}$$
+Où x = c et y = d avec c,d deux constantes.

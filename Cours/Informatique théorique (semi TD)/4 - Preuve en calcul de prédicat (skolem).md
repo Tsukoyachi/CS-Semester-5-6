@@ -18,5 +18,12 @@ Enfin on peut replacer les quantificateurs au début.
 Voici une liste de règles pour pouvoir passer une formule en forme prénexe :
 ![[Pasted image 20221108150557.png | center]]
 
-
 ![[Pasted image 20221108150629.png | center]]
+
+## Forme Skolem
+
+Une fois en forme prénexe on doit passer en forme Skolem.
+Le but est de retirer tous les quantificateurs $\exists$ en les remplaçant par des $\forall$. 
+Pour faire cela, on remplace toutes les variables quantifiées par des $\exists$ par des fonctions. *À comprendre car ça sonne bizarre à première vue...*
+
+![[Pasted image 20221108150921.png | center]]

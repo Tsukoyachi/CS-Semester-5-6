@@ -43,6 +43,7 @@ Où x = c et y = d avec c,d deux constantes.
 # Exercice 2 :
 
 1. $A = p(f(g(a,y)),z,y), B = p(f(z),x,f(b))$
-- $z g(a,y)$
-- $x = z = g(a,y)$
-- $y = f(b)$
+- $z$ et $g(a,y)$ sont unifiables
+- $x$ et $z$ sont unifiables
+- $y$ et $f(b)$ sont unifiables
+On a donc : $(x|z),(y|f(b)),(z|g(a,f(b)))$

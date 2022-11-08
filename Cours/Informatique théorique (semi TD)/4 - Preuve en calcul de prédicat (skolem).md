@@ -51,3 +51,7 @@ On va donc passer par une **Unification**. Mais comment ça marche ?
 
 ## Unification
 
+Pour le prochain screen, on définit :
+- constantes : a, b
+- variable : x,y,z,u
+- fonctions : flemme de les définir mais ça se reconnaît à l'oeil alors que variable et constante c'était amb

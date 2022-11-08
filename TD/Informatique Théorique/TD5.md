@@ -39,3 +39,10 @@ $$\displaylines{
 	\neg p(c,a) \lor (\neg q(c,d) \land \neg r(c))
 }$$
 Où x = c et y = d avec c,d deux constantes.
+
+# Exercice 2 :
+
+1. $A = p(f(g(a,y)),z,y), B = p(f(z),x,f(b))$
+- $z g(a,y)$
+- $x = z = g(a,y)$
+- $y = f(b)$

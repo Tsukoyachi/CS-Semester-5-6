@@ -18,5 +18,6 @@ $$\displaylines{
 Etape 1 : forme prénexe
 $$\displaylines{
 	\forall x\forall y (\neg(\exists z,p(x,z)\land p(y,z)) \lor (\exists u, q(x,y,u))) \\
-	\forall x \forall y ((\forall z,\neg ))
+	\forall x \forall y (\forall z,\neg p(x,z) \lor \neg p(y,z) \lor (\exists u, q(x,y,u))) \\
+	\forall x \forall y \forall z \exists u (\neg p(x,z) \lor \neg p(y,z) \lor q(x,y,u))
 }$$

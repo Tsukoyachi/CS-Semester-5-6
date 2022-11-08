@@ -31,4 +31,13 @@ On remplace le x qui est quantifié par un $\exists$ par une constante.
 
 Mais on ne peut pas le faire pour le $\exists z$ car à sa gauche il y a un $\forall y$ cela signifie que le z est *choisit* en fonction de y, on le remplace donc par une fonction 1-aire d'argument y (on remplace $\exists z$ par $f(y)$).
 
-Le $\exists v$ est remplacé en suivant le même principe que pour z mais à sa gauche il y a $\forall u$ mais il y a également $\forall y$ 
+Le $\exists v$ est remplacé en suivant le même principe que pour z mais à sa gauche il y a $\forall u$ mais il y a également $\forall y$ donc on le remplacera par une fonction 2-aire d'arguments y et u (on remplace $\exists v$ par $g(y,u)$).
+
+Mais comme le dit la remarque **une forme de skolem n'est pas forcément équivalente à la formule initiale**.
+
+### Mais alors pourquoi peut on utiliser une forme de Skolem ?
+
+Théorème : toute formule sous forme prénexe ψ peut être remplacée par une formule skolémisée $ψ^S$ telle que : 
+• ψ est satisfiable si et seulement si et ψS est satisfiable 
+• ψ est contradictoire si et seulement si et ψS est contradictoire.
+

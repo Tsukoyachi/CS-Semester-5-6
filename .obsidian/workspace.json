@@ -20,6 +20,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "440cdcbc952f8043",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7d08c14413355cff",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "TD/Informatique Théorique/media/TDpreuvespredicats.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"

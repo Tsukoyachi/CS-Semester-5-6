@@ -68,3 +68,13 @@ En gros : On peut remplacer une **variable par une constante**, on peut remplace
 
 ![[Pasted image 20221108152714.png | center]]
 
+### Plus grand unificateur
+
+C'est une unificateur le plus général possible, tout autre unificateur peut être obtenu en ajoutant des substitutions.
+
+## Exemples d'unifications
+
+### Exemple 1 
+
+![[Pasted image 20221108152849.png | center]]
+

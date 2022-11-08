@@ -54,4 +54,17 @@ On va donc passer par une **Unification**. Mais comment ça marche ?
 Pour le prochain screen, on définit :
 - constantes : a, b
 - variable : x,y,z,u
-- fonctions : flemme de les définir mais ça se reconnaît à l'oeil alors que variable et constante c'était amb
+- fonctions : flemme de les définir mais ça se reconnaît à l'oeil alors que variable et constante c'était ambïgue ici...
+
+![[Pasted image 20221108152450.png | center]]
+
+En gros : On peut remplacer une **variable par une constante**, on peut remplacer **une variable par une variable**, mais on **NE PEUT PAS** remplacer la **valeur d'une constante par une variable ou par une autre constante**.
+
+### Deux atomes sont ils unifiables ?
+
+![[Pasted image 20221108152637.png | center ]]
+
+### Deux termes (fonctions appliquées à des termes) sont ils unifiables ?
+
+![[Pasted image 20221108152714.png | center]]
+

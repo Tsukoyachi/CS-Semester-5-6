@@ -43,3 +43,11 @@ Théorème : toute formule sous forme prénexe $ψ$ peut être remplacée par un
 
 **Récap' de Rallo** : En gros ça fonctionne pareil...
 
+## Rappel
+
+![[Pasted image 20221108151938.png | center]]
+
+On va donc passer par une **Unification**. Mais comment ça marche ?
+
+## Unification
+

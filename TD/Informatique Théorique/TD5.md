@@ -51,4 +51,4 @@ On a donc : $(z|x),(f(b)|y),(g(a,y)|z)$
 Donc A et B sont unifiable avec comme plus grand unificateur : 
 - $(g(a,y)|z)$
 
-2. $A = p(f(g()))$
+2. $A = p(f(g(a,y)))$

@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "07fab5782f68e7bb",
+        "id": "f11259bec06419bf",
         "type": "tabs",
         "children": [
           {
-            "id": "3d8b8c1f270e0ff7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cours/Informatique théorique (semi TD)/4 - Preuve en calcul de prédicat (skolem).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6933a6ed50e42fb4",
+            "id": "37d9c8540a7cc5bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,8 +153,10 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "6933a6ed50e42fb4",
+  "active": "37d9c8540a7cc5bd",
   "lastOpenFiles": [
+    "TD/Informatique Théorique/media/TDpreuvespredicats.pdf",
+    "TD/Informatique Théorique/TD5.md",
     "Cours/Informatique théorique (semi TD)/4 - Preuve en calcul de prédicat (skolem).md",
     "Cours/Langage C et système/media/05 Pointeurs.pdf",
     "Cours/Langage C et système/5 - Pointeurs.md",
@@ -175,8 +164,6 @@
     "Cours/Langage C et système/4 - Fonction et Variable.md",
     "Cours/Langage C et système/media/Pasted image 20221003082019.png",
     "Cours/Langage C et système/media/Pasted image 20221003082025.png",
-    "Cours/Architecture et réseau/media/slides-intro-net.pdf",
-    "Cours/Architecture et réseau/1 - Introduction.md",
-    "TD/Architecture Et Réseau/TD1.md"
+    "Cours/Architecture et réseau/media/slides-intro-net.pdf"
   ]
 }

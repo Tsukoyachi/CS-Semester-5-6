@@ -21,3 +21,11 @@ $$\displaylines{
 	\forall x \forall y (\forall z,\neg p(x,z) \lor \neg p(y,z) \lor (\exists u, q(x,y,u))) \\
 	\forall x \forall y \forall z \exists u (\neg p(x,z) \lor \neg p(y,z) \lor q(x,y,u))
 }$$
+Etape 2 : forme Skolem
+$$\displaylines{
+	\forall x \forall y \forall z (\neg p(x,z) \lor \neg p(y,z) \lor q(x,y,f(x,y,z)))
+}$$
+Où u = f(x,y,z) avec f une fonction d'arité 3.
+
+3. $\exists x (p(x,a) \Rightarrow \neg (\forall y, q(x,y) \lor r(x)))$
+4. 

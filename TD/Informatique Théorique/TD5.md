@@ -55,4 +55,11 @@ Donc A et B sont unifiable avec comme plus grand unificateur :
 - z et g(x,y) sont unifiables
 - x et g(v,w) sont unifiables
 - y et f(b) sont unifiables
-- On a donc : $(g(x,y)|z),(g(v,w)|x),f(b)|y$
+- On a donc : $(g(x,y)|z),(g(v,w)|x),(f(b)|y)$
+
+Donc A et B sont unifiables avec comme plus grand unificateur :
+$(g(v,w)|x)$.
+
+3. $A = p(f(x),f(y),f(z)), B = p(g(x),g(y),g(z))$
+- f(x) et g(x) ne sont pas unifiables car il ne s'agit pas de la même fonction.
+Donc A et B ne sont pas unifiables.

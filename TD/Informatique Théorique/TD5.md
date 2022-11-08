@@ -28,4 +28,9 @@ $$\displaylines{
 Où u = f(x,y,z) avec f une fonction d'arité 3.
 
 3. $\exists x (p(x,a) \Rightarrow \neg (\forall y, q(x,y) \lor r(x)))$
-4. 
+Etape 1 : forme prénexe
+$$\displaylines{
+	\exists x (\neg p(x,a) \lor \neg(\forall y, q(x,y) \lor r(x))) \\
+	\exists x (\neg p(x,a) \lor (\exists y, \neg q(x,y))) \\
+	\exists x \exists y (\neg)
+}$$

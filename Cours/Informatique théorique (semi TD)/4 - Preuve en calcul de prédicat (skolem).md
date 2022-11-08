@@ -8,4 +8,15 @@ Ici à la place on passe d'abord notre formule sous forme **prénexe** puis en f
 
 ## Forme prénexe
 
-On place tous les quantificateurs 
+*"On place tous les quantificateurs en début de formule"*
+Mais on ne peut pas le faire n'importe comment...
+
+On retire les implications et les équivalences en remplaçant pas des ou et des et.
+On renomme les variables présentes en double.
+Enfin on peut replacer les quantificateurs au début.
+
+Voici une liste de règles pour pouvoir passer une formule en forme prénexe :
+![[Pasted image 20221108150557.png | center]]
+
+
+![[Pasted image 20221108150629.png | center]]

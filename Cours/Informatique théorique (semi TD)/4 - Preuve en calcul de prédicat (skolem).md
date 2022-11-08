@@ -37,7 +37,9 @@ Mais comme le dit la remarque **une forme de skolem n'est pas forcément équiva
 
 ### Mais alors pourquoi peut on utiliser une forme de Skolem ?
 
-Théorème : toute formule sous forme prénexe ψ peut être remplacée par une formule skolémisée $ψ^S$ telle que : 
-• ψ est satisfiable si et seulement si et ψS est satisfiable 
-• ψ est contradictoire si et seulement si et ψS est contradictoire.
+Théorème : toute formule sous forme prénexe $ψ$ peut être remplacée par une formule skolémisée $ψ^S$ telle que : 
+• $ψ$ est satisfiable si et seulement si et $ψ^S$ est satisfiable 
+• $ψ$ est contradictoire si et seulement si et $ψ^S$ est contradictoire.
+
+**Récap' de Rallo** : En gros ça fonctionne pareil...
 

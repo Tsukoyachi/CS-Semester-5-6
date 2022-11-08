@@ -51,4 +51,7 @@ On a donc : $(z|x),(f(b)|y),(g(a,y)|z)$
 Donc A et B sont unifiable avec comme plus grand unificateur : 
 - $(g(a,y)|z)$
 
-2. $A = p(f(g(x,y)),z,y),B = p(f(z))$
+2. $A = p(f(g(x,y)),z,y),B = p(f(z),x,f(b))$
+- z et g(x,y) sont unifiables
+- z et x ne sont pas unifiables car x et g(x,y) ne sont pas unifiable
+Donc

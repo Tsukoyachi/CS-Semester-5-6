@@ -88,3 +88,11 @@ Ici pour le premier x il n'y a pas de soucis, mais pour le second x on a un x da
 
 ![[Pasted image 20221108153235.png | center]]
 
+### Réduction en calcul de prédicat
+
+![[Pasted image 20221108153403.png | center]]
+
+### Exemple "concret"
+
+![[Pasted image 20221108153434.png | center]]
+![[Pasted image 20221108153509.png | center]]

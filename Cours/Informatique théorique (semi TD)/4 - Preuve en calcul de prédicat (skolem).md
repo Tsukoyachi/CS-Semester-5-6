@@ -27,3 +27,8 @@ Le but est de retirer tous les quantificateurs $\exists$ en les remplaçant par 
 Pour faire cela, on remplace toutes les variables quantifiées par des $\exists$ par des fonctions. *À comprendre car ça sonne bizarre à première vue...*
 
 ![[Pasted image 20221108150921.png | center]]
+On remplace le x qui est quantifié par un $\exists$ par une constante. 
+
+Mais on ne peut pas le faire pour le $\exists z$ car à sa gauche il y a un $\forall y$ cela signifie que le z est *choisit* en fonction de y, on le remplace donc par une fonction 1-aire d'argument y (on remplace $\exists z$ par $f(y)$).
+
+Le $\exists v$ est remplacé en suivant le même principe que pour z mais à sa gauche il y a $\forall u$ mais il y a également $\forall y$ 

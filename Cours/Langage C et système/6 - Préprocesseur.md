@@ -50,4 +50,18 @@ Exemple :
 #define SIZE 1024
 #define SIZE2 (2*1024)
 int buf[SIZE], big_buf[SIZE2];
+
+#define IF if (
+#define THEN ) {
+#define ELSE ;} else {
+#define ENDIF ;}
+...
+IF a < b THEN x = y + z; z = w ELSE a = 2 * b ENDIF
+/* équivalent à */
+if (a < b) { x = y + z; z = w;} else {a = 2 * b;}
+```
+### Définition de macro
+Syntaxe :
+```C
+#define idenficateur(x1,x2, ..)
 ```

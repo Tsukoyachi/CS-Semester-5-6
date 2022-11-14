@@ -29,7 +29,25 @@ Quand on fait gcc les 3 étapes sont faites mais on peut les appeler indépendem
 
 ## Inclusion
 ### Inclusion de fichier source
-- Deux formes :
-\#include <fichier> Bibliothèque standard
 
-\#include "fichier"
+- Deux formes :
+\#include \<fichier> Bibliothèque standard
+\#include "fichier" Bibliothèque perso
+**à compléter**
+
+## Substitution
+### Définition de constante
+Syntaxe :
+```C
+#define identificateur chaîne
+```
+Exemple :
+```C
+#define FALSE 0
+#define TRUE 1
+#define EOF (-1)
+
+#define SIZE 1024
+#define SIZE2 (2*1024)
+int buf[SIZE], big_buf[SIZE2];
+```

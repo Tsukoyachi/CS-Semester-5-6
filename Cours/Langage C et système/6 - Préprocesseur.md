@@ -80,5 +80,18 @@ Exemple :
 while ((c = getchar()) != EOF)
 	m = min(m,c);
 
-==> while((c = getc(stdin)))
+==> while((c = getc(stdin)) != (-1))
+		m = ((m) < (c) ? (m) : (c));
 ```
+
+#### Quelques dangers des macros
+- la substitution est seulement textuelle donc il faut bien parenthéser.
+```C
+#define badmax(a,b) a > b ? a : b
+x = 2 + badmax(x,y)
+==> x = 2 + x > y ? x : y;
+```
+**à compléter** #Todo
+
+### Stringification
+- ANSI C définit un opérateur de stringification

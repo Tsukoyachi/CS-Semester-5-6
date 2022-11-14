@@ -23,5 +23,13 @@ Quand on fait gcc les 3 étapes sont faites mais on peut les appeler indépendem
 ## Phase de compilation C
 - Il y a 8 étapes de compilation, le préprocesseur va faire les 4 premières.
 	1. Remplcement de trigraphes (plus dans les programmes, peu utilisé)
-	2. Raccordement des lignes physiquement séparés mais qui sont connecté en terme de code.
-	3. 
+	2. Raccordement des lignes physiquement séparés mais qui sont connectés par des séquences de saut de lignes.
+	3. Tokenisation **à compléter** #Todo 
+
+
+## Inclusion
+### Inclusion de fichier source
+- Deux formes :
+\#include <fichier> Bibliothèque standard
+
+\#include "fichier"

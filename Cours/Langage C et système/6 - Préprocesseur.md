@@ -137,4 +137,15 @@ Inconvénients :
 - Ce mécanisme permet de :
 	- paramétrer des structures de données complexes à la compilation.
 	- **à compléter** #Todo 
-- 
+- Exemple : **à compléter** #Todo 
+```C
+#ifndef MAXSIZE
+	#define MAXSIZE 1024
+#endif
+typedef struct {
+	#if LINUX || MACOS
+		int _cnt;
+		unsigned char *_ptr;
+}
+```
+- Exemple 2 : **à compléter** #Todo

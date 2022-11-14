@@ -91,6 +91,7 @@ while ((c = getchar()) != EOF)
 x = 2 + badmax(x,y)
 ==> x = 2 + x > y ? x : y;
 ```
+- Attentions aux effets de bords
 **à compléter** #Todo
 
 ### Stringification
@@ -129,3 +130,11 @@ Avantages :
 - Permet de modifier la syntaxe du langage
 - Permet de définir des fonctions inline
 Inconvénients :
+- Permet de modifier la syntaxe du langage
+- Permet de définir des fonctions inline
+
+## Compilation conditionnelle
+- Ce mécanisme permet de :
+	- paramétrer des structures de données complexes à la compilation.
+	- **à compléter** #Todo 
+- 

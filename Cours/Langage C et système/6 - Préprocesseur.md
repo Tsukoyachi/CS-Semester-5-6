@@ -63,5 +63,22 @@ if (a < b) { x = y + z; z = w;} else {a = 2 * b;}
 ### Définition de macro
 Syntaxe :
 ```C
-#define idenficateur(x1,x2, ..)
+#define idenficateur(x1,x2, ...xn) chaîne
+```
+Cela permet de définir des pseudos fonctions :
+- plus rapide (puisque pas de coût d'appel et de retour de fonction)
+- souvent plus lisible que la macro expansion
+
+Exemple :
+```C
+#define getchar() getc(stdin)
+#define putchar(c) putc(c, stdout)
+
+#define min(a,b) ((a) < (b) ? (a) : (b))
+#define max(a,b) ((a) < (b) ? (b) : (a))
+
+while ((c = getchar()) != EOF)
+	m = min(m,c);
+
+==> while((c = getc(stdin)))
 ```

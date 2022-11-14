@@ -94,4 +94,23 @@ x = 2 + badmax(x,y)
 **à compléter** #Todo
 
 ### Stringification
-- ANSI C définit un opérateur de stringification
+- ANSI C définit un opérateur de stringification **à compléter** #Todo
+```C
+#define TRACE(x) printf("%s = %d\n", #x ,x)
+```
+### Concaténation dans les macros
+- ANSI C définit un opérateur de concaténation
+**à compléter** #Todo 
+
+### Définition de macro à la compilation
+Il est possible de définir une macro
+ - Sans modifier le code source
+ - à la compilation
+Exemple : **à compléter** #Todo
+```C
+gcc -C 
+```
+
+### Macro prédéfinies
+- Les macros suivantes sont prédéfinies :
+	- 

@@ -113,4 +113,19 @@ gcc -C
 
 ### Macro prédéfinies
 - Les macros suivantes sont prédéfinies :
-	- 
+	- \_\_LINE\_\_ : le numéro de la ligne actuelle
+	- **à compléter** #Todo 
+
+### Oublier une définition
+L'oublie d'une définition (macro ou constante) se fait avec \#undef
+```C
+#undef IF
+#undef THEN
+#undef ELSE
+#undef ENDIF
+```
+### Avantages et Inconvénients
+Avantages :
+- Permet de modifier la syntaxe du langage
+- Permet de définir des fonctions inline
+Inconvénients :

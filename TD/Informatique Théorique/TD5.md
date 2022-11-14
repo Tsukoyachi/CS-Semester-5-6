@@ -63,3 +63,5 @@ $(g(v,w)|x)$.
 3. $A = p(f(x),f(y),f(z)), B = p(g(x),g(y),g(z))$
 - f(x) et g(x) ne sont pas unifiables car il ne s'agit pas de la même fonction.
 Donc A et B ne sont pas unifiables.
+
+**À compléter à la maison mais la 4, 5 et 6 ne sont pas unifiables d'après le prof.**

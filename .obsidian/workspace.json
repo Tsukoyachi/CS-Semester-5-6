@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f11259bec06419bf",
+        "id": "1b12366ceeb67b5d",
         "type": "tabs",
         "children": [
           {
-            "id": "37d9c8540a7cc5bd",
+            "id": "9c2011f6dd63f31a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TD/Informatique Théorique/TD5.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b0159c5d4ff66618",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cours/Langage C et système/6 - Préprocesseur.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#include",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +61,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Langage C et système/6 - Préprocesseur.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Langage C et système/6 - Préprocesseur.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Cours/Langage C et système/6 - Préprocesseur.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,17 +145,17 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "b0159c5d4ff66618",
+  "active": "9c2011f6dd63f31a",
   "lastOpenFiles": [
+    "Cours/POO/3 - Enumérés.md",
     "TD/Informatique Théorique/TD5.md",
+    "Cours/Langage C et système/6 - Préprocesseur.md",
     "Cours/Informatique théorique (semi TD)/4 - Preuve en calcul de prédicat (skolem).md",
     "TD/Informatique Théorique/media/TDpreuvespredicats.pdf",
     "Cours/Langage C et système/media/05 Pointeurs.pdf",
     "Cours/Langage C et système/5 - Pointeurs.md",
     "Cours/Langage C et système/2 - Variable, constantes et types.md",
     "Cours/Langage C et système/4 - Fonction et Variable.md",
-    "Cours/Langage C et système/media/Pasted image 20221003082019.png",
-    "Cours/Langage C et système/media/Pasted image 20221003082025.png",
-    "Cours/Architecture et réseau/media/slides-intro-net.pdf"
+    "Cours/Langage C et système/media/Pasted image 20221003082019.png"
   ]
 }

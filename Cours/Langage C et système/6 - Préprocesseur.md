@@ -150,4 +150,9 @@ typedef struct {
 ```
 - Exemple 2 : **à compléter** #Todo 
 
-## Ex
+## Exécution préprocesseur
+- L'option -E du compilateur C, permet de lancer seulement le préprocesseur puis affiche le résultat sur la sortie standard.
+- On peut donc utiliser le préprocesseur C
+	- pour des langages qui n'ont pas de préprocesseur
+	- pour faire des substituions textuelles ou des inclusions
+

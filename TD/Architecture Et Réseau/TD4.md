@@ -19,4 +19,4 @@ La liste des ip que j'ai attribué est :
 - svr1 : 190.0.3.2/24 vers eth0.
 - svr2 :190.0.3.3/24 vers eth0.
 
-4. 
+4. Pour ajouter les routes par défaut on va sur les hôtes (c1,c2,svr1,svr2) et on fait la commande : ip route add \[]

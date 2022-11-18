@@ -59,4 +59,22 @@ R4 :
 190.0.3.0/26 dev eth1 proto kernel scope link src 190.0.3.1 
 203.0.113.192/26 dev eth0 proto kernel scope link src 203.0.113.194
 
-8. 
+8. Table de routage complète (nouvelles routes en gras) :
+- R1 :
+190.0.1.0/24 dev eth2 proto kernel scope link src 190.0.1.1 
+203.1.113.0/26 dev eth0 proto kernel scope link src 203.1.113.1 
+203.1.113.64/26 dev eth1 proto kernel scope link src 203.1.113.65 
+
+- R2 :
+190.0.2.0/24 dev eth2 proto kernel scope link src 190.0.2.1 
+203.1.113.0/26 dev eth0 proto kernel scope link src 203.1.113.2 
+203.1.113.128/26 dev eth1 proto kernel scope link src 203.1.113.129 
+
+- R3 :
+203.0.113.192/26 dev eth1 proto kernel scope link src 203.0.113.193 
+203.1.113.64/26 dev eth2 proto kernel scope link src 203.1.113.66 
+203.1.113.128/26 dev eth0 proto kernel scope link src 203.1.113.130 
+
+- R4 :
+190.0.3.0/26 dev eth1 proto kernel scope link src 190.0.3.1 
+203.0.113.192/26 dev eth0 proto kernel scope link src 203.0.113.194

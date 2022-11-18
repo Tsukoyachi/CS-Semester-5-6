@@ -25,4 +25,9 @@ La liste des ip que j'ai attribué est :
 
 5. Oui j'ai bien le message d'erreur de l'énoncé.
 
-6. 
+6. Voici les tables de routages de chaque hôtes :
+- C1 :
+	- default via 190.0.1.1 dev eth0 
+	 - 190.0.1.0/24 dev eth0 proto kernel scope link src 190.0.1.2 
+- C2 :
+	- 

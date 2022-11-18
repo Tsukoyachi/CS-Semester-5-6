@@ -1,5 +1,5 @@
-- [x] Question 1
-- [x] Question 2
-- [x] Question 3
-- [ ] Question 4
-- [x] Question 5
+- [x] Question 1 : Écrire fonction pour shuffle aléatoirement une chaîne de caractères.
+- [x] Question 2 : Verificateur d'accolades ouvrantes et fermantes dans un code, renvoie 0 si faux, 1 sinon.
+- [x] Question 3 : Écrire fonction rot13 qui applique un algo de César avec un décalage de 13 sur une chaîne de caractères.
+- [ ] Question 4 : Pas compris l'énoncé... Écrire un fichier Makefile qui permet de gérer un programme...
+- [x] Question 5 : Écrire fonction pour vérifier qu'un nombre est divisible par la somme de ses chiffre exemple : 12/(1+2).

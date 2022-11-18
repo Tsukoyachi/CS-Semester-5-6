@@ -30,4 +30,16 @@ La liste des ip que j'ai attribué est :
 	- default via 190.0.1.1 dev eth0 
 	 - 190.0.1.0/24 dev eth0 proto kernel scope link src 190.0.1.2 
 - C2 :
-	- 
+	- default via 190.0.2.1 dev eth0 
+	 - 190.0.2.0/24 dev eth0 proto kernel scope link src 190.0.2.2 
+- SVR1 :
+	- default via 190.0.3.1 dev eth0 
+       - 190.0.3.0/24 dev eth0 proto kernel scope link src 190.0.3.2 
+- SVR2 :
+	- default via 190.0.3.1 dev eth0 
+	- 190.0.3.0/24 dev eth0 proto kernel scope link src 190.0.3.3 
+
+7. 
+
+
+

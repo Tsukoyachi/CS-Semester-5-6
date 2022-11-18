@@ -20,22 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "6b549c47db4e0395",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0e9694b44f32c517",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Cours/Architecture et réseau/media/slides-intro-net.pdf"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -85,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "911d169df2e013eb",

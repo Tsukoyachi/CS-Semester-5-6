@@ -64,7 +64,7 @@ R4 :
 190.0.1.0/24 dev eth2 proto kernel scope link src 190.0.1.1 
 203.1.113.0/26 dev eth0 proto kernel scope link src 203.1.113.1 
 203.1.113.64/26 dev eth1 proto kernel scope link src 203.1.113.65 
-
+**ip r add 190.0.3.0/24 via 203.1.113.66 dev eth1**
 - R2 :
 190.0.2.0/24 dev eth2 proto kernel scope link src 190.0.2.1 
 203.1.113.0/26 dev eth0 proto kernel scope link src 203.1.113.2 

@@ -23,4 +23,6 @@ La liste des ip que j'ai attribué est :
  ip route add default via \[ip sans le /xx de l'interface réseau de l'interface qui est connecté à notre hôte, ex : 190.0.1.1] dev  \[insérer interface de notre hôte qui ira vers le router, ex : eth0]
  ex : ip route add default via 190.0.1.1 dev eth0.
 
-5. 
+5. Oui j'ai bien le message d'erreur de l'énoncé.
+
+6. 

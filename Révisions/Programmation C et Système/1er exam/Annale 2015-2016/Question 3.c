@@ -10,28 +10,27 @@ dans la table ASCII et pour les 13 derniers on recule de 13.
 void rot13(char *s)
 {
     char *tmp_pointeur = s;
-    char tmp;
-    for(int i = 0; tmp = *(s+i); i++)
+    char tmp =*s;
+    for(int i = 0; tmp; i++,tmp=*(s+i))
     {
-        if((tmp >= 'a' && tmp <= 'n') || (tmp >= 'A' && tmp <= 'N'))
+        if((tmp >= 'a' && tmp <= 'm') || (tmp >= 'A' && tmp <= 'M'))
         {
            *(s+i) += 13; 
         }
-        else if((tmp >= 'm' && tmp <= 'z') || (tmp >= 'M' && tmp <= 'Z'))
+        else if((tmp >= 'n' && tmp <= 'z') || (tmp >= 'N' && tmp <= 'Z'))
         {
            *(s+i) -= 13; 
         }
-        s++;
     }
     s = tmp_pointeur;
 }
 
 int main ()
 {
-  char s[] = "Hello world !123";
+  char s[] = "Hello world !123mn";
   printf("Ma chaine : %s\n",s);
-  rot13(&s);
+  rot13(s);
   printf("Ma chaine cryptée : %s\n",s);
-  rot13(&s);
+  rot13(s);
   printf("Ma chaine decryptée : %s\n",s);
 }

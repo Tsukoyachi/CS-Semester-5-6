@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "1b12366ceeb67b5d",
+        "id": "1c6c9e92dae4fed7",
         "type": "tabs",
         "children": [
           {
-            "id": "9c2011f6dd63f31a",
+            "id": "644d50e16308fab9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cours/Architecture et réseau/1 - Introduction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ff0b1895bd5e9e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cours/Architecture et réseau/1 - Introduction.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Architecture et réseau/1 - Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Architecture et réseau/1 - Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Cours/Architecture et réseau/1 - Introduction.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,10 +146,10 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "5ff0b1895bd5e9e2",
+  "active": "644d50e16308fab9",
   "lastOpenFiles": [
-    "TD/Architecture Et Réseau/TD4.md",
     "Cours/Architecture et réseau/1 - Introduction.md",
+    "TD/Architecture Et Réseau/TD4.md",
     "Cours/Informatique théorique (semi TD)/4 - Preuve en calcul de prédicat (skolem).md",
     "Cours/POO/3 - Enumérés.md",
     "TD/Informatique Théorique/TD5.md",

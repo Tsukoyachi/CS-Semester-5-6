@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TD/Architecture Et Réseau/TD4.md",
+                "file": "Cours/Architecture et réseau/1 - Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "911d169df2e013eb",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TD/Architecture Et Réseau/TD4.md",
+                "file": "Cours/Architecture et réseau/1 - Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TD/Architecture Et Réseau/TD4.md",
+                "file": "Cours/Architecture et réseau/1 - Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TD/Architecture Et Réseau/TD4.md"
+                "file": "Cours/Architecture et réseau/1 - Introduction.md"
               }
             }
           },
@@ -163,10 +164,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
-  "active": "eb1abd7c3a403980",
+  "active": "5ff0b1895bd5e9e2",
   "lastOpenFiles": [
+    "TD/Architecture Et Réseau/TD4.md",
     "Cours/Architecture et réseau/1 - Introduction.md",
     "Cours/Informatique théorique (semi TD)/4 - Preuve en calcul de prédicat (skolem).md",
     "Cours/POO/3 - Enumérés.md",
@@ -175,7 +178,6 @@
     "TD/Informatique Théorique/media/TDpreuvespredicats.pdf",
     "Cours/Langage C et système/media/05 Pointeurs.pdf",
     "Cours/Langage C et système/5 - Pointeurs.md",
-    "Cours/Langage C et système/2 - Variable, constantes et types.md",
-    "Cours/Langage C et système/4 - Fonction et Variable.md"
+    "Cours/Langage C et système/2 - Variable, constantes et types.md"
   ]
 }

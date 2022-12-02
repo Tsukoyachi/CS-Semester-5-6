@@ -43,7 +43,12 @@ Lorsque que l'on possède n variables, on peut faire une table de vérité avec 
 - Nécessite un décodeur pour passer d'un code binaire sur 4 bits à un affichage qui lui est sur 7 bits.
 ![[Pasted image 20221202085458.png | center]]
 - La table de vérité du décodeur :
+	- Elle dispose de 16 lignes
+	- Les entrées sont les 4 bits du chiffre en hexa
+	- Les sorties sont les valeurs pour chaque segment pour savoir s'ils sont allumés ou non.
+
 ![[Pasted image 20221202085529.png | center]]
+
 
 
 

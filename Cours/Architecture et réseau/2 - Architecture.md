@@ -13,10 +13,18 @@ Lorsque l'interrupteur est fermé, La source est connecté à la masse et donc V
 
 On a donc un comportement inverseur via ce transistor.
 
-- Grâce à cela, on peut faire une porte et en mettant nos deux entrée A et B en série à la place de Ve.
+- Grâce à cela, on peut faire une porte non et en mettant nos deux entrée A et B en série à la place de Ve. (On obtient donc une porte ET en remettant un transistor en série après le Vs).
 
-![[Pasted image 20221202084551.png |center]]
+![[Pasted image 20221202084708.png | center]]
 
-- De même en les mettant en parallèle cela nous donne un OU.
-![[Pasted image 20221202084629.png |center]]
+- De même en les mettant en parallèle cela nous donne un non ou. (et donc en ajoutant un transistor en série avec Vs on obtient une porte ou).
+![[Pasted image 20221202084758.png | center]]
+
+**à rattraper**
+
+### Fonctions booléennes
+
+Lorsque que l'on possède n variables, on peut faire une table de vérité avec $2^n$ 
+
+
 

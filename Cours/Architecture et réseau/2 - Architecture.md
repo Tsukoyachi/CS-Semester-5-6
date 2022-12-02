@@ -24,7 +24,21 @@ On a donc un comportement inverseur via ce transistor.
 
 ### Fonctions booléennes
 
-Lorsque que l'on possède n variables, on peut faire une table de vérité avec $2^n$ 
+Lorsque que l'on possède n variables, on peut faire une table de vérité avec $2^n$ lignes.
+
+![[Pasted image 20221202085033.png |center]]
+
+![[Pasted image 20221202085056.png |center]]
+
+
+![[Pasted image 20221202085114.png | center]]
+
+### Vecteur de tests
+![[Pasted image 20221202085147.png | center]]
+
+#### Exemple de circuit - le décodeur 7 segments
+
+- Il permet d'afficher l'ensemble des chiffres hexadécimaux de 0 à F
 
 
 

@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/Informatique théorique (semi TD)/5 - Représentation des nombres.md",
+                "file": "Cours/Architecture et réseau/1 - Réseau.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0fb0527228b152e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cours/Architecture et réseau/2 - Architecture.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Informatique théorique (semi TD)/5 - Représentation des nombres.md",
+                "file": "Cours/Architecture et réseau/2 - Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Informatique théorique (semi TD)/5 - Représentation des nombres.md",
+                "file": "Cours/Architecture et réseau/2 - Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/Informatique théorique (semi TD)/5 - Représentation des nombres.md"
+                "file": "Cours/Architecture et réseau/2 - Architecture.md"
               }
             }
           },
@@ -153,9 +166,10 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "644d50e16308fab9",
+  "active": "d0fb0527228b152e",
   "lastOpenFiles": [
-    "Cours/Architecture et réseau/1 - Introduction.md",
+    "Cours/Architecture et réseau/1 - Réseau.md",
+    "Cours/Informatique théorique (semi TD)/5 - Représentation des nombres.md",
     "TD/Architecture Et Réseau/TD4.md",
     "Cours/Informatique théorique (semi TD)/4 - Preuve en calcul de prédicat (skolem).md",
     "Cours/POO/3 - Enumérés.md",
@@ -163,7 +177,6 @@
     "Cours/Langage C et système/6 - Préprocesseur.md",
     "TD/Informatique Théorique/media/TDpreuvespredicats.pdf",
     "Cours/Langage C et système/media/05 Pointeurs.pdf",
-    "Cours/Langage C et système/5 - Pointeurs.md",
-    "Cours/Langage C et système/2 - Variable, constantes et types.md"
+    "Cours/Langage C et système/5 - Pointeurs.md"
   ]
 }

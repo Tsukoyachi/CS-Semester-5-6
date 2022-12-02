@@ -39,6 +39,11 @@ Lorsque que l'on possède n variables, on peut faire une table de vérité avec 
 #### Exemple de circuit - le décodeur 7 segments
 
 - Il permet d'afficher l'ensemble des chiffres hexadécimaux de 0 à F
+- 7 segments de contrôle de A à F.
+- Nécessite un décodeur pour passer d'un code binaire sur 4 bits à un affichage qui lui est sur 7 bits.
+![[Pasted image 20221202085458.png | center]]
+- La table de vérité du décodeur :
+![[Pasted image 20221202085529.png | center]]
 
 
 

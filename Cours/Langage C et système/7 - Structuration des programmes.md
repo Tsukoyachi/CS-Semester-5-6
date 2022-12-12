@@ -100,4 +100,7 @@ inclure l'un de nos fichier "stack.h" (Chemin relatif en partant du .c de notre 
 	- Inefficace
 	- Besoin de bibliothèque précompilées
 - Compilation séparée
-	- L
+	- La source du programme est découpée en unités de compilation
+		- En C/C++, unité de compilation = un fichier .c (ou .cc, .cpp) et tous les fichiers .h (ou .hpp) qu'il inclu
+		- **à rattraper**
+

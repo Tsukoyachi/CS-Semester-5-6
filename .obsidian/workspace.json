@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9370f93e8cc99029",
+        "id": "6f6da1b256ab5d16",
         "type": "tabs",
         "children": [
           {
-            "id": "fa9469b7bd19b1a3",
+            "id": "9bf60c29761d2ff7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/Langage C et système/7 - Structuration des programmes.md",
+                "file": "Cours/Langage C et système/8 - make & Makefile.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Langage C et système/7 - Structuration des programmes.md",
+                "file": "Cours/Langage C et système/8 - make & Makefile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Langage C et système/7 - Structuration des programmes.md",
+                "file": "Cours/Langage C et système/8 - make & Makefile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/Langage C et système/7 - Structuration des programmes.md"
+                "file": "Cours/Langage C et système/8 - make & Makefile.md"
               }
             }
           },
@@ -153,8 +153,9 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "fa9469b7bd19b1a3",
+  "active": "9bf60c29761d2ff7",
   "lastOpenFiles": [
+    "Cours/Langage C et système/7 - Structuration des programmes.md",
     "Cours/Architecture et réseau/1 - Réseau.md",
     "Cours/Architecture et réseau/2 - Architecture.md",
     "Cours/Informatique théorique (semi TD)/5 - Représentation des nombres.md",
@@ -163,7 +164,6 @@
     "Cours/POO/3 - Enumérés.md",
     "TD/Informatique Théorique/TD5.md",
     "Cours/Langage C et système/6 - Préprocesseur.md",
-    "TD/Informatique Théorique/media/TDpreuvespredicats.pdf",
-    "Cours/Langage C et système/media/05 Pointeurs.pdf"
+    "TD/Informatique Théorique/media/TDpreuvespredicats.pdf"
   ]
 }

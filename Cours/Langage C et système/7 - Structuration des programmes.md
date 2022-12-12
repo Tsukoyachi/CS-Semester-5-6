@@ -104,3 +104,4 @@ inclure l'un de nos fichier "stack.h" (Chemin relatif en partant du .c de notre 
 		- En C/C++, unité de compilation = un fichier .c (ou .cc, .cpp) et tous les fichiers .h (ou .hpp) qu'il inclu
 		- **à rattraper**
 
+### Partie éditeur de lien à rattraper mais pas trop compliquée

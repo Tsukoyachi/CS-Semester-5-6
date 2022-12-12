@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1c6c9e92dae4fed7",
+        "id": "9370f93e8cc99029",
         "type": "tabs",
         "children": [
           {
-            "id": "644d50e16308fab9",
+            "id": "fa9469b7bd19b1a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/Architecture et réseau/1 - Réseau.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d0fb0527228b152e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cours/Architecture et réseau/2 - Architecture.md",
+                "file": "Cours/Langage C et système/7 - Structuration des programmes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Architecture et réseau/2 - Architecture.md",
+                "file": "Cours/Langage C et système/7 - Structuration des programmes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Architecture et réseau/2 - Architecture.md",
+                "file": "Cours/Langage C et système/7 - Structuration des programmes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/Architecture et réseau/2 - Architecture.md"
+                "file": "Cours/Langage C et système/7 - Structuration des programmes.md"
               }
             }
           },
@@ -166,9 +153,10 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "d0fb0527228b152e",
+  "active": "fa9469b7bd19b1a3",
   "lastOpenFiles": [
     "Cours/Architecture et réseau/1 - Réseau.md",
+    "Cours/Architecture et réseau/2 - Architecture.md",
     "Cours/Informatique théorique (semi TD)/5 - Représentation des nombres.md",
     "TD/Architecture Et Réseau/TD4.md",
     "Cours/Informatique théorique (semi TD)/4 - Preuve en calcul de prédicat (skolem).md",
@@ -176,7 +164,6 @@
     "TD/Informatique Théorique/TD5.md",
     "Cours/Langage C et système/6 - Préprocesseur.md",
     "TD/Informatique Théorique/media/TDpreuvespredicats.pdf",
-    "Cours/Langage C et système/media/05 Pointeurs.pdf",
-    "Cours/Langage C et système/5 - Pointeurs.md"
+    "Cours/Langage C et système/media/05 Pointeurs.pdf"
   ]
 }

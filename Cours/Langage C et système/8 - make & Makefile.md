@@ -111,3 +111,6 @@ GNU makes goodies (**à compléter**)
 ```
 Autres commandes GNU utiles (voir la doc (**à compléter**))
 
+## Le Makefile complet
+**à rattraper car plutôt utile !**
+

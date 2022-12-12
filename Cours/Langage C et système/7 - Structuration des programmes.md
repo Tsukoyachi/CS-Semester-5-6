@@ -74,3 +74,5 @@ static int f3(...) { /* f3 utilisable que dans file2.c*/
 
 ## Préprocesseur : Utiliser des .h
 
+**Regarder exemple du cours**
+

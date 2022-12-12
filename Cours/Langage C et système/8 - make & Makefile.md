@@ -101,5 +101,13 @@ $(CC) $(CFLAGS) -c fichier.c
 Définition de règles implicites
 **à compléter**
 
-GNU makes goodies
-- La commande make de
+GNU makes goodies (**à compléter**)
+- La commande make de GNU permet de définir autrement les règles implicites
+```C
+%.c.gz: %.c
+	gzip -9 $<
+%.c: %.c.gz
+	gunzip -9 $<
+```
+Autres commandes GNU utiles (voir la doc (**à compléter**))
+

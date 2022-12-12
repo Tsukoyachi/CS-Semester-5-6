@@ -14,4 +14,25 @@ Sauf que lorsque le prototype d'une fonction n'est pas déclaré, K&R l'auto dé
 		- L'allocation de la variable n'est pas faite par ce fichier.
 		- Il faut qu'un autre fichier déclare cette variable.
 - Fonction d'un fichier :
-	- Une fonction static n'e
+	- Une fonction static n'est visible que dans le fichier qui définit cette fonction (équivalent de private en java)
+	- Un prototype de fonction peut être déclaré extern :
+		- La fonction est définie ailleurs
+		- Le mot clé extern peut être omis.
+
+### Quelques exemples :
+
+```C
+/* Fichier file1.c */
+static int a;
+int b;
+extern int c;
+void main(void) {...}
+double f1(char *s){
+	static int a, b;
+	..... f2(); .... /* f2 est auto déclarée */
+}
+
+/* Fichier file2.c */
+static int a,b;
+i
+```

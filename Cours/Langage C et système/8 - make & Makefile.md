@@ -68,7 +68,22 @@ Macros : type d'affectation
 - Il existe plusieurs manières de dfinir une macro
 **à compléter**
 
-Cibles fictives
+Cibles fictives (**exemple à compléter**)
 - Les cibles d'un Makefile
 	- fichier (la plupart du temps)
-	- nom fitif (on dénot)
+	- nom fitif (on dénote une action dans ce cas)
+```C
+à compléter
+```
+
+Macros spéciales
+- $@ nom de la cible
+- $< nom de la première dépendances
+- $^ liste des dépendances
+- $? liste des dépendances plus récentes que la cible (utilise la date de dernière modification)
+- $* nom du fichier sans suffixe
+```C
+#Makefile (nouvelle version)
+..
+
+```

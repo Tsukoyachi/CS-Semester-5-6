@@ -76,3 +76,15 @@ static int f3(...) { /* f3 utilisable que dans file2.c*/
 
 **Regarder exemple du cours**
 
+pour éviter la multiple inclusion on utilise la directive 
+```C
+#ifndef _NOMFICHIER_H_
+#DEFINE _NOMFICHIER_H_
+
+...
+
+#end
+```
+
+inclure librairie standard : <stdio.h>
+inclure l'un de nos fichier "stack.h" (Chemin relatif en partant du .c de notre fichier je crois.)

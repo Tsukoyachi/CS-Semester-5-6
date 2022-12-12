@@ -116,7 +116,7 @@ Autres commandes GNU utiles (voir la doc (**à compléter**))
 
 ## Un Makefile pour les TDs
 
-(à compléter)
+(**à compléter**)
 ```C
 CC=gcc
 CFLAGS=-Wall -std=c99 -g

@@ -21,6 +21,7 @@ Sauf que lorsque le prototype d'une fonction n'est pas déclaré, K&R l'auto dé
 
 ### Quelques exemples :
 
+Qui fonctionne :
 ```C
 /* Fichier file1.c */
 static int a;
@@ -34,5 +35,39 @@ double f1(char *s){
 
 /* Fichier file2.c */
 static int a,b;
-i
+int c;
+
+extern double f1(); /* prototype K&R */
+
+void f2(void) {...}
+
+static int f3(...) { /* f3 utilisable que dans file2.c*/
+	f1("Test");      /* utilisation conforme au prototype*/
+}
+```
+
+Qui ne fonctionne pas (et même pas d'erreur compilation) :
+
+```C
+/* Fichier file1.c */
+static int a;
+int b;
+extern char c; /* déclaré comme int dans fichier 2 !!! */
+void main(void) {...}
+double f1(char *s){
+	static int a, b;
+	..... f2(100); .... /* utilisation résultat + paramètre !!! */
+}
+
+/* Fichier file2.c */
+static int a,b;
+int c;
+
+extern double f1(); /* prototype K&R */
+
+void f2(void) {...}
+
+static int f3(...) { /* f3 utilisable que dans file2.c*/
+	f1("Test");      /* utilisation conforme au prototype*/
+}
 ```

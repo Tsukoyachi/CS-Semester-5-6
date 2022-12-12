@@ -114,3 +114,18 @@ Autres commandes GNU utiles (voir la doc (**à compléter**))
 ## Le Makefile complet
 **à rattraper car plutôt utile !**
 
+## Un Makefile pour les TDs
+
+(à compléter)
+```C
+CC=gcc
+CFLAGS=-Wall -std=c99 -g
+
+SRC=$(wildcard *.c)
+EXE=$(SRC:.c=)
+
+all: $(EXE)
+
+clean:
+rm -f
+```

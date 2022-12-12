@@ -46,7 +46,7 @@ static int f3(...) { /* f3 utilisable que dans file2.c*/
 }
 ```
 
-Qui ne fonctionne pas (et même pas d'erreur compilation) :
+Qui ne fonctionne pas (**et même pas d'erreur compilation**) :
 
 ```C
 /* Fichier file1.c */
@@ -60,7 +60,7 @@ double f1(char *s){
 }
 
 /* Fichier file2.c */
-static int a,b;
+int a,b; /* définition multiple de b */
 int c;
 
 extern double f1(); /* prototype K&R */
@@ -68,6 +68,9 @@ extern double f1(); /* prototype K&R */
 void f2(void) {...}
 
 static int f3(...) { /* f3 utilisable que dans file2.c*/
-	f1("Test");      /* utilisation conforme au prototype*/
+	f1("Test");      /* utilisation non conforme */
 }
 ```
+
+## Préprocesseur : Utiliser des .h
+

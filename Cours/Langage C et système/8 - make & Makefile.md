@@ -76,7 +76,7 @@ Cibles fictives (**exemple à compléter**)
 à compléter
 ```
 
-Macros spéciales
+Macros spéciales (**exemple à compléter**)
 - $@ nom de la cible
 - $< nom de la première dépendances
 - $^ liste des dépendances
@@ -84,6 +84,22 @@ Macros spéciales
 - $* nom du fichier sans suffixe
 ```C
 #Makefile (nouvelle version)
-..
-
+....
+main.o: main.c hello.h
+	
 ```
+Règle implicites (**à compléter**)
+- make connait un certain nombre de règle implicites
+	- nom du compilateur C rangé dans CC
+	- option de compilations rangées dans CFLAGS
+	- passage de .c ->.o
+```C
+$(CC) $(CFLAGS) -c fichier.c
+```
+		- **à compléter**
+
+Définition de règles implicites
+**à compléter**
+
+GNU makes goodies
+- La commande make de

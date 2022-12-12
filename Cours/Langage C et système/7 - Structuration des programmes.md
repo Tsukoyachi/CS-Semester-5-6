@@ -92,3 +92,12 @@ inclure librairie standard : <stdio.h>
 inclure l'un de nos fichier "stack.h" (Chemin relatif en partant du .c de notre fichier je crois.)
 
 ### On n'inclue jamais un .c !!!
+
+## Compilation séparée
+
+- Fichier source unique ?
+	- Difficile à maintenir
+	- Inefficace
+	- Besoin de bibliothèque précompilées
+- Compilation séparée
+	- L

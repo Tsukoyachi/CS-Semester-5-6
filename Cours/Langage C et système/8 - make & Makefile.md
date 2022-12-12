@@ -19,5 +19,30 @@ cible [cible ...] : dépendances
 	commande 1
 	commande 2
 	...
-/* tabulation (pas 4 espace*/
+/* caractère tabulation (pas 4 espaces) requis avant les commandes */
+```
+
+Principe dans le cas de la compilation :
+- **à rattraper**
+
+Makefile
+```C
+# Makefile du programme précédent
+main: main.o hello.o
+	gcc -o main main.o hello.o
+main.o: main.c hello.h
+	gcc -c main.c
+hello.o: hello.c hello.h
+	gcc -c hello.c
+```
+Usage
+```C
+$ make
+gcc -c main.c
+gcc -c hello.c
+gcc -o main main.o hello.o
+$ gedit main.c
+...
+$ make
+gcc -c
 ```

@@ -50,6 +50,25 @@ gcc -o main main.o hello.o
 
 **La partie intéressante c'est que make a été créé pour C mais peut avoir un usage pour d'autre chose puisque c'est un éditeur de macro.**
 
-Macros
+Macros (**exemple à compléter**)
 - make permet de définir des macros
-	- défi
+	- définition avec macro=valeur
+	- valeur peut être lue avec $(macro)
+```C
+OBJ = main.o hello.o
+CC = gcc
+CFLAGS = -DDEBUG -g -Wall -std=c99
+main: $(OBJ)
+	$(CC) -o main $(OBJ)
+print:
+	lpr main.c hello.c
+```
+
+Macros : type d'affectation
+- Il existe plusieurs manières de dfinir une macro
+**à compléter**
+
+Cibles fictives
+- Les cibles d'un Makefile
+	- fichier (la plupart du temps)
+	- nom fitif (on dénot)

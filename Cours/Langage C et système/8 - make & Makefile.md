@@ -44,5 +44,12 @@ gcc -o main main.o hello.o
 $ gedit main.c
 ...
 $ make
-gcc -c
+gcc -c main.c
+gcc -o main main.o hello.o
 ```
+
+**La partie intéressante c'est que make a été créé pour C mais peut avoir un usage pour d'autre chose puisque c'est un éditeur de macro.**
+
+Macros
+- make permet de définir des macros
+	- défi

@@ -15,5 +15,6 @@ Le schéma est libre.
 Cette règle n'est pas libre car la seconde règle n'est pas respectée :
 101 + 0 + 101 = 1+0+101+0+1 donc on a deux façon de faire 1010101.
 
-3.  $B = {a,b,\epsilon}$
-	
+3.  $B =$ {a,b,$\epsilon$}
+	$\Omega = \omega_{1}(m) = mb$
+			$\omega_{2}(m) = mba$

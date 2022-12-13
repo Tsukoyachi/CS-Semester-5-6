@@ -1,6 +1,6 @@
 ### Exercice 1 :
 ---
-Définition libre : 
+Définition schéma libre : 
 - Un mot est forcément produit par une règle.
 - Il y a unicité sur la façon de produire un mot via les règles.
 - À partir d'un mot m peut on forcément créer un mot m' qui appartiendra à la base.
@@ -18,3 +18,9 @@ Cette règle n'est pas libre car la seconde règle n'est pas respectée :
 3.  $B =$ {a,b,$\epsilon$}
 	$\Omega = \omega_{1}(m) = mb$
 			$\omega_{2}(m) = mba$
+Le schéma est libre, il respecte les 3 règles de la définition d'un schéma libre.
+
+### Exercice 2 :
+---
+
+

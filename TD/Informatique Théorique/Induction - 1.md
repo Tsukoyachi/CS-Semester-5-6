@@ -20,7 +20,3 @@ Cette règle n'est pas libre car la seconde règle n'est pas respectée :
 			$\omega_{2}(m) = mba$
 Le schéma est libre, il respecte les 3 règles de la définition d'un schéma libre.
 
-### Exercice 2 :
----
-
-

@@ -88,5 +88,17 @@ Attention aux subtilités (placement du const)
 - Indique que la valeur elle même du pointeur est constante
 ```C
 char * const ptr = "Hello !";
-**à rattraper**
+ptr = "Hello world !"; /* erreur */
+ptr[0] = "B"/* OK (enfin je crois) */
 ```
+Encore plus subtile :
+- On peut mélanger les deux !
+```C
+const char * const ptr = "Hello";
+ptr = "Hello world !" /* erreur*/
+```
+**à rattraper**
+
+#### Qualificateur *volatile*
+Spécifier que la variable peut être modifiée à l'insu du compilateur
+- Annule

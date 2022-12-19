@@ -38,4 +38,17 @@ Déclarer une variable sans la définir
 Indiquer au compilateur de préférer stocker la variable dans un registre du processeur
 	- Durée de vie : Celle du bloc où la variable est définie
 	- Visibilité : Locale au bloc
-	- Intérêt : Gagner en performance par rapport au stockage de la variable dan
+	- Intérêt : Gagner en performance par rapport au stockage de la variable dans un espace mémoire moins rapide (RAM)
+		- Utile dans un contexte de logiciel embarqué
+	- Limitation :
+		- Le nombre de registre est limité et variable en fonction du processeur (ex : 4 registres pour le stockage sur x86)
+	- Utilisation déconseillée sauf cas particulier (le compilateur optimise ce cas souvent mieux que le programmeur)
+```C
+register short i;
+for (i = 0; i < 100; i++) {
+...
+}
+```
+#### Classe de stockage auto
+Permet de définir des variables locales non-statiques dans une fonction
+	- Durée de vie : Celle du bloc où la variable est définie

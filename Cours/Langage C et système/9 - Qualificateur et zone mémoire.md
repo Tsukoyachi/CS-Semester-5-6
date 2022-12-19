@@ -52,3 +52,11 @@ for (i = 0; i < 100; i++) {
 #### Classe de stockage auto
 Permet de définir des variables locales non-statiques dans une fonction
 	- Durée de vie : Celle du bloc où la variable est définie
+	- Visibilité : Locale au bloc
+	- Intérêt : Aucun car comportement par défaut de C
+**à compléter**
+
+#### Synthèse :
+
+Pour les mots clés **auto** et **register** par défaut la valeur initiale est **non définie**.
+Pour les mots clés **extern** et **static** par défaut la valeur initiale

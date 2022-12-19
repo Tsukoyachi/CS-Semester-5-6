@@ -138,3 +138,12 @@ extern const volatile **à compléter**
 #### Espace d'Adressage Exemple d'Unix
 ![[Pasted image 20221219083322.png | center]]
 
+```ad-info
+title: Segment
+**à rattraper**
+```
+
+#### Exemple de Gestion de la Pile : Situation initiale
+```C
+v
+```

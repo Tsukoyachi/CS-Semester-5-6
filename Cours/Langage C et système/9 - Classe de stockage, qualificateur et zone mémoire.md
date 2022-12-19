@@ -70,4 +70,23 @@ Une variable (ou paramètre de fonction) peut avoir les 3 qualificateurs en mêm
 #### Qualificateur *const*
 Attention : Ne déclare pas une **vraie** variable.
 - Indique au compilateur que la valeur est non modifiable
-- Impér
+- Impératif d'assigner une valeur à la déclaration
+- Toute tentative ultérieur de modification entraîne une erreur du compilateur.
+```C
+const int i = 0;
+i = 1; /* erreur */
+```
+Utilisation avec des pointeurs 
+- Indique que la valeur pointée ne peut être modifiée
+```C
+void fonction (const char * ptr) {
+	ptr[0] = 0; /* erreur */
+	ptr++; /* ok */
+}
+```
+Attention aux subtilités (placement du const)
+- Indique que la valeur elle même du pointeur est constante
+```C
+char * const ptr = "Hello !";
+**à rattraper**
+```

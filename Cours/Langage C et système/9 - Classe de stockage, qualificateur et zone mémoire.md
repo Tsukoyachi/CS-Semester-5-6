@@ -59,6 +59,7 @@ Permet de définir des variables locales non-statiques dans une fonction
 #### Synthèse :
 Pour les mots clés **auto** et **register** par défaut la valeur initiale est **non définie**.
 Pour les mots clés **extern** et **static** par défaut la valeur initiale est à **zéro**.
+![[Pasted image 20221219083344.png | center]]
 
 ### Qualificateurs de type
 C définit 3 qualificateurs influant sur une variable
@@ -129,6 +130,11 @@ extern const volatile **à compléter**
 - Type de segment 
 	- Segment de text : Code Segment (registre CS sur x86)
 	- Segment de données : Data Segment (registre DS sur x86)
-**à rattraper**
+		- initialisée (Data Segment)
+		- non initialisée (bss)
+		- Allouée dynamiquement (heap)
+	- Segment de Pile : Stack Segment (registre SS sur x86)
 
 #### Espace d'Adressage Exemple d'Unix
+![[Pasted image 20221219083322.png | center]]
+

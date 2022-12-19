@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/Langage C et système/9 - Qualificateur et zone mémoire.md",
+                "file": "Cours/Langage C et système/9 - Classe de stockage, qualificateur et zone mémoire.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Langage C et système/9 - Qualificateur et zone mémoire.md",
+                "file": "Cours/Langage C et système/9 - Classe de stockage, qualificateur et zone mémoire.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Langage C et système/9 - Qualificateur et zone mémoire.md",
+                "file": "Cours/Langage C et système/9 - Classe de stockage, qualificateur et zone mémoire.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/Langage C et système/9 - Qualificateur et zone mémoire.md"
+                "file": "Cours/Langage C et système/9 - Classe de stockage, qualificateur et zone mémoire.md"
               }
             }
           },

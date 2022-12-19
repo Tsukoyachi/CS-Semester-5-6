@@ -57,6 +57,17 @@ Permet de définir des variables locales non-statiques dans une fonction
 **à compléter**
 
 #### Synthèse :
-
 Pour les mots clés **auto** et **register** par défaut la valeur initiale est **non définie**.
-Pour les mots clés **extern** et **static** par défaut la valeur initiale
+Pour les mots clés **extern** et **static** par défaut la valeur initiale est à **zéro**.
+
+### Qualificateurs de type
+C définit 3 qualificateurs influant sur une variable
+- const : La valeur ne change pas
+- restrict : optimisation pour la gestion des pointeurs
+- volatile : variable pouvant être modifiée par une source externe au programme lui-même
+Une variable (ou paramètre de fonction) peut avoir les 3 qualificateurs en même temps.
+
+#### Qualificateur *const*
+Attention : Ne déclare pas une **vraie** variable.
+- Indique au compilateur que la valeur est non modifiable
+- Impér

@@ -101,4 +101,18 @@ ptr = "Hello world !" /* erreur*/
 
 #### Qualificateur *volatile*
 Spécifier que la variable peut être modifiée à l'insu du compilateur
-- Annule
+- Annule toute optimisation du compilateur
+- Oblige le compilateur à procéder à chaque lecture écriture de la mémoire où est stockée la variable
+Exemples d'utilisation
+- Les coordonnées du pointeur de souris (modifiée par un autre programme)
+- La gestion des signaux (voir cours ProgSys)
+- La communication entre différents fils d'exécution (voir thread)
+- Des registres matériels accédés depuis un programme C (horloge interne, par exemple)
+Variable que le programme ne peut pas modifier, mais dont la valeur change quand même (de manière externe au programme)
+```C
+extern const volatile **à compléter**
+```
+
+#### Qualificateur *restrict*
+Uniquement pour les déclarations de pointeur
+Responsabilité du programmeur

@@ -114,5 +114,21 @@ extern const volatile **à compléter**
 ```
 
 #### Qualificateur *restrict*
-Uniquement pour les déclarations de pointeur
-Responsabilité du programmeur
+- Uniquement pour les déclarations de pointeur
+- Responsabilité du programmeur :
+	- Certifie que le pointeur est le seul à pointer sur une zone mémoire
+	- S'il ment => problèmes à l'exécution
+**à compléter**
+
+#### Mais où sont rangées ces informations ?
+- Segment mémoire 
+	- Espace d'adressage indépendant définies par 2 valeurs
+		- Adresse où commence le segment (base ou adresse de base)
+		- Taille ou décalage (limite ou offset)
+	- Place d'adresses continue
+- Type de segment 
+	- Segment de text : Code Segment (registre CS sur x86)
+	- Segment de données : Data Segment (registre DS sur x86)
+**à rattraper**
+
+#### Espace d'Adressage Exemple d'Unix

@@ -145,3 +145,5 @@ title: Segment
 
 #### Exemple de Gestion de la Pile : Situation initiale
 ![[Pasted image 20221219084334.png | center]]
+
+### Quizz de fin de cours (dans les slides)

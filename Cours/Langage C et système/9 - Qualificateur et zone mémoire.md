@@ -26,3 +26,16 @@ Utilisé dans deux contextes :
 	- Intérêt :
 
 #### La classe de stockage *extern*
+Déclarer une variable sans la définir
+- Durée de vie : Toute la durée du programme
+- Visibilité : Globale à plusieurs fichiers
+- Intérêt : Dans le cas de la compilation multi-fichiers
+	- Définit une variable ou une fonction dans un fihier (.h)
+	- Permet l'utilisation dans d'autres fichiers
+- **à compléter**
+
+#### Classe de stockage *register*
+Indiquer au compilateur de préférer stocker la variable dans un registre du processeur
+	- Durée de vie : Celle du bloc où la variable est définie
+	- Visibilité : Locale au bloc
+	- Intérêt : Gagner en performance par rapport au stockage de la variable dan

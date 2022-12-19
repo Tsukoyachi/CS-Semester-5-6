@@ -148,4 +148,5 @@ title: Segment
 
 ### Quizz de fin de cours (dans les slides)
 
-#### 
+### Travail sur les bits
+**à rattraper c'est important !**

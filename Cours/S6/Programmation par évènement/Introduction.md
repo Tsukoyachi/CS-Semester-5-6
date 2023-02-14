@@ -85,6 +85,12 @@ Un exemple avec contexte :
 - Handicaps moteurs
 - Pas de souris
 - Un clavier adapté
+- Trouble de la parole
+
+### Handicaps cognitif et neurologique :
+- Dislexie
+- ADHD
+
 
 ---
 # Personnas

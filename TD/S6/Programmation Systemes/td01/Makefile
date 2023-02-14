@@ -18,21 +18,21 @@ BASIC_EXE=$(EXE:.exe=-basicExe.exe)
 tri_%-basicExe.exe: main.o %.o timer.o utils.o unused.o
 	$(CC) -o $@ $^
 
-
+#####
 ## Exercice 3:
 STATIC_EXE=$(EXE:.exe=-staticExe.exe)
 
 tri_%-staticExe.exe: main.o %.o timer.o utils.o unused.o
 	$(CC) -static -o $@ $^
-
-####
+#####
 ## Exercice 4:
-#STATIC_LIB=$(EXE:.exe=-staticLib.exe)
-#
-#tri_%-staticLib.exe: main.o timer.o utils.o libTri_%-staticLib.a
-#	$(CC) -o $@ $^
-#
-#libTri_%-staticLib.a: %.o unused.o
+STATIC_LIB=$(EXE:.exe=-staticLib.exe)
+
+tri_%-staticLib.exe: main.o timer.o utils.o libTri_%-staticLib.a
+	$(CC) -o $@ $^
+
+libTri_%-staticLib.a: %.o unused.o
+	ar -r $@ $^
 #	TODO: écrire la règle permettant de créer une bibilothèque avec lien statique
 
 ####

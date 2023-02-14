@@ -97,7 +97,7 @@ Pour ne pas avoir de problème pour cet exercice dans le terminal on exécute la
 
 Afin de faire la compilation pour tous les tris simultanément on décommente le contenu de cette ligne.
 ![[Pasted image 20230214112836.png | center]]
-
+x
 Le make nous produit alors les .exe pour chaque tri.
 On va donc les tester avec make test :
 ![[Pasted image 20230214113048.png | center]]

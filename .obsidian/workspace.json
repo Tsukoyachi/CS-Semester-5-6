@@ -20,6 +20,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "00bf2f59a289e294",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81dc93b317d3d924",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Cours/S6/Programmation par évènement/media/SI3-Programation par événement - intro - cours 1.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 290.5,
+    "collapsed": true
   },
   "right": {
     "id": "911d169df2e013eb",
@@ -167,6 +184,8 @@
   },
   "active": "cf1c32b9bd85793f",
   "lastOpenFiles": [
+    "Cours/S6/Programmation par évènement/media/SI3-Programation par événement - intro - cours 1.pdf",
+    "Cours/S6/Programmation par évènement/Introduction.md",
     "TD/S6/Programmation Systemes/td01/Compte rendu TD1.md",
     "Cours/S6/Programmation Systeme/Introduction.md",
     "Cours/S6/Programmation Systeme/media/01 Prod et Exe Prog.pdf",
@@ -174,8 +193,6 @@
     "Cours/S6/projet semestre/Introduction.md",
     "Mobilité étranger.md",
     "Back to school.md",
-    "TD/Sans titre.md",
-    "Cours/S5/Langage C et système/9 - Classe de stockage, qualificateur et zone mémoire.md",
-    "Cours/S5/Architecture et réseau/2 - Architecture.md"
+    "TD/Sans titre.md"
   ]
 }

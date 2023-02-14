@@ -32,7 +32,21 @@ Il faut donc être capable de justifier les décisions prises.
 L'un des critères à prendre en compte lors de la conception d'une **bonne**
 IHM.
 
-Si quelqu'un ne s
+Pour cela on a le schéma de Nielsen qui résume bien :
+
+![[Pasted image 20230214141751.png | center]]
+
+
+L'ergonomie c'est :
+- Est ce que le système est simple à prendre en main
+	- Que ce passe t'il si j'appuie sur ce bouton ?
+	- Pourquoi je suis là ?
+	- Ah oui... ça marche comme ça...
+	- Gauche pour revenir en arrière et Droite pour continuer ? Ou est ce que c'est à l'envers.
+- Peu importe ce que je fais le système ne doit pas planter
+	- Qu'est ce qu'il se passe actuellement sur ce système
+	- Pourquoi rien ne se passe ? Est ce que le système à planter ?
+	- Pourquoi je ne pas pas faire ça comme ç
 
 
 ---

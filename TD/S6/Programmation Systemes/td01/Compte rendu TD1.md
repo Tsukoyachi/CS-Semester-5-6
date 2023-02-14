@@ -36,3 +36,7 @@ On va donc exécuter la commande make test pour vérifier si la sortie des deux 
 On veut maintenant vérifier si le fichier généré dépend d'une bibliothèque qu'il utilise ou non, pour cela on va utiliser la commande ldd, cela nous donne le résultat suivant :
 ![[Pasted image 20230214095512.png]]
 
+A l'aide de la commande ls -l on va vérifier la taille des deux fichiers, on obtient cette sortie :
+![[Pasted image 20230214095944.png]]
+On constate que la version static est beaucoup plus volumineuse puisqu'elle embarque elle même les librairies qu'elle utilise.
+

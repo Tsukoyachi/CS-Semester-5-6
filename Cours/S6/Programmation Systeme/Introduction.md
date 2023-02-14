@@ -199,3 +199,14 @@ Dans le cas d'un exécutable n'utilise aucune bibliothèque
 
 ![[Pasted image 20230214085730.png]]
 
+### Chargement Dynamique de Bibliothèque
+
+![[Pasted image 20230214090026.png]]
+
+### Commandes de Manipulation des Bibliothèques partagées
+
+![[Pasted image 20230214090212.png]]
+
+### Une Vision Synthétique sur les Bibliothèques
+
+![[Pasted image 20230214090225.png]]

@@ -51,5 +51,12 @@ Pour les événements d'interruption ou de déroutement, on a aussi les caracté
 
 On a un modèle de calcul plus proche des applications avec des **types de données et des opérations** ainsi que des **mécanismes d'abstraction**.
 
-On a une vérification et un renforcement de la sécurité de la programmation avec par exemple une **vérification statique**, une vérification dynamique ainsi qu'une utilisation des données.
+On a une vérification et un renforcement de la sécurité de la programmation avec par exemple une **vérification statique**, une **vérification dynamique** ainsi qu'une **utilisation des données**.
 
+Mais cela pose la nécessité d'un mécanisme de traduction (interprétation ?) ou d'interprétation en langage-machine (sortie compilation d'un compilateur ?).
+
+### Modèle de calcul
+
+On a plusieurs types de données avec les opérations associées avec :
+- Une structuration des données de base de la machine sous-jacente
+- 

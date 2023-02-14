@@ -114,4 +114,14 @@ Ces deux modes possèdent chacun des avantages et des inconvénients :
 		- Vérifications dynamiques seulement 
 		- Détection d’erreurs à l’exécution et optimisation délicate
 
-Comme les inconvénients de l'un sont les avantages de l'autres et vice versa, certains développeurs se sont dit "Et pourquoi pas mélanger les deux", cela à donner naissance à Java qui est un langage Compilé et Interpreté
+Comme les inconvénients de l'un sont les avantages de l'autres et vice versa, certains développeurs se sont dit "Et pourquoi pas mélanger les deux", cela à donner naissanceaux langages à Compilaton et Interprétation.
+
+#### Combinaison des 2 approches
+
+Langages de haut niveau et matériel
+- Des langages comme C/C++, Ada... sont traduits en langage machine (compilation)
+- Le matériel (processeur) interprète ce langage-machine
+- Les fichiers exécutabes sont dépendant du matériel utilisé
+
+Langages de haut niveau et machine virtuel
+

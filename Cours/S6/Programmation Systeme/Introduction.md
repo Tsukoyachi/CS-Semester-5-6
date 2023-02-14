@@ -175,4 +175,19 @@ Il y a des commandes communes entre Unix et Linux :
 
 Dans le cas où un exécutable utilise une ou plusieurs bibliothèques
 - Le cas par défaut quand on compile avec gcc
-	- gcc options -o myprog prog1
+	- gcc options -o myprog prog1.o prog2.o
+- Un tel programme utilise au moins la bibliothèque C partagée
+
+Dans le cas d'un exécutable n'utilise aucune bibliothèque
+- Pour qu'un exécutable n'utilise aucune bibliothèque partagée (même la bibliothèque C)
+	- gcc options -static -o myprog prog1.o prog2.o
+- Le code "nécessaire" de la bibliothèque est alors ajouté à l'exécutable.
+
+### Bibliothèques statique
+
+![[Pasted image 20230214085604.png]]
+
+### Edition de Liens Statique
+
+![[Pasted image 20230214085633.png]]
+

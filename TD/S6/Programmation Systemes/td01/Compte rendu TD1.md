@@ -14,10 +14,10 @@ Enfin dans le main.c on a quelques constantes, et des méthodes avec une utilisa
 ---
 
 A l'issue de la commande make voici la sortie obtenue :
-![[Pasted image 20230214094138.png]]
+![[Pasted image 20230214094138.png | center]]
 
 On veux donc voir les bibliothèque qu'utilise le programme tri_bubble-basicExe.exe, on va donc vérifier cela avec ldd dans le terminal  :
-![[Pasted image 20230214094313.png]]
+![[Pasted image 20230214094313.png | center]]
 
 On a donc 3 librairies qui sont utilisées :
 - linux-vdso.so.1
@@ -29,45 +29,46 @@ On a donc 3 librairies qui sont utilisées :
 
 Dans la section Exercice 3 du MakeFile on ajoutera juste l'argument 
 -static à la liste des arguments à la compilation pour le tri_%-staticExe.exe. On aura donc cette section dans le Makefile :
-![[Pasted image 20230214101722.png]]
+![[Pasted image 20230214101722.png | center]]
 
 On va donc exécuter la commande make test pour vérifier si la sortie des deux programmes est identique ou non, voici la sortie obtenue :
-![[Pasted image 20230214095653.png]]
+![[Pasted image 20230214095653.png | center]]
 
 On veut maintenant vérifier si le fichier généré dépend d'une bibliothèque qu'il utilise ou non, pour cela on va utiliser la commande ldd, cela nous donne le résultat suivant :
-![[Pasted image 20230214095512.png]]
+![[Pasted image 20230214095512.png | center]]
 
 A l'aide de la commande ls -l on va vérifier la taille des deux fichiers, on obtient cette sortie :
-![[Pasted image 20230214095944.png]]
+![[Pasted image 20230214095944.png | center]]
 On constate que la version static est beaucoup plus volumineuse puisqu'elle embarque elle même les librairies qu'elle utilise.
 
 ## Exercice 4 :
 ---
 
 On va donc compléter le makeFile de sorte à ajouter les directives requises afin de compiler en utilisant une librairies faites avec nos .o, on va donc le faire comme ceci :
-![[Pasted image 20230214101745.png]]
+![[Pasted image 20230214101745.png | center]]
 
 En faisant un make all on a donc ces lignes là en plus : 
 ![[Pasted image 20230214101813.png]]
 
 Vérifions que la sortie généré par ce nouveau code correspond bien à ce que l'on a avec les deux précédents à l'aide de make test :
-![[Pasted image 20230214101924.png]]
+![[Pasted image 20230214101924.png | center]]
 
 On ne constate aucun changements sur les résultats des tris.
 
 On va donc maintenant comparer leurs tailles à l'aide de ls -l :
-![[Pasted image 20230214102017.png]]
+![[Pasted image 20230214102017.png | center]]
 
 On constate un léger gain de taille par rapport à la version basicExe.
 On va exécuter la commande size sur la version basicExe et la version staticLib pour vérifier d'où viens ce gain :
-![[Pasted image 20230214102443.png]]
+![[Pasted image 20230214102443.png | center]]
 
 Une partie du gain se fait dans la catégorie text et on a pas de changements pour le data et le bss.
 
 Vérifions la présence des méthodes de unused.c dans la version basicExe :
-![[Pasted image 20230214103026.png]]
+![[Pasted image 20230214103026.png | center]]
 On constate la présence de foo et de bar.
 
 Maintenant faisons la même chose pour la version staticLib.exe :
-![[Pasted image 20230214103113.png]]
-On constate cette fois ci que foo et bar ne sont pas influ
+![[Pasted image 20230214103113.png | center]]
+On constate cette fois ci que foo et bar ne sont pas inclus.
+

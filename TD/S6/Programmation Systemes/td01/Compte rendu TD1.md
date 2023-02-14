@@ -70,5 +70,7 @@ On constate la présence de foo et de bar.
 
 Maintenant faisons la même chose pour la version staticLib.exe :
 ![[Pasted image 20230214103113.png | center]]
-On constate cette fois ci que foo et bar ne sont pas inclus.
+On constate cette fois ci que foo et bar ne sont pas inclus. C'est expliqué par le fait que lorsque l'on utilise un .a on ne va copier dans l'exécutable que les .o dont notre programme ce sert.
+
+
 

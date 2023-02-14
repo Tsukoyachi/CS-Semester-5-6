@@ -70,4 +70,19 @@ Et on a des mécanismes d'abstraction avec :
 - Séparation de la spécification/implémentation
 	- On fera donc appel à une interface (.h en C) pour donner la spécification (implémentée dans un .c en C)
 
-### Sécurité de Programma
+### Sécurité de Programmation
+
+On a deux type de vérifications : **statique** et **dynamique**
+
+La vérification statique à lieu avant toute exécution et lors du processus de traduction.
+- Par exemple : 
+	- Analyse de type (en C/C++, Java)
+	- Contrôle d'accès (en C++, Java)
+
+La vérification dynamique quant à elle à lieu lors de l'exécution.
+- Par exemple
+	- Dépassement de borne d'indice (Cf : IndexOutOfBoundException en Java)
+	- Paramètres incorrects
+
+### Compilation et Interprétation
+

@@ -119,6 +119,13 @@ Pour cela il nous faut certaines informations :
 ![[Pasted image 20230214144353.png | center]]
 			- Potentielles variations physiques / handicaps
 			- Potentielles variations cognitives / perception.
+			- Personnalité
+			- ...
 
 Ses informations sont alors regroupés au sein d'un **Personnas**.
+
+## Construire un Persona simple :
+
+![[Pasted image 20230214144852.png | center]]
+
 

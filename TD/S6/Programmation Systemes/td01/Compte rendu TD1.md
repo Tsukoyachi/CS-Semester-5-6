@@ -27,3 +27,15 @@ On a donc 3 librairies qui sont utilisées :
 ## Exercice 3 :
 ---
 
+Dans la section Exercice 3 du MakeFile on aura ceci :
+```
+## Exercice 3:
+
+STATIC_EXE=$(EXE:.exe=-staticExe.exe)
+
+
+tri_%-staticExe.exe: main.o %.o timer.o utils.o unused.o
+
+$(CC) -static -o $@ $^
+```
+

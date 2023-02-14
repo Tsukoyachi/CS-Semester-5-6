@@ -23,7 +23,7 @@ tri_%-basicExe.exe: main.o %.o timer.o utils.o unused.o
 STATIC_EXE=$(EXE:.exe=-staticExe.exe)
 
 tri_%-staticExe.exe: main.o %.o timer.o utils.o unused.o
-	$(CC) -o -static $@ $^
+	$(CC) -static -o $@ $^
 
 ####
 ## Exercice 4:

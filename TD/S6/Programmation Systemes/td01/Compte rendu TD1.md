@@ -30,4 +30,9 @@ On a donc 3 librairies qui sont utilisées :
 Dans la section Exercice 3 du MakeFile on ajoutera juste l'argument 
 -static à la liste des arguments à la compilation pour le tri_%-staticExe.exe.
 
-On veut maintenant vérifier si le fichier généré dépend d'une bibliothèque qu'il utilise ou non, pour cela on va utiliser la commande ldd
+On va donc exécuter la commande make test pour vérifier si la sortie des deux programmes est identique ou non, voici la sortie obtenue :
+![[Pasted image 20230214095653.png]]
+
+On veut maintenant vérifier si le fichier généré dépend d'une bibliothèque qu'il utilise ou non, pour cela on va utiliser la commande ldd, cela nous donne le résultat suivant :
+![[Pasted image 20230214095512.png]]
+

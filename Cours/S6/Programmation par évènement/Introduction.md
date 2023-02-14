@@ -4,6 +4,14 @@
 ---
 # Introduction
 
+*Insérer une intro*
+
+---
+
+# Démarche UCD
+
+UCD = User-Centered Design
+
 Ce qui nous intéresse est de faire une démarche centrée utilisateur.
 
 Une démarche centrée utilisateur :
@@ -17,10 +25,14 @@ Savoir coder ne suffit pas, il faut que ce que l'on implémente corresponde aux 
 
 Il faut donc être capable de justifier les décisions prises.
 
----
+![[Pasted image 20230214141431.png | center]]
 
-# Démarche UCD
+## Ergonomie (Usability)
 
+L'un des critères à prendre en compte lors de la conception d'une **bonne**
+IHM.
+
+Si quelqu'un ne s
 
 
 ---

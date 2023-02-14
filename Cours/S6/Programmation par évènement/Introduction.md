@@ -100,10 +100,11 @@ Un exemple avec contexte :
 
 **Mais toutes les solutions prises pour ses handicaps nous servent (ex : porte automatiques)**
 
-**On a pas besoin d'être un soldat pour être handicapé, tenir un **
-
-
+**On a pas besoin d'être un soldat pour être handicapé, tenir un sac de course nous bloque une main par exemple.**
 
 ---
 # Personnas
 
+Puisque chaque individu est différent et qu'il est compliqué de satisfaire tout le monde lors de développement d'une IHM, on va se concentrer sur des groups d'utilisateurs (users groups).
+
+On devrait directement prévenir le designer lorsque l'on fait ce genre de choix et les besoins que cela va impliquer.

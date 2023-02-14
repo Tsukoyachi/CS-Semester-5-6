@@ -28,4 +28,11 @@ Enfin, on peut parler de contexte logiciel (ou système) :
 
 ## Evénements, interruptions et déroutements
 
-Une **inter**
+Une **interruption** est un événement asynchrone inopiné qui entraîne une fin des entrées-sortie et qui est dû à une condition "anormale" d'un processus extérieur en temps réel.
+
+Un **déroutement** (ou **exception**) est quant à lui un événement provoqué par l'exécution même du programme, correspondant à une situation "exceptionnelle".
+- Par exemple : Une exception arithmétique, une violation de protection mémoire...
+
+En général le traîtement de ses deux types d'evénement est uniforme que la plupart des architectures.
+
+Pour les 

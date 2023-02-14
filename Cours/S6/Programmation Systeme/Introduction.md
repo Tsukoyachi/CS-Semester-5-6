@@ -191,3 +191,11 @@ Dans le cas d'un exécutable n'utilise aucune bibliothèque
 
 ![[Pasted image 20230214085633.png]]
 
+### Bibliothèque Partagées
+
+![[Pasted image 20230214085703.png]]
+
+### Edition de Liens Dynamique
+
+![[Pasted image 20230214085730.png]]
+

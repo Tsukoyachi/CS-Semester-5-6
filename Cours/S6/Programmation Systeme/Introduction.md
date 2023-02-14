@@ -59,4 +59,15 @@ Mais cela pose la nécessité d'un mécanisme de traduction (interprétation ?) 
 
 On a plusieurs types de données avec les opérations associées avec :
 - Une structuration des données de base de la machine sous-jacente
-- 
+- Nouveaux types de données et opérations
+	- définis par le langage : int, long, long long, complex...
+	- définis par l'utilisateur à l'aide de struct, d'union (pour du C), ou encore à l'aide de class (POO)
+
+Et on a des mécanismes d'abstraction avec :
+- Une structuration du flot de contrôle des données :
+	- Sous programmes, fonctions
+	- Modules, classes....
+- Séparation de la spécification/implémentation
+	- On fera donc appel à une interface (.h en C) pour donner la spécification (implémentée dans un .c en C)
+
+### Sécurité de Programma

@@ -86,3 +86,14 @@ La vérification dynamique quant à elle à lieu lors de l'exécution.
 
 ### Compilation et Interprétation
 
+Compilation :
+- Le source du programme est traduit, une fois pour toutes (?) en langage-machine. Le résultat est un fichier binaire exécutable, ce fichier est chargé en mémoire pour chaque exécution
+
+![[Pasted image 20230214083348.png]]
+
+Interprétation :
+- Le source du programme est traduit "à la volée", instruction par instruction lors de chaque exécution.
+
+![[Pasted image 20230214083503.png]]
+
+Ces deux modes possèdent chacun des avantages et des inconvénients :

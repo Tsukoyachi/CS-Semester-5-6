@@ -93,6 +93,11 @@ On constate que la version dynamicLib.exe à quasiment la même taille que la ve
 # Exercice 6 :
 ---
 
+Afin de faire la compilation pour tous les tris simultanément on décommente le contenu de cette ligne.
 ![[Pasted image 20230214112836.png | center]]
 
-
+Le make nous produit alors les .exe pour chaque tri.
+On va donc les tester avec make test :
+![[Pasted image 20230214113048.png | center]]
+![[Pasted image 20230214113128.png | center]]
+Comme on peut le voir le tri fonctionne à chaque fois.

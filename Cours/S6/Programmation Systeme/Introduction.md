@@ -164,4 +164,15 @@ Une exemple concret : Java et la JVM
 Une bibliothèque est un fichier unique contenant un ensemble de fichiers-objets précompilés. Il en existe deux types :
 - Bibliothèques statique, elles sont copiées dans les programmes qui les utilisent
 ![[Pasted image 20230214085021.png]]
-	-
+- Bibliothèque partagées, elles sont associées aux programmes au moment où ils sont exécutés
+![[Pasted image 20230214085113.png]]
+
+Il y a des commandes communes entre Unix et Linux :
+- ld : lie des fichiers .o entre eux
+- nm, readelf : lisent le contenu d'une bibliothèque ou d'un programme
+
+### Exécutable et Bibliothèques
+
+Dans le cas où un exécutable utilise une ou plusieurs bibliothèques
+- Le cas par défaut quand on compile avec gcc
+	- gcc options -o myprog prog1

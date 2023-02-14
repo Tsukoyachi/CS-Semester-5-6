@@ -16,4 +16,16 @@ Qu'est ce qu'un contexte ?
 
 Il peut s'agir d'une information caractérisant l'état courant d'un processus qui est sauvegardé lors de la suspension du processus et rechargé lors de sa reprise.
 
-Il peut également s'agir d'un contexte matérie
+Il peut également s'agir d'un contexte matériel comprenant donc :
+- Mot d'état 
+- Compteur ordinal 
+- Registres de l'unité centrale
+
+Enfin, on peut parler de contexte logiciel (ou système) :
+- Segments de texte (instructions), de données, de pile… 
+- Attributs : identification utilisateur, droits d'accès, priorité… 
+- Ressources utilisées : fichiers ouverts...
+
+## Evénements, interruptions et déroutements
+
+Une **inter**

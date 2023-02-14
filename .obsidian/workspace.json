@@ -20,6 +20,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "f02e374776d4a0b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "051ee9a3cebb1054",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Cours/S6/Programmation Systeme/media/01 Prod et Exe Prog.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,6 +183,8 @@
   },
   "active": "e51a0f6b52b61395",
   "lastOpenFiles": [
+    "Cours/S6/Programmation Systeme/media/01 Prod et Exe Prog.pdf",
+    "Cours/S6/Programmation Systeme/Introduction.md",
     "Cours/S5/Architecture et réseau/1 - Réseau.md",
     "Cours/S6/projet semestre/Introduction.md",
     "Mobilité étranger.md",
@@ -174,8 +192,6 @@
     "TD/Sans titre.md",
     "Cours/S5/Langage C et système/9 - Classe de stockage, qualificateur et zone mémoire.md",
     "Cours/S5/Architecture et réseau/2 - Architecture.md",
-    "TD/S5/Informatique Théorique/Induction - 1.md",
-    "TD/S5/Informatique Théorique/TD5.md",
-    "TD/S5/Base de donnée relationnelle/TD1.md"
+    "TD/S5/Informatique Théorique/Induction - 1.md"
   ]
 }

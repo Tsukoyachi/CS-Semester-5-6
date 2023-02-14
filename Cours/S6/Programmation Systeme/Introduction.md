@@ -97,3 +97,21 @@ Interprétation :
 ![[Pasted image 20230214083503.png]]
 
 Ces deux modes possèdent chacun des avantages et des inconvénients :
+
+- Compilation 
+	- Avantages :
+		- Possibilité de vérifications et d’optimisations statiques et globales 
+		- Renforcement de la sécurité de programmation 
+	- Inconvénients :
+		- Programme figé 
+		- Cycle de développement lourd 
+- Interprétation 
+	- Avantages :
+		- Le programme peut évoluer (et même se faire évoluer luimême) 
+		- Grande puissance d’expression 
+		- Mise au point interactive 
+	- Inconvénients :
+		- Vérifications dynamiques seulement 
+		- Détection d’erreurs à l’exécution et optimisation délicate
+
+Comme les inconvénients de l'un sont les avantages de l'autres et vice versa, certains développeurs se sont dit "Et pourquoi pas mélanger les deux", cela à donner naissance à Java qui est un langage Compilé et Interpreté

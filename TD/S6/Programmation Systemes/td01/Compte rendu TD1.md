@@ -9,3 +9,9 @@ Dans le code source fourni, on a un fichier sort.h qui contient la définition d
 On a également un fichier timer.h qui contient la définition de deux méthodes liée au timer dont l'implémentation est faite dans timer.c.
 
 Enfin dans le main.c on a quelques constantes, et des méthodes avec une utilisation du sort.
+
+# Exercice 2 :
+---
+
+A l'issue de la commande make voici la sortie obtenue :
+![[Pasted image 20230214094138.png]]

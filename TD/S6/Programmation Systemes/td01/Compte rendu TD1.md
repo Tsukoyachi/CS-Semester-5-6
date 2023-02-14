@@ -8,4 +8,4 @@ Dans le code source fourni, on a un fichier sort.h qui contient la définition d
 
 On a également un fichier timer.h qui contient la définition de deux méthodes liée au timer dont l'implémentation est faite dans timer.c.
 
-Enfin dans le main.c on a quelques constantes, et des méthodes parmis 
+Enfin dans le main.c on a quelques constantes, et des méthodes avec une utilisation du sort.

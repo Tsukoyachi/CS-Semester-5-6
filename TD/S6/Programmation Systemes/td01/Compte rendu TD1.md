@@ -63,3 +63,11 @@ On va exécuter la commande size sur la version basicExe et la version staticLib
 ![[Pasted image 20230214102443.png]]
 
 Une partie du gain se fait dans la catégorie text et on a pas de changements pour le data et le bss.
+
+Vérifions la présence des méthodes de unused.c dans la version basicExe :
+![[Pasted image 20230214103026.png]]
+On constate la présence de foo et de bar.
+
+Maintenant faisons la même chose pour la version staticLib.exe :
+![[Pasted image 20230214103113.png]]
+On constate cette fois ci que foo et bar ne sont pas influ

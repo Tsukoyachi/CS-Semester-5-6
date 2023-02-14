@@ -117,5 +117,8 @@ Le premier prérequis pour faire une IHM est de savoir à qui elle sera destiné
 Un groupe d'utilisateur va décrire les caractéristiques des utilisateurs ciblés.
 Pour cela il nous faut certaines informations :
 ![[Pasted image 20230214144353.png | center]]
+			- Potentielles variations physiques / handicaps
+			- Potentielles variations cognitives / perception.
 
-Ses informations
+Ses informations sont alors regroupés au sein d'un **Personnas**.
+

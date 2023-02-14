@@ -90,6 +90,18 @@ Un exemple avec contexte :
 ### Handicaps cognitif et neurologique :
 - Dislexie
 - ADHD
+- ...
+
+### Technologie :
+- Navigateur trop vieux ou trop récent
+- Autre OS
+- faible bande passante
+- ...
+
+**Mais toutes les solutions prises pour ses handicaps nous servent (ex : porte automatiques)**
+
+**On a pas besoin d'être un soldat pour être handicapé, tenir un **
+
 
 
 ---

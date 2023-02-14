@@ -56,4 +56,8 @@ Vérifions que la sortie généré par ce nouveau code correspond bien à ce que
 On va donc maintenant comparer leurs tailles à l'aide de ls -l :
 ![[Pasted image 20230214102017.png]]
 
-On constate un léger gain de taille par rapport à la version basicExe
+On constate un léger gain de taille par rapport à la version basicExe.
+On va exécuter la commande size sur la version basicExe et la version staticLib pour vérifier d'où viens ce gain :
+![[Pasted image 20230214102443.png]]
+
+Une partie du gain se fait dans la catégorie text

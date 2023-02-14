@@ -6,6 +6,7 @@
       {
         "id": "2795da1a9c2d1494",
         "type": "tabs",
+        "dimension": 54.87951807228916,
         "children": [
           {
             "id": "e51a0f6b52b61395",
@@ -24,6 +25,7 @@
       {
         "id": "f02e374776d4a0b9",
         "type": "tabs",
+        "dimension": 45.12048192771084,
         "children": [
           {
             "id": "051ee9a3cebb1054",
@@ -85,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "911d169df2e013eb",
@@ -181,7 +184,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e51a0f6b52b61395",
+  "active": "3ed2038ec5459906",
   "lastOpenFiles": [
     "Cours/S6/Programmation Systeme/media/01 Prod et Exe Prog.pdf",
     "Cours/S6/Programmation Systeme/Introduction.md",

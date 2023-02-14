@@ -33,6 +33,15 @@ Une **interruption** est un événement asynchrone inopiné qui entraîne une fi
 Un **déroutement** (ou **exception**) est quant à lui un événement provoqué par l'exécution même du programme, correspondant à une situation "exceptionnelle".
 - Par exemple : Une exception arithmétique, une violation de protection mémoire...
 
-En général le traîtement de ses deux types d'evénement est uniforme que la plupart des architectures.
+En général le traîtement de ses deux types d'événement est uniforme que la plupart des architectures.
 
-Pour les 
+Pour les événements d'interruption ou de déroutement, on a aussi les caractéristiques suivantes :
+- Contexte logiciel (ou système) 
+- Segments de texte (instructions), de données, de pile… 
+- Attributs : identification utilisateur, droits d'accès, priorité… 
+- Ressources utilisées : fichiers ouverts...
+
+## Cycle élémentaire d'exécution d'une instruction
+
+![[Pasted image 20230214081914.png]]
+

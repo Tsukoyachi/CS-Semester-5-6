@@ -53,3 +53,7 @@ En faisant un make all on a donc ces lignes là en plus :
 Vérifions que la sortie généré par ce nouveau code correspond bien à ce que l'on a avec les deux précédents à l'aide de make test :
 ![[Pasted image 20230214101924.png]]
 
+On va donc maintenant comparer leurs tailles à l'aide de ls -l :
+![[Pasted image 20230214102017.png]]
+
+On constate un léger gain de taille par rapport à la version basicExe

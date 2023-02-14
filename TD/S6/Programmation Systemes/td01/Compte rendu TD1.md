@@ -92,6 +92,8 @@ On constate que la version dynamicLib.exe à quasiment la même taille que la ve
 
 # Exercice 6 :
 ---
+Pour ne pas avoir de problème pour cet exercice dans le terminal on exécute la commande qui aura pour effet d'ajouter le dossier courant au library path :
+![[Pasted image 20230214113333.png | center]]
 
 Afin de faire la compilation pour tous les tris simultanément on décommente le contenu de cette ligne.
 ![[Pasted image 20230214112836.png | center]]

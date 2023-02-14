@@ -18,12 +18,12 @@ BASIC_EXE=$(EXE:.exe=-basicExe.exe)
 tri_%-basicExe.exe: main.o %.o timer.o utils.o unused.o
 	$(CC) -o $@ $^
 
-####
+
 ## Exercice 3:
-#STATIC_EXE=$(EXE:.exe=-staticExe.exe)
-#
-#tri_%-staticExe.exe: main.o %.o timer.o utils.o unused.o
-#	TODO: écrire la règle permettant de créer un exécutable n'utilisant aucune bibliothèque
+STATIC_EXE=$(EXE:.exe=-staticExe.exe)
+
+tri_%-staticExe.exe: main.o %.o timer.o utils.o unused.o
+	$(CC) -o -static $@ $^
 
 ####
 ## Exercice 4:

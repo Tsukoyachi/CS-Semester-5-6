@@ -78,7 +78,12 @@ On constate cette fois ci que foo et bar ne sont pas inclus. C'est expliqué par
 On va modifier le makefile afin de pouvoir faire la compilation dynamique.
 Pour cela, dans les CFLAGS on va ajouter -fpic afin de pouvoir générer un .so après.
 ![[Pasted image 20230214111941.png | center]]
-Après cela on va ajouter 
+Après cela on va ajouter la création du .so comme ceci :
+![[Pasted image 20230214112020.png | center]]
+On a donc deux lignes en plus lors du make :
+![[Pasted image 20230214112200.png | center]]
+On va ensuite tester la sortie des codes avec make test :
+![[Pasted image 20230214112249.png | center]]
 
 
 

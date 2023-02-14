@@ -27,15 +27,7 @@ On a donc 3 librairies qui sont utilisées :
 ## Exercice 3 :
 ---
 
-Dans la section Exercice 3 du MakeFile on aura ceci :
-```
-## Exercice 3:
+Dans la section Exercice 3 du MakeFile on ajoutera juste l'argument 
+-static à la liste des arguments à la compilation pour le tri_%-staticExe.exe.
 
-STATIC_EXE=$(EXE:.exe=-staticExe.exe)
-
-
-tri_%-staticExe.exe: main.o %.o timer.o utils.o unused.o
-
-$(CC) -static -o $@ $^
-```
-
+On veut maintenant vérifier si le fichier généré dépend d'une bibliothèque qu'il utilise ou non, pour cela on va utiliser la commande ldd

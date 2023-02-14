@@ -73,7 +73,18 @@ Un exemple avec contexte :
 ## Accessibilité
 
 ### Vision :
+![[Pasted image 20230214142945.png | center]]
 
+### Audition :
+- Sourd
+- Malentendant
+- Environnement bruyant
+- Environnement silencieux (bibliothèque)
+
+### Handicaps physique :
+- Handicaps moteurs
+- Pas de souris
+- Un clavier adapté
 
 ---
 # Personnas

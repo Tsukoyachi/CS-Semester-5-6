@@ -137,4 +137,17 @@ Langages de haut niveau et machine virtuel
 	- Jeux d'instruction
 	- Structure de données manipulées...
 - Compiler le langage dans le jeu d'instruction de la machine
+- Founri une réalisation logicielle de cette machine (émulateur)
+
+Une exemple concret : Java et la JVM
+
+![[Pasted image 20230214084533.png]]
+
+### Avantages et Inconvénients
+
+![[Pasted image 20230214084626.png]]
+
+## Processus de Compilation (cas de C/C++)
+
+![[Pasted image 20230214084719.png]]
 

@@ -151,3 +151,17 @@ Une exemple concret : Java et la JVM
 
 ![[Pasted image 20230214084719.png]]
 
+## Compilation séparée ?
+
+![[Pasted image 20230214084756.png]]
+
+## Etapes de la compilation de code source
+
+![[Pasted image 20230214084827.png]]
+
+## Bibliothèques ("Library")
+
+Une bibliothèque est un fichier unique contenant un ensemble de fichiers-objets précompilés. Il en existe deux types :
+- Bibliothèques statique, elles sont copiées dans les programmes qui les utilisent
+![[Pasted image 20230214085021.png]]
+	-

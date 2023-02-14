@@ -46,7 +46,14 @@ L'ergonomie c'est :
 - Peu importe ce que je fais le système ne doit pas planter
 	- Qu'est ce qu'il se passe actuellement sur ce système
 	- Pourquoi rien ne se passe ? Est ce que le système à planter ?
-	- Pourquoi je ne pas pas faire ça comme ç
+	- Pourquoi je ne pas pas faire ça comme ça ? Je pensais vraiment que le système le suporterait...
+
+## Dimension d'expérience utilisateurs
+
+Quel type d'expérience la personne va vivre ?
+
+Plusieurs dimensions qui vont décrire plus finement ce que va vivre l'utilisateur :
+- Visuel/Esthétique : Est ce que c'est beau ou pa
 
 
 ---

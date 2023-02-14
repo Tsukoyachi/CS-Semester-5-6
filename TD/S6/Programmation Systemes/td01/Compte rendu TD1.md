@@ -28,7 +28,8 @@ On a donc 3 librairies qui sont utilisées :
 ---
 
 Dans la section Exercice 3 du MakeFile on ajoutera juste l'argument 
--static à la liste des arguments à la compilation pour le tri_%-staticExe.exe.
+-static à la liste des arguments à la compilation pour le tri_%-staticExe.exe. On aura donc cette section dans le Makefile :
+![[Pasted image 20230214101722.png]]
 
 On va donc exécuter la commande make test pour vérifier si la sortie des deux programmes est identique ou non, voici la sortie obtenue :
 ![[Pasted image 20230214095653.png]]
@@ -43,5 +44,12 @@ On constate que la version static est beaucoup plus volumineuse puisqu'elle emba
 ## Exercice 4 :
 ---
 
-On va donc compléter le makeFile de sorte à ajouter les directives requises afin de compiler 
+On va donc compléter le makeFile de sorte à ajouter les directives requises afin de compiler en utilisant une librairies faites avec nos .o, on va donc le faire comme ceci :
+![[Pasted image 20230214101745.png]]
+
+En faisant un make all on a donc ces lignes là en plus : 
+![[Pasted image 20230214101813.png]]
+
+Vérifions que la sortie généré par ce nouveau code correspond bien à ce que l'on a avec les deux précédents à l'aide de make test :
+![[Pasted image 20230214101924.png]]
 

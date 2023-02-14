@@ -45,3 +45,11 @@ Pour les événements d'interruption ou de déroutement, on a aussi les caracté
 
 ![[Pasted image 20230214081914.png]]
 
+# Production et exécution de programmes
+
+## Langage de Programmation (de Haut Niveau)
+
+On a un modèle de calcul plus proche des applications avec des **types de données et des opérations** ainsi que des **mécanismes d'abstraction**.
+
+On a une vérification et un renforcement de la sécurité de la programmation avec par exemple une **vérification statique**, une vérification dynamique ainsi qu'une utilisation des données.
+

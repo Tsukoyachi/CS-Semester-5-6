@@ -15,3 +15,15 @@ Enfin dans le main.c on a quelques constantes, et des méthodes avec une utilisa
 
 A l'issue de la commande make voici la sortie obtenue :
 ![[Pasted image 20230214094138.png]]
+
+On veux donc voir les bibliothèque qu'utilise le programme tri_bubble-basicExe.exe, on va donc vérifier cela avec ldd dans le terminal  :
+![[Pasted image 20230214094313.png]]
+
+On a donc 3 librairies qui sont utilisées :
+- linux-vdso.so.1
+- libc.so.6
+- ld-linux-x86-64.so.2
+
+## Exercice 3 :
+---
+

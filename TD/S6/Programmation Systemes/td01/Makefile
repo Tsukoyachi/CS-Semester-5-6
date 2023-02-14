@@ -68,7 +68,7 @@ OBJ=$(SRC:.c=.o)
 #%.o: %.c
 #	$(CC) $(CFLAGS) -o $@ -c $<
 
-EXE=tri_bubble.exe # tri_insertion.exe tri_merge.exe tri_quick.exe # tri.exe tri_shell.exe
+EXE=tri_bubble.exe tri_insertion.exe tri_merge.exe tri_quick.exe # tri.exe tri_shell.exe
 
 # Si .SECONDARY est défini, permet d'éviter d'effacer les .o générés (ils ne sont plus considérés comme intermédiaires)
 .SECONDARY: $(OBJS)

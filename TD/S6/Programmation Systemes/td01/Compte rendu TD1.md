@@ -24,7 +24,7 @@ On a donc 3 librairies qui sont utilisées :
 - libc.so.6
 - ld-linux-x86-64.so.2
 
-## Exercice 3 :
+# Exercice 3 :
 ---
 
 Dans la section Exercice 3 du MakeFile on ajoutera juste l'argument 
@@ -41,7 +41,7 @@ A l'aide de la commande ls -l on va vérifier la taille des deux fichiers, on ob
 ![[Pasted image 20230214095944.png | center]]
 On constate que la version static est beaucoup plus volumineuse puisqu'elle embarque elle même les librairies qu'elle utilise.
 
-## Exercice 4 :
+# Exercice 4 :
 ---
 
 On va donc compléter le makeFile de sorte à ajouter les directives requises afin de compiler en utilisant une librairies faites avec nos .o, on va donc le faire comme ceci :
@@ -72,7 +72,7 @@ Maintenant faisons la même chose pour la version staticLib.exe :
 ![[Pasted image 20230214103113.png | center]]
 On constate cette fois ci que foo et bar ne sont pas inclus. C'est expliqué par le fait que lorsque l'on utilise un .a on ne va copier dans l'exécutable que les .o dont notre programme ce sert.
 
-## Exercice 5 :
+# Exercice 5 :
 ---
 
 On va modifier le makefile afin de pouvoir faire la compilation dynamique.
@@ -89,5 +89,10 @@ On constate que les sorties sont identiques.
 Comparons les tailles avec ls -l :
 ![[Pasted image 20230214112401.png | center]]
 On constate que la version dynamicLib.exe à quasiment la même taille que la version staticLib.exe.
+
+# Exercice 6 :
+---
+
+![[Pasted image 20230214112836.png | center]]
 
 

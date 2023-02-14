@@ -124,4 +124,17 @@ Langages de haut niveau et matériel
 - Les fichiers exécutabes sont dépendant du matériel utilisé
 
 Langages de haut niveau et machine virtuel
+- Un langage comme Java est compilé en un langage-machine virtuel (byte-code)
+- Ce langage est lui-même interprété par un programme appelé machine virtuelle (voir plus loin)
+- Les fichiers byte-code sont indépendants du matériel
+
+## Machine Virtuelle
+
+### Principe
+
+- Inventer une architecture de processeur adaptée à l'interprétation du langage de haut niveau
+	- Registres
+	- Jeux d'instruction
+	- Structure de données manipulées...
+- Compiler le langage dans le jeu d'instruction de la machine
 

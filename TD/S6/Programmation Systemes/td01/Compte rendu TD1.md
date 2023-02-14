@@ -84,6 +84,10 @@ On a donc deux lignes en plus lors du make :
 ![[Pasted image 20230214112200.png | center]]
 On va ensuite tester la sortie des codes avec make test :
 ![[Pasted image 20230214112249.png | center]]
+On constate que les sorties sont identiques.
 
+Comparons les tailles avec ls -l :
+![[Pasted image 20230214112401.png | center]]
+On constate que la version dynamicLib.exe à quasiment la même taille que la version staticLib.exe.
 
 

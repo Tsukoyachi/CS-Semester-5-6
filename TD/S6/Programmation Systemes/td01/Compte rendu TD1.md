@@ -72,5 +72,13 @@ Maintenant faisons la même chose pour la version staticLib.exe :
 ![[Pasted image 20230214103113.png | center]]
 On constate cette fois ci que foo et bar ne sont pas inclus. C'est expliqué par le fait que lorsque l'on utilise un .a on ne va copier dans l'exécutable que les .o dont notre programme ce sert.
 
+## Exercice 5 :
+---
+
+On va modifier le makefile afin de pouvoir faire la compilation dynamique.
+Pour cela, dans les CFLAGS on va ajouter -fpic afin de pouvoir générer un .so après.
+![[Pasted image 20230214111941.png | center]]
+Après cela on va ajouter 
+
 
 

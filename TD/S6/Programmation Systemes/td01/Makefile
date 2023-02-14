@@ -24,6 +24,7 @@ STATIC_EXE=$(EXE:.exe=-staticExe.exe)
 
 tri_%-staticExe.exe: main.o %.o timer.o utils.o unused.o
 	$(CC) -static -o $@ $^
+
 #####
 ## Exercice 4:
 STATIC_LIB=$(EXE:.exe=-staticLib.exe)
@@ -34,18 +35,16 @@ tri_%-staticLib.exe: main.o timer.o utils.o libTri_%-staticLib.a
 libTri_%-staticLib.a: %.o unused.o
 	ar -r $@ $^
 	ranlib $@
-#	TODO: écrire la règle permettant de créer une bibilothèque avec lien statique
 
 ####
 ## Exercice 5:
-#DYNAMIC_LIB=$(EXE:.exe=-dynamicLib.exe)
-#
-#tri_%-dynamicLib.exe: main.o timer.o utils.o libTri_%-dynamicLib.so
-#	$(CC) -o $@ $^
-#
-#libTri_%-dynamicLib.so: %.o unused.o
-#	TODO: écrire la règle permettant de créer une bibliothqèue dynamique
+DYNAMIC_LIB=$(EXE:.exe=-dynamicLib.exe)
 
+tri_%-dynamicLib.exe: main.o timer.o utils.o libTri_%-dynamicLib.so
+	$(CC) -o $@ $^
+
+libTri_%-dynamicLib.so: %.o unused.o
+	$(CC) -shared -o $@ $^
 ####
 ## Exercice 7:
 #DYNAMIC_LOAD=tri.exe
@@ -60,7 +59,7 @@ libTri_%-staticLib.a: %.o unused.o
 #---------------------------------------------------------------------------------
 
 CC=gcc
-CFLAGS=-Wall -Wextra -std=gnu99 -g
+CFLAGS=-fpic -Wall -Wextra -std=gnu99 -g
 
 SRC=$(wildcard *.c)
 OBJ=$(SRC:.c=.o)

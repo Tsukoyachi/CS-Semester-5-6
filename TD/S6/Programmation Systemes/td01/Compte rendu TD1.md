@@ -40,3 +40,8 @@ A l'aide de la commande ls -l on va vérifier la taille des deux fichiers, on ob
 ![[Pasted image 20230214095944.png]]
 On constate que la version static est beaucoup plus volumineuse puisqu'elle embarque elle même les librairies qu'elle utilise.
 
+## Exercice 4 :
+---
+
+On va donc compléter le makeFile de sorte à ajouter les directives requises afin de compiler 
+

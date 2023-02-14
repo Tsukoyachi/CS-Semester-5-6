@@ -33,6 +33,7 @@ tri_%-staticLib.exe: main.o timer.o utils.o libTri_%-staticLib.a
 
 libTri_%-staticLib.a: %.o unused.o
 	ar -r $@ $^
+	ranlib $@
 #	TODO: écrire la règle permettant de créer une bibilothèque avec lien statique
 
 ####

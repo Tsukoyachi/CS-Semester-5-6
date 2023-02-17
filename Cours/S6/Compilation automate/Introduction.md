@@ -82,3 +82,7 @@ L(A) : l'ensemble des mots non vide qui finissent par b.
 2. (voir slide pour énoncé)
 - $babbb : q_{0}\rightarrow_b q_{1} \rightarrow_{a} \bot$ refusé car le passage de $q_{0}$ à $q_{1}$ n'est plus possible.
 - ...
+
+
+- Un automate complet : **à compléter**
+- Un langage rationnel est un langage qui est reconnu par un AFD.

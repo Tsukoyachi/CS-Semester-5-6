@@ -71,3 +71,6 @@ Un automate fini déterministe A est une machine qui calcule si un mot w apparti
 - L'automate commence dans l'état $q_0$.
 - L'automate lit les lettres du mot de gauche à droite
 - Si l'automate est dans l'état $q_i$, qu'il lit une lettre l, et que $\delta(q_{i,l)}= qj$ alors
+
+### Exercice :
+(voir slide por )

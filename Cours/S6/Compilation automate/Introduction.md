@@ -49,5 +49,7 @@ Pout tout alphabet $\Sigma$ et pour toute longueur $l \in N$, on note $\Sigma^l$
 
 1. Pour $\Sigma = \set{a,b}$, que vaut $\Sigma³$ ?
  Ici on aurait comme combinaisons possibles : aaa aab aba baa abb bab bba bbb.
- Donc, avec notre alphabet on a : $\Sigma³ = 8$.
-2. Soit $\Sigma$ un alphabet et l  un entier.
+ Donc, avec notre alphabet on a : $|\Sigma³| = 8$.
+2. Soit $\Sigma$ un alphabet et l  un entier. Exprimer |$\Sigma^l$| en fonction de |$\Sigma$| et l.
+
+On notre $\Sigm$

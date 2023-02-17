@@ -70,4 +70,4 @@ On note également $\Sigma+$ = $\Sigma$\{$\epsilon$}
 Un automate fini déterministe A est une machine qui calcule si un mot w appartient au langage L(A) défini par cet automate.
 - L'automate commence dans l'état $q_0$.
 - L'automate lit les lettres du mot de gauche à droite
-- Si l'automate est dans l'état $q_i$, qu'il lit une lettre l, et que 
+- Si l'automate est dans l'état $q_i$, qu'il lit une lettre l, et que $\delta(q_{i,l)}= qj$ alors

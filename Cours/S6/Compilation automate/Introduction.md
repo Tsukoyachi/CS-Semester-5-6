@@ -43,20 +43,24 @@ Exemple :
 - v = abba, |v| = 4
 - w = bbbb, |w| = 4
 
-Exercice :
-
+### Exercice :
 Pout tout alphabet $\Sigma$ et pour toute longueur $l \in N$, on note $\Sigma^l$ l'ensemble des mots de longueur l sur l'alphabet $\Sigma$.
 
 1. Pour $\Sigma = \set{a,b}$, que vaut $\Sigma³$ ?
  Ici on aurait comme combinaisons possibles : aaa aab aba baa abb bab bba bbb.
  Donc, avec notre alphabet on a : $|\Sigma³| = 8$.
  On remarque que ici on a 2\*2\*2 = 8 car on a 2 choix pour chaque lettre.
-2. Soit $\Sigma$ un alphabet et l  un entier. Exprimer |$\Sigma^l$| en fonction de |$\Sigma$| et l.
-3.En se servant de la remarque précédente : |$\Sigma^l$|= $|\Sigma|*|\Sigma|*|\Sigma|*...=|\Sigma|^l$.
-
+2. Soit $\Sigma$ un alphabet et l  un entier. Exprimer |$\Sigma^l$| en fonction de |$\Sigma$| et l. En se servant de la remarque précédente : |$\Sigma^l$|= $|\Sigma|*|\Sigma|*|\Sigma|*...=|\Sigma|^l$.
 
 On notre $\Sigma*$ l'ensemble des mots sur l'alphabet $\Sigma$. On a donc :
 $$\displaylines{
 	\Sigma* = \cup_{l \in N}(\Sigma^l)
 }$$
 On note également $\Sigma+$ = $\Sigma$\{$\epsilon$} 
+
+
+
+- Langage : **à rattraper**
+- Un automate fini déterministe (AFD) : C'est un quintuplet ($\Sigma,Q,\delta,q_0,F$) où :
+	- $\Sigma$ est un alphabet
+	- 

@@ -36,3 +36,16 @@ L'objectif du cours :
 - Alphabet : Souvent noté $\Sigma$ , ensemble fini non vite d'éléments appelés symboles (ou lettres).
 Exemple :
 - A = {0,1}: Alphabet binaire
+
+- Longueur d'un mot : La longueur d'un mot u notée |u| est son nombre de symboles.
+Exemple :
+- u = a, |u| = 1
+- v = abba, |v| = 4
+- w = bbbb, |w| = 4
+
+Exercice :
+
+Pout tout alphabet $\Sigma$ et pour toute longueur $l \in N$, on note 
+
+
+aaa aab aba baa abb bab bba bbb

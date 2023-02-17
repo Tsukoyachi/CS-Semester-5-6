@@ -4,10 +4,13 @@
 - 17-02-2023
 
 ### Teachers :
-- Diane Lingrand
+- Diane Lingran
 
 ### Tags :
-
+- #Données 
+- #Numérique
 
 ---
+
+## Pdf du cours
 

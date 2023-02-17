@@ -28,4 +28,11 @@ Les langages permettent aux Hommes de donner des instructions et d'échanger des
 - Les langages créés par l'homme pour communiquer avec la machine (Python, Java, C, etc...) sont dits **à compléter**
 
 L'objectif du cours :
-- Savoir formaliser des langages formels. D'abord des langages "simples" (dits **régulier**)
+- Savoir formaliser des langages formels. D'abord des langages "simples" (dits **régulier**), puis des langages plus complexes.
+- Au départ, un ordinateur ne comprend pas le python, le C++, etc... Pour communiquer avec l'ordinateur, il est nécessaire de transformer le code dit haut niveau en un langage machine. Cette tache est réalisée par ce que l'on appelle un **compilateur**.
+
+## Définitions
+
+- Alphabet : Souvent noté $\Sigma$ , ensemble fini non vite d'éléments appelés symboles (ou lettres).
+Exemple :
+- A = {0,1}: Alphabet binaire

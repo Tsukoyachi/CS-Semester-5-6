@@ -52,4 +52,8 @@ Pout tout alphabet $\Sigma$ et pour toute longueur $l \in N$, on note $\Sigma^l$
  Donc, avec notre alphabet on a : $|\Sigma³| = 8$.
 2. Soit $\Sigma$ un alphabet et l  un entier. Exprimer |$\Sigma^l$| en fonction de |$\Sigma$| et l.
 
-On notre $\Sigm$
+On notre $\Sigma*$ l'ensemble des mots sur l'alphabet $\Sigma$. On a donc :
+$$\displaylines{
+	\Sigma* = \cup_{l \in N}(\Sigma^l)
+}$$
+On note également $\Sigma+$ = $\Sigma\${$\espilon$} 

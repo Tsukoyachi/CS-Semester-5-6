@@ -63,4 +63,7 @@ On note également $\Sigma+$ = $\Sigma$\{$\epsilon$}
 - Langage : **à rattraper**
 - Un automate fini déterministe (AFD) : C'est un quintuplet ($\Sigma,Q,\delta,q_0,F$) où :
 	- $\Sigma$ est un alphabet
-	- 
+	- Q est un ensemble **fini** d'états
+	- $\delta$ est la fonction de transition : $Q$ x $\Sigma \rightarrow Q$ 
+	- $q_{0}\in Q$ est l'état initial
+	- $F \$

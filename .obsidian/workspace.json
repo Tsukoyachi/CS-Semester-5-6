@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Cours.md",
+                "file": "Cours/S6/Données numérique/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Cours.md",
+                "file": "Cours/S6/Données numérique/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Cours.md",
+                "file": "Cours/S6/Données numérique/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Cours.md"
+                "file": "Cours/S6/Données numérique/Introduction.md"
               }
             }
           },
@@ -161,12 +161,12 @@
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "724587894eb1706c",
   "lastOpenFiles": [
+    "Templates/Cours.md",
     "Cours/S6/Données numérique/Introduction.md",
     "Cours/S6/Programmation par évènement/Introduction.md",
     "Cours/S6/Programmation par évènement/media/SI3-Programation par événement - intro - cours 1.pdf",
@@ -175,7 +175,6 @@
     "Cours/S6/Programmation Systeme/media/01 Prod et Exe Prog.pdf",
     "Cours/S5/Architecture et réseau/1 - Réseau.md",
     "Cours/S6/projet semestre/Introduction.md",
-    "Mobilité étranger.md",
-    "Back to school.md"
+    "Mobilité étranger.md"
   ]
 }

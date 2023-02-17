@@ -1,7 +1,7 @@
-# <% tp.file.title %>
+# {{title}}
 ---
 ### Lessons date :
-- <% tp.file.creation_date() %>
+- {{date}}
 
 ### Teachers :
 

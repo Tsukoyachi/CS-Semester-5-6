@@ -1,8 +1,13 @@
 # Introduction
 ---
+### Lessons date :
+- 17-02-2023
 
-date : 17 février 2023
-prof : Diane Lingrand
+### Teachers :
+- Diane Lingrand
+
+### Tags :
+
 
 ---
 

@@ -4,34 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f812873cf3a14a8a",
+        "id": "302565e3dcfe548f",
         "type": "tabs",
         "children": [
           {
-            "id": "cf1c32b9bd85793f",
+            "id": "724587894eb1706c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/S6/Programmation par évènement/Introduction.md",
+                "file": "Templates/Cours.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "00bf2f59a289e294",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "81dc93b317d3d924",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Cours/S6/Programmation par évènement/media/SI3-Programation par événement - intro - cours 1.pdf"
               }
             }
           }
@@ -85,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5,
-    "collapsed": true
+    "width": 290.5
   },
   "right": {
     "id": "911d169df2e013eb",
@@ -102,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/S6/Programmation par évènement/Introduction.md",
+                "file": "Templates/Cours.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/S6/Programmation par évènement/Introduction.md",
+                "file": "Templates/Cours.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/S6/Programmation par évènement/Introduction.md"
+                "file": "Templates/Cours.md"
               }
             }
           },
@@ -182,17 +165,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cf1c32b9bd85793f",
+  "active": "724587894eb1706c",
   "lastOpenFiles": [
-    "Cours/S6/Programmation par évènement/media/SI3-Programation par événement - intro - cours 1.pdf",
+    "Cours/S6/Données numérique/Introduction.md",
     "Cours/S6/Programmation par évènement/Introduction.md",
+    "Cours/S6/Programmation par évènement/media/SI3-Programation par événement - intro - cours 1.pdf",
     "TD/S6/Programmation Systemes/td01/Compte rendu TD1.md",
     "Cours/S6/Programmation Systeme/Introduction.md",
     "Cours/S6/Programmation Systeme/media/01 Prod et Exe Prog.pdf",
     "Cours/S5/Architecture et réseau/1 - Réseau.md",
     "Cours/S6/projet semestre/Introduction.md",
     "Mobilité étranger.md",
-    "Back to school.md",
-    "TD/Sans titre.md"
+    "Back to school.md"
   ]
 }

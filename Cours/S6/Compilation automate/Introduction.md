@@ -62,8 +62,12 @@ On note également $\Sigma+$ = $\Sigma$\{$\epsilon$}
 
 - Langage : **à rattraper**
 - Un automate fini déterministe (AFD) : C'est un quintuplet ($\Sigma,Q,\delta,q_0,F$) où :
-	- $\Sigma$ est un alphabet
-	- Q est un ensemble **fini** d'états
-	- $\delta$ est la fonction de transition : $Q$ x $\Sigma \rightarrow Q$ 
-	- $q_{0}\in Q$ est l'état initial
-	- $F \$
+	- $\Sigma$ est un alphabet.
+	- Q est un ensemble **fini** d'états.
+	- $\delta$ est la fonction de transition : $Q$ x $\Sigma \rightarrow Q$. 
+	- $q_{0}\in Q$ est l'état initial.
+	- $F \subseteq Q$ est l'ensemble des états d'acceptation. 
+Un automate fini déterministe A est une machine qui calcule si un mot w appartient au langage L(A) défini par cet automate.
+- L'automate commence dans l'état $q_0$.
+- L'automate lit les lettres du mot de gauche à droite
+- Si l'automate est dans l'état $q_i$, qu'il lit une lettre l, et que 

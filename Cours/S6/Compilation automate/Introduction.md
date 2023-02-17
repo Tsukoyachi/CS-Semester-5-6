@@ -23,4 +23,8 @@ Réaliser un compilateur
 
 ---
 
-Les langages permettent aux Hommes de donner des instructions et d'échanger des informations entre e
+Les langages permettent aux Hommes de donner des instructions et d'échanger des informations entre eux avec leurs machines.
+- Les langages utilisés quotidiennement entre êtres humains (français, anglais, japonais, etc...) sont dits **naturels**. Ils sont généralement ambigus et demandent toute la subtilité du cerveau humain pour être interprétés correctement.
+- Les langages créés par l'homme pour communiquer avec la machine (Python, Java, C, etc...) sont dits **à compléter**
+
+(Petite parenthèse sur les correcteurs orthographique comme Grammalecte)

@@ -4,33 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "24acafaa090aa05d",
+        "id": "c2a01d8104e51a14",
         "type": "tabs",
         "children": [
           {
-            "id": "80e61ea4d13e3e36",
+            "id": "ee5feab180c2ec53",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Cours/S6/Données numérique/media/intro.pdf"
-              }
-            }
-          },
-          {
-            "id": "0ed67e1de6177e49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cours/S6/Compilation automate/Introduction.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/S6/Compilation automate/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/S6/Compilation automate/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Cours/S6/Compilation automate/Introduction.md"
-              }
+              "state": {}
             }
           },
           {
@@ -175,8 +156,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0ed67e1de6177e49",
+  "active": "ee5feab180c2ec53",
   "lastOpenFiles": [
+    "Cours/S6/Compilation automate/Introduction.md",
     "Cours/S6/Données numérique/media/intro.pdf",
     "Cours/S6/Données numérique/Introduction.md",
     "Templates/Cours.md",
@@ -185,7 +167,6 @@
     "TD/S6/Programmation Systemes/td01/Compte rendu TD1.md",
     "Cours/S6/Programmation Systeme/Introduction.md",
     "Cours/S6/Programmation Systeme/media/01 Prod et Exe Prog.pdf",
-    "Cours/S5/Architecture et réseau/1 - Réseau.md",
-    "Cours/S6/projet semestre/Introduction.md"
+    "Cours/S5/Architecture et réseau/1 - Réseau.md"
   ]
 }

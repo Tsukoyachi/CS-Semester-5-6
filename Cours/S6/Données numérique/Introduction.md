@@ -14,3 +14,5 @@
 
 ## Pdf du cours
 
+![[intro.pdf]]
+

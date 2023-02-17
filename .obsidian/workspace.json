@@ -6,6 +6,7 @@
       {
         "id": "302565e3dcfe548f",
         "type": "tabs",
+        "dimension": 55.17057569296375,
         "children": [
           {
             "id": "724587894eb1706c",
@@ -16,6 +17,23 @@
                 "file": "Cours/S6/Données numérique/Introduction.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "24acafaa090aa05d",
+        "type": "tabs",
+        "dimension": 44.82942430703625,
+        "children": [
+          {
+            "id": "80e61ea4d13e3e36",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Cours/S6/Données numérique/media/intro.pdf"
               }
             }
           }
@@ -69,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 290.5,
+    "collapsed": true
   },
   "right": {
     "id": "911d169df2e013eb",
@@ -164,17 +183,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3ed2038ec5459906",
+  "active": "724587894eb1706c",
   "lastOpenFiles": [
-    "Templates/Cours.md",
+    "Cours/S6/Données numérique/media/intro.pdf",
     "Cours/S6/Données numérique/Introduction.md",
+    "Templates/Cours.md",
     "Cours/S6/Programmation par évènement/Introduction.md",
     "Cours/S6/Programmation par évènement/media/SI3-Programation par événement - intro - cours 1.pdf",
     "TD/S6/Programmation Systemes/td01/Compte rendu TD1.md",
     "Cours/S6/Programmation Systeme/Introduction.md",
     "Cours/S6/Programmation Systeme/media/01 Prod et Exe Prog.pdf",
     "Cours/S5/Architecture et réseau/1 - Réseau.md",
-    "Cours/S6/projet semestre/Introduction.md",
-    "Mobilité étranger.md"
+    "Cours/S6/projet semestre/Introduction.md"
   ]
 }

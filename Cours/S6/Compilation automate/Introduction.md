@@ -73,4 +73,7 @@ Un automate fini déterministe A est une machine qui calcule si un mot w apparti
 - Si l'automate est dans l'état $q_i$, qu'il lit une lettre l, et que $\delta(q_{i,l)}= qj$ alors
 
 ### Exercice :
-(voir slide por )
+(voir slide pour énoncé)
+- $\epsilon : q_{0}$ donc refusé par L(A)
+- $bab : q_{0}\rightarrow_b q_{1} \rightarrow_a q_{0}\rightarrow_b q_1$ donc accepté par L(A)
+- $baba : bab : q_{0}\rightarrow_b q_{1} \rightarrow_a q_{0}\rightarrow_b q_{1}\rightarrow_{a}q_0$ donc refusé p

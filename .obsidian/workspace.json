@@ -4,28 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "302565e3dcfe548f",
-        "type": "tabs",
-        "dimension": 55.17057569296375,
-        "children": [
-          {
-            "id": "724587894eb1706c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cours/S6/Données numérique/Introduction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "24acafaa090aa05d",
         "type": "tabs",
-        "dimension": 44.82942430703625,
         "children": [
           {
             "id": "80e61ea4d13e3e36",
@@ -36,8 +16,21 @@
                 "file": "Cours/S6/Données numérique/media/intro.pdf"
               }
             }
+          },
+          {
+            "id": "0ed67e1de6177e49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cours/S6/Compilation automate/Introduction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5,
-    "collapsed": true
+    "width": 290.5
   },
   "right": {
     "id": "911d169df2e013eb",
@@ -104,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/S6/Données numérique/Introduction.md",
+                "file": "Cours/S6/Compilation automate/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/S6/Données numérique/Introduction.md",
+                "file": "Cours/S6/Compilation automate/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/S6/Données numérique/Introduction.md"
+                "file": "Cours/S6/Compilation automate/Introduction.md"
               }
             }
           },
@@ -183,7 +175,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "724587894eb1706c",
+  "active": "0ed67e1de6177e49",
   "lastOpenFiles": [
     "Cours/S6/Données numérique/media/intro.pdf",
     "Cours/S6/Données numérique/Introduction.md",

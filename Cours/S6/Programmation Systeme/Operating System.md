@@ -152,3 +152,24 @@ Par exemple, envoyer l'appui d'une touche à la bonne application ou alors s'ass
 Dans la gestion des ressources ont a :
 - Le partage des ressource de calcul avec la gestion des processus
 - Le partage de la mémoire entre les différents processus avec la gestion mémoire
+- Le partage des dispositifs (clavier, souris, écran, ...) avec la gestion des entrées/sorties.
+
+## En résumé, un système d'exploitation
+
+Il a trois grandes fonctionnalités :
+- Gérer la mémoire
+- Gérer les entrées-sorties
+- Gérer les processus
+
+On attend donc de lui :
+- Fiabilité, robustesse
+- Prédictibilité, déterminisme
+- Ergonomie, facilité d'utilisation
+- Efficacité, performances
+- Généralité, universalité
+- Flexibilité, adaptabilité, extensibilité
+- Transparance
+
+On a jamais douter de la fiabilité d'un système d'exploitation...
+
+Enfin si windows avec ses blue screen, mais en réalité les blue sc

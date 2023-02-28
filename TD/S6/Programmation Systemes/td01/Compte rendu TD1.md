@@ -130,10 +130,13 @@ Non, il ne serait pas nécessaire de recompiler tri.exe, il suffirait juste de r
 # Exercice 9 :
 ---
 
-On modifie légèrement le main_dynload.c
+On modifie légèrement le main_dynload.c comme ceci :
+A l'exécution on observe donc cela :
 
 # Exercice 10 :
 ---
 
 Avec la commande ldd on peut voir les bibliothèques que python3 et java utilisent :
 ![[Pasted image 20230228110335.png | center]]
+
+On observe que python en utilise plusieurs alors que java n'utilise rien.

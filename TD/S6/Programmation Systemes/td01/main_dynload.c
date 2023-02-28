@@ -65,6 +65,7 @@ int main(int argc, char *argv[])
     char *libs[] = {"libTri_bubble-dynamicLib.so","libTri_insertion-dynamicLib.so","libTri_merge-dynamicLib.so","libTri_quick-dynamicLib.so"};
 
     for(int i = 0; i < sizeof(libs) / sizeof(libs[0]); i++){
+        printf("Execution with : %s\n",libs[i]);
         load_library(libs[i]);
 	    do_job();
         clean_library();

@@ -85,4 +85,14 @@ Pour cette logique on a ce que l'on appelle des **structures fonctionnelles**, c
 
 Contrairement au modèle de tâche qui va être la description d'une tâche dans un cas global (pour n'importe qui), un scénario lui va être une exécution d'un modèle de tâche dans un cas précis.
 
-# Opérateurs LOTOS 
+```ad-important
+title: Opérateur LOTOS
+- Enabling T1 >> T2 or T1 [ ]>> T2  
+- Disabling T1 [> T2  
+- Interruption T1 |> T2  
+- Choice T1 [ ] T2  
+- Iteration T1* or T1{n}  
+- Concurrency T1 ||| T2 T1 |[]| T2  
+- Ordre Independence T1 |=| T2  
+- Optionality [T]
+```

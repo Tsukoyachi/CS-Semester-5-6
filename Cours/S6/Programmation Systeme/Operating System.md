@@ -120,4 +120,16 @@ En termes de fonctionnalités ça donne ça :
 - Servir les requêtes des processus
 	- Appels systèmes: Read, Write, Open, ...
 - Traiter les exceptions matérielles dues aux processus
-	- 
+	- Déroutements: Division par 0, Débordement de pile, ...
+- Gérer les interruptions matérielles
+	- Interruptions: clavier / souris, réseau, ...
+- Fournir un ensemble de services spécifiques
+	- Assurer des tâches d’entretien du système (swap, caches, pages, ...)
+
+### Elements d'un système d'exploitation
+
+On va donc dénoter 3 éléments dans un système d'exploitation :
+- Les programmes utilitaires :
+	- Ensemble de programmes outils permettant de manipuler le système à base de commandes "basiques", par exemple `shell, cp, rm, mount`
+- La/Les librairies :
+	- Bibliothèque(s) standardisées de fonctionnalités pour les  programmes utilisateurs

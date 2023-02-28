@@ -107,4 +107,10 @@ Comme on peut le voir le tri fonctionne à chaque fois.
 # Exercice 7 :
 ---
 
-On commence d'abord par remettre 
+On commence d'abord par remettre le dossier courant dans le LD_LIBRARY_PATH :
+
+![[Pasted image 20230228101421.png | center]]
+
+Dans le MakeFile on effectue les modifications suivantes :
+![[Pasted image 20230228101457.png | center]]
+

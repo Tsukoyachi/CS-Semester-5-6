@@ -47,6 +47,8 @@ Le but de cette démarche étant de :
 
 Il faut couvrir un max voir tous les cas et même chose pour les utilisateurs.
 
+Pour obtenir les informations nécessaire afin d'effectuer cette étude on doit donc passer par une phase de collecte d'informations, que ça soit en posant des questions au client, en faisant des sondages, etc....
+
 ## Un petit exemple
 
 - To clean the house  
@@ -64,3 +66,7 @@ Il faut couvrir un max voir tous les cas et même chose pour les utilisateurs.
 	- Should I start by the entrance or by the end of the room? – strategy (related to context)  
 	- Should I have vacuum cleaner at maximum speed? – strategy  
 	- Evaluate if a room is clean or not – situational knowledge
+
+## Modèle de tâche
+
+On va définir des diagrammes permettant de détailler 

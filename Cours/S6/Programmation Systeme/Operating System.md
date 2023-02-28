@@ -41,4 +41,23 @@ Et une machine peut être partagée entre plusieurs entité :
 - plusieurs utilisateurs
 - plusieurs programme (écrit avec divers langages de programmation)
 
+Son rôle est donc de :
+- Transformateur d’interface (cacher la complexité)
+- Fournir des services de base (IHM, stockage persistant, accès  
+réseau, gestion du temps, ...)
+- Être le gérant des ressources
 
+Gestion des ressources (partagées) :
+- Ressources physique :
+	- Processeur(s), mémoire, disques, périphériques...
+- Programmes, processus
+- Information :
+	- Désignation, localisation
+	- Partage et échange entre usagers
+- Protection, sécurité, confidentialité
+
+Donc l'attribution des ressources 
+
+Ils ont des fonctions diverse telles que :
+- Statistiques, facturation...
+- Gestion du temps, analyse de performances...

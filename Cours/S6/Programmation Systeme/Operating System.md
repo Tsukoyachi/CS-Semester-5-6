@@ -79,5 +79,12 @@ Histoire :
 
 Pour le programmeur, on a eu une nette évolution :
 
+- Entre 1945 et 1955, un programmeur "codait" en branchant des fils dans des grandes cartes à trou :
+![[Ordinateur 1945 - 1955.png | center]]
 
+- Entre 1955 et 1962 on avait un pupitre pour programmer :
+![[Ordinateur 1955 - 1962.png | center]]
+
+- Entre 1960 et 1980 :
+![[Ordinateur 1960-1980.png | center]]
 

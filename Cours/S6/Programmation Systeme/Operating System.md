@@ -202,4 +202,17 @@ Dans l'ordre on a eu :
 	- Systèmes (bases de données, transactionnels...)
 	- etc...
 
-Posix est fondé sur Unix BSD et 
+Posix est fondé sur Unix BSD et Unix SVR4 donc la plupart des systèmes Unix actuels proposent la compatibilité Posix.
+
+Pour les systèmes non-Unix, on a des bibliothèques d'émulation telles que Cygwin qui assure une compatibilité Posix.
+
+Entre Posix et Ansi C :
+- La première description de l'API a été effectuée en Ansi C.
+- Le support d'autres langages est prévu
+- L'API Posix est un sur-ensemble de la bibliothèque standard d'Ansi C
+
+![[L'API Posix.1-2001.png | center]]
+
+Et par la suite...
+
+Nous explorerons la norme Posix pour :

@@ -114,3 +114,9 @@ On commence d'abord par remettre le dossier courant dans le LD_LIBRARY_PATH :
 Dans le MakeFile on effectue les modifications suivantes :
 ![[Pasted image 20230228101457.png | center]]
 
+On définit l'interface load_library.h :
+![[Pasted image 20230228101713.png | center]]
+
+On l'implémente de la façon suivante :
+![[Pasted image 20230228101930.png | center]]
+

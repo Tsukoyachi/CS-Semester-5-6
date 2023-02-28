@@ -188,4 +188,18 @@ Posix est donc "l'API" de base de linux afin qu'un développeur ne développe no
 
 **Posix** : Portable operating system interface (x for unix)
 
-L'une des motivations de Posix est d'être compatible avec Ansi C.
+L'une des motivations de Posix est aussi d'être compatible avec Ansi C.
+
+Et cela nous a donné une unification des versions d’Unix et ouverture à d’autres systèmes d’exploitation.
+
+Dans l'ordre on a eu :
+- Interface portable de programmation
+	- Posix.1, 1a/1b (extensions temps-réel), 1c (threads)
+	- Shell et commandes de base (Posix.2)
+- Supports divers
+	- Réseaux
+	- Langages (Fortran, Ada...)
+	- Systèmes (bases de données, transactionnels...)
+	- etc...
+
+Posix est fondé sur Unix BSD et 

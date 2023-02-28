@@ -62,18 +62,21 @@ int main(int argc, char *argv[])
     /* Décodage des arguments de la ligne de commande */
     Scan_Args(argc, argv);
 
-	do_job();
-    clean_library();
+    char *libs[] = {"libTri_bubble-dynamicLib.so","libTri_insertion-dynamicLib.so","libTri_merge-dynamicLib.so","libTri_quick-dynamicLib.so",NULL};
+
+    for(int i = 0; i < sizeof(libs) / sizeof(libs[0]); i++){
+        load_library(libs[i]);
+	    do_job();
+        clean_library();
+    }
 }
 
 /* Analyse des arguments 
  * ----------------------
  */
 static void Scan_Args(int argc, char *argv[])
-{
-    load_library(argv[1]);
 
-    for (int i = 2; i < argc; i++) {
+    for (int i = 1; i < argc; i++) {
         if (argv[i][0] == '-') {
             switch (argv[i][1]) {
             case 'h':

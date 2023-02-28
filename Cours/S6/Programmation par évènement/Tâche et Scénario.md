@@ -87,6 +87,7 @@ Contrairement au modèle de tâche qui va être la description d'une tâche dans
 
 ```ad-important
 title: Opérateur LOTOS
+Il s'agit d'un ensemble d'opérateurs à apprendre par coeur. Ils sont utiles pour décrire des scénarios je suppose.
 - Enabling T1 >> T2 or T1 [ ]>> T2  
 - Disabling T1 [> T2  
 - Interruption T1 |> T2  

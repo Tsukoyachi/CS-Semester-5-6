@@ -1,6 +1,7 @@
 {
   "enabledCssSnippets": [
-    "center-image"
+    "center-image",
+    "center"
   ],
   "theme": "obsidian",
   "baseFontSize": 20,

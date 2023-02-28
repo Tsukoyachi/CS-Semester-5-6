@@ -26,7 +26,7 @@ Le but est pour le système d'exploitation de combler l'écart entre une machine
 
 Et pour cela on a des choses qui se passent à tous les niveaux.
 
-![[Pasted image 20230228081117.png | center]]
+![[Couche os.png | center]]
 
 
 ### La réalité est un peu plus complexe
@@ -66,5 +66,9 @@ Le tout en fournissant une interface commode.
 
 ### Classification des Systèmes d’Exploitation par  type d’applications
 
-![[Pasted image 20230228081947.png | cen]]
+![[Classification OS par type d'application.png | center]]
+
+## Chronologie simplifiée des premiers sytèmes
+
+Il y a longtemps eu une 
 

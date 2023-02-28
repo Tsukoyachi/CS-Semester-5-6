@@ -35,5 +35,7 @@ Il réfère à la façon dont les résultats sont donné par le système et s'il
 
 # Analyse de Tâche
 
-Une tâche c'est l'ensemble des actions qu'un utilisateur doit réaliser pour exécuter une action, on en dénote plusieurs types :
-- Les tâches basiques sont celles que l'on ne découpe plus.
+Une **tâche** c'est l'ensemble des actions qu'un utilisateur doit réaliser pour exécuter une action, on en dénote plusieurs types :
+- Les tâches basiques sont celles que l'on ne découpe plus, le niveau de détail est choisit selon les cas.
+
+Une **Analyse de tâche** quant à elle est une étude de quels personnes vont effectuer quelles tâches avec le système que l'on souhaite créer.

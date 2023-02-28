@@ -56,8 +56,15 @@ Gestion des ressources (partagées) :
 	- Partage et échange entre usagers
 - Protection, sécurité, confidentialité
 
-Donc l'attribution des ressources 
+Donc l'attribution des ressources et la prévention/résolution des conflits.
 
 Ils ont des fonctions diverse telles que :
 - Statistiques, facturation...
 - Gestion du temps, analyse de performances...
+
+Le tout en fournissant une interface commode.
+
+### Classification des Systèmes d’Exploitation par  type d’applications
+
+![[Pasted image 20230228081947.png | cen]]
+

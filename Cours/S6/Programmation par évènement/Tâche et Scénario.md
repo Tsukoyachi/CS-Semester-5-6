@@ -33,3 +33,7 @@ Il réfère à la façon dont les résultats sont donné par le système et s'il
 
 ![[Gouffre Intéraction.png | center]]
 
+# Analyse de Tâche
+
+Une tâche c'est l'ensemble des actions qu'un utilisateur doit réaliser pour exécuter une action, on en dénote plusieurs types :
+- Les tâches basiques sont celles que l'on ne découpe plus.

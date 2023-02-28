@@ -181,4 +181,11 @@ surtout le livre de référence:
 
 ![[Modern Operating System quote.png | center]]
 
-###
+### D'Unix à Posix
+![[Multiple Unix....png | center]]
+
+Posix est donc "l'API" de base de linux afin qu'un développeur ne développe non pas un programme pour "un linux particulier" mais obtenir une version portable peut importe la version de linux en dessous.
+
+**Posix** : Portable operating system interface (x for unix)
+
+L'une des motivations de Posix est d'être compatible avec Ansi C.

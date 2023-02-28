@@ -172,4 +172,13 @@ On attend donc de lui :
 
 On a jamais douter de la fiabilité d'un système d'exploitation...
 
-Enfin si windows avec ses blue screen, mais en réalité les blue sc
+Enfin si windows avec ses blue screen, mais en réalité les blue screen ne sont pas dû qu'au système d'exploitation, il communique directement avec le matériel, si le matériel est défaillant, le système d'exploitation le sera aussi.
+
+## Cacher la complexité sous une "jolie interface"
+- Et c’est vraiment la formule utilisée dans les livres et  
+surtout le livre de référence:
+- Tanenbaum. Modern Operating Systems (4th ed, 2014). page 5
+
+![[Modern Operating System quote.png | center]]
+
+###

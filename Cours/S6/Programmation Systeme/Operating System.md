@@ -109,5 +109,15 @@ Pour le programmeur, on a eu une nette évolution :
 
 Un système d'exploitation est un ensemble de programmes qui dirige l'utilisation des capacités de la machine. Cela a plusieurs objectifs.
 
-On va pouvoir faire une abstraction du matériel pour ne pas avoir à gérer par exemple le type de support mémoire sur lequel je vais écrire.
+On doit pouvoir faire une abstraction du matériel, pour ne pas avoir à gérer par exemple le type de support mémoire sur lequel je vais écrire.
 
+Il doit également pouvoir gérer le temps (temps partagé, temps réel), parce qu'on va peut être vouloir qu'une opération ait un temps de latence faible.
+
+Gérer la distribution (entre les processeurs, les mémoires, les  
+périphériques) pour augmenter l’efficacité et abstraire.
+
+En termes de fonctionnalités ça donne ça :
+- Servir les requêtes des processus
+	- Appels systèmes: Read, Write, Open, ...
+- Traiter les exceptions matérielles dues aux processus
+	- 

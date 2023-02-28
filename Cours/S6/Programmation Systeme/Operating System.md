@@ -97,8 +97,17 @@ Pour le programmeur, on a eu une nette évolution :
 ![[Brève histoire OS.png | center]]
 
 ### Frise chronoligue système unix 
-
 ![[Frise Chronologique Unix.png | center]]
 
 ### Frise chronologique Windows
+![[Frise Chronologique Windows.png | center]]
+
+### Frise chronologique Apple
+![[Frise chronologique Apple.png | center]]
+
+## Caractéristique système d'exploitation
+
+Un système d'exploitation est un ensemble de programmes qui dirige l'utilisation des capacités de la machine. Cela a plusieurs objectifs.
+
+On va pouvoir faire une abstraction du matériel pour ne pas avoir à gérer par exemple le type de support mémoire sur lequel je vais écrire.
 

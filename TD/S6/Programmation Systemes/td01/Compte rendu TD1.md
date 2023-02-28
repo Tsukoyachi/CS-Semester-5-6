@@ -122,3 +122,7 @@ On l'implémente de la façon suivante :
 
 ![[Pasted image 20230228102045.png | center]]
 
+# Exercice 8 :
+---
+
+Non, il ne serait pas nécessaire de recompiler tri.exe, il suffirait juste de recompiler la libdl.so

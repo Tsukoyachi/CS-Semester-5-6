@@ -132,4 +132,15 @@ On va donc dénoter 3 éléments dans un système d'exploitation :
 - Les programmes utilitaires :
 	- Ensemble de programmes outils permettant de manipuler le système à base de commandes "basiques", par exemple `shell, cp, rm, mount`
 - La/Les librairies :
-	- Bibliothèque(s) standardisées de fonctionnalités pour les  programmes utilisateurs
+	- Bibliothèque(s) standardisées de fonctionnalités pour les  programmes utilisateurs, avec par exemple `La librairie C (libc), la librarie mathématiques (libm)`
+- Le Noyau
+	- Programme qui est le premier à s’exécuter après le chargeur
+	- Fournit les abstractions pour la gestion des processus de la  Smémoire, des systèmes de fichiers, ...
+
+### Architecture d'un système d'exploitation
+
+![[Architecture détaillée OS.png | center]]
+
+
+Si on simplifie ça donne ça :
+![[Architecture simplifiée OS.png | center]]

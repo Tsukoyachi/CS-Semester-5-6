@@ -61,7 +61,6 @@ Il faut couvrir un max voir tous les cas et même chose pour les utilisateurs.
 	-  Where are the plugs?  
 	-  How to remove the bag?  
 	-  Where are the empty bags?  
-– Should I start by the entrance or by the end of the room? – strategy (related to  
-context)  
-– Should I have vacuum cleaner at maximum speed? – strategy  
-– Evaluate if a room is clean or not – situational knowledge
+	- Should I start by the entrance or by the end of the room? – strategy (related to context)  
+	- Should I have vacuum cleaner at maximum speed? – strategy  
+	- Evaluate if a room is clean or not – situational knowledge

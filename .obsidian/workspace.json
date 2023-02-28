@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "31fcad44bfb841f2",
+        "id": "b7bb24c8004a31c4",
         "type": "tabs",
         "children": [
           {
-            "id": "a6c872e0c799ddc7",
+            "id": "217cb641ddac8602",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/S6/Programmation Systeme/Operating System.md",
+                "file": "TD/S6/Programmation Systemes/td01/Compte rendu TD1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/S6/Programmation Systeme/Operating System.md",
+                "file": "TD/S6/Programmation Systemes/td01/Compte rendu TD1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/S6/Programmation Systeme/Operating System.md",
+                "file": "TD/S6/Programmation Systemes/td01/Compte rendu TD1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/S6/Programmation Systeme/Operating System.md"
+                "file": "TD/S6/Programmation Systemes/td01/Compte rendu TD1.md"
               }
             }
           },
@@ -164,7 +164,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a6c872e0c799ddc7",
+  "active": "217cb641ddac8602",
   "lastOpenFiles": [
     "Cours/S6/Programmation Systeme/Operating System.md",
     "Cours/S6/Programmation Systeme/media/L'API Posix.1-2001.png",

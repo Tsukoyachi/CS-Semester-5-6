@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8bb44d61c5680801",
+        "id": "31fcad44bfb841f2",
         "type": "tabs",
         "children": [
           {
-            "id": "06984b4a31081e2d",
+            "id": "a6c872e0c799ddc7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5,
-    "collapsed": true
+    "width": 290.5
   },
   "right": {
     "id": "911d169df2e013eb",
@@ -165,8 +164,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "06984b4a31081e2d",
+  "active": "a6c872e0c799ddc7",
   "lastOpenFiles": [
+    "Cours/S6/Programmation Systeme/Operating System.md",
     "Cours/S6/Programmation Systeme/media/L'API Posix.1-2001.png",
     "Cours/S6/Programmation Systeme/media/Multiple Unix....png",
     "Cours/S6/Programmation Systeme/media/Modern Operating System quote.png",
@@ -177,8 +177,6 @@
     "Cours/S6/Programmation Systeme/media/Frise Chronologique Windows.png",
     "Cours/S6/Programmation Systeme/media/Frise Chronologique Unix.png",
     "Cours/S6/Programmation Systeme/media/Brève histoire OS.png",
-    "Cours/S6/Programmation Systeme/media/Ordinateur à partir de 1980.png",
-    "Cours/S6/Programmation Systeme/Operating System.md",
     "TD/S6/Programmation Systemes/td01/Compte rendu TD1.md",
     "Cours/S6/Compilation automate/Introduction.md",
     "Cours/S6/Données numérique/media/intro.pdf",

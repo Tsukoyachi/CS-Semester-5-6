@@ -7,7 +7,7 @@
 - Stéphane Lavirotte
 
 ### Tags :
-
+#OS
 
 ---
 
@@ -216,3 +216,13 @@ Entre Posix et Ansi C :
 Et par la suite...
 
 Nous explorerons la norme Posix pour :
+- La gestion des processus
+- La gestion des entrées-sorties
+- La gestion des signaux
+- La gestion de la mémoire
+
+Nous comparerons Posix et Win32
+- Pour voir les similarités des approches
+- Pour voir les différences des approches
+
+Nous comparerons aussi Posix et ANSI C

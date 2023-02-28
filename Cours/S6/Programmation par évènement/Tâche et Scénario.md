@@ -80,3 +80,9 @@ Ce modèle de tâche permet de voir le process du côté d'un utilisateur, il es
 
 Pour cette logique on a ce que l'on appelle des **structures fonctionnelles**, c'est une vue un peu base de donnée, voici un exemple :
 ![[Pasted image 20230228143222.png | center]]
+
+# Scénario
+
+Contrairement au modèle de tâche qui va être la description d'une tâche dans un cas global (pour n'importe qui), un scénario lui va être une exécution d'un modèle de tâche dans un cas précis.
+
+# Opérateurs LOTOS 

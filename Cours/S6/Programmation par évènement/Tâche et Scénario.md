@@ -69,4 +69,10 @@ Pour obtenir les informations nécessaire afin d'effectuer cette étude on doit 
 
 ## Modèle de tâche
 
-On va définir des diagrammes permettant de détailler 
+On va définir des diagrammes permettant de détailler le déroulement d'une tâche. 
+
+Par exemple, pour faire une tasse de thé :
+![[Modèle de Tache exemple.png | center]]
+
+Cet exemple n'est pas parfait, en effet entre 1.2 et 1.3 on ne demande pas d'allumer le gaz. Et au début on ne précise pas pour combien de personne on fait du thé.
+

@@ -144,3 +144,11 @@ On va donc dénoter 3 éléments dans un système d'exploitation :
 
 Si on simplifie ça donne ça :
 ![[Architecture simplifiée OS.png | center]]
+
+Donc le système d'exploitation est là pour bien partager les ressources.
+
+Par exemple, envoyer l'appui d'une touche à la bonne application ou alors s'assurer que les processus n'ont pas accès à la mémoire des autres.
+
+Dans la gestion des ressources ont a :
+- Le partage des ressource de calcul avec la gestion des processus
+- Le partage de la mémoire entre les différents processus avec la gestion mémoire

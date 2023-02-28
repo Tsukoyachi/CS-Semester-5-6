@@ -70,5 +70,14 @@ Le tout en fournissant une interface commode.
 
 ## Chronologie simplifiée des premiers sytèmes
 
-Il y a longtemps eu une 
+Il y a longtemps eu une tension entre deux objectifs contradictoires :
+- Améliorer le confort utilisateur "ergonomie" (interface commode)
+- Exploiter efficacement les ressources physique des machines "économie" (gestion des ressources)
+
+Histoire :
+![[Historique système d'exploitation.png | center]]
+
+Pour le programmeur, on a eu une nette évolution :
+
+
 

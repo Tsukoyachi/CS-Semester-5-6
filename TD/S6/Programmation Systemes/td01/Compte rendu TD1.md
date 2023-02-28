@@ -120,3 +120,5 @@ On définit l'interface load_library.h :
 On l'implémente de la façon suivante :
 ![[Pasted image 20230228101930.png | center]]
 
+![[Pasted image 20230228102045.png | center]]
+

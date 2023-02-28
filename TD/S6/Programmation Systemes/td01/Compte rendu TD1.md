@@ -126,3 +126,14 @@ On l'implémente de la façon suivante :
 ---
 
 Non, il ne serait pas nécessaire de recompiler tri.exe, il suffirait juste de recompiler la libdl.so afin d'ajouter la nouvelle implémentation.
+
+# Exercice 9 :
+---
+
+On modifie légèrement le main_dynload.c
+
+# Exercice 10 :
+---
+
+Avec la commande ldd on peut voir les bibliothèques que python3 et java utilisent :
+![[Pasted image 20230228110335.png | center]]

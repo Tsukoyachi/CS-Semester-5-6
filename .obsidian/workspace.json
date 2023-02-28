@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c2a01d8104e51a14",
+        "id": "8bb44d61c5680801",
         "type": "tabs",
         "children": [
           {
-            "id": "ee5feab180c2ec53",
+            "id": "06984b4a31081e2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TD/S6/Programmation Systemes/td01/Compte rendu TD1.md",
+                "file": "Cours/S6/Programmation Systeme/Operating System.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TD/S6/Programmation Systemes/td01/Compte rendu TD1.md",
+                "file": "Cours/S6/Programmation Systeme/Operating System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TD/S6/Programmation Systemes/td01/Compte rendu TD1.md",
+                "file": "Cours/S6/Programmation Systeme/Operating System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TD/S6/Programmation Systemes/td01/Compte rendu TD1.md"
+                "file": "Cours/S6/Programmation Systeme/Operating System.md"
               }
             }
           },
@@ -155,24 +155,25 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:Créer une nouvelle toile": false,
       "switcher:Ouvrir le sélecteur rapide": false,
       "graph:Ouvrir la vue graphique": false,
-      "canvas:Create new canvas": false,
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ee5feab180c2ec53",
+  "active": "06984b4a31081e2d",
   "lastOpenFiles": [
+    "Cours/S6/Programmation Systeme/Operating System.md",
+    "TD/S6/Programmation Systemes/td01/Compte rendu TD1.md",
     "Cours/S6/Compilation automate/Introduction.md",
     "Cours/S6/Données numérique/media/intro.pdf",
     "Cours/S6/Données numérique/Introduction.md",
     "Templates/Cours.md",
     "Cours/S6/Programmation par évènement/Introduction.md",
     "Cours/S6/Programmation par évènement/media/SI3-Programation par événement - intro - cours 1.pdf",
-    "TD/S6/Programmation Systemes/td01/Compte rendu TD1.md",
     "Cours/S6/Programmation Systeme/Introduction.md",
     "Cours/S6/Programmation Systeme/media/01 Prod et Exe Prog.pdf",
     "Cours/S5/Architecture et réseau/1 - Réseau.md"

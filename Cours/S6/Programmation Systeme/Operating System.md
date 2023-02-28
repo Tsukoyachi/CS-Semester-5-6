@@ -88,3 +88,17 @@ Pour le programmeur, on a eu une nette évolution :
 - Entre 1960 et 1980 :
 ![[Ordinateur 1960-1980.png | center]]
 
+- A partir de 1980 :
+![[Ordinateur à partir de 1980.png | center]]
+
+
+## Frise chronologique des système d'exploitation windows
+
+![[Brève histoire OS.png | center]]
+
+### Frise chronoligue système unix 
+
+![[Frise Chronologique Unix.png | center]]
+
+### Frise chronologique Windows
+

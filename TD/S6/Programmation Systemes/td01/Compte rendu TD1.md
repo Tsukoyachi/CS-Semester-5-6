@@ -103,3 +103,8 @@ On va donc les tester avec make test :
 ![[Pasted image 20230214113048.png | center]]
 ![[Pasted image 20230214113128.png | center]]
 Comme on peut le voir le tri fonctionne à chaque fois.
+
+# Exercice 7 :
+---
+
+On commence d'abord par remettre 

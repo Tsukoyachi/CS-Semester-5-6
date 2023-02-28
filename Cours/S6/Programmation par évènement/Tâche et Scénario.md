@@ -30,3 +30,6 @@ title: Gouffre d'évaluation
 Il réfère à la façon dont les résultats sont donné par le système et s'ils ont du sens / sont compréhensible pour les utilisateurs et qu'ils soient lien avec leurs objectifs.
 
 ```
+
+![[Gouffre Intéraction.png | center]]
+

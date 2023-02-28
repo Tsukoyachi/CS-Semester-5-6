@@ -62,7 +62,7 @@ int main(int argc, char *argv[])
     /* Décodage des arguments de la ligne de commande */
     Scan_Args(argc, argv);
 
-    char *libs[] = {"libTri_bubble-dynamicLib.so","libTri_insertion-dynamicLib.so","libTri_merge-dynamicLib.so","libTri_quick-dynamicLib.so",NULL};
+    char *libs[] = {"libTri_bubble-dynamicLib.so","libTri_insertion-dynamicLib.so","libTri_merge-dynamicLib.so","libTri_quick-dynamicLib.so"};
 
     for(int i = 0; i < sizeof(libs) / sizeof(libs[0]); i++){
         load_library(libs[i]);

@@ -97,7 +97,6 @@ Pour ne pas avoir de problème pour cet exercice dans le terminal on exécute la
 
 Afin de faire la compilation pour tous les tris simultanément on décommente le contenu de cette ligne.
 ![[Pasted image 20230214112836.png | center]]
-x
 Le make nous produit alors les .exe pour chaque tri.
 On va donc les tester avec make test :
 ![[Pasted image 20230214113048.png | center]]
@@ -131,7 +130,9 @@ Non, il ne serait pas nécessaire de recompiler tri.exe, il suffirait juste de r
 ---
 
 On modifie légèrement le main_dynload.c comme ceci :
+![[Pasted image 20230228110842.png | center]]
 A l'exécution on observe donc cela :
+![[Pasted image 20230228110821.png | center]]
 
 # Exercice 10 :
 ---

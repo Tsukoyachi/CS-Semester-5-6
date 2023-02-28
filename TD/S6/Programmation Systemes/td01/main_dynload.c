@@ -5,6 +5,7 @@
 #include "sort.h"
 #include "utils.h"
 #include "timer.h"
+#include "load_library.h"
 
 
 /* ------------------------------------------------------------------------------------
@@ -62,6 +63,7 @@ int main(int argc, char *argv[])
     Scan_Args(argc, argv);
 
 	do_job();
+    clean_library();
 }
 
 /* Analyse des arguments 
@@ -69,7 +71,9 @@ int main(int argc, char *argv[])
  */
 static void Scan_Args(int argc, char *argv[])
 {
-    for (int i = 1; i < argc; i++) {
+    load_library(argv[1]);
+
+    for (int i = 2; i < argc; i++) {
         if (argv[i][0] == '-') {
             switch (argv[i][1]) {
             case 'h':

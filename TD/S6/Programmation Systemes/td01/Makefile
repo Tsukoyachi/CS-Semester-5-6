@@ -45,9 +45,12 @@ tri_%-dynamicLib.exe: main.o timer.o utils.o libTri_%-dynamicLib.so
 
 libTri_%-dynamicLib.so: %.o unused.o
 	$(CC) -shared -o $@ $^
-####
+
 ## Exercice 7:
-#DYNAMIC_LOAD=tri.exe
+DYNAMIC_LOAD=tri.exe
+
+tri.exe: main_dynload.o utils.o load_library.o timer.o
+	$(CC) -rdynamic -o $@ $^ -ldl
 
 # Attention, c'est la première règle sans % et donc cela deviendra la règle par défaut quand elle sera activée
 # pour compiler tous les programmes, il faudra faire: make all

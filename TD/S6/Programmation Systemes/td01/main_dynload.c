@@ -74,7 +74,7 @@ int main(int argc, char *argv[])
 /* Analyse des arguments 
  * ----------------------
  */
-static void Scan_Args(int argc, char *argv[])
+static void Scan_Args(int argc, char *argv[]) {
 
     for (int i = 1; i < argc; i++) {
         if (argv[i][0] == '-') {

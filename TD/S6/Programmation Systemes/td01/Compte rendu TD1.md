@@ -125,4 +125,4 @@ On l'implémente de la façon suivante :
 # Exercice 8 :
 ---
 
-Non, il ne serait pas nécessaire de recompiler tri.exe, il suffirait juste de recompiler la libdl.so
+Non, il ne serait pas nécessaire de recompiler tri.exe, il suffirait juste de recompiler la libdl.so afin d'ajouter la nouvelle implémentation.

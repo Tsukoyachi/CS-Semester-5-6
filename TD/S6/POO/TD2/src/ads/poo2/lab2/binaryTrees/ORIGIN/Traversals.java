@@ -29,11 +29,25 @@ public final class Traversals {
     public static <T, R> void inOrderTraversal(BinaryTreeInterface<T> root,
                                                Function<T, R> fn, List<R> toCollect) {
         //Implement In order Traversal
+        if(root.left() != null){
+            inOrderTraversal(root.left(),fn,toCollect);
+        }
+        toCollect.add(fn.apply(root.getData()));
+        if(root.right() != null){
+            inOrderTraversal(root.right(),fn,toCollect);
+        }
     }
 
     public static <T, R> void postOrderTraversal(BinaryTreeInterface<T> root,
                                                  Function<T, R> fn, List<R> toCollect) {
         //Implement postOrderTraversal
+        if(root.left() != null){
+            postOrderTraversal(root.left(),fn,toCollect);
+        }
+        if(root.right() != null){
+            postOrderTraversal(root.right(),fn,toCollect);
+        }
+        toCollect.add(fn.apply(root.getData()));
     }
 
 

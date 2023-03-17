@@ -190,23 +190,25 @@ public class BinaryTree<T> implements BinaryTreeInterface<T> {
 	// In this version, the complexity must be O(n)
 	// where n is the size of the BN (the number of
 	// non-null nodes)
-	
+
+
 	@Override
 	public boolean balanced2() {
-		return balanced2(this) <= 1;
+		return balanced2(this) != NOT_BALANCED;
 	}
-	
+	int NOT_BALANCED = -2;
 	private int balanced2(BinaryTreeInterface<T> bt) {
-		if(bt == null || (bt.left() == null && bt.right() == null)){
-			return 0;
-		}
-		if(bt.left() == null){
-			return 1+balanced2(bt.right());
-		}
-		if(bt.right() == null){
-			return 1+balanced2(bt.left());
-		}
-		return Math.abs(balanced2(bt.left()) - balanced2(bt.right()));
+		if (bt == null)
+			return -1;
+		int left = balanced2(bt.left());
+		if (left == NOT_BALANCED)
+			return NOT_BALANCED;
+		int right = balanced2(bt.right());
+		if (right == NOT_BALANCED)
+			return NOT_BALANCED;
+		if (Math.abs(left - right) > 1)
+			return NOT_BALANCED;
+		return 1 + Math.max(left, right);
 	}
 	
 	//////////////// shapely1 ////////////////
@@ -249,6 +251,7 @@ public class BinaryTree<T> implements BinaryTreeInterface<T> {
 			return new Pair(0,0);
 		}
 		//TODO : complete the method....
+		return new Pair();
 	}
 
 

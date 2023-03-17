@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "8d864c285b403390",
+        "id": "4de628f38718c54d",
         "type": "tabs",
         "children": [
           {
-            "id": "88ad5b4ce58c1943",
+            "id": "28dfd3a098d13d13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/S6/Programmation par évènement/Tâche et Scénario.md",
+                "file": "Cours/S6/Données numérique/Algorithme kNN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00ba9a66fd1ac41d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cours/S6/Données numérique/Métriques de classification.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/S6/Programmation par évènement/Tâche et Scénario.md",
+                "file": "Cours/S6/Données numérique/Métriques de classification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/S6/Programmation par évènement/Tâche et Scénario.md",
+                "file": "Cours/S6/Données numérique/Métriques de classification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/S6/Programmation par évènement/Tâche et Scénario.md"
+                "file": "Cours/S6/Données numérique/Métriques de classification.md"
               }
             }
           },
@@ -146,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -164,32 +177,42 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "88ad5b4ce58c1943",
+  "active": "00ba9a66fd1ac41d",
   "lastOpenFiles": [
-    "Cours/S6/Programmation par évènement/media/Pasted image 20230228143222.png",
-    "Cours/S6/Programmation par évènement/media/Pasted image 20230228143014.png",
-    "Cours/S6/Programmation par évènement/media/Modèle de Tache exemple.png",
-    "Cours/S6/Programmation par évènement/media/Gouffre Intéraction.png",
+    "Cours/S6/Données numérique/Algorithme kNN.md",
+    "Cours/S6/Données numérique/Métriques de classification.md",
+    "Cours/S6/Programmation Systeme/Processus VS Thread.md",
+    "TD/S6/Programmation Systemes/td04/Compte Rendu TD04.md",
+    "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314115345.png",
+    "TD/S6/Programmation Systemes/td04/juste_presque.o",
+    "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314114616.png",
+    "TD/S6/Programmation Systemes/td04/tres_simple.o",
+    "TD/S6/Programmation Systemes/td04/tres_simple.exe",
+    "TD/S6/Programmation Systemes/td04/threads.exe",
+    "TD/S6/Programmation Systemes/td04/threads.o",
+    "TD/S6/Programmation Systemes/td04/multiple_threads.exe",
+    "TD/S6/Programmation Systemes/td04/multiple_threads.o",
+    "TD/S6/Programmation Systemes/td04/multiple_fork.exe",
+    "TD/S6/Programmation Systemes/td04/multiple_fork.o",
+    "TD/S6/Programmation Systemes/td04/timer.o",
+    "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314112414.png",
+    "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314112218.png",
+    "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314111701.png",
+    "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314111611.png",
+    "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314111443.png",
+    "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314110318.png",
+    "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314110236.png",
+    "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314110007.png",
+    "TD/S6/Programmation Systemes/td03/Compte Rendu TD03.md",
+    "Cours/S6/Programmation Systeme/Operating System.md",
+    "Cours/S6/POO/Binary Seareech Three.md",
     "Cours/S6/Programmation par évènement/Tâche et Scénario.md",
     "TD/S6/Programmation Systemes/td01/Compte rendu TD1.md",
-    "TD/S6/Programmation Systemes/td01/media/Pasted image 20230228110842.png",
-    "TD/S6/Programmation Systemes/td01/media/Pasted image 20230228110821.png",
-    "TD/S6/Programmation Systemes/td01/media/Pasted image 20230228110335.png",
-    "TD/S6/Programmation Systemes/td01/media/Pasted image 20230228102045.png",
-    "TD/S6/Programmation Systemes/td01/media/Pasted image 20230228101930.png",
-    "TD/S6/Programmation Systemes/td01/media/Pasted image 20230228101713.png",
-    "TD/S6/Programmation Systemes/td01/media/Pasted image 20230228101457.png",
-    "TD/S6/Programmation Systemes/td01/load_library.c",
-    "TD/S6/Programmation Systemes/td01/main_dynload.c",
-    "Cours/S6/Programmation Systeme/Operating System.md",
     "Cours/S6/Compilation automate/Introduction.md",
-    "Cours/S6/Données numérique/media/intro.pdf",
     "Cours/S6/Données numérique/Introduction.md",
     "Templates/Cours.md",
     "Cours/S6/Programmation par évènement/Introduction.md",
-    "Cours/S6/Programmation par évènement/media/SI3-Programation par événement - intro - cours 1.pdf",
     "Cours/S6/Programmation Systeme/Introduction.md",
-    "Cours/S6/Programmation Systeme/media/01 Prod et Exe Prog.pdf",
     "Cours/S5/Architecture et réseau/1 - Réseau.md"
   ]
 }

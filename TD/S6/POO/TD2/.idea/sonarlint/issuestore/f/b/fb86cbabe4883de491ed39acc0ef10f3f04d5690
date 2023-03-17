@@ -1,0 +1,16 @@
+
+e
+java:S1192X"ODefine a constant instead of duplicating this literal " ==> expected " 3 times.(áÞ€ç
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñÀ­-
+U
+java:S2259X"?A "NullPointerException" could be thrown; "e" is nullable here.(áÞ€ç
+Z
+java:S2259^"?A "NullPointerException" could be thrown; "e" is nullable here.(“ÁìÎÿÿÿÿÿ
+U
+java:S2259["?A "NullPointerException" could be thrown; "e" is nullable here.(œþ©°
+S	java:S106W"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍþÿÿÿÿ
+N	java:S106X"9Replace this use of System.out or System.err by a logger.(áÞ€ç
+S	java:S106Z"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍþÿÿÿÿ
+N	java:S106["9Replace this use of System.out or System.err by a logger.(œþ©°
+S	java:S106]"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍþÿÿÿÿ
+S	java:S106^"9Replace this use of System.out or System.err by a logger.(“ÁìÎÿÿÿÿÿ

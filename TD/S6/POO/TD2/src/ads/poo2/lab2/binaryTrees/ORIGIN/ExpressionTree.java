@@ -26,7 +26,10 @@ public class ExpressionTree extends BinaryTree<String> {
 	 * Return the value of the expression
 	 */
 	public double eval() throws NumberFormatException {
-
+		if(this.isLeaf()) {
+			return Double.parseDouble(this.getData());
+		}
+		return eval(this.getData(),((ExpressionTree) this.left()).eval(),((ExpressionTree) this.right()).eval());
 	}
 	
 	/**
@@ -34,6 +37,21 @@ public class ExpressionTree extends BinaryTree<String> {
 	 * where 'op' is "+", "*", "/" or "^"
 	 */
 	private double eval(String op, double x, double y) {
+		if(op.equals("+")){
+			return x+y;
+		}
+		if(op.equals("-")){
+			return x-y;
+		}
+		if(op.equals("*")){
+			return x*y;
+		}
+		if(op.equals("/")){
+			return x/y;
+		}
+		if(op.equals("^")){
+			return Math.pow(x,y);
+		}
 		return 0;
 	}
 	

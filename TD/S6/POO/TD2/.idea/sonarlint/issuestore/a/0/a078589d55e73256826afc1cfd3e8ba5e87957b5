@@ -1,0 +1,16 @@
+
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñÀ­-
+S	java:S106"9Replace this use of System.out or System.err by a logger.(÷È¸ıøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(öı¦±úÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ò¾‹ıÿÿÿÿ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(İãØ×úÿÿÿÿ
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(ø¢Ù½øÿÿÿÿ
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(‘Ìùµ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(¹ßøÿÿÿÿ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(çô°à
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(¹ßøÿÿÿÿ
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(çô°à
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(õ™¾øÿÿÿÿ
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(ı­æÚ
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(õ™¾øÿÿÿÿ
+N	java:S106G"9Replace this use of System.out or System.err by a logger.(ı­æÚ

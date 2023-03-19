@@ -362,7 +362,10 @@ public class BinarySearchTree<T extends Comparable<? super T>> implements Iterab
         BSTiterator(BinarySearchTree<T> n) {
             stack = new ArrayDeque<>();
             // push all the left nodes on the stack
-            //TODO
+            while(n != null && n.getElement() != null){
+                stack.push(n);
+                n = n.getLeft();
+            }
 
         }
 
@@ -377,9 +380,22 @@ public class BinarySearchTree<T extends Comparable<? super T>> implements Iterab
         /**
          * Return and remove the next element from
          * the iterator
+         *
+         * @throws NoSuchElementException Only if the iterator has no remaining element
          */
-        public T next() {
-            return stack.pop().getElement();
+        public T next() throws NoSuchElementException{
+            try {
+                BinarySearchTree<T> bst = stack.pop();
+                BinarySearchTree<T> res = bst;
+                bst = bst.getRight();
+                while(bst != null){
+                    stack.push(bst);
+                    bst = bst.getLeft();
+                }
+                return res.getElement();
+            } catch (EmptyStackException e) {
+                throw new NoSuchElementException(e);
+            }
         }
 
         /**

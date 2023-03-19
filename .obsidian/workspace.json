@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/S6/Données numérique/Métriques de classification.md",
+                "file": "TD/S6/Programmation Systemes/td04/Compte Rendu TD04.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/S6/Données numérique/Métriques de classification.md",
+                "file": "TD/S6/Programmation Systemes/td04/Compte Rendu TD04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/S6/Données numérique/Métriques de classification.md",
+                "file": "TD/S6/Programmation Systemes/td04/Compte Rendu TD04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/S6/Données numérique/Métriques de classification.md"
+                "file": "TD/S6/Programmation Systemes/td04/Compte Rendu TD04.md"
               }
             }
           },
@@ -179,8 +179,12 @@
   },
   "active": "00ba9a66fd1ac41d",
   "lastOpenFiles": [
-    "Cours/S6/Données numérique/Algorithme kNN.md",
+    "TD/S6/Programmation Systemes/td04/media/Pasted image 20230319112808.png",
+    "TD/S6/Programmation Systemes/td04/jeu.o",
+    "TD/S6/Programmation Systemes/td04/media/Pasted image 20230319112542.png",
+    "TD/S6/Programmation Systemes/td04/media/Pasted image 20230319110555.png",
     "Cours/S6/Données numérique/Métriques de classification.md",
+    "Cours/S6/Données numérique/Algorithme kNN.md",
     "Cours/S6/Programmation Systeme/Processus VS Thread.md",
     "TD/S6/Programmation Systemes/td04/Compte Rendu TD04.md",
     "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314115345.png",
@@ -194,15 +198,12 @@
     "TD/S6/Programmation Systemes/td04/multiple_threads.o",
     "TD/S6/Programmation Systemes/td04/multiple_fork.exe",
     "TD/S6/Programmation Systemes/td04/multiple_fork.o",
-    "TD/S6/Programmation Systemes/td04/timer.o",
     "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314112414.png",
     "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314112218.png",
     "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314111701.png",
     "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314111611.png",
     "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314111443.png",
     "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314110318.png",
-    "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314110236.png",
-    "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314110007.png",
     "TD/S6/Programmation Systemes/td03/Compte Rendu TD03.md",
     "Cours/S6/Programmation Systeme/Operating System.md",
     "Cours/S6/POO/Binary Seareech Three.md",

@@ -74,4 +74,21 @@ Première exécution de juste_presque.c sans rien enlever (en augmentant le slee
 Maintenant supprimons le sleep() et voyons l'exécution :
 ![[Pasted image 20230314115345.png | center]]
 
-Le problème ici est un accès concurrant à la variable i à chaque fois, les threads sont bien créer comme il faut, mais le paramètre passé est l'adresse de i et non sa valeur
+Le problème ici est un accès concurrant à la variable i à chaque fois, les threads sont bien créer comme il faut, mais le paramètre passé est l'adresse de i et non sa valeur, d'une executieton du for à l'autre la valeur a cette adresse est modifiée.
+
+Pour résoudre cela on peut faire un tableau pour stocker les valeurs de i et mettre l'adresse d'une case de ce tableau en paramètre, comme ceci :
+![[Pasted image 20230319110555.png | center]]
+Cela corrige le soucis sans modifier l'autre méthode.
+
+## Exercice 8 :
+---
+
+Malgré de nombreuses exécution du jeu, je n'ai pas réussi à constater le bug où les joueurs prenaient des allumettes alors que le plateau n'en possédait plus.
+
+En retirant l'appel à sleep par contre, on constate l'apparition du bug cité précédemment ainsi qu'une désynchronisation des valeurs du nombre d'allumette :
+![[Pasted image 20230319112542.png | center]]
+Après avoir remis l'appel à sleep on constate également une utilisation de 100% du CPU avec htop :
+![[Pasted image 20230319112808.png | center]]
+
+## Exercice 9 :
+---

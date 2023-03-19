@@ -1,0 +1,16 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(àĞÚıÿÿÿÿÿ
+O	java:S106ğ"9Replace this use of System.out or System.err by a logger.(Ş¨Ï‡
+O	java:S106"9Replace this use of System.out or System.err by a logger.(Ş¨Ï‡
+S
+java:S1172Ê"7Remove these unused method parameters "list", "i", "j".(Ï‘Óµøÿÿÿÿ
+K
+java:S3985ß"/Remove this unused private "BSTiterator" class.(³–Ï¥ùÿÿÿÿ
+O	java:S106¥"9Replace this use of System.out or System.err by a logger.(ÿş«Ä
+T	java:S106¨"9Replace this use of System.out or System.err by a logger.(‹ˆ¹äÿÿÿÿÿ
+N	java:S106¬"9Replace this use of System.out or System.err by a logger.(¨‡õQ
+O	java:S106Ï"9Replace this use of System.out or System.err by a logger.(‚ëì¦
+T	java:S106Õ"9Replace this use of System.out or System.err by a logger.(ìœ–îşÿÿÿÿ
+T	java:S106Ø"9Replace this use of System.out or System.err by a logger.(ú®×üûÿÿÿÿ
+T	java:S106Û"9Replace this use of System.out or System.err by a logger.(ú¯ Äùÿÿÿÿ
+O	java:S106İ"9Replace this use of System.out or System.err by a logger.(¤üÿÛ

@@ -3,7 +3,9 @@ package ads.poo2.lab3.bst2.ORIGIN;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -280,5 +282,55 @@ class BinarySearchTreeTest {
         tree.insert(5);
         tree.remove(3);
         assertEquals(5, tree.getElement());
+    }
+
+    @Test
+    void testIteratorBasic(){
+        tree.insert(5);
+        tree.insert(3);
+        tree.insert(7);
+        tree.insert(1);
+        tree.insert(4);
+        tree.insert(6);
+        tree.insert(8);
+        Iterator<Integer> iterator = tree.iterator();
+        List<Integer> list = new ArrayList<>();
+        while(iterator.hasNext()){
+            list.add(iterator.next());
+        }
+        assertEquals(Arrays.asList(1,3,4,5,6,7,8), list);
+    }
+
+    @Test
+    void testForeach(){
+        createTreeFromLesson();
+        List<Integer> list = new ArrayList<>();
+        for(Integer i : tree){
+            list.add(i);
+        }
+        assertEquals(Arrays.asList(2,5,7,9,10,12,15,17,20,30), list);
+    }
+
+    @Test
+    void testIteratorforEach() {
+        BinarySearchTree<String> stree = new BinarySearchTree<>();
+        List<String> list = new ArrayList<>();
+        stree.insert("A");
+        stree.insert("D");
+        stree.insert("F");
+        stree.insert("B");
+        stree.insert("C");
+        stree.insert("E");
+        for (String s : stree) {
+            list.add(s);
+        }
+        assertEquals(Arrays.asList("A", "B", "C", "D", "E", "F"), list);
+    }
+
+    @Test
+    void testIteratorOnEmptyTree() {
+        tree = new BinarySearchTree<>();
+        Iterator<Integer> iterator = tree.iterator();
+        assertFalse(iterator.hasNext());
     }
 }

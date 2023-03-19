@@ -32,11 +32,13 @@ int main()
     /* Creation des threads */
     for (i = 0; i < MAX; i++) {
         pthread_create(&threads[i], NULL, func, (void *)&i);
+        //sleep(7)
     }
 
     /* On attend que ça se termine */
     for (i = 0; i < MAX; i++) {
         pthread_join(threads[i], NULL);
+        //sleep(7)
     }
 
     return 0;

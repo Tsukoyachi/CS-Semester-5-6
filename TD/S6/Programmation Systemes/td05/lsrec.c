@@ -52,6 +52,7 @@ void list(char *directory) {
         }
         else {
             printf("%s\n",file->d_name);
+            printf("%s test\n", filepath);
             if(!is_dot_dir(file->d_name)){
                 list(filepath);
             }

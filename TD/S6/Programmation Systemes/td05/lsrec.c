@@ -62,7 +62,7 @@ void list(char *directory) {
         snprintf(filepath,(strlen(directory)+ strlen(file->d_name)) + 2, "%s/%s", directory, file->d_name);
         if(is_dir(filepath)) {
             if(!is_dot_dir(file->d_name)){
-                printf("--------------dossier %s----------------\n",file->d_name);
+                printf("\n--------------dossier %s----------------\n",file->d_name);
                 list(filepath);
             }
         }

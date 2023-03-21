@@ -46,13 +46,9 @@ void list(char *directory) {
             printf("Allocation error...\n");
             exit(1);
         }
-        snprintf(filepath,(strlen(directory)+ strlen(file->d_name)), "%s/%s", directory, file->d_name);
-        if(!is_dir(file->d_name)){
-            print_fileinfo(filepath);
-        }
-        else {
-            printf("%s\n",file->d_name);
-            printf("%s test\n", filepath);
+        snprintf(filepath,(strlen(directory)+ strlen(file->d_name)) + 2, "%s/%s", directory, file->d_name);
+        print_fileinfo(filepath);
+        if(is_dir(file->d_name)) {
             if(!is_dot_dir(file->d_name)){
                 list(filepath);
             }

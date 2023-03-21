@@ -69,7 +69,6 @@ void list(char *directory) {
         free(filepath);
     }
     closedir(dir);
-
 }
 
 int main(int argc, char *argv[]){

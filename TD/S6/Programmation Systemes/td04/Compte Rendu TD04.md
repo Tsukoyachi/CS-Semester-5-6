@@ -89,6 +89,3 @@ En retirant l'appel à sleep par contre, on constate l'apparition du bug cité p
 ![[Pasted image 20230319112542.png | center]]
 Après avoir remis l'appel à sleep on constate également une utilisation de 100% du CPU avec htop :
 ![[Pasted image 20230319112808.png | center]]
-
-## Exercice 9 :
----

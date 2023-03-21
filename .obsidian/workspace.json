@@ -11,8 +11,12 @@
             "id": "0d7b334effc2728a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "TD/S6/Programmation Systemes/td05/Compte rendu td05.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "TD/S6/Programmation Systemes/td05/Compte rendu td05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "TD/S6/Programmation Systemes/td05/Compte rendu td05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "TD/S6/Programmation Systemes/td05/Compte rendu td05.md"
+              }
             }
           },
           {
@@ -156,8 +164,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3ed2038ec5459906",
+  "active": "0d7b334effc2728a",
   "lastOpenFiles": [
+    "TD/S6/Programmation Systemes/td05/Compte rendu td05.md",
     "TD/S6/Programmation Systemes/td05/util.o",
     "TD/S6/Programmation Systemes/td05/fd_simple.o",
     "TD/S6/Programmation Systemes/td05/fd_simple.exe",
@@ -168,7 +177,6 @@
     "TD/S6/Programmation Systemes/td05/tst_mycp1.sh",
     "TD/S6/Programmation Systemes/td05/tst_lsrec.sh",
     "TD/S6/Programmation Systemes/td05/set_tst_dir.sh",
-    "TD/S6/Programmation Systemes/td05/Makefile",
     "Cours/S6/Données numérique/Algorithme kNN.md",
     "TD/S6/Programmation Systemes/td04/Compte Rendu TD04.md",
     "TD/S6/Programmation Systemes/td04/media/Pasted image 20230319112808.png",

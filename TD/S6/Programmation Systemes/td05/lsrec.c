@@ -63,7 +63,7 @@ void list(char *directory) {
         if(is_dir(filepath)) {
             if(!is_dot_dir(file->d_name)){
                 printf("--------------dossier %s----------------\n",file->d_name);
-               list(filepath);
+                list(filepath);
             }
         }
         free(filepath);

@@ -25,9 +25,17 @@ void list(char *directory) {
             printf("Allocation error...\n");
             exit(1);
         }
-
+        snprintf(filepath,(strlen(directory)+ strlen(get_basename(file))), "%s/%s", *directory, get_basename(file));
+        if(!is_dir(file)){
+            print_fileinfo(filepath);
+        }
+        else {
+            printf("%s\n",get_basename(file));
+            if(!is_dot_dir(file)){
+                list(filepath);
+            }
+        }
     }
-    
 
     closedir(dir);
 

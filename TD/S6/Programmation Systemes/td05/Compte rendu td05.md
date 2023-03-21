@@ -11,3 +11,4 @@ On retire le commentaire du close dans le for et lorsque l'on ferme un fichier, 
 
 ## Exercice 2 :
 ---
+	

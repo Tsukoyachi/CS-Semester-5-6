@@ -4,9 +4,21 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
+#include <dirent.h>
 #include <unistd.h>
 
+
 void list(char *directory) {
+    DIR *dir;
+
+    if(!is_dir(*directory)) {
+        print_fileinfo(*directory);
+        return;
+    }
+
+    dir = opendir(*directory);
+
+    closedir(dir);
 
 }
 

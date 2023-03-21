@@ -12,17 +12,20 @@
 void print_fileinfo(char *filepath) {
     struct stat file;
     stat(filepath,&file);
+    struct passwd * infoUser = getpwuid(file.st_uid);
+    struct passwd * infoGroup = getpwuid(file.st_gid);
 
-    printf( (S_ISDIR(file.st_mode)) ? "d" : "-");
-    printf( (file.st_mode & S_IRUSR) ? "r" : "-");
-    printf( (file.st_mode & S_IWUSR) ? "w" : "-");
-    printf( (file.st_mode & S_IXUSR) ? "x" : "-");
-    printf( (file.st_mode & S_IRGRP) ? "r" : "-");
-    printf( (file.st_mode & S_IWGRP) ? "w" : "-");
-    printf( (file.st_mode & S_IXGRP) ? "x" : "-");
-    printf( (file.st_mode & S_IROTH) ? "r" : "-");
-    printf( (file.st_mode & S_IWOTH) ? "w" : "-");
-    printf( (file.st_mode & S_IXOTH) ? "x" : "-");
+    printf((S_ISDIR(file.st_mode)) ? "d" : "-");
+    printf((file.st_mode & S_IRUSR) ? "r" : "-");
+    printf((file.st_mode & S_IWUSR) ? "w" : "-");
+    printf((file.st_mode & S_IXUSR) ? "x" : "-");
+    printf((file.st_mode & S_IRGRP) ? "r" : "-");
+    printf((file.st_mode & S_IWGRP) ? "w" : "-");
+    printf((file.st_mode & S_IXGRP) ? "x" : "-");
+    printf((file.st_mode & S_IROTH) ? "r" : "-");
+    printf((file.st_mode & S_IWOTH) ? "w" : "-");
+    printf((file.st_mode & S_IXOTH) ? "x" : "-");
+    printf(" %ld %s %s ", file.st_nlink, infoUser->pw_name, infoGroup->pw_name);
 }
 
 void list(char *directory) {

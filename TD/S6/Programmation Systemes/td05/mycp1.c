@@ -1,8 +1,13 @@
 #include "util.h"
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
 
 
 void cpInFile(char *fileStart, char *fileDest) {
-
+    open(fileStart, O_RDONLY);
+    open(fileDest, O_APPEND);
 }
 
 void cpFileInDirectory(int argc, char *files[]){

@@ -7,6 +7,7 @@
 #include <dirent.h>
 #include <unistd.h>
 #include <string.h>
+#include <pwd.h>
 
 
 void print_fileinfo(char *filepath) {
@@ -26,6 +27,7 @@ void print_fileinfo(char *filepath) {
     printf((file.st_mode & S_IWOTH) ? "w" : "-");
     printf((file.st_mode & S_IXOTH) ? "x" : "-");
     printf(" %ld %s %s ", file.st_nlink, infoUser->pw_name, infoGroup->pw_name);
+    printf("%ld %ld %s\n", file.st_blksize, file.st_mtime, get_basename(filepath));
 }
 
 void list(char *directory) {

@@ -48,13 +48,23 @@ void list(char *directory) {
         }
         snprintf(filepath,(strlen(directory)+ strlen(file->d_name)) + 2, "%s/%s", directory, file->d_name);
         print_fileinfo(filepath);
-        if(is_dir(file->d_name)) {
-            if(!is_dot_dir(file->d_name)){
-                list(filepath);
-            }
-        }
+        free(filepath);
     }
 
+    while ((file = rewind(dir)) != NULL) {
+        char *filepath = (char *) malloc(sizeof(char)*(strlen(directory)+ strlen(file->d_name)));
+        if(filepath == NULL){
+            printf("Allocation error...\n");
+            exit(1);
+        }
+        snprintf(filepath,(strlen(directory)+ strlen(file->d_name)) + 2, "%s/%s", directory, file->d_name);
+        if(is_dir(file->d_name)) {
+        if(!is_dot_dir(file->d_name)){
+            list(filepath);
+        }
+        free(filepath);
+    }
+    }
     closedir(dir);
 
 }

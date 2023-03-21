@@ -1,27 +1,25 @@
 
 u
-java:S2293«"YReplace the type specification in this constructor call with the diamond operator ("<>").(²ØÖıÿÿÿÿ
+java:S2293»"YReplace the type specification in this constructor call with the diamond operator ("<>").(²ØÖıÿÿÿÿ
 p
-java:S2293¸"YReplace the type specification in this constructor call with the diamond operator ("<>").(óÊœÎ
+java:S2293È"YReplace the type specification in this constructor call with the diamond operator ("<>").(óÊœÎ
 3
-java:S1643Œ"Use a StringBuilder instead.(«ôÎ
+java:S1643œ"Use a StringBuilder instead.(«ôÎ
+d
+java:S2259ë"FA "NullPointerException" could be thrown; "findMin()" can return null.(úœµ8íÃïËï0
 O
 java:S3400i"9Remove this method and declare a constant for this value.(”·³›
 E
 java:S1172h"/Remove these unused method parameters "t", "x".(°ûñı
 E
 java:S1172y"/Remove these unused method parameters "t", "r".(¼ŒßÑ
-K
-java:S1172à"/Remove these unused method parameters "x", "t".(³š…ÿÿÿÿÿ
-O	java:S106û"9Replace this use of System.out or System.err by a logger.(ÿş«Ä
-T	java:S106ÿ"9Replace this use of System.out or System.err by a logger.(‹ˆ¹äÿÿÿÿÿ
-N	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(¨‡õQ
-d	java:S119–"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(¨½×±üÿÿÿÿ
-T	java:S106¼"9Replace this use of System.out or System.err by a logger.(¶¡Æ¶ıÿÿÿÿ
-O	java:S106½"9Replace this use of System.out or System.err by a logger.(æö­
+O	java:S106‹"9Replace this use of System.out or System.err by a logger.(ÿş«Ä
+T	java:S106"9Replace this use of System.out or System.err by a logger.(‹ˆ¹äÿÿÿÿÿ
+N	java:S106“"9Replace this use of System.out or System.err by a logger.(¨‡õQ
+d	java:S119¦"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(¨½×±üÿÿÿÿ
+T	java:S106Ì"9Replace this use of System.out or System.err by a logger.(¶¡Æ¶ıÿÿÿÿ
+O	java:S106Í"9Replace this use of System.out or System.err by a logger.(æö­
 ?
 java:S1144h")Remove this unused private "rank" method.(°ûñı
 B
 java:S1144y",Remove this unused private "element" method.(¼ŒßÑ
-C
-java:S1144ê",Remove this unused private "findMin" method.(ÍŸì

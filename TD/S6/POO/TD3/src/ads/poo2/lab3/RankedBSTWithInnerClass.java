@@ -222,7 +222,22 @@ public class RankedBSTWithInnerClass<T extends Comparable<? super T>> implements
      * @return the new root of the subtree.
      */
     private BinaryNode<T> remove(T x, BinaryNode<T> t) {
-        return null;
+        int comparisonResult = x.compareTo(t.element);
+        if (comparisonResult < 0) {
+            t.sizeOfLeft -= 1;
+            return remove(x, t.left);
+        }
+        if (comparisonResult > 0) {
+            return remove(x, t.right);
+        }
+        if( t.left != null && t.right != null ) // Two children
+        {
+            t.element = findMin( t.right ).element;
+            t.right = remove( t.element, t.right );
+        }
+        else
+            t = ( t.left != null ) ? t.left : t.right;
+        return t;
     }
 
     /**
@@ -232,10 +247,11 @@ public class RankedBSTWithInnerClass<T extends Comparable<? super T>> implements
      * @return node containing the smallest item.
      */
     private BinaryNode<T> findMin(BinaryNode<T> t) {
-        while (t != null) {
-            t = t.left;
-        }
-        return t;
+        if( t == null )
+            return null;
+        else if( t.left == null )
+            return t;
+        return findMin( t.left );
     }
 
     ////////////////////////////////////////////////////

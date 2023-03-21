@@ -6,17 +6,24 @@
 #include <fcntl.h>
 #include <dirent.h>
 #include <unistd.h>
+#include <limits.h>
 
 
 void list(char *directory) {
     DIR *dir;
+    struct dirent *file;
 
     if(!is_dir(*directory)) {
         print_fileinfo(*directory);
         return;
     }
-
     dir = opendir(*directory);
+
+    while ((file = readdir(dir)) != NULL){
+        char *filepath = (char *) malloc(sizeof(char) * (strlen(*directory)+ strlen(get_basename(file))));
+        snprintf(*filepath,(strlen(*directory)+ strlen(get_basename(file))), )
+    }
+    
 
     closedir(dir);
 

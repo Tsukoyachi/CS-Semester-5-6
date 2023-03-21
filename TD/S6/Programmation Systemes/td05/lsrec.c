@@ -6,22 +6,26 @@
 #include <fcntl.h>
 #include <dirent.h>
 #include <unistd.h>
-#include <limits.h>
+#include <string.h>
 
 
 void list(char *directory) {
     DIR *dir;
     struct dirent *file;
 
-    if(!is_dir(*directory)) {
-        print_fileinfo(*directory);
+    if(!is_dir(directory)) {
+        print_fileinfo(directory);
         return;
     }
-    dir = opendir(*directory);
+    dir = opendir(directory);
 
     while ((file = readdir(dir)) != NULL){
-        char *filepath = (char *) malloc(sizeof(char) * (strlen(*directory)+ strlen(get_basename(file))));
-        snprintf(*filepath,(strlen(*directory)+ strlen(get_basename(file))), )
+        char *filepath = (char *) malloc(sizeof(char)*(strlen(directory)+ strlen(get_basename(file))));
+        if(filepath == NULL){
+            printf("Allocation error...\n");
+            exit(1);
+        }
+
     }
     
 

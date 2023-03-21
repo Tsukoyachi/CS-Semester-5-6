@@ -13,7 +13,16 @@ void print_fileinfo(char *filepath) {
     struct stat file;
     stat(filepath,&file);
 
-    printf("%d\n",file.st_mode);
+    printf( (S_ISDIR(file.st_mode)) ? "d" : "-");
+    printf( (sb.st_mode & S_IRUSR) ? "r" : "-");
+    printf( (sb.st_mode & S_IWUSR) ? "w" : "-");
+    printf( (sb.st_mode & S_IXUSR) ? "x" : "-");
+    printf( (sb.st_mode & S_IRGRP) ? "r" : "-");
+    printf( (sb.st_mode & S_IWGRP) ? "w" : "-");
+    printf( (sb.st_mode & S_IXGRP) ? "x" : "-");
+    printf( (sb.st_mode & S_IROTH) ? "r" : "-");
+    printf( (sb.st_mode & S_IWOTH) ? "w" : "-");
+    printf( (sb.st_mode & S_IXOTH) ? "x" : "-");
 }
 
 void list(char *directory) {
@@ -33,12 +42,12 @@ void list(char *directory) {
             exit(1);
         }
         snprintf(filepath,(strlen(directory)+ strlen(file->d_name)), "%s/%s", directory, file->d_name);
-        if(!is_dir(file)){
+        if(!is_dir(file->d_name)){
             print_fileinfo(filepath);
         }
         else {
             printf("%s\n",file->d_name);
-            if(!is_dot_dir(file)){
+            if(!is_dot_dir(file->d_name)){
                 list(filepath);
             }
         }

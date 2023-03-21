@@ -41,7 +41,7 @@ void list(char *directory) {
     dir = opendir(directory);
 
     while ((file = readdir(dir)) != NULL){
-        char *filepath = (char *) malloc(sizeof(char)*(strlen(directory)+ strlen(file->d_name)));
+        char *filepath = (char *) malloc(sizeof(char)*(strlen(directory)+ strlen(file->d_name) +2));
         if(filepath == NULL){
             printf("Allocation error...\n");
             exit(1);
@@ -54,7 +54,7 @@ void list(char *directory) {
     rewinddir(dir);
 
     while ((file = readdir(dir)) != NULL) {
-        char *filepath = (char *) malloc(sizeof(char)*(strlen(directory)+ strlen(file->d_name)));
+        char *filepath = (char *) malloc(sizeof(char)*(strlen(directory)+ strlen(file->d_name) +2));
         if(filepath == NULL){
             printf("Allocation error...\n");
             exit(1);
@@ -62,6 +62,7 @@ void list(char *directory) {
         snprintf(filepath,(strlen(directory)+ strlen(file->d_name)) + 2, "%s/%s", directory, file->d_name);
         if(is_dir(filepath)) {
             if(!is_dot_dir(file->d_name)){
+                printf("changement dossier----------------");
                list(filepath);
             }
         }

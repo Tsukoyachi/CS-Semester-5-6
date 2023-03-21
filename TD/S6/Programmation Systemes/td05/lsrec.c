@@ -9,6 +9,13 @@
 #include <string.h>
 
 
+void print_fileinfo(char *filepath) {
+    struct stat file;
+    stat(filepath,&file);
+
+    printf("%d\n",file.st_mode);
+}
+
 void list(char *directory) {
     DIR *dir;
     struct dirent *file;
@@ -20,17 +27,17 @@ void list(char *directory) {
     dir = opendir(directory);
 
     while ((file = readdir(dir)) != NULL){
-        char *filepath = (char *) malloc(sizeof(char)*(strlen(directory)+ strlen(get_basename(file))));
+        char *filepath = (char *) malloc(sizeof(char)*(strlen(directory)+ strlen(file->d_name)));
         if(filepath == NULL){
             printf("Allocation error...\n");
             exit(1);
         }
-        snprintf(filepath,(strlen(directory)+ strlen(get_basename(file))), "%s/%s", *directory, get_basename(file));
+        snprintf(filepath,(strlen(directory)+ strlen(file->d_name)), "%s/%s", directory, file->d_name);
         if(!is_dir(file)){
             print_fileinfo(filepath);
         }
         else {
-            printf("%s\n",get_basename(file));
+            printf("%s\n",file->d_name);
             if(!is_dot_dir(file)){
                 list(filepath);
             }

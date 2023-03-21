@@ -6,8 +6,12 @@
 
 
 void cpInFile(char *fileStart, char *fileDest) {
-    open(fileStart, O_RDONLY);
-    open(fileDest, O_APPEND);
+    if(!file_exists(fileStart)){
+        printf("Start file doesn't exist...");
+        exit(1);
+    }
+    open(fileStart,O_RDONLY);
+    open(fileDest, O_CREAT, O_WRONLY);
 }
 
 void cpFileInDirectory(int argc, char *files[]){

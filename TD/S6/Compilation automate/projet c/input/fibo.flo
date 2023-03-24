@@ -1,0 +1,9 @@
+entier fibo(entier n){
+si(n<=1){
+	retourner 1;
+}
+retourner fibo(n-1)+fibo(n-2)
+}
+
+entier n = lire();
+ecrire(fibo(n));

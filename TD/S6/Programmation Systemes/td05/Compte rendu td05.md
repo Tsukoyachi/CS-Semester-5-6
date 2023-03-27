@@ -34,4 +34,10 @@ Si le premier fichier est un dossier alors on va faire une copie des autres fich
 ---
 
 Le but de fd_herit est double :
-- Expliquer que 
+- Expliquer que les descripteurs de fichiers sont partagés entre un processus père et ses processus fils, pour cela j'ouvre un fichier avec le père que je lis avec le fils. Cela fonctionne à merveille.
+- Vérifier qu'un père et ses fils partagent les dossier ouvert avec opendir, pour cela je fait un readdir et un rewinddir avec le père pour stocker le nom du premier fichier lu, et avec le fils je fais un readdir et je compare avec le résultat obtenu par le père. Sans surprise on obtient la même chose donc un père et son fils partagent bel et bien les dossiers ouvert avec opendir.
+
+## Exercice 5 :
+---
+
+Ici on reprend le code de lsrec et 

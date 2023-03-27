@@ -13,12 +13,12 @@ jeopardy = danger
 idiom : He's on his last leg = He's about to die.
 
 Homework :
-- News Anchors (That you're very interested in)
+- News Anchors (That you're very interested in) (coeff ?)
 	- present the news
 	- talk about a topic (from the news)
 	- On our own or in pair.
 	- For approximately 5 minutes
-- Presentation of **our** company
+- Presentation of **our** company (coeff 2)
 	- Major assignment
 	- PowerPoint
 	- What is our work/position/mission
@@ -27,3 +27,5 @@ Homework :
 	- Figures ! Graph ! Number ! **indispensable**
 	- The different service it offers
 	- organization
+	- individual presentation
+	- 10-15 minutes

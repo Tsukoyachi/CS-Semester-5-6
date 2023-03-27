@@ -11,4 +11,9 @@ On retire le commentaire du close dans le for et lorsque l'on ferme un fichier, 
 
 ## Exercice 2 :
 ---
-	
+
+In the main, I just call a method for all of the filepath I pass in argument to this program launch.
+
+This method is named list, list is a method that have two usage, the first one is to call a method called print_fileinfo on the filepath in parameter if it's a file or if it's a directory, the method will be called on it and on all it's file and sub-directory.
+
+The method print_fileinfo 

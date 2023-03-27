@@ -21,7 +21,9 @@ Homework :
 - Presentation of **our** company
 	- Major assignment
 	- PowerPoint
-	- What is our work/position
+	- What is our work/position/mission
 	- Pro's And Con's of our company
 	- What kind of company it is ? (national/multination)
-	- Figures ! Graph ! 
+	- Figures ! Graph ! Number ! **indispensable**
+	- The different service it offers
+	- organization

@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "32c681c96dbfbfa8",
+        "id": "045bd41032876596",
         "type": "tabs",
         "children": [
           {
-            "id": "0d7b334effc2728a",
+            "id": "39e3006d737c270f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TD/S6/Programmation Systemes/td05/Compte rendu td05.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "261564139514890e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TD/S6/Compilation automate/TD4/Compte rendu TD4.md",
+                "file": "Cours/S6/English/Notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TD/S6/Compilation automate/TD4/Compte rendu TD4.md",
+                "file": "Cours/S6/English/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TD/S6/Compilation automate/TD4/Compte rendu TD4.md",
+                "file": "Cours/S6/English/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TD/S6/Compilation automate/TD4/Compte rendu TD4.md"
+                "file": "Cours/S6/English/Notes.md"
               }
             }
           },
@@ -177,8 +164,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "261564139514890e",
+  "active": "39e3006d737c270f",
   "lastOpenFiles": [
+    "Cours/S6/English/Notes.md",
+    "Cours/S6/English",
     "TD/S6/Programmation Systemes/td05/Compte rendu td05.md",
     "TD/S6/Compilation automate/TD4/Compte rendu TD4.md",
     "TD/S6/Programmation Systemes/td05/mycp1.c",
@@ -190,7 +179,6 @@
     "TD/S6/Programmation Systemes/td05/Tests/BAZ/QUX",
     "TD/S6/Programmation Systemes/td05/Tests/BAZ",
     "TD/S6/Programmation Systemes/td05/Tests/bar",
-    "TD/S6/Programmation Systemes/td05/Tests/foo",
     "Cours/S6/Données numérique/Algorithme kNN.md",
     "TD/S6/Programmation Systemes/td04/Compte Rendu TD04.md",
     "TD/S6/Programmation Systemes/td04/media/Pasted image 20230319112808.png",

@@ -5,6 +5,7 @@
 %{
 #include "arbre_abstrait.h"
 #include "symboles.h"
+#include <string.h>
 %}
 %option yylineno
 %option nounput
@@ -14,19 +15,50 @@
 entier               ([1-9][0-9]*|0)
 chiffre              [0-9]
 lettre               [a-zA-Z]
+booleen              ((Vrai)|(Faux))
 alphanum             ({lettre}|{chiffre})
 espace               [ \t\r\n]
 
 %%
 "#".*                { /* Ignorer commentaires */  }
 {espace}+            { /* Ignorer espaces */       }
+"%"                  { return MODULO;              }
+"/"                  { return DIVISION;            }
 "+"                  { return PLUS;                }
+"-"                  { return MOINS;               }
 "*"                  { return FOIS;                }
+"<="                 { return INFERIEUR_OU_EGAL;   }
+">="                 { return SUPERIEUR_OU_EGAL;   }
+"=="                 { return EGAL;                }
+"!="                 { return DIFFERENT;           }
+"="                  { return AFFECTATION;         }
+"<"                  { return INFERIEUR;           }
+">"                  { return SUPERIEUR;           }
 "("                  { return PARENTHESE_OUVRANTE; }
 ")"                  { return PARENTHESE_FERMANTE; }
+"{"                  { return ACCOLADE_OUVRANTE;   }
+"}"                  { return ACCOLADE_FERMANTE;   }
 "ecrire"             { return ECRIRE;              }
+"lire"               { return LIRE;                }
 ";"                  { return POINT_VIRGULE;       }
+"tantQue"            { return TANT_QUE;            }
+"si"                 { return SI;                  }
+"sinon"              { return SINON;               }
+"retourner"          { return RETOURNER;           }
+"et"                 { return ET;                  }
+"ou"                 { return OU;                  }
+"non"                { return NON;                 }
+","                  { return VIRGULE;             }
 {entier}             { yylval.entier=atoi(yytext); return ENTIER;}
+{booleen}            { 
+  if(strcmp(yytext,"Vrai") == 0){
+    yylval.entier = 1;
+  }
+  else {
+    yylval.entier = 0;
+  }
+   return BOOLEAN;
+}
 {lettre}{alphanum}*  { return IDENTIFIANT;         }
 <<EOF>>              { return FIN; }  /* Fin de fichier */
 .                    {                                /* Erreur, autre caractètre quelconque */
@@ -42,13 +74,12 @@ int yywrap(){
  * Fonction auxiliaire qui donne le nom des différents tokens
  ******************************************************************************/
 
-int token_fermes[] = {PLUS,FOIS,PARENTHESE_OUVRANTE,PARENTHESE_FERMANTE,ECRIRE,POINT_VIRGULE};
-char *str_token[] = {"+","*""(",")",";","ECRIRE"};
+int token_fermes[] = {MODULO,DIVISION,PLUS,MOINS,FOIS,INFERIEUR_OU_EGAL,SUPERIEUR_OU_EGAL,EGAL,DIFFERENT,AFFECTATION,INFERIEUR,SUPERIEUR,PARENTHESE_OUVRANTE,PARENTHESE_FERMANTE,ACCOLADE_OUVRANTE,ACCOLADE_FERMANTE,POINT_VIRGULE,TANT_QUE,SI,SINON,RETOURNER,ET,OU,NON,VIRGULE};
+char *str_token[] = {"%","/","+","-","*","<=", ">=","==","!=","=","<",">","(",")","{","}",";","TantQue","SI","SINON","RETOURNER","ET","OU","NON",","};
 
-int nbMotsClefs = 5;
+int nbMotsClefs = 25;
 
 void nom_token( int token, char *nom, char *valeur ) {   
-
   for(int i = 0; i < nbMotsClefs;i++){
   	if(token == token_fermes[i]){
   	  strcpy( nom, "symbole" );
@@ -60,10 +91,26 @@ void nom_token( int token, char *nom, char *valeur ) {
   if( token == ENTIER ) {
     strcpy( nom, "entier" );
     strcpy( valeur, yytext );
+    return;
   }
-  else if( token == IDENTIFIANT ) {
+  if(token == BOOLEAN) {
+    strcpy(nom,"booleen");
+    strcpy(valeur,yytext);
+  }
+  if( token == IDENTIFIANT ) {
     strcpy( nom, "identifiant" );  
-    strcpy( valeur, yytext );      
+    strcpy( valeur, yytext );   
+    return;   
+  }
+  if (token == ECRIRE) {
+    strcpy(nom,"ecrire");
+    strcpy(valeur,"ecrire");
+    return;
+  }
+  if (token == LIRE) {
+    strcpy(nom,"lire");
+    strcpy(valeur,"lire");
+    return;
   }
 }
 

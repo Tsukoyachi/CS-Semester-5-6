@@ -24,14 +24,36 @@ n_programme* arbre_abstrait;
 %define parse.lac full
 //Symboles terminaux qui seront fournis par yylex(), ordre non important
 
-%token IDENTIFIANT
+%token MODULO
+%token DIVISION
 %token PLUS
+%token MOINS
 %token FOIS
+%token INFERIEUR_OU_EGAL
+%token SUPERIEUR_OU_EGAL
+%token EGAL
+%token DIFFERENT
+%token AFFECTATION
+%token INFERIEUR
+%token SUPERIEUR
 %token PARENTHESE_OUVRANTE
 %token PARENTHESE_FERMANTE
+%token ACCOLADE_OUVRANTE
+%token ACCOLADE_FERMANTE
 %token POINT_VIRGULE
+%token TANT_QUE
+%token SI
+%token SINON
+%token RETOURNER
+%token ET
+%token OU
+%token NON
+%token VIRGULE
+%token <entier> BOOLEAN
 %token <entier> ENTIER
 %token ECRIRE
+%token LIRE
+%token IDENTIFIANT
 %token FIN 0
 
 %type <prog> prog

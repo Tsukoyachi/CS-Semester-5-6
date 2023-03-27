@@ -1,5 +1,6 @@
 package ads.labs.td4.heap;
 
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.logging.Logger;
 
@@ -98,7 +99,7 @@ public class BinaryHeap<T extends Comparable<? super T>> {
      * @return true if the index is defined
      */
     private boolean indexExistInHeap(int n) {
-        return n <= size && array[n] != null;
+        return n <= size;
     }
 
     /**
@@ -133,17 +134,18 @@ public class BinaryHeap<T extends Comparable<? super T>> {
      * Complexity: O(log(size))
      */
     private void percolateDown(int n) {
-        int hole;
-
-        T tmp = array[n];
-
-        for (hole = n;
-             hole > 1 && comparator.compare(tmp, array[hole / 2]) < 0;
-             hole /= 2) {
-            array[hole] = array[hole / 2];
+        int left = left(n);
+        int right = right(n);
+        int indexToPercolateDown = n;
+        //find the index of the biggest child if it is greater than the parent n
+        if (left < size && comparator.compare(array[left], array[n]) > 0)
+            indexToPercolateDown = left;
+        if (right < size && comparator.compare(array[right], array[indexToPercolateDown]) > 0)
+            indexToPercolateDown = right;
+        if (indexToPercolateDown != n) {
+            swap(indexToPercolateDown, n);
+            percolateDown(indexToPercolateDown);
         }
-
-        array[hole] = tmp;
     }
 
     /**
@@ -151,17 +153,13 @@ public class BinaryHeap<T extends Comparable<? super T>> {
      * Complexity: O(log(size))
      */
     private void percolateUp(int n) {
-        while (n > 1) {
-            if (!indexExistInHeap(n) || !indexExistInHeap(parent(n))) {
-                break;
-            }
-            if (comparator.compare(array[n], array[parent(n)]) < 0) {
-                swap(n, parent(n));
-                n = parent(n);
-            } else {
-                break;
-            }
+        T e = array[n];
+        //while the element is greater than the parent of the node of index n
+        while (n > 0 && n < size() && comparator.compare(e, array[parent(n)]) > 0) {
+            array[n] = array[parent(n)]; //move the parent down
+            n = parent(n);
         }
+        array[n] = e; //insert the element in the right place
     }
 
     /**
@@ -199,20 +197,35 @@ public class BinaryHeap<T extends Comparable<? super T>> {
      * Complexity: THETA(1)
      */
     public T extreme() throws EmptyHeapException {
-        if (indexExistInHeap(1)) {
-            return array[1];
+        if (!isEmpty()) {
+            return array[0];
         }
         throw new EmptyHeapException();
     }
 
     /**
-     * Check if the element at index n is a leaf
-     *
-     * @param n the index to check
-     * @return true if it's a leaf, else return false
+     * @param t the element to search
+     * @return true if t is a leaf, false otherwise
      */
-    public boolean isLeaf(int n) {
-        return indexExistInHeap(left(n)) || indexExistInHeap(right(n));
+    public boolean isLeaf(T t) {
+        int i = find(t);
+        if (i == -1) {
+            return false;
+        }
+        return !indexExistInHeap(left(i)) && !indexExistInHeap(right(i));
+    }
+
+    /**
+     * @param t    the element to search
+     * @return the index of t in the array, -1 if not found
+     */
+    private int find(T t) {
+        for(int i = 0; i < size; i++){
+            if(comparator.compare(t,array[i]) == 0){
+                return i;
+            }
+        }
+        return -1;
     }
 
     /**
@@ -221,7 +234,15 @@ public class BinaryHeap<T extends Comparable<? super T>> {
      * Complexity: O(log(size))
      */
     public T deleteExtreme() throws EmptyHeapException {
-        return null;
+        if (isEmpty()) {
+            throw new EmptyHeapException();
+        }
+        T tmp = array[0];
+        swap(0, size - 1);
+        array[size - 1] = null;
+        size--;
+        percolateDown(0);
+        return tmp;
     }
 
     /**
@@ -229,7 +250,11 @@ public class BinaryHeap<T extends Comparable<? super T>> {
      * Complexity: O(log(size))
      */
     public void add(T e) throws FullHeapException {
-
+        if (size == array.length) {
+            throw new FullHeapException();
+        }
+        array[size++] = e;
+        percolateUp(size - 1);
     }
 
     ///////////// Part 3: deleting in the heap
@@ -239,7 +264,13 @@ public class BinaryHeap<T extends Comparable<? super T>> {
      * Complexity: O(size)
      */
     public void delete(T e) {
-
+        for (int i = 0; i < size; i++) {
+            if (array[i].compareTo(e) == 0) {
+                array[i] = array[--size];
+                array[size] = null;
+                percolateDown(i);
+            }
+        }
     }
 
     /**
@@ -247,6 +278,14 @@ public class BinaryHeap<T extends Comparable<? super T>> {
      * Complexity: O(size)
      */
     public void deleteAll(T e) {
+        int i = 0;
+        while (i < size)
+            if (array[i].compareTo(e) == 0) {
+                array[i] = array[--size];
+                array[size] = null; //added for garbage collection
+            } else
+                i++;
+        buildHeap();
     }
 
     public String toStringByLevels() {
@@ -264,7 +303,15 @@ public class BinaryHeap<T extends Comparable<? super T>> {
         return bld.toString();
     }
 
-    public T inverseExtreme() {
-        return null;
+    public T inverseExtreme() throws EmptyHeapException {
+        if (size == 0)
+            throw new EmptyHeapException();
+        T min = extreme();
+        for (int i = size - 1; i >= size / 2; i--) {
+            if (comparator.compare(array[i], min) < 0) {
+                min = array[i];
+            }
+        }
+        return min;
     }
 }

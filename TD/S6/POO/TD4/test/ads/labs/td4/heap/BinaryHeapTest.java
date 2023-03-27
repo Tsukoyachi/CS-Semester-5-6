@@ -35,7 +35,7 @@ class BinaryHeapTest {
      * Initialize the heap with strings : A B C D E
      */
     void setBinaryHeapString() {
-        binaryHeapString = new BinaryHeap<>(new String[]{"A", "B", "C", "D", "E"}, Comparator.reverseOrder());
+            binaryHeapString = new BinaryHeap<>(new String[]{"A", "B", "C", "D", "E"}, Comparator.reverseOrder());
     }
 
     /**
@@ -119,7 +119,7 @@ class BinaryHeapTest {
         setBinaryHeapString();
         assertEquals(5, binaryHeapString.size());
         assertEquals("A", binaryHeapString.getArray()[0]);
-        //assertArrayEquals(new String[]{null, "A", "B", "C", "D", "E"}, binaryHeapString.getArray());
+        assertArrayEquals(new String[]{"A", "B", "C", "D", "E"}, binaryHeapString.getArray());
     }
 
     @Test

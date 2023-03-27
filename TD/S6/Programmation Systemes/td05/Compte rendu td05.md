@@ -28,3 +28,10 @@ Et on va ouvrir le fichier 2 avec :
 - O_CREAT : pour créer le fichier s'il n'existe pas
 - O_WRONLY : pour avoir les droits d'écriture
 
+Si le premier fichier est un dossier alors on va faire une copie des autres fichiers passé en paramètre dans le dossier en question, pour cela on va juste concaténer le nom du dossier avec un / et le nom du fichier pour créer un chemin vers le nouveau fichier à créer. En suite on a plus qu'a appeler la première méthode avec le fichier dont on veut copier le contenu et le chemin que l'on vient de créer, le fichier sera créer grâce à O_CREAT indiqué précédemment.
+
+## Exercice 4 :
+---
+
+Le but de fd_herit est double :
+- Expliquer que 

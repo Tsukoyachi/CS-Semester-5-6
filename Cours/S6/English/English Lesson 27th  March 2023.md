@@ -12,7 +12,14 @@ jeopardy = danger
 - the marker is on his last leg.
 idiom : He's on his last leg = He's about to die.
 
-
+How to present a summary :
+- Don't repete yourself : 
+	- Talk about this
+	- Mention this
+	- This will be followed by this
+	- I'll deal with this
+	- I'll develop this
+	- 
 
 Homework :
 - News Anchors (That you're very interested in) (coeff ?)

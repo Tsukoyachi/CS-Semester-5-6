@@ -1,0 +1,20 @@
+
+j
+java:S1192Ó"SDefine a constant instead of duplicating this literal "Number of McDo in " 3 times.(¯Ï¶Ò
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¨•‰
+V
+java:S1612g":Replace this lambda with method reference 'Entry::getKey'.(Ó¥ÿv8’Àû›ò0
+p
+java:S6204¯"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8šÀû›ò0
+T	java:S106¹"9Replace this use of System.out or System.err by a logger.(¶©ìÇøÿÿÿÿ
+W	java:S125µ"<This block of commented-out lines of code should be removed.(µúáúÿÿÿÿ
+T	java:S106¿"9Replace this use of System.out or System.err by a logger.(º¼íêüÿÿÿÿ
+O	java:S106Ã"9Replace this use of System.out or System.err by a logger.(ŸÙ×ß
+T	java:S106È"9Replace this use of System.out or System.err by a logger.(Ñã©ôùÿÿÿÿ
+T	java:S106Ë"9Replace this use of System.out or System.err by a logger.(ä¬“„ÿÿÿÿÿ
+O	java:S106Ó"9Replace this use of System.out or System.err by a logger.(¯Ï¶Ò
+T	java:S106Ö"9Replace this use of System.out or System.err by a logger.(ï‰ş—şÿÿÿÿ
+O	java:S106Ú"9Replace this use of System.out or System.err by a logger.(¯Ï¶Ò
+T	java:S106Ü"9Replace this use of System.out or System.err by a logger.(ï‰ş—şÿÿÿÿ
+T	java:S106â"9Replace this use of System.out or System.err by a logger.(š™Ùşÿÿÿÿ
+T	java:S106ä"9Replace this use of System.out or System.err by a logger.(‚Îå™ÿÿÿÿÿ

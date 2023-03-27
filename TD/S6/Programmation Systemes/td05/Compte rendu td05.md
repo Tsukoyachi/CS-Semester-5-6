@@ -16,4 +16,10 @@ In the main, I just call a method for all of the filepath I pass in argument to 
 
 This method is named list, list is a method that have two usage, the first one is to call a method called print_fileinfo on the filepath in parameter if it's a file or if it's a directory, the method will be called on it and on all it's file and sub-directory.
 
-The method print_fileinfo 
+The method print_fileinfo just print the file name at the moment.
+
+## Exercice 3 :
+---
+
+If we pass two file in parameter, it'll copy the content of the first one into the other one.
+The start file will be opened with O_RONLY that allow

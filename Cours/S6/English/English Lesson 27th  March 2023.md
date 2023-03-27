@@ -12,6 +12,9 @@ jeopardy = danger
 - the marker is on his last leg.
 idiom : He's on his last leg = He's about to die.
 
+- It drags on.
+It mean that it never end.
+
 How to present a summary :
 - Don't repete yourself : 
 	- Talk about this

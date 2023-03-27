@@ -12,14 +12,19 @@ On retire le commentaire du close dans le for et lorsque l'on ferme un fichier, 
 ## Exercice 2 :
 ---
 
-In the main, I just call a method for all of the filepath I pass in argument to this program launch.
+Dans le main, j'appelle juste une méthode pour tous les chemins que je passe en argument au lancement de ce programme.
 
-This method is named list, list is a method that have two usage, the first one is to call a method called print_fileinfo on the filepath in parameter if it's a file or if it's a directory, the method will be called on it and on all it's file and sub-directory.
+Cette méthode s'appelle list, list est une méthode qui a deux usages, le premier est d'appeler une méthode appelée print_fileinfo sur le chemin de fichier en paramètre si c'est un fichier et s'il s'agit d'un répertoire, la méthode sera appelée sur lui et sur tous ses fichiers et sous-répertoires.
 
-The method print_fileinfo just print the file name at the moment.
+La méthode print_fileinfo se contente pour l'instant d'afficher le nom du fichier.
 
 ## Exercice 3 :
 ---
 
-If we pass two file in parameter, it'll copy the content of the first one into the other one.
-The start file will be opened with O_RONLY that allow
+Si l'on passe en paramètre deux nom de fichier, alors le programme va copier le contenu du premier dans le deuxième.
+Pour cela on ouvre le fichier 1 avec O_RONLY pour avoir les droit d'écriture.
+Et on va ouvrir le fichier 2 avec :
+- O_TRUNC : pour écraser le contenu d'un fichier existant 
+- O_CREAT : pour créer le fichier s'il n'existe pas
+- O_WRONLY : pour avoir les droits d'écriture
+

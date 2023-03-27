@@ -12,6 +12,8 @@ jeopardy = danger
 - the marker is on his last leg.
 idiom : He's on his last leg = He's about to die.
 
+
+
 Homework :
 - News Anchors (That you're very interested in) (coeff ?)
 	- present the news

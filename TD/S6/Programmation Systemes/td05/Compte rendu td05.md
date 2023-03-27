@@ -40,4 +40,8 @@ Le but de fd_herit est double :
 ## Exercice 5 :
 ---
 
-Ici on reprend le code de lsrec et 
+Ici on reprend le code de lsrec et on formatte print_fileinfo pour lui ajouter les informatiosn adéquates à l'aide de la structure de données stat que l'on obtient à l'aide de la fonction stat appliquée à un nom de fichier.
+
+Il ne reste plus qu'à les ajouter.
+
+On peut également utiliser strftime pour formatter la date comme il se doit.

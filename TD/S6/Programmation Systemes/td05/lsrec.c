@@ -8,6 +8,7 @@
 #include <unistd.h>
 #include <string.h>
 #include <pwd.h>
+#include <time.h>
 
 
 void print_fileinfo(char *filepath) {
@@ -15,6 +16,10 @@ void print_fileinfo(char *filepath) {
     stat(filepath,&file);
     struct passwd * infoUser = getpwuid(file.st_uid);
     struct passwd * infoGroup = getpwuid(file.st_gid);
+
+    time_t time = file.st_mtime;
+    char s[1024];
+    strftime(s, sizeof(s), "%d %B %H:%M", localtime(&time));
 
     printf((S_ISDIR(file.st_mode)) ? "d" : "-");
     printf((file.st_mode & S_IRUSR) ? "r" : "-");
@@ -27,7 +32,7 @@ void print_fileinfo(char *filepath) {
     printf((file.st_mode & S_IWOTH) ? "w" : "-");
     printf((file.st_mode & S_IXOTH) ? "x" : "-");
     printf(" %ld %s %s ", file.st_nlink, infoUser->pw_name, infoGroup->pw_name);
-    printf("%ld %ld %s\n", file.st_blksize, file.st_mtime, get_basename(filepath));
+    printf("%ld %s %s\n", file.st_blksize, s, get_basename(filepath));
 }
 
 void list(char *directory) {

@@ -18,8 +18,8 @@ How to present a summary :
 	- Mention this
 	- This will be followed by this
 	- I'll deal with this
-	- I'll develop this
-	- 
+	- Then, I'll further develop this
+	- I'll explain this
 
 Homework :
 - News Anchors (That you're very interested in) (coeff ?)

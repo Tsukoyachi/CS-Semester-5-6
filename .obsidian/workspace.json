@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 290.5,
+    "collapsed": true
   },
   "right": {
     "id": "911d169df2e013eb",
@@ -164,7 +165,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2b1359a3a2050b24",
+  "active": "3ed2038ec5459906",
   "lastOpenFiles": [
     "TD/S6/Programmation Systemes/td05/Compte rendu td05.md",
     "Cours/S6/English/English Lesson 27th  March 2023.md",

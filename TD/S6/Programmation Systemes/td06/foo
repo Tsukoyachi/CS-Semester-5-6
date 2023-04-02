@@ -1,0 +1,9 @@
+total 68
+-rwxr-xr-x 1 tsukoyachi tsukoyachi     0 28 mars  10:14 foo
+-rw-rw-r-- 1 tsukoyachi tsukoyachi  2107 24 mars   2018 Makefile
+-rw-rw-r-- 1 tsukoyachi tsukoyachi  1013 28 mars  10:13 redir.c
+-rwxr-xr-x 1 tsukoyachi tsukoyachi 23480 28 mars  10:14 redir.exe
+-rw-r--r-- 1 tsukoyachi tsukoyachi   231 28 mars  10:13 redir_simple.c
+-rwxr-xr-x 1 tsukoyachi tsukoyachi 21688 28 mars  10:13 redir_simple.exe
+-rwxrwxr-x 1 tsukoyachi tsukoyachi   531 23 mars   2017 tst_redir.sh
+drwx------ 6 tsukoyachi tsukoyachi  4096 27 mars   2017 Win32NamedPipe

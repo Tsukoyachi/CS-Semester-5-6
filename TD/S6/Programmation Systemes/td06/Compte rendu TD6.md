@@ -6,3 +6,4 @@ Enfin on fait un execlp afin que la commande ls -l s'exécute, le résultat est 
 
 ## Exercice 2 :
 ---
+Cet exercice est à peu près équivalent, la seule différence est de faire la différence entre ouvrir en lecture et modifier le file descriptor 0 pour modifier l'entrée standard, ou ouvrir en écriture et modiflie

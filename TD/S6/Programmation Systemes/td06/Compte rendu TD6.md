@@ -28,4 +28,10 @@ Lorsque l'on fait ls -l on constate que le shell affiche les pipe nommé en jaun
 
 Afin d'obtenir un chat bidirectionnel, on pourrait ouvrir deux pipes nommés.
 
+Enfin, si deux lecteurs lisent simultanément sur le même pipe plusieurs scénario sont possible :
+- Soit le premier va tout lire car sont buffer est supérieur au contenu du pipe et dans ce cas, l'autre ne verra rien
+- Soit les deux vont lire un morceau du contenu du pipe
+
+## Exercice 7 :
+---
 

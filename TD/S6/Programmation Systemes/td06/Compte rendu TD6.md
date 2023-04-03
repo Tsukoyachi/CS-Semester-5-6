@@ -18,4 +18,8 @@ Dans cet exercice, contrairement au précédent on introduit un fork pour écrit
 
 ## Exercice 5 :
 ---
-Dans cet exercice
+Dans cet exercice il n'y a pas grand chose de nouveau, juste que même s'il y a de la concurrence les deux lettres envoyées simultanément ne sont pas séparé.
+
+## Exercice 6 :
+---
+Dans cet exercice on teste la création d'un pipe nommé comme ceci :

@@ -1,3 +1,8 @@
+#include <stdio.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <stdlib.h>
+
 int main(int argc, char *argv[]) {
 
     if(argc < 2){
@@ -10,8 +15,7 @@ int main(int argc, char *argv[]) {
         exit(1);
     }
 
-    int tmpStandardFd;
-    dup(1,tmpStandardFd);
+    int tmpStandardFd = dup(1);
 
     switch(fork()) {
         case -1 : {

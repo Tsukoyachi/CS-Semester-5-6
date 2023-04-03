@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
 
     int fd = open(argv[1], O_RDONLY, 0777);
     char c;
-    while((c = read(fd,&c,1)) != EOF) {
+    while(read(fd,&c,1) > 0) {
         printf("%c",c);
     }
 

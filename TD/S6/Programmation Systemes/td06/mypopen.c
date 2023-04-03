@@ -31,7 +31,7 @@ int main(int argc, char *argv[]) {
         case 0 : {
             dup2(pipes[1],1);
             execl("/bin/sh", "sh", "-c", &(argv[1]), (char *) NULL);
-            exit(1);
+            exit(0);
         }
         default : {
             wait(0);

@@ -18,3 +18,4 @@ ex : I'll follow a training from Microsoft
 Grammar rule :
 - 748 **million** euros
 - **millions** of euros
+

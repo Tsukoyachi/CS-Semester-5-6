@@ -22,4 +22,6 @@ Dans cet exercice il n'y a pas grand chose de nouveau, juste que même s'il y a 
 
 ## Exercice 6 :
 ---
-Dans cet exercice on teste la création d'un pipe nommé comme ceci :
+Dans cet exercice on teste la création d'un pipe nommé, et l'on observe bien que l'on vient de créer un chat uni-directionnel.
+
+Lorsque l'on fait ls -l on constate que le shell affiche les pipe nommé en jaune, et qu'ils font une taille de 0.

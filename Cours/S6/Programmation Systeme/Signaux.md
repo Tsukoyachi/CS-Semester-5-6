@@ -23,3 +23,12 @@
 - Problèmes :
 	- Limitations (on ne peut pas tout faire)
 	- Certaines pas souhaitables (communication par fichier...)
+
+### Les signaux
+
+C'est un moyen simple de communication entre processus et entre le noyaux et les processus.
+
+Les signaux sont des évènements externes qui changent le déroulement d'un processus de manière **asynchrone**, ce signal peut être bloqué par le processus et il peut avoir différentes origines (logiciel, matériel).
+
+On distingue plusieurs types de signaux :
+- L'interruption terminal (^C, ^Z, ^\)

@@ -38,6 +38,7 @@ void print_signal(int sig) {
 }
 
 int main() {
+    // On capture les signaux afin d'exécuter la fonction print_signal dès leur capture
     signal(SIGSEGV,print_signal);
     signal(SIGINT,print_signal);
     

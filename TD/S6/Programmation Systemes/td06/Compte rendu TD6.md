@@ -34,4 +34,5 @@ Enfin, si deux lecteurs lisent simultanément sur le même pipe plusieurs scéna
 
 ## Exercice 7 :
 ---
-
+![[Pasted image 20230403184957.png | center]]
+Dans cet exercice je créer un pipe dans lequel on va écrire le résultat de la commande pour ensuite lire ce pipe et afficher le nombre de caractères lu.

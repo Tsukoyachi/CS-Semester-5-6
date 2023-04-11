@@ -1999,15 +1999,15 @@ void nom_token( int token, char *nom, char *valeur ) {
     strcpy(nom,"booleen");
     strcpy(valeur,yytext);
   }
-  if( token == IDENTIFIANT ) {
-    strcpy( nom, "identifiant" );  
-    strcpy( valeur, yytext );   
-    return;   
-  }
   if (token == ECRIRE) {
     strcpy(nom,"ecrire");
     strcpy(valeur,"ecrire");
     return;
+  }
+  if( token == IDENTIFIANT ) {
+    strcpy( nom, "identifiant" );  
+    strcpy( valeur, yytext );   
+    return;   
   }
   if (token == LIRE) {
     strcpy(nom,"lire");

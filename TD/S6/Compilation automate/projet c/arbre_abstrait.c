@@ -35,6 +35,14 @@ void afficher_entier(int valeur,int indent){
 	printf("[Entier:%d]\n",valeur);
 }
 
+void afficher_lire(int indent){
+	for(int i = 0; i < indent; i++){
+	printf(" "); 
+	
+	}
+	printf("<lire/>\n");
+}
+
 
 
 void afficher_n_programme(n_programme* prog,int indent){
@@ -73,6 +81,8 @@ void afficher_n_exp(n_exp* exp ,int indent){
 		afficher_n_operation(exp->u.operation,indent);
 	} else if (exp->type_exp == i_entier){
 		afficher_entier(exp->u.valeur,indent);
+	} else if (exp->type_exp == i_lire) {
+		afficher_lire(indent);
 	}
 }
 
@@ -103,6 +113,12 @@ n_instruction* creer_n_ecrire(n_exp* exp){
   n->type_instruction = i_ecrire;
   n->u.exp = exp;
   return n;
+}
+
+n_exp* creer_lire(){
+	n_exp* n = malloc(sizeof(n_exp));
+ 	n->type_exp = i_lire;
+ 	return n;
 }
 
 n_exp* creer_n_entier(int valeur){

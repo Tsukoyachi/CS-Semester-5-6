@@ -8,14 +8,14 @@ global _start
 _start:
 	push	2
 	push	3
+	pop	ebx		 ; depile la seconde operande dans ebx
+	pop	eax		 ; depile la permière operande dans eax
+	imul	ebx		 ; effectue l'opération
+	push	eax		 ; empile le résultat
 	push	5
 	pop	ebx		 ; depile la seconde operande dans ebx
 	pop	eax		 ; depile la permière operande dans eax
 	add	eax, ebx		 ; effectue l'opération
-	push	eax		 ; empile le résultat
-	pop	ebx		 ; depile la seconde operande dans ebx
-	pop	eax		 ; depile la permière operande dans eax
-	imul	ebx		 ; effectue l'opération
 	push	eax		 ; empile le résultat
 	pop	eax
 	call	iprintLF

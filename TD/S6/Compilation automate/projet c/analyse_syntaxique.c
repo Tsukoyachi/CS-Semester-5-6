@@ -146,7 +146,10 @@ enum yysymbol_kind_t
   YYSYMBOL_listeInstructions = 35,         /* listeInstructions  */
   YYSYMBOL_instruction = 36,               /* instruction  */
   YYSYMBOL_ecrire = 37,                    /* ecrire  */
-  YYSYMBOL_expr = 38                       /* expr  */
+  YYSYMBOL_expr = 38,                      /* expr  */
+  YYSYMBOL_produit = 39,                   /* produit  */
+  YYSYMBOL_facteur = 40,                   /* facteur  */
+  YYSYMBOL_lire = 41                       /* lire  */
 };
 typedef enum yysymbol_kind_t yysymbol_kind_t;
 
@@ -451,16 +454,16 @@ union yyalloc
 /* YYFINAL -- State number of the termination state.  */
 #define YYFINAL  7
 /* YYLAST -- Last index in YYTABLE.  */
-#define YYLAST   17
+#define YYLAST   26
 
 /* YYNTOKENS -- Number of terminals.  */
 #define YYNTOKENS  33
 /* YYNNTS -- Number of nonterminals.  */
-#define YYNNTS  6
+#define YYNNTS  9
 /* YYNRULES -- Number of rules.  */
-#define YYNRULES  10
+#define YYNRULES  17
 /* YYNSTATES -- Number of states.  */
-#define YYNSTATES  20
+#define YYNSTATES  32
 
 /* YYMAXUTOK -- Last valid token kind.  */
 #define YYMAXUTOK   287
@@ -510,10 +513,10 @@ static const yytype_int8 yytranslate[] =
 
 #if YYDEBUG
 /* YYRLINE[YYN] -- Source line where rule number YYN was defined.  */
-static const yytype_int8 yyrline[] =
+static const yytype_uint8 yyrline[] =
 {
-       0,    67,    67,    71,    75,    79,    83,    88,    92,    96,
-     100
+       0,    69,    69,    73,    77,    81,    86,    90,    94,    98,
+     102,   106,   110,   114,   118,   122,   126,   130
 };
 #endif
 
@@ -536,7 +539,8 @@ yysymbol_name (yysymbol_kind_t yysymbol)
   "PARENTHESE_FERMANTE", "ACCOLADE_OUVRANTE", "ACCOLADE_FERMANTE",
   "POINT_VIRGULE", "TANT_QUE", "SI", "SINON", "RETOURNER", "ET", "OU",
   "NON", "VIRGULE", "BOOLEAN", "ENTIER", "ECRIRE", "LIRE", "IDENTIFIANT",
-  "$accept", "prog", "listeInstructions", "instruction", "ecrire", "expr", YY_NULLPTR
+  "$accept", "prog", "listeInstructions", "instruction", "ecrire", "expr",
+  "produit", "facteur", "lire", YY_NULLPTR
   };
   return yy_sname[yysymbol];
 }
@@ -556,8 +560,10 @@ yysymbol_name (yysymbol_kind_t yysymbol)
    STATE-NUM.  */
 static const yytype_int8 yypact[] =
 {
-     -24,    -7,     9,   -25,   -24,   -25,   -15,   -25,   -25,   -15,
-     -25,    -4,    -3,   -15,   -15,    -9,   -25,     0,     0,   -25
+     -24,    -5,    11,   -25,   -24,   -25,   -15,   -25,   -25,   -15,
+     -25,     0,    -4,    14,   -25,   -25,    -3,     3,    -9,    -9,
+       4,    -9,    -9,    -9,   -25,   -25,    14,   -25,   -25,   -25,
+     -25,   -25
 };
 
 /* YYDEFACT[STATE-NUM] -- Default reduction number in state STATE-NUM.
@@ -566,19 +572,21 @@ static const yytype_int8 yypact[] =
 static const yytype_int8 yydefact[] =
 {
        0,     0,     0,     2,     3,     5,     0,     1,     4,     0,
-      10,     0,     0,     0,     0,     0,     9,     7,     8,     6
+      16,     0,     0,    13,    14,    15,     0,     0,     0,     0,
+       0,     0,     0,     0,    12,    17,     7,     8,     6,    11,
+      10,     9
 };
 
 /* YYPGOTO[NTERM-NUM].  */
 static const yytype_int8 yypgoto[] =
 {
-     -25,   -25,    13,   -25,   -25,     2
+     -25,   -25,    20,   -25,   -25,    16,     8,   -14,   -25
 };
 
 /* YYDEFGOTO[NTERM-NUM].  */
 static const yytype_int8 yydefgoto[] =
 {
-       0,     2,     3,     4,     5,    11
+       0,     2,     3,     4,     5,    12,    13,    14,    15
 };
 
 /* YYTABLE[YYPACT[STATE-NUM]] -- What to do in state STATE-NUM.  If
@@ -586,14 +594,16 @@ static const yytype_int8 yydefgoto[] =
    number is the opposite.  If YYTABLE_NINF, syntax error.  */
 static const yytype_int8 yytable[] =
 {
-       9,    13,    13,    14,    14,    13,     1,    14,     6,     7,
-      19,    12,    15,    16,    10,    17,    18,     8
+       9,    18,    18,    19,    19,    27,     1,    29,    30,    31,
+       6,     7,    20,    24,    10,    17,    11,    21,    22,    25,
+      10,    23,    11,    28,     8,    16,    26
 };
 
 static const yytype_int8 yycheck[] =
 {
-      15,     5,     5,     7,     7,     5,    30,     7,    15,     0,
-      19,     9,    16,    16,    29,    13,    14,     4
+      15,     5,     5,     7,     7,    19,    30,    21,    22,    23,
+      15,     0,    16,    16,    29,    15,    31,     3,     4,    16,
+      29,     7,    31,    19,     4,     9,    18
 };
 
 /* YYSTOS[STATE-NUM] -- The symbol kind of the accessing symbol of
@@ -601,21 +611,23 @@ static const yytype_int8 yycheck[] =
 static const yytype_int8 yystos[] =
 {
        0,    30,    34,    35,    36,    37,    15,     0,    35,    15,
-      29,    38,    38,     5,     7,    16,    16,    38,    38,    19
+      29,    31,    38,    39,    40,    41,    38,    15,     5,     7,
+      16,     3,     4,     7,    16,    16,    39,    40,    19,    40,
+      40,    40
 };
 
 /* YYR1[RULE-NUM] -- Symbol kind of the left-hand side of rule RULE-NUM.  */
 static const yytype_int8 yyr1[] =
 {
-       0,    33,    34,    35,    35,    36,    37,    38,    38,    38,
-      38
+       0,    33,    34,    35,    35,    36,    37,    38,    38,    39,
+      39,    39,    38,    38,    39,    40,    40,    41
 };
 
 /* YYR2[RULE-NUM] -- Number of symbols on the right-hand side of rule RULE-NUM.  */
 static const yytype_int8 yyr2[] =
 {
        0,     2,     1,     1,     2,     1,     5,     3,     3,     3,
-       1
+       3,     3,     3,     1,     1,     1,     1,     3
 };
 
 
@@ -1560,80 +1572,136 @@ yyreduce:
     switch (yyn)
       {
   case 2: /* prog: listeInstructions  */
-#line 67 "analyse_syntaxique.y"
+#line 69 "analyse_syntaxique.y"
                         {
 arbre_abstrait =creer_n_programme((yyvsp[0].l_inst));
 }
-#line 1568 "analyse_syntaxique.c"
+#line 1580 "analyse_syntaxique.c"
     break;
 
   case 3: /* listeInstructions: instruction  */
-#line 71 "analyse_syntaxique.y"
+#line 73 "analyse_syntaxique.y"
                                {
 (yyval.l_inst) =creer_n_l_instructions((yyvsp[0].inst) ,NULL);
 }
-#line 1576 "analyse_syntaxique.c"
+#line 1588 "analyse_syntaxique.c"
     break;
 
   case 4: /* listeInstructions: instruction listeInstructions  */
-#line 75 "analyse_syntaxique.y"
+#line 77 "analyse_syntaxique.y"
                                                  {
 (yyval.l_inst) =creer_n_l_instructions((yyvsp[-1].inst) ,(yyvsp[0].l_inst));
 }
-#line 1584 "analyse_syntaxique.c"
+#line 1596 "analyse_syntaxique.c"
     break;
 
   case 5: /* instruction: ecrire  */
-#line 79 "analyse_syntaxique.y"
+#line 81 "analyse_syntaxique.y"
                     {
 	(yyval.inst) =(yyvsp[0].inst);
 }
-#line 1592 "analyse_syntaxique.c"
+#line 1604 "analyse_syntaxique.c"
     break;
 
   case 6: /* ecrire: ECRIRE PARENTHESE_OUVRANTE expr PARENTHESE_FERMANTE POINT_VIRGULE  */
-#line 83 "analyse_syntaxique.y"
+#line 86 "analyse_syntaxique.y"
                                                                           {
 	
 	(yyval.inst) =creer_n_ecrire((yyvsp[-2].exp));
 }
-#line 1601 "analyse_syntaxique.c"
+#line 1613 "analyse_syntaxique.c"
     break;
 
-  case 7: /* expr: expr PLUS expr  */
-#line 88 "analyse_syntaxique.y"
-                    {
+  case 7: /* expr: expr PLUS produit  */
+#line 90 "analyse_syntaxique.y"
+                       {
 	(yyval.exp) =creer_n_operation('+', (yyvsp[-2].exp), (yyvsp[0].exp));
 }
-#line 1609 "analyse_syntaxique.c"
+#line 1621 "analyse_syntaxique.c"
     break;
 
-  case 8: /* expr: expr FOIS expr  */
-#line 92 "analyse_syntaxique.y"
-                    {
+  case 8: /* expr: expr FOIS facteur  */
+#line 94 "analyse_syntaxique.y"
+                       {
 	(yyval.exp) =creer_n_operation('*', (yyvsp[-2].exp) , (yyvsp[0].exp));
 }
-#line 1617 "analyse_syntaxique.c"
+#line 1629 "analyse_syntaxique.c"
     break;
 
-  case 9: /* expr: PARENTHESE_OUVRANTE expr PARENTHESE_FERMANTE  */
-#line 96 "analyse_syntaxique.y"
+  case 9: /* produit: produit FOIS facteur  */
+#line 98 "analyse_syntaxique.y"
+                               {
+    (yyval.exp) =creer_n_operation('*',(yyvsp[-2].exp),(yyvsp[0].exp));
+}
+#line 1637 "analyse_syntaxique.c"
+    break;
+
+  case 10: /* produit: produit DIVISION facteur  */
+#line 102 "analyse_syntaxique.y"
+                                   {
+    (yyval.exp) =creer_n_operation('/',(yyvsp[-2].exp),(yyvsp[0].exp));
+}
+#line 1645 "analyse_syntaxique.c"
+    break;
+
+  case 11: /* produit: produit MODULO facteur  */
+#line 106 "analyse_syntaxique.y"
+                                 {
+    (yyval.exp) =creer_n_operation('%',(yyvsp[-2].exp),(yyvsp[0].exp));
+}
+#line 1653 "analyse_syntaxique.c"
+    break;
+
+  case 12: /* expr: PARENTHESE_OUVRANTE expr PARENTHESE_FERMANTE  */
+#line 110 "analyse_syntaxique.y"
                                                    {
 	(yyval.exp) =(yyvsp[-1].exp) ;
 }
-#line 1625 "analyse_syntaxique.c"
+#line 1661 "analyse_syntaxique.c"
     break;
 
-  case 10: /* expr: ENTIER  */
-#line 100 "analyse_syntaxique.y"
-             {
+  case 13: /* expr: produit  */
+#line 114 "analyse_syntaxique.y"
+              {
+    (yyval.exp)= (yyvsp[0].exp);
+}
+#line 1669 "analyse_syntaxique.c"
+    break;
+
+  case 14: /* produit: facteur  */
+#line 118 "analyse_syntaxique.y"
+                  {
+    (yyval.exp) = (yyvsp[0].exp);
+}
+#line 1677 "analyse_syntaxique.c"
+    break;
+
+  case 15: /* facteur: lire  */
+#line 122 "analyse_syntaxique.y"
+               {
+    (yyval.exp) = (yyvsp[0].exp);
+}
+#line 1685 "analyse_syntaxique.c"
+    break;
+
+  case 16: /* facteur: ENTIER  */
+#line 126 "analyse_syntaxique.y"
+                {
 	(yyval.exp) = creer_n_entier((yyvsp[0].entier));
 }
-#line 1633 "analyse_syntaxique.c"
+#line 1693 "analyse_syntaxique.c"
+    break;
+
+  case 17: /* lire: LIRE PARENTHESE_OUVRANTE PARENTHESE_FERMANTE  */
+#line 130 "analyse_syntaxique.y"
+                                                   {
+    (yyval.exp) = creer_lire();
+}
+#line 1701 "analyse_syntaxique.c"
     break;
 
 
-#line 1637 "analyse_syntaxique.c"
+#line 1705 "analyse_syntaxique.c"
 
         default: break;
       }
@@ -1868,7 +1936,7 @@ yyreturnlab:
   return yyresult;
 }
 
-#line 106 "analyse_syntaxique.y"
+#line 135 "analyse_syntaxique.y"
 
 
 int yyerror(const char *s) {

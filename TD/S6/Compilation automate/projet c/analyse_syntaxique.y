@@ -60,8 +60,10 @@ n_programme* arbre_abstrait;
 %type <l_inst> listeInstructions
 %type <inst> instruction
 %type <inst> ecrire
-%type <exp> expr 
-
+%type <exp> lire
+%type <exp> expr
+%type <exp> facteur
+%type <exp> produit
 %%
 
 prog: listeInstructions {
@@ -80,27 +82,54 @@ instruction: ecrire {
 	$$ =$1;
 }
 
+
 ecrire: ECRIRE PARENTHESE_OUVRANTE expr PARENTHESE_FERMANTE POINT_VIRGULE {
 	
 	$$ =creer_n_ecrire($3);
 }
-
-expr: expr PLUS expr{
+expr: expr PLUS produit{
 	$$ =creer_n_operation('+', $1, $3);
 }
 
-expr: expr FOIS expr{
+expr: expr FOIS facteur{
 	$$ =creer_n_operation('*', $1 , $3);
+}
+
+produit : produit FOIS facteur {
+    $$ =creer_n_operation('*',$1,$3);
+}
+
+produit : produit DIVISION facteur {
+    $$ =creer_n_operation('/',$1,$3);
+}
+
+produit : produit MODULO facteur {
+    $$ =creer_n_operation('%',$1,$3);
 }
 
 expr: PARENTHESE_OUVRANTE expr PARENTHESE_FERMANTE {
 	$$ =$2 ;
 }
 
-expr: ENTIER {
+expr: produit {
+    $$= $1;
+}
+
+produit : facteur {
+    $$ = $1;
+}
+
+facteur : lire {
+    $$ = $1;
+}
+
+facteur: ENTIER {
 	$$ = creer_n_entier($1);
 }
 
+lire: LIRE PARENTHESE_OUVRANTE PARENTHESE_FERMANTE {
+    $$ = creer_lire();
+}
 
 
 %%

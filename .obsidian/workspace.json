@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "845ffa052a6c55d2",
+        "id": "41cf1dc3ac4a5b85",
         "type": "tabs",
         "children": [
           {
-            "id": "04a114c21c4111d4",
+            "id": "d593600079585fcf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TD/S6/Programmation Systemes/td06/Compte rendu TD6.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TD/S6/Programmation Systemes/td06/Compte rendu TD6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TD/S6/Programmation Systemes/td06/Compte rendu TD6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "TD/S6/Programmation Systemes/td06/Compte rendu TD6.md"
-              }
+              "state": {}
             }
           },
           {
@@ -164,8 +156,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "04a114c21c4111d4",
+  "active": "d593600079585fcf",
   "lastOpenFiles": [
+    "TD/S6/Programmation Systemes/td06/Compte rendu TD6.md",
+    "TD/S6/Programmation Systemes/td06/media/Pasted image 20230403184957.png",
+    "TD/S6/Programmation Systemes/td06/media",
     "TD/S6/Programmation Systemes/td06/mypopen.o",
     "TD/S6/Programmation Systemes/td06/mypopen.exe",
     "TD/S6/Programmation Systemes/td06/mypopen.c",
@@ -176,13 +171,10 @@
     "TD/S6/Programmation Systemes/td06/lecteur.c",
     "TD/S6/Programmation Systemes/td06/ecrivain.c",
     "Cours/S6/English/English lesson 3th of April.md",
-    "TD/S6/Programmation Systemes/td06/Compte rendu TD6.md",
     "Cours/S6/English/English Lesson 27th  March 2023.md",
     "TD/S6/Programmation Systemes/td04/Compte Rendu TD04.md",
-    "TD/S6/Programmation Systemes/td04/Compte Rendu TD04.pdf",
     "TD/S6/Programmation Systemes/td03/Compte Rendu TD03.md",
     "TD/S6/Programmation Systemes/td01/Compte rendu TD1.md",
-    "TD/S6/Programmation Systemes/td01/bubble",
     "TD/S6/Programmation Systemes/td05/Compte rendu td05.md",
     "TD/S6/Compilation automate/TD4/Compte rendu TD4.md",
     "Cours/S6/Données numérique/Algorithme kNN.md",
@@ -197,7 +189,6 @@
     "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314112218.png",
     "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314111701.png",
     "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314111611.png",
-    "TD/S6/Programmation Systemes/td04/media/Pasted image 20230314111443.png",
     "Cours/S6/Programmation Systeme/Operating System.md",
     "Cours/S6/POO/Binary Seareech Three.md",
     "Cours/S6/Programmation par évènement/Tâche et Scénario.md",

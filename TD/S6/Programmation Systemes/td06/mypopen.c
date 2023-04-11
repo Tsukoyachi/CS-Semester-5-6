@@ -30,7 +30,7 @@ int main(int argc, char *argv[]) {
         }
         case 0 : {
             dup2(pipes[1],1);
-            execv("/bin/sh", "sh", "-c", &(argv[1]));
+            execvp(argv[1],&argv[1]);
             exit(0);
         }
         default : {
@@ -45,7 +45,7 @@ int main(int argc, char *argv[]) {
     }
     dup2(tmpStandardFd,1);
     write(tmpStandardFd,&buffer,readedChar);
-    printf("\n This command's result is %d character long",readedChar);
+    printf("\n This command's result is %d character long\n",readedChar);
 
     return 0;
 }

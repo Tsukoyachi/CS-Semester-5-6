@@ -258,9 +258,38 @@ En revanche la durée de vie du handler établi par signal() est dépendante de 
 
 ### fork() et exec()
 
- Attributs de processus  
-– État des signaux (ignoré, action par défaut, piégé)  
-– Masque des signaux bloqués  
- Héritage de l'état et du masque lors d'un fork()  
- Transmission de l'état et du masque à travers un exec()  
-– sauf pour les signaux piégés qui sont rétablis à l'action par défaut
+Attributs de processus  
+	-  État des signaux (ignoré, action par défaut, piégé)  
+	-  Masque des signaux bloqués  
+
+-  Héritage de l'état et du masque lors d'un fork()  
+
+-  Transmission de l'état et du masque à travers un exec()  
+	- sauf pour les signaux piégés qui sont rétablis à l'action par défaut
+
+### Autres fonctions liées aux signaux
+
+```c
+#include <unistd.h>  
+int sleep(unsigned int seconds)
+```
+- Suspend le processus pendant le nombre de secondes indiqués, ou jusqu'à ce qu'un signal (non ignoré) arrive.
+
+```c
+#include <unistd.h>  
+int pause();
+```
+
+- Suspend le processus jusqu'à ce qu'un signal (non ignoré) arrive  
+-  Cette fonction retourne après que le handler (éventuel) ait été exécuté
+
+### Point de reprise
+
+Pourquoi ?
+- Permettre  
+d'abandonner une  
+fonction pour  
+reprendre le  
+traitement à un  
+niveau plus élevé  
+dans la chaîne (dynamique) d'appel

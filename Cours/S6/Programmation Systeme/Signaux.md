@@ -362,18 +362,19 @@ Dans les deux cas, les variables locales sont dans un **état indéfini** après
 
 #### Variables volatile ?
 
+Volatile
 -  Qualifier un type particulier  
--  Prévient le compilateur que cette variable peut être modifiée de  
-manière extérieure au flot normal du programme  
+-  Prévient le compilateur que cette variable peut être modifiée de  manière extérieure au flot normal du programme  
 	-  longjmp() ou siglongjmp()  
-è  Entrée/Sortie  
- Threads  
- Interruption ou signal  
- ...  
-– Aucune optimisation du compilateur ne doit être appliquée à cette  
-variable  
- Relue en mémoire à chaque accès  
- Pas mise dans un registre temporaire  
- Ralentit le code, mais le protège  
- Existe dans les langages modernes  
-– C, C++, C# et Java
+	-  Entrée/Sortie  
+	-  Threads  
+	-  Interruption ou signal  
+	-  ...  
+-  Aucune optimisation du compilateur ne doit être appliquée à cette variable  
+	- Relue en mémoire à chaque accès  
+	-  Pas mise dans un registre temporaire  
+	-  Ralentit le code, mais le protège  
+
+Existe dans les langages modernes  
+	- C, C++, C# et Java
+

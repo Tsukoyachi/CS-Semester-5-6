@@ -115,3 +115,9 @@ Dans le cas où l'on masque le SIGINT, c'est la même chose que précédemment s
 Dans le cas du handler vide, le signal est passé et a stoppé le sleep du process_wait.
 
 Dans le cas du handler à NULL, le signal n'ayant pas été capturé il a arrêté l'exécution du programme.
+
+![[Pasted image 20230411110110.png | center]]
+
+## Exercice 7 
+---
+

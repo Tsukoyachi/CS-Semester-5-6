@@ -1,5 +1,8 @@
 #include <signal.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
 
 pid_t older_child = NULL;
 
@@ -35,7 +38,8 @@ int main(){
         }
     }
 
-    switch (fork()) {
+    int young = fork();
+    switch (young) {
         case -1 : {
             printf("an error occured with second fork...\n");
             exit(1);
@@ -47,10 +51,14 @@ int main(){
             sigact.sa_mask = msk_sigusr1;  
 	        sigaction(SIGUSR1, &sigact, NULL); 
             while(1){}
-            break;
         }
         default : {
             break;
         }
     }
+
+    kill(young, SIGUSR1);
+    wait(0);
+    wait(0);
+    return 0;
 }

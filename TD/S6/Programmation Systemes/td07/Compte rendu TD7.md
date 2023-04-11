@@ -17,3 +17,4 @@
 ## Exercice 2
 ---
 
+![[Pasted image 20230411100018.png | ]]

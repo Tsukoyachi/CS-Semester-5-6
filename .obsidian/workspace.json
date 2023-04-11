@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/S6/Programmation Systeme/Signaux.md",
+                "file": "TD/S6/Programmation Systemes/td07/Compte rendu TD7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/S6/Programmation Systeme/Signaux.md",
+                "file": "TD/S6/Programmation Systemes/td07/Compte rendu TD7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/S6/Programmation Systeme/Signaux.md"
+                "file": "TD/S6/Programmation Systemes/td07/Compte rendu TD7.md"
               }
             }
           },
@@ -176,8 +177,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d593600079585fcf",
+  "active": "5ccd25231b794f0e",
   "lastOpenFiles": [
+    "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411100018.png",
+    "Cours/S6/Programmation Systeme/Signaux.md",
     "TD/S6/Programmation Systemes/td07/tst_signal.o",
     "TD/S6/Programmation Systemes/td07/output/tst_signal",
     "TD/S6/Programmation Systemes/td07/output",
@@ -187,7 +190,6 @@
     "TD/S6/Programmation Systemes/td07/Compte rendu TD7.md",
     "TD/S6/Programmation Systemes/td07/tst_signal.c",
     "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411093433.png",
-    "Cours/S6/Programmation Systeme/Signaux.md",
     "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411093040.png",
     "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411092957.png",
     "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411092435.png",
@@ -201,7 +203,6 @@
     "TD/S6/Programmation Systemes/td06/Compte rendu TD6.md",
     "TD/S6/Programmation Systemes/td06/media",
     "TD/S6/Programmation Systemes/td06/mypopen.o",
-    "TD/S6/Programmation Systemes/td06/mypopen.exe",
     "Cours/S6/English/English lesson 3th of April.md",
     "Cours/S6/English/English Lesson 27th  March 2023.md",
     "TD/S6/Programmation Systemes/td04/Compte Rendu TD04.md",

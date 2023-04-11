@@ -62,3 +62,11 @@ Le traitement est donc **asynchrone**, par exemple envoyer la commande *kill -9 
 
 On constate que Posix est beaucoup plus complet que ANSI au niveau des signaux.
 
+#### Délivrance d'un signal à un processus
+
+On peut passer des signaux à un code via des caractères spéciaux au terminal :
+- ^C = INT
+- ^Z = TSTP
+- ^\\ = ABRT...
+
+Ou via des 

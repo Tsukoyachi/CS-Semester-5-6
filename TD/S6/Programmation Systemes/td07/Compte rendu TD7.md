@@ -94,5 +94,4 @@ int main() {
 
 ## Exercice 4 
 ---
-
-Que 
+La fonction sleep fonctionne attends le durée indiqué mais lorsqu'elle reçoit un signal elle laisse le code continuer et renvoie le nombre de secondes qu'il restait à attendre, donc par exemple si on envoie un SIGINT ou un SIGSEGV le sleep s'arrêtera et le code se terminera.

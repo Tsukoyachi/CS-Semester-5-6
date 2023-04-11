@@ -23,5 +23,5 @@ int main() {
     signal(SIGSEGV,print_signal);
     signal(SIGINT,print_signal);
     
-    sleep(5);
+    while(1){}
 }

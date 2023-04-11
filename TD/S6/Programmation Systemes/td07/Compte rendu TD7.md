@@ -95,3 +95,11 @@ int main() {
 ## Exercice 4 
 ---
 La fonction sleep fonctionne attends le durée indiqué mais lorsqu'elle reçoit un signal elle laisse le code continuer et renvoie le nombre de secondes qu'il restait à attendre, donc par exemple si on envoie un SIGINT ou un SIGSEGV le sleep s'arrêtera et le code se terminera.
+
+## Exercice 5
+---
+
+![[Pasted image 20230411104403.png | center]]
+Effectivement dans le cas de signal() en ANSI C il est nécessaire de "réarmer" la capture de signal après capture de celui-ci.
+
+Compiler sigaction.c avec -ansi engendre 

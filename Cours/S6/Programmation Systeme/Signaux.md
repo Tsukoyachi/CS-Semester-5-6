@@ -69,4 +69,39 @@ On peut passer des signaux à un code via des caractères spéciaux au terminal 
 - ^Z = TSTP
 - ^\\ = ABRT...
 
-Ou via des 
+Ou via des fonctions spéciales du shell :
+Fonctions spéciales du Shell  
+- kill -signal pid  
+	- Envoie le signal au processus pid  
+- fg (foreground)  
+	-  Reprend l’exécution au premier plan d’un processus suspendu  
+-  bg (background)  
+	-  Reprend l’exécution en arrière plan d’un processus suspendu  
+
+Primitive Posix : fonction kill()  
+```c
+#include <sys/types.h>  
+#include <signal.h>  
+int kill(pid_t pid, int sig)
+```
+
+## Etat d'un signal en ANSI C
+
+### Fonction signal()
+
+```c
+#include <signal.h>  
+void (*signal(int sig, void (*ph)(int))(int);
+```
+ 
+ou, si l'on préfère  
+```c
+typedef void (*sighandler_t)(int);  
+sighandler_t signal(int sig, sighandler_t ph);  
+```
+-  Positionne l'action associée à la réception du signal sig  
+-  L'action associée est ph (« pointer to handler »)  
+	-  SIG_IGN : signal ignoré  
+	-  SIG_DFL : action par défaut  
+	-  une fonction utilisateur (paramètre int, retour void) : piégé  
+-  Retourne l'ancienne action associée

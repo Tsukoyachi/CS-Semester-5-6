@@ -95,4 +95,4 @@ int main() {
 ## Exercice 4 
 ---
 
-QUe 
+Que 

@@ -19,8 +19,8 @@ void print_signal(int sig) {
 }
 
 int main() {
-    signal(SIGSEGV,SIG_IGN);
-    signal(SIGINT,SIG_IGN);
+    signal(SIGSEGV,print_signal);
+    signal(SIGINT,print_signal);
     
     while(1){}
 }

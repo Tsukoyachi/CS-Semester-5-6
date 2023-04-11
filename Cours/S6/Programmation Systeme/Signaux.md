@@ -53,4 +53,5 @@ L'ordre de délivrance de plusieurs signaux "simultanés" n'est pas garantie.
 
 Les signaux sont traités lorsque le processus passe du mode noyau au mode utilisateur au moment d'un changement de contexte ou lors du retour d'un appel système.
 
-Le traitement est donc **asy**
+Le traitement est donc **asynchrone**, par exemple envoyer la commande *kill -9 pid* ne signifie pas que le processus est interrompu immédiatement mais il sera interrompu dès lors que celui-ci écoute.
+

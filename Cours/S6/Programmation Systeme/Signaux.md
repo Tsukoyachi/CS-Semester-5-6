@@ -246,3 +246,21 @@ INT et QUIT piégés
 *** fin handler  
 $
 ```
+
+### Durée de vie du handler
+
+Lorsque la fonction sigaction() est utilisée pour piéger  
+un signal le handler est valide jusqu'à ce qu'un prochain sigaction() l'invalide.
+
+En revanche la durée de vie du handler établi par signal() est dépendante de l'implémentation après réception du signal, l'action par défaut est rétablie on est donc souvent conduit à réarmer le handler dans le handler lui-même (cas d'Unix SVR4, de Solaris...).
+
+## Signaux et autres fonctions
+
+### fork() et exec()
+
+ Attributs de processus  
+– État des signaux (ignoré, action par défaut, piégé)  
+– Masque des signaux bloqués  
+ Héritage de l'état et du masque lors d'un fork()  
+ Transmission de l'état et du masque à travers un exec()  
+– sauf pour les signaux piégés qui sont rétablis à l'action par défaut

@@ -108,4 +108,10 @@ Compiler sigaction.c avec -ansi engendre effectivement plusieurs erreur et ne fo
 ---
 La fonction process_wait(int sec) est une fonction permettant d'attendre utilisant un sleep.
 
-Dans le cas où l'on ignore le SIGINT, on peut en envoyer autant qu'on le souhaite
+Dans le cas où l'on ignore le SIGINT, on peut en envoyer autant qu'on le souhaite sans problème.
+
+Dans le cas où l'on masque le SIGINT, c'est la même chose que précédemment sauf que lorsque le process_wait (sleep) se finit on a une exécution du handler associé.
+
+Dans le cas du handler vide, le signal est passé et a stoppé le sleep du process_wait.
+
+Dans le cas du handler à NULL, le signal n'ayant pas été capturé il a arrêté l'exécution du programme.

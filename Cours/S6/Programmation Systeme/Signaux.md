@@ -319,7 +319,33 @@ int longjmp(jmp_buf env, int v);
 	- les informations sont mémorisées dans env  
 	- env doit être une variable globale  
 	- lors du premier passage, setjmp() retourne 0  
-- longjmp() se branche au point de reprise env, cad au  
-setjmp() correspondant  
+- longjmp() se branche au point de reprise env, cad au setjmp() correspondant  
 	- la valeur v est alors retournée par setjmp() (ou 1 si v = 0)  
 	- l'environnement env doit être actif
+
+```c
+jmp_buf env;  
+
+void on_int(int sig) {  
+	long_jmp(env, 2);  
+}
+
+main() {  
+	signal(SIGINT, on_int);
+	while (...) {  
+		if (setjmp(env) > 0)  
+			puts("Again!");  
+		cmd = read_cmd();  
+		execute(cmd);  
+	}  
+}  
+void execute(char *cmd) {  
+	decode(cmd);  
+	expand(cmd);  
+	run(cmd);  
+}  
+void decode(char *cmd) {  
+	if (bad(cmd))  
+		longjmp(env, 1);  
+}
+```

@@ -19,6 +19,7 @@ int main(){
     struct sigaction sigact;
     sigset_t msk_sigusr1, msk_sigusr2;
 
+    // Initialization of older child, storage of his pid for the kill later
     int older = fork();
     switch (older) {
         case -1 : {
@@ -26,6 +27,7 @@ int main(){
             exit(1);
         }
         case 0 : {
+            // Catching usr2 signal and then infinite while
             sigemptyset(&msk_sigusr2);  
 	        sigaddset(&msk_sigusr2, SIGUSR2); 
             sigact.sa_handler = on_usr_receiving;
@@ -58,9 +60,7 @@ int main(){
         }
     }
 
-    sleep(5);
-
-    printf("%d %d\n",older_child, younger);
+    sleep(1);
     kill(younger, SIGUSR1);
     wait(0);
     wait(0);

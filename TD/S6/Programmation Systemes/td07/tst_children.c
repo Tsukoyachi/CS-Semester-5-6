@@ -3,14 +3,15 @@
 #include <stdlib.h>
 #include <sys/types.h>
 #include <unistd.h>
+#include <sys/wait.h>
 
-pid_t older_child = NULL;
+int older_child = 0;
 
 void on_usr_receiving(int signal) {
-    if(signal == SIGUSR1 && older_child != NULL) {
+    if(signal == SIGUSR1 && older_child != 0) {
         kill(older_child,SIGUSR2);
     }
-    printf("signal %d, finishing process\n");
+    printf("signal %d, finishing process\n",signal);
     exit(0);
 }
 
@@ -57,6 +58,7 @@ int main(){
         }
     }
 
+    printf("test %d %d",young, older_child);
     kill(young, SIGUSR1);
     wait(0);
     wait(0);

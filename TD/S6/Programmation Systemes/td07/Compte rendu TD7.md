@@ -195,4 +195,4 @@ int main(){
 }
 ```
 
-On ne peut pas échanger les deux fils parce que le plus vieux fils n'aura pas le pid du second dans sa zone mémoire. Il ne pourra donc pas lui
+On ne peut pas échanger les deux fils parce que le plus vieux fils n'aura pas le pid du second dans sa zone mémoire. Il ne pourra donc pas lui envoyer le kill, sauf si l'on passe par un pipe.

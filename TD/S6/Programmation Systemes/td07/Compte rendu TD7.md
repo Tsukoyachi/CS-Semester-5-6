@@ -11,4 +11,9 @@
 6. Le signal correspondant est SIGCONT et je l'ai envoyé avec la commande kill -18 pid où pid correspond à la commande xeyes.
    ![[Pasted image 20230411092957.png]]
    ![[Pasted image 20230411093040.png]]
-7. 
+7. J'ai utilisé killall xeyes afin de stopper son exécution sans utiliser son PID.
+   ![[Pasted image 20230411093433.png]]
+
+## Exercice 2
+---
+

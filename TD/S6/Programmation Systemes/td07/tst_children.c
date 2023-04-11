@@ -16,9 +16,11 @@ void on_usr_receiving(int signal) {
 }
 
 int main(){
+    printf("test %d\n", older_child);
     struct sigaction sigact;
     sigset_t msk_sigusr1, msk_sigusr2;
 
+    printf("test %d\n", older_child);
     switch (fork()) {
         case -1 : {
             printf("an error occured with first fork...\n");
@@ -38,7 +40,7 @@ int main(){
             break;
         }
     }
-
+    printf("test %d\n", older_child);
     int young = fork();
     switch (young) {
         case -1 : {
@@ -58,7 +60,7 @@ int main(){
         }
     }
 
-    printf("test %d %d",young, older_child);
+    printf("test %d %d\n",young, older_child);
     kill(young, SIGUSR1);
     wait(0);
     wait(0);

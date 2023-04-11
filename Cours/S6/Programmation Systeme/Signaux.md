@@ -55,3 +55,10 @@ Les signaux sont traités lorsque le processus passe du mode noyau au mode utili
 
 Le traitement est donc **asynchrone**, par exemple envoyer la commande *kill -9 pid* ne signifie pas que le processus est interrompu immédiatement mais il sera interrompu dès lors que celui-ci écoute.
 
+#### Liste de signaux prédéfinis sous Unix
+
+![[Pasted image 20230411081942.png | center]]
+![[Pasted image 20230411082116.png | center]]
+
+On constate que Posix est beaucoup plus complet que ANSI au niveau des signaux.
+

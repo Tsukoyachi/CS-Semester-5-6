@@ -105,3 +105,43 @@ sighandler_t signal(int sig, sighandler_t ph);
 	-  SIG_DFL : action par défaut  
 	-  une fonction utilisateur (paramètre int, retour void) : piégé  
 -  Retourne l'ancienne action associée
+
+```c
+#include <signal.h>  
+void on_signal(int sig) {  
+	printf("*** signal %d\n", sig);  
+}  
+main() {  
+	void (*ph)(int);  
+	signal(SIGQUIT, SIG_IGN);  
+	ph = signal(SIGINT, SIG_IGN);  
+	printf("INT et QUIT ignorés\n");  
+	sleep(5);  
+	signal(SIGQUIT, on_signal);  
+	signal(SIGINT, on_signal);  
+	printf("INT et QUIT piégés\n");  
+	sleep(5);  
+	signal(SIGQUIT, SIG_DFL);  
+	signal(SIGINT, ph);  
+	printf("INT restauré "QUIT défaut\n");  
+	sleep(5);  
+}
+```
+
+```shell
+$ test-signal  
+INT et QUIT ignorés  
+^\^CINT et QUIT piégés  
+^\*** signal 3  
+^\*** signal 3  
+^C*** signal 2  
+INT restauré QUIT défaut  
+^C  
+$
+```
+
+### Inconvénients des signaux en ANSI C
+
+- On ne peut gérer que les 6 signaux définis par ANSI C
+- Il est impossible de consulter l'action/état courant
+- 

@@ -5,7 +5,7 @@
 #include <unistd.h>
 #include <sys/wait.h>
 
-int older_child = 0;
+int older_child;
 
 void on_usr_receiving(int signal) {
     if(signal == SIGUSR1 && older_child != 0) {
@@ -16,18 +16,16 @@ void on_usr_receiving(int signal) {
 }
 
 int main(){
-    printf("test %d\n", older_child);
     struct sigaction sigact;
     sigset_t msk_sigusr1, msk_sigusr2;
 
-    printf("test %d\n", older_child);
-    switch (fork()) {
+    int older = fork();
+    switch (older) {
         case -1 : {
             printf("an error occured with first fork...\n");
             exit(1);
         }
         case 0 : {
-            older_child = getpid();
             sigemptyset(&msk_sigusr2);  
 	        sigaddset(&msk_sigusr2, SIGUSR2); 
             sigact.sa_handler = on_usr_receiving;
@@ -37,12 +35,12 @@ int main(){
             break;
         }
         default : {
+            older_child = older;
             break;
         }
     }
-    printf("test %d\n", older_child);
-    int young = fork();
-    switch (young) {
+    int younger = fork();
+    switch (younger) {
         case -1 : {
             printf("an error occured with second fork...\n");
             exit(1);
@@ -60,8 +58,10 @@ int main(){
         }
     }
 
-    printf("test %d %d\n",young, older_child);
-    kill(young, SIGUSR1);
+    sleep(5);
+
+    printf("%d %d\n",older_child, younger);
+    kill(younger, SIGUSR1);
     wait(0);
     wait(0);
     return 0;

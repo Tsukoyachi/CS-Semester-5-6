@@ -36,5 +36,6 @@ int main() {
     // On ajoute le SIGINT
 	sigact.sa_mask = msk_int;  
 	sigaction(SIGINT, &sigact, NULL);  
-    sleep(5);
+    
+    while(1){}
 }

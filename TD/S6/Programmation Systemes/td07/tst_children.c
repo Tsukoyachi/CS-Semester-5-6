@@ -41,6 +41,8 @@ int main(){
             break;
         }
     }
+
+    // Initialization of younger child, storage of his pid for the kill later
     int younger = fork();
     switch (younger) {
         case -1 : {
@@ -48,6 +50,7 @@ int main(){
             exit(1);
         }
         case 0 : {
+            // Catching usr1 signal and then infinite while
             sigemptyset(&msk_sigusr1);  
 	        sigaddset(&msk_sigusr1, SIGUSR1); 
             sigact.sa_handler = on_usr_receiving;
@@ -59,8 +62,9 @@ int main(){
             break;
         }
     }
-
+    //sleep to let the younger child initialize his catch for the usr1
     sleep(1);
+    // Sens signal to younger child and then one wait for each child
     kill(younger, SIGUSR1);
     wait(0);
     wait(0);

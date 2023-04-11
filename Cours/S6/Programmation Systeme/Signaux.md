@@ -286,10 +286,40 @@ int pause();
 ### Point de reprise
 
 Pourquoi ?
-- Permettre  
-d'abandonner une  
-fonction pour  
-reprendre le  
-traitement à un  
-niveau plus élevé  
-dans la chaîne (dynamique) d'appel
+- Permettre d'abandonner une fonction pour reprendre le traitement à un niveau plus élevé dans la chaîne (dynamique) d'appel.
+- Mécanisme primitif d'exception
+- Goto non local
+
+```c
+main() {  
+	while (...) {  
+		cmd = read_cmd();  
+		execute(cmd);  
+	}  
+}  
+void execute(char *cmd) {  
+	decode(cmd);  
+	expand(cmd);  
+	run(cmd);  
+}  
+void decode(char *cmd) {  
+	if (bad(cmd)) ?????  
+}
+```
+
+### Point de reprise en ANSI C setjmp() et longjmp()
+
+```c
+#include <setjmp.h>  
+int setjmp(jmp_buf env);  
+int longjmp(jmp_buf env, int v);
+```
+
+- setjmp() positionne un point de reprise  
+	- les informations sont mémorisées dans env  
+	- env doit être une variable globale  
+	- lors du premier passage, setjmp() retourne 0  
+- longjmp() se branche au point de reprise env, cad au  
+setjmp() correspondant  
+	- la valeur v est alors retournée par setjmp() (ou 1 si v = 0)  
+	- l'environnement env doit être actif

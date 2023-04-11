@@ -11,8 +11,12 @@
             "id": "d593600079585fcf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Cours/S6/Programmation Systeme/Signaux.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Cours/S6/Programmation Systeme/Signaux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Cours/S6/Programmation Systeme/Signaux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Cours/S6/Programmation Systeme/Signaux.md"
+              }
             }
           },
           {
@@ -158,6 +166,7 @@
   },
   "active": "d593600079585fcf",
   "lastOpenFiles": [
+    "Cours/S6/Programmation Systeme/Signaux.md",
     "TD/S6/Programmation Systemes/td06/Compte rendu TD6.md",
     "TD/S6/Programmation Systemes/td06/media/Pasted image 20230403184957.png",
     "TD/S6/Programmation Systemes/td06/media",

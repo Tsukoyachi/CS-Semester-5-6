@@ -203,3 +203,46 @@ const struct sigaction *actp,
 struct sigaction *old_actp);
 ```
 
+-  Champs de struct sigaction  
+-  void (*sa_handler)(int)  
+	-  fonction de capture (identique à signal())  
+-  sigset_t sa_mask  
+	-  masque des signaux à bloquer lors de l'exécution du handler  
+-  int sa_flags  
+	-  utile seulement pour SIGCHLD
+
+#### Exemple d'utilisation de sigaction()
+
+```c
+#include <signal.h>  
+void on_signal(int sig) {  
+	printf("*** signal %d\n", sig);  
+	sleep(5);  
+	printf("*** fin handler\n");  
+}  
+main() {  
+	struct sigaction sigact;  
+	sigset_t msk_int, msk_quit;  
+	sigemptyset(&msk_int);  
+	sigaddset(&msk_int, SIGINT);  
+	sigemptyset(&msk_quit);  
+	sigaddset(&msk_quit, SIGQUIT);
+	sigact.sa_handler = on_signal;  
+	sigact.sa_mask = msk_quit;  
+	sigaction(SIGINT, &sigact, NULL);  
+	sigact.sa_mask = msk_int;  
+	sigaction(SIGQUIT, &sigact, NULL);  
+	printf("INT et QUIT piégés\n");  
+	sleep(10);  
+}
+```
+
+```shell
+$ test-sigaction  
+INT et QUIT piégés  
+^C*** signal 2  
+^\^\*** fin handler  
+*** signal 3  
+*** fin handler  
+$
+```

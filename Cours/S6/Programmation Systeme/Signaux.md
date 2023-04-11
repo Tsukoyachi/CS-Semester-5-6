@@ -155,4 +155,51 @@ Posix introduit de nouveaux mécanismes :
 - Permet de positionner le masque et le handler à l'appel
 
 **Il ne faut pas mélanger les deux appels système !!!**
-Mauvaise intéraction entre les deux + 
+Mauvaise intéraction entre les deux, recommendation d'utiliser la norme Posix et sigaction().
+
+### Action associée en Posix
+
+![[Pasted image 20230411083722.png | center]]
+
+### Masque des signaux Posix
+
+```c
+#include <signal.h>  
+int sigprocmask(int how,  
+const sigset_t *set,  
+sigset_t *old_set);
+```
+
+-  set contient l'ensemble des signaux à masquer ou  
+démasquer  
+-  how détermine la fonction à effectuer  
+	- SIG_BLOCK : bloque les signaux de set  
+	- SIG_UNBLOCK : débloque les signaux de set  
+	- SIG_SETMASK : positionne le masque du processus à set  
+-  old_set contient l'ancien masque  
+```c
+int sigpending(sigset_t *set);  
+```
+-  sigpending retourne les signaux bloqués en attente
+-  Ensemble de signaux  
+-  Ensemble de bits, 1 bit par signal  
+
+-  Fonctions de manipulation  
+```c
+#include <signal.h>  
+int sigemptyset(sigset_t *set);  
+int sigfillset(sigset_t *set);  
+int sigaddset(sigset_t *set, int sig);  
+int sigdelset(sigset_t *set, int sig);  
+int sigismember(const sigset_t *set, int sig);
+```
+
+### Fonction sigaction()
+
+```c
+#include <signal.h>  
+int sigaction(int sig,  
+const struct sigaction *actp,  
+struct sigaction *old_actp);
+```
+

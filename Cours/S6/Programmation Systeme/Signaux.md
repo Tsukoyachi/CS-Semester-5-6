@@ -349,3 +349,31 @@ void decode(char *cmd) {
 		longjmp(env, 1);  
 }
 ```
+
+### Point de reprise Posix sigsetjmp() et siglongjmp()
+
+Les fonctions setjmp() et longjmp() ne sauvegardent pas (et donc ne restaurent pas) le masque des signaux bloqués.
+
+Posix a donc introduit sigsetjmp() et siglongjmp()  
+- utilisation identique (sigsetjmp a 2 arguments)  
+- à préférer aux versions Ansi C
+
+Dans les deux cas, les variables locales sont dans un **état indéfini** après un longjmp() à moins d'avoir été déclarées **volatile**.
+
+#### Variables volatile ?
+
+-  Qualifier un type particulier  
+-  Prévient le compilateur que cette variable peut être modifiée de  
+manière extérieure au flot normal du programme  
+	-  longjmp() ou siglongjmp()  
+è  Entrée/Sortie  
+ Threads  
+ Interruption ou signal  
+ ...  
+– Aucune optimisation du compilateur ne doit être appliquée à cette  
+variable  
+ Relue en mémoire à chaque accès  
+ Pas mise dans un registre temporaire  
+ Ralentit le code, mais le protège  
+ Existe dans les langages modernes  
+– C, C++, C# et Java

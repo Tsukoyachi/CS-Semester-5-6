@@ -16,5 +16,5 @@
 
 ## Exercice 2
 ---
-
-![[Pasted image 20230411100018.png | ]]
+![[Pasted image 20230411100235.png | center]]
+Ce programme permet de faire ce qui est demandé dans l'énoncé. 

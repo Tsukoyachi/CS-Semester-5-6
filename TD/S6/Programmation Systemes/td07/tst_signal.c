@@ -7,13 +7,13 @@ int nb_SIGINT = 5;
 
 void print_signal(int sig) {
     printf("*** signal %d\n", sig);
-    if(sig == 2) {
+    if(sig == SIGINT) {
         nb_SIGINT -= 1;
         if (nb_SIGINT == 0){
             exit(0);
         }
     }
-    else if (sig == 11) {
+    else {
         nb_SIGINT = 5;
     }
 }

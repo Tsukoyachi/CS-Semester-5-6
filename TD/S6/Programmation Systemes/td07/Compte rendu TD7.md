@@ -102,4 +102,7 @@ La fonction sleep fonctionne attends le durée indiqué mais lorsqu'elle reçoit
 ![[Pasted image 20230411104403.png | center]]
 Effectivement dans le cas de signal() en ANSI C il est nécessaire de "réarmer" la capture de signal après capture de celui-ci.
 
-Compiler sigaction.c avec -ansi engendre 
+Compiler sigaction.c avec -ansi engendre effectivement plusieurs erreur et ne fonctionne donc pas.
+
+## Exercice 6
+---

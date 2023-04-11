@@ -106,3 +106,6 @@ Compiler sigaction.c avec -ansi engendre effectivement plusieurs erreur et ne fo
 
 ## Exercice 6
 ---
+La fonction process_wait(int sec) est une fonction permettant d'attendre utilisant un sleep.
+
+Dans le cas où l'on ignore le SIGINT, on peut en envoyer autant qu'on le souhaite

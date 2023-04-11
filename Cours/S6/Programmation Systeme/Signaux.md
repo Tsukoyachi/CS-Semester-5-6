@@ -43,4 +43,14 @@ L'état d'un signal (action associée) peut être :
 - Associé à son action par défaut, cela dépend du signal (rien, suspension, reprise, terminaison avec ou sans core...)
 - Associé à une action définie par l'utilisateur (piégé, capturé, "trappé") via un "handler" de signal (fonction utilisateur)
 
-Signal 
+Signal différé (masqué, bloqué), le signal est mémorisé, l'action sera effectuée lors du déblocage (démasquage)
+
+#### Propriétés Signaux
+
+Il n'y a aucune priorité entre les différents signaux.
+
+L'ordre de délivrance de plusieurs signaux "simultanés" n'est pas garantie.
+
+Les signaux sont traités lorsque le processus passe du mode noyau au mode utilisateur au moment d'un changement de contexte ou lors du retour d'un appel système.
+
+Le traitement est donc **asy**

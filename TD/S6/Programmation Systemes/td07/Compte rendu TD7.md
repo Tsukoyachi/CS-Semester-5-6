@@ -7,4 +7,7 @@
 ![[Pasted image 20230411092128.png]]
 4. Le PID de xeyes est 8157. 
    ![[Pasted image 20230411092435.png]]
-5. Après une exécution de kill -SIGSTOP 8157 
+5. Après une exécution de kill -SIGSTOP 8157 dans une autre instance du terminal rien ne se passe. SIGSTOP est équivalent à Ctrl+Z puisqu'il permet de mettre une suspendre une tâche et de la mettre en arrière plan.
+6. 
+   ![[Pasted image 20230411092957.png]]
+   

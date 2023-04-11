@@ -17,4 +17,8 @@
 ## Exercice 2
 ---
 ![[Pasted image 20230411100235.png | center]]
-Ce programme permet de faire ce qui est demandé dans l'énoncé. 
+Ce programme permet de faire ce qui est demandé dans l'énoncé.
+
+## Exercice 3
+---
+

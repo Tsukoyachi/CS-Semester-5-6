@@ -144,4 +144,15 @@ $
 
 - On ne peut gérer que les 6 signaux définis par ANSI C
 - Il est impossible de consulter l'action/état courant
-- 
+- Il est impossible de bloquer/masquer d'autres handler pendant l'exécution du handler
+- Pas de possibilité d'extension
+
+## Etat d'un signal en Posix
+
+Posix introduit de nouveaux mécanismes :
+- La fonction sigaction() comme remplacement de signal()
+- Blocage (masquage) de signaux (emprunté à BSD)
+- Permet de positionner le masque et le handler à l'appel
+
+**Il ne faut pas mélanger les deux appels système !!!**
+Mauvaise intéraction entre les deux + 

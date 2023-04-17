@@ -42,3 +42,9 @@ Redistribution :
 - Court terme : (0 à 6 mois) Management opérationnel
 - Moyen terme : (6 mois à 3 ans) Management tactique
 - Long terme : (> 3 ans) Management stratégique
+
+### Tailles d'entreprises :
+- Les micros entreprises
+- Les petites et moyennes entreprises (PME)
+- Les entreprises de tailles intermédiaires (ETI)
+- Les grandes entreprises

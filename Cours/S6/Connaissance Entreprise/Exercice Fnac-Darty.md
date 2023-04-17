@@ -17,3 +17,7 @@ Avantages :
 Inconvénients :
 - Il n'y a que ça contrairement aux autres magasins Fnac
 ```
+
+## Question 3 :
+---
+Les magasins fnac connect dans un seul magasin possèdent des stocks dans tout ce qui concerne la téléphonie et l'IOT ainsi que des offres de téléphonie

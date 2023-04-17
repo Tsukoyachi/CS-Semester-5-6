@@ -23,3 +23,6 @@ Les notes de Michel (probablement pls complètes) : https://hackmd.io/@MichelK/B
 - La masse salariale est le poste/coût le plus onéreux pour une entreprise
 
 L'Etat français pose en général entre 40 et 45% de charge patronale sur un salaire classique.
+
+### Vocabulaire :
+- La valeur de l'entreprise :

@@ -25,4 +25,12 @@ Les notes de Michel (probablement pls complètes) : https://hackmd.io/@MichelK/B
 L'Etat français pose en général entre 40 et 45% de charge patronale sur un salaire classique.
 
 ### Vocabulaire :
-- La valeur de l'entreprise :
+- La valeur de l'entreprise : réalisation de valeur lorsqu'elle vend sa production.
+Exemple :
+Valeur ajoutée = Achète une paire de lunette 10€, prix de revente 30€ -> VA = 20€.
+
+Redistribution :
+(voir schéma pyramide)
+
+- Distribution de revenus : les impôts, les côtisations, les rénumérations, les intérêts versés aux prêteurs de fonds, les dividendes.
+- L'impératifs

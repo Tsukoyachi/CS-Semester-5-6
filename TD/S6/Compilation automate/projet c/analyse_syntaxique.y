@@ -13,10 +13,12 @@ n_programme* arbre_abstrait;
 
 %union {
     int entier;
+    char *name;
     n_programme* prog;
     n_l_instructions* l_inst;
     n_instruction* inst;
     n_exp* exp;
+    l_argument* l_arg;
 }
 
 
@@ -53,7 +55,7 @@ n_programme* arbre_abstrait;
 %token <entier> ENTIER
 %token ECRIRE
 %token LIRE
-%token IDENTIFIANT
+%token <name> IDENTIFIANT
 %token FIN 0
 
 %type <prog> prog
@@ -64,6 +66,10 @@ n_programme* arbre_abstrait;
 %type <exp> expr
 %type <exp> facteur
 %type <exp> produit
+%type <exp> variable
+%type <exp> fonction
+%type <l_arg> listeArgument
+%type <exp> argument
 %%
 
 prog: listeInstructions {
@@ -82,13 +88,21 @@ instruction: ecrire {
 	$$ =$1;
 }
 
-
 ecrire: ECRIRE PARENTHESE_OUVRANTE expr PARENTHESE_FERMANTE POINT_VIRGULE {
 	
 	$$ =creer_n_ecrire($3);
 }
+
+argument : expr {
+    $$ = $1;
+}
+
 expr: expr PLUS produit{
 	$$ =creer_n_operation('+', $1, $3);
+}
+
+expr: expr MOINS produit{
+	$$ =creer_n_operation('-', $1, $3);
 }
 
 expr: expr FOIS facteur{
@@ -107,8 +121,8 @@ produit : produit MODULO facteur {
     $$ =creer_n_operation('%',$1,$3);
 }
 
-expr: PARENTHESE_OUVRANTE expr PARENTHESE_FERMANTE {
-	$$ =$2 ;
+produit : MOINS facteur {
+    $$ = creer_n_operation('*',creer_n_entier(-1),$2);
 }
 
 expr: produit {
@@ -123,14 +137,41 @@ facteur : lire {
     $$ = $1;
 }
 
+facteur : variable {
+    $$ = $1;
+}
+
+facteur : fonction {
+    $$ = $1;
+}
+
 facteur: ENTIER {
 	$$ = creer_n_entier($1);
+}
+
+facteur: PARENTHESE_OUVRANTE expr PARENTHESE_FERMANTE {
+	$$ =$2 ;
 }
 
 lire: LIRE PARENTHESE_OUVRANTE PARENTHESE_FERMANTE {
     $$ = creer_lire();
 }
 
+variable : IDENTIFIANT {
+    $$ = creer_variable($1);
+}
+
+fonction : IDENTIFIANT PARENTHESE_OUVRANTE listeArgument PARENTHESE_FERMANTE {
+    $$ = creer_fonction($1,$3);
+}
+
+listeArgument : argument {
+    $$ = creer_n_l_argument($1,NULL);
+}
+
+listeArgument : argument VIRGULE listeArgument {
+    $$ = creer_n_l_argument($1,$3);;
+}
 
 %%
 

@@ -95,12 +95,14 @@ union YYSTYPE
 #line 14 "analyse_syntaxique.y"
 
     int entier;
+    char *name;
     n_programme* prog;
     n_l_instructions* l_inst;
     n_instruction* inst;
     n_exp* exp;
+    l_argument* l_arg;
 
-#line 104 "symboles.h"
+#line 106 "symboles.h"
 
 };
 typedef union YYSTYPE YYSTYPE;

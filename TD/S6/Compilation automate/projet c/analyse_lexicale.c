@@ -973,15 +973,17 @@ YY_RULE_SETUP
 case 32:
 YY_RULE_SETUP
 #line 62 "analyse_lexicale.l"
-{ return IDENTIFIANT;         }
+{ 
+  yylval.name = strdup(yytext); 
+  return IDENTIFIANT;         }
 	YY_BREAK
 case YY_STATE_EOF(INITIAL):
-#line 63 "analyse_lexicale.l"
+#line 65 "analyse_lexicale.l"
 { return FIN; }  /* Fin de fichier */
 	YY_BREAK
 case 33:
 YY_RULE_SETUP
-#line 64 "analyse_lexicale.l"
+#line 66 "analyse_lexicale.l"
 {                                /* Erreur, autre caractètre quelconque */
                        fprintf( stderr, "Ligne %d: caractère invalide: %s\n", yylineno,yytext ); \
                        exit(-1); 
@@ -989,10 +991,10 @@ YY_RULE_SETUP
 	YY_BREAK
 case 34:
 YY_RULE_SETUP
-#line 68 "analyse_lexicale.l"
+#line 70 "analyse_lexicale.l"
 ECHO;
 	YY_BREAK
-#line 996 "analyse_lexicale.c"
+#line 998 "analyse_lexicale.c"
 
 	case YY_END_OF_BUFFER:
 		{
@@ -1966,7 +1968,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 68 "analyse_lexicale.l"
+#line 70 "analyse_lexicale.l"
 
 int yywrap(){
   return 1;

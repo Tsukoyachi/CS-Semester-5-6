@@ -59,7 +59,9 @@ espace               [ \t\r\n]
   }
    return BOOLEAN;
 }
-{lettre}{alphanum}*  { return IDENTIFIANT;         }
+{lettre}{alphanum}*  { 
+  yylval.name = strdup(yytext); 
+  return IDENTIFIANT;         }
 <<EOF>>              { return FIN; }  /* Fin de fichier */
 .                    {                                /* Erreur, autre caractètre quelconque */
                        fprintf( stderr, "Ligne %d: caractère invalide: %s\n", yylineno,yytext ); \

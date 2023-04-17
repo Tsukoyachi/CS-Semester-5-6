@@ -35,6 +35,14 @@ void afficher_entier(int valeur,int indent){
 	printf("[Entier:%d]\n",valeur);
 }
 
+void afficher_variable(char *varname,int indent) {
+	for(int i = 0; i < indent; i++){
+	printf(" "); 
+	
+	}
+	printf("[Variable : %s]\n",varname);
+}
+
 void afficher_lire(int indent){
 	for(int i = 0; i < indent; i++){
 	printf(" "); 
@@ -43,6 +51,24 @@ void afficher_lire(int indent){
 	printf("<lire/>\n");
 }
 
+void afficher_fonction(fonction *fonction, int indent) {
+	for(int i = 0; i < indent; i++){
+		printf(" "); 
+	}
+	printf("<fonction %s : ",fonction->fonction_name);
+	if(fonction->listeArgument == NULL || fonction->listeArgument->argument == NULL){
+		printf(">\n");
+		return;
+	}
+	l_argument *listeArgument = fonction->listeArgument;
+	
+	while(listeArgument->arguments != NULL){
+		printf("%d ",listeArgument->argument->u.valeur);
+		listeArgument = listeArgument->arguments;
+	}
+	printf("%d ",listeArgument->argument->u.valeur);
+	printf(">\n");
+}
 
 
 void afficher_n_programme(n_programme* prog,int indent){
@@ -83,6 +109,10 @@ void afficher_n_exp(n_exp* exp ,int indent){
 		afficher_entier(exp->u.valeur,indent);
 	} else if (exp->type_exp == i_lire) {
 		afficher_lire(indent);
+	} else if (exp->type_exp == i_variable) {
+		afficher_variable(exp->u.var_name,indent);
+	} else if (exp->type_exp == i_fonction) {
+		afficher_fonction(exp->u.fct,indent);
 	}
 }
 
@@ -121,6 +151,13 @@ n_exp* creer_lire(){
  	return n;
 }
 
+n_exp* creer_variable(char *varname) {
+	n_exp* n = malloc(sizeof(n_exp));
+	n->type_exp = i_variable;
+	n->u.var_name = varname;
+	return n;
+}
+
 n_exp* creer_n_entier(int valeur){
   n_exp* n = malloc(sizeof(n_exp));
   n->type_exp = i_entier;
@@ -138,4 +175,23 @@ n_exp* creer_n_operation(char type_operation,n_exp* exp1,n_exp* exp2){
   n_op->exp2 = exp2;
   return n;
 }
-  
+
+n_exp* creer_fonction(char *fonction_name, l_argument* listeArgument) {
+	n_exp* n = malloc(sizeof(n_exp));
+	n->type_exp = i_fonction;
+	
+	fonction *function = malloc(sizeof(fonction));
+	function->fonction_name = fonction_name;
+	function->listeArgument = listeArgument;
+	n->u.fct=function;
+	return n;
+}
+
+l_argument* creer_n_l_argument(n_exp* argument, l_argument* listeArgument) {
+	l_argument *n = malloc(sizeof(l_argument));
+
+	n->argument = argument;
+	n->arguments = listeArgument;
+
+	return n;
+}

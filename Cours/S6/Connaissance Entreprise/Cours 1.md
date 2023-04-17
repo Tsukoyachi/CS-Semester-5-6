@@ -37,6 +37,8 @@ Redistribution :
 
 - **Dividendes** : Pourcentage des performances de l'entreprise redistribuées aux actionnaires.
 
-### Types de managment :
+### Types de management :
 
-- 
+- Court terme : (0 à 6 mois) Management opérationnel
+- Moyen terme : (6 mois à 3 ans) Management tactique
+- Long terme : (> 3 ans) Management stratégique

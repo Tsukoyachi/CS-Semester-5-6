@@ -20,4 +20,11 @@ Inconvénients :
 
 ## Question 3 :
 ---
-Les magasins fnac connect dans un seul magasin possèdent des stocks dans tout ce qui concerne la téléphonie et l'IOT ainsi que des offres de téléphonie
+Les magasins fnac connect dans un seul magasin possèdent des stocks dans tout ce qui concerne la téléphonie et l'IOT ainsi que des offres de téléphonie.
+
+Quelqu'un voulant un nouveau téléphone, dans un seul magasin pourra acheter :
+- Son téléphone
+- Son forfait grâce au partenariat Bouygues
+- Ses accessoires (montres connectés,...)
+
+Cela va inciter le consommateur à effectuer plus d'achats.

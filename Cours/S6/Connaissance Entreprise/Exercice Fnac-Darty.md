@@ -10,10 +10,10 @@ title: Fnac connect
 
 Les magasins Fnac Connect font exclusivement de l'IOT et de la téléphonie.
 
-
 Avantages :
 - Offres exclusives
+- Plus grand panel dans cette thématique
 
 Inconvénients :
-- Test
+- Il n'y a que ça contrairement aux autres magasins Fnac
 ```

@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6eff4b9b237f47d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cours/S6/Connaissance Entreprise/Exercice Fnac-Darty.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/S6/Connaissance Entreprise/Cours 1.md",
+                "file": "Cours/S6/Connaissance Entreprise/Exercice Fnac-Darty.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/S6/Connaissance Entreprise/Cours 1.md",
+                "file": "Cours/S6/Connaissance Entreprise/Exercice Fnac-Darty.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/S6/Connaissance Entreprise/Cours 1.md"
+                "file": "Cours/S6/Connaissance Entreprise/Exercice Fnac-Darty.md"
               }
             }
           },
@@ -164,10 +177,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c4278e3dcb7af995",
+  "active": "6eff4b9b237f47d8",
   "lastOpenFiles": [
-    "TD/S6/Programmation Systemes/td07/Compte rendu TD7.md",
     "Cours/S6/Connaissance Entreprise/Cours 1.md",
+    "Cours/S6/Connaissance Entreprise/Exercice Fnac-Darty.md",
+    "TD/S6/Programmation Systemes/td07/Compte rendu TD7.md",
     "Cours/S6/Connaissance Entreprise",
     "TD/S6/Programmation Systemes/td07/tst_children.o",
     "TD/S6/Programmation Systemes/td07/tst_children.exe",

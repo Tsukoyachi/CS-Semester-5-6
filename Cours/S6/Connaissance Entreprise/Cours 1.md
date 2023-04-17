@@ -36,3 +36,7 @@ Redistribution :
 - **L'impératifs de création de valeur** : Economiquement, l'entreprise est plus facilement viable si elle se développe, on parle de rentabilité et de profit (pression des actionnaire : l'incitation de l'Etat à investir dans les PME)
 
 - **Dividendes** : Pourcentage des performances de l'entreprise redistribuées aux actionnaires.
+
+### Types de managment :
+
+- 

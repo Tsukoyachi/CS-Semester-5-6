@@ -32,5 +32,7 @@ Valeur ajoutée = Achète une paire de lunette 10€, prix de revente 30€ -> V
 Redistribution :
 (voir schéma pyramide)
 
-- Distribution de revenus : les impôts, les côtisations, les rénumérations, les intérêts versés aux prêteurs de fonds, les dividendes.
-- L'impératifs
+- **Distribution de revenus** : les impôts, les côtisations, les rénumérations, les intérêts versés aux prêteurs de fonds, les dividendes.
+- **L'impératifs de création de valeur** : Economiquement, l'entreprise est plus facilement viable si elle se développe, on parle de rentabilité et de profit (pression des actionnaire : l'incitation de l'Etat à investir dans les PME)
+
+- **Dividendes** : Pourcentage des performances de l'entreprise redistribuées aux actionnaires.

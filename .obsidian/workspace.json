@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d593600079585fcf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TD/S6/Programmation Systemes/td07/Compte rendu TD7.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c4278e3dcb7af995",
             "type": "leaf",
             "state": {
@@ -30,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "60a08bd3b3e138ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cours/S6/Programmation Systeme/Signaux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"

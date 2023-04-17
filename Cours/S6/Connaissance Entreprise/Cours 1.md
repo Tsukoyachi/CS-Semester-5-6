@@ -19,4 +19,7 @@ Les notes de Michel (probablement pls complètes) : https://hackmd.io/@MichelK/B
 **Concernant l'entreprise :**
 - Le chiffres d'affaire est toujours **hors taxes**
 - TVA : créé en 1945, elle constitue 50% des recettes de l'Etat (plus grosse rentrée d'argent de l'Etat)
-- Le poids bu
+- Le poids budgétaire énergétique augmente constamment en France, les subventions elles n'augmentent pas.
+- La masse salariale est le poste/coût le plus onéreux pour une entreprise
+
+L'Etat français pose en général entre 40 et 45% de charge patronale sur un salaire classique.

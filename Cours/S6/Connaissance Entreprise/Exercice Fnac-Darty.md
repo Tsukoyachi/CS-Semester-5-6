@@ -8,10 +8,19 @@
 ---
 
 ```ad-note
-	Fnac classique
-	Avantages :
-	- 
-	  
-	Inconvénients :
-	- 
+title: Fnac classique
+
+Avantages :
+
+Inconvénients :
+```
+
+```ad-note
+title: Fnac connect
+
+Avantages :
+- Offres exclusives
+
+Inconvénients :
+
 ```

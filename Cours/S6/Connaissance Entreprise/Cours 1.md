@@ -6,6 +6,10 @@
 
 #### Une unité de production et de répartition
 - Fonction principale d'une entreprise -> produire
+
 - Définition officielle : Organisation économique autonome, disposant de moyens humains et matériels qu'elle combine en vue de produire des biens et services.
-	**On ne peut réussir que si on a des équipes motivés et prêe**
+	"**On ne peut réussir que si on a des équipes motivés et prêtes à travailler.**"
+	matériel = chaîne de production, tout ce qui va permettre de produire bien et service.
+
 - La notion de production marchande.
+- 

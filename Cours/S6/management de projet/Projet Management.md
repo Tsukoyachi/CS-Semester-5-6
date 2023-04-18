@@ -14,6 +14,11 @@
 ## Liste des livrables attendus :
 
 - Il nous faut 10000 personnes sans pré-requis de diplôme ou de physique.
-- Nous les formerons dès leur recrutement afin qu'ils soient prêt à assurer le bon déroulement des JO.
+- Nous les formerons dès leur recrutement en distanciel afin qu'ils soient prêt à assurer le bon déroulement des JO.
 
-##
+## Calendrier :
+
+- Campagne de recrutement des bénévoles :
+	- 
+
+- JO 2024 : 26 Juillet 2024 au 11 Août 2023

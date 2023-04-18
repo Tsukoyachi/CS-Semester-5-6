@@ -40,3 +40,12 @@ Tools for debating :
 - I have mixed feelings
 - I'm divided
 - I'll second that ! (je vais prendre le relai)
+
+## Debate : For or against Nuclear
+
+- For :
+
+
+- Against :
+
+

@@ -43,7 +43,7 @@ Tools for debating :
 
 ## Debate : For or against Nuclear
 
-In this 
+Currently, we all now what is nuclear energy, we now his interest and also his consequences. Many count
 
 - For :
 

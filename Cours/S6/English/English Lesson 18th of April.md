@@ -43,7 +43,7 @@ Tools for debating :
 
 ## Debate : For or against Nuclear
 
-Currently, we all now what is nuclear energy, we now his interest and also his consequences. Many count
+Currently, we all now what is nuclear energy, we now his interest and also his consequences. Many country debate the use of it, even though some don't have proper acces to it. Multiple choice already been made to leave or to maintain nuclear plant. For this debate we have two parties. I'll now let you debate in the respect of each other.
 
 - For :
 

@@ -43,6 +43,10 @@ Tools for debating :
 
 ## Debate : For or against Nuclear
 
+Domain of this debate :
+- Environmental aspect
+- Political aspect
+
 - For :
 
 

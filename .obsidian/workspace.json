@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "41cf1dc3ac4a5b85",
+        "id": "969e1d9fe6581b7e",
         "type": "tabs",
         "children": [
           {
-            "id": "c4278e3dcb7af995",
+            "id": "d2e35f0e3a76ba4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/S6/Connaissance Entreprise/Cours 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6eff4b9b237f47d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cours/S6/Connaissance Entreprise/Exercice Fnac-Darty.md",
+                "file": "Cours/S6/English/English Lesson 18th of April.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/S6/Connaissance Entreprise/Exercice Fnac-Darty.md",
+                "file": "Cours/S6/English/English Lesson 18th of April.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/S6/Connaissance Entreprise/Exercice Fnac-Darty.md",
+                "file": "Cours/S6/English/English Lesson 18th of April.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/S6/Connaissance Entreprise/Exercice Fnac-Darty.md"
+                "file": "Cours/S6/English/English Lesson 18th of April.md"
               }
             }
           },
@@ -177,8 +164,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6eff4b9b237f47d8",
+  "active": "d2e35f0e3a76ba4e",
   "lastOpenFiles": [
+    "Cours/S6/English/English lesson 3th of April.md",
+    "Cours/S6/English/English Lesson 18th of April.md",
     "Cours/S6/Connaissance Entreprise/Cours 1.md",
     "Cours/S6/Connaissance Entreprise/Exercice Fnac-Darty.md",
     "TD/S6/Programmation Systemes/td07/Compte rendu TD7.md",
@@ -205,7 +194,6 @@
     "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411092435.png",
     "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411092416.png",
     "TD/S6/Programmation Systemes/td06/Compte rendu TD6.md",
-    "Cours/S6/English/English lesson 3th of April.md",
     "Cours/S6/English/English Lesson 27th  March 2023.md",
     "TD/S6/Programmation Systemes/td04/Compte Rendu TD04.md",
     "TD/S6/Programmation Systemes/td03/Compte Rendu TD03.md",

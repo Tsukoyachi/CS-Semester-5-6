@@ -8,6 +8,15 @@ Elle a vomit :
 - She threw up
 - She vomited
 
+To ... an idea :
+- propose
+- suggest
+- offer
+
+outlandish = 
+- eccentric
+- weird
+
 I didn't do it... :
 - on purpose
 - voluntarily
@@ -21,4 +30,13 @@ Tools for debating :
 - I'm agreed
 - I agree
 - On one hand ...., on the other hand ...
-- I can't dispute this poi
+- I can't dispute ...
+	- this / that
+	- the fact that ...
+- I agree with you to a certain extant.
+	- Yet ...
+	- However, ...
+- I couldn't agree more...
+- I have mixed feelings
+- I'm divided
+- I'll second that ! (je vais prendre le relai)

@@ -41,9 +41,9 @@ Axel Delille trésorier et chargé relation sous-traitants
 ## Les moyens :
 
 - Site internet et livret fait par l'équipe.
-- Achat des badges (0.10€/badge)
-- Achat T-shirt (3€/t-shirt)
-- Budget final : 31000€
+- Achat des badges (0.40€/badge)
+- Achat T-shirt (4€/t-shirt)
+- Budget final : 41300€
 
 ## Conclusion quant à la faisabilité du projet :
 

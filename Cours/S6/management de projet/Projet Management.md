@@ -15,6 +15,8 @@
 
 - Fiche de poste pour les bénévoles
 - Livret d'accueil avec toutes les informations importantes
+- Des vidéos de formations sur une plateforme en ligne afin de traquer l'avancement des formations de chacun.
+- Un t-shirt et un badge pour chaque bénévole
 
 ## Calendrier :
 
@@ -33,4 +35,9 @@
 ## Equipe projet :
 
 Yvann Ponce chargé de communication.
-Karim Charleux responsable réseau sociaux
+Karim Charleux responsable réseau sociaux et goodies
+Axel Delille trésorier et chargé relation sous-traitants
+
+## Les moyens :
+
+- Site internet 

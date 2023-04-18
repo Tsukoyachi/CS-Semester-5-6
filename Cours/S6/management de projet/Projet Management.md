@@ -40,4 +40,7 @@ Axel Delille trésorier et chargé relation sous-traitants
 
 ## Les moyens :
 
-- Site internet 
+- Site internet et livret fait par l'équipe.
+- Achat des badges (0.10€/badge)
+- Achat T-shirt (3€/t-shirt)
+- Budget final : 31000€

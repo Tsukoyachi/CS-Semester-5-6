@@ -9,7 +9,7 @@
 
 ## Contexte :
 
-- L'état nous a mandaté afin de recuter 10 000 intervenants afin de mener à bien l'organisation des JO 2024.
+- L'état nous a mandaté afin de recuter 10 000 intervenants afin de mener à bien le staffing des JO 2024.
 
 ## Liste des livrables attendus :
 
@@ -19,6 +19,13 @@
 ## Calendrier :
 
 - Campagne de recrutement des bénévoles :
-	- 
+	- Du 18 avril 2023 au 1er Janvier 2024
 
-- JO 2024 : 26 Juillet 2024 au 11 Août 2023
+- Formation des bénévoles :
+	- Du 1er Janvier 2024 au 15 Juillet 2024
+
+- Mise en scène réelles afin de les préparer mentalement :
+	- Du 16 Juillet 2024 au 25 Juillet 2024
+
+- JO 2024 : 
+	- 26 Juillet 2024 au 11 Août 2023

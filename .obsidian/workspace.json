@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bedb5b6a77219a0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cours/S6/management de projet/TD 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/S6/English/English Lesson 18th of April.md",
+                "file": "Cours/S6/management de projet/TD 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/S6/English/English Lesson 18th of April.md",
+                "file": "Cours/S6/management de projet/TD 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/S6/English/English Lesson 18th of April.md"
+                "file": "Cours/S6/management de projet/TD 1.md"
               }
             }
           },
@@ -164,10 +177,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d2e35f0e3a76ba4e",
+  "active": "bedb5b6a77219a0a",
   "lastOpenFiles": [
-    "Cours/S6/English/English lesson 3th of April.md",
     "Cours/S6/English/English Lesson 18th of April.md",
+    "Cours/S6/management de projet/TD 1.md",
+    "Cours/S6/management de projet",
+    "Cours/S6/English/English lesson 3th of April.md",
     "Cours/S6/Connaissance Entreprise/Cours 1.md",
     "Cours/S6/Connaissance Entreprise/Exercice Fnac-Darty.md",
     "TD/S6/Programmation Systemes/td07/Compte rendu TD7.md",
@@ -181,7 +196,6 @@
     "TD/S6/Programmation Systemes/td07/tst_sigaction.exe",
     "TD/S6/Programmation Systemes/td07/tst_sigaction.o",
     "TD/S6/Programmation Systemes/td07/tst_ignore.exe",
-    "TD/S6/Programmation Systemes/td07/tst_ignore.o",
     "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411104403.png",
     "Cours/S6/Programmation Systeme/Signaux.md",
     "Cours/S5/Langage C et système/1 - Introduction.md",
@@ -210,7 +224,6 @@
     "Cours/S6/Données numérique/Introduction.md",
     "Templates/Cours.md",
     "Cours/S6/Programmation par évènement/Introduction.md",
-    "Cours/S6/Programmation Systeme/Introduction.md",
-    "Cours/S5/Architecture et réseau/1 - Réseau.md"
+    "Cours/S6/Programmation Systeme/Introduction.md"
   ]
 }

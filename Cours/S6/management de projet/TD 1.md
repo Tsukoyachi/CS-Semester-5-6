@@ -1,0 +1,1 @@
+Un projet est un processus unique qui dépend d'un ensemble d'activité organisé qui possède des dates de début et de fin dans le but d'atteindre un objectif conforme à des exigences spécifiques incluant des contraintes de délais, de coûts et de ressources.

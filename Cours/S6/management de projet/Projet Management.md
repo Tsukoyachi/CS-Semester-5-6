@@ -44,3 +44,7 @@ Axel Delille trésorier et chargé relation sous-traitants
 - Achat des badges (0.10€/badge)
 - Achat T-shirt (3€/t-shirt)
 - Budget final : 31000€
+
+## Conclusion quant à la faisabilité du projet :
+
+Sachant que le projet sera facturé à l'Etat Français, le budget requis étant bas et les délais décent, il est réalisable.

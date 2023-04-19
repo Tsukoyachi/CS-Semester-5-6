@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1e55fcac78ddcc41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cours/S6/management de projet/PERT piscine dupont.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/S6/management de projet/P.E.R.T.md",
+                "file": "Cours/S6/management de projet/PERT piscine dupont.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/S6/management de projet/P.E.R.T.md",
+                "file": "Cours/S6/management de projet/PERT piscine dupont.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/S6/management de projet/P.E.R.T.md"
+                "file": "Cours/S6/management de projet/PERT piscine dupont.md"
               }
             }
           },
@@ -164,13 +177,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a1553227c690795f",
+  "active": "1e55fcac78ddcc41",
   "lastOpenFiles": [
+    "Cours/S6/management de projet/media/Pasted image 20230419112918.png",
+    "Cours/S6/management de projet/media/Pasted image 20230419112851.png",
+    "Cours/S6/management de projet/media/Pasted image 20230419112825.png",
+    "Cours/S6/management de projet/media/Pasted image 20230419112748.png",
+    "Cours/S6/management de projet/media/Pasted image 20230419112732.png",
+    "Cours/S6/management de projet/media/Pasted image 20230419112716.png",
+    "Cours/S6/management de projet/P.E.R.T.md",
+    "Cours/S6/management de projet/PERT piscine dupont.md",
     "Cours/S6/management de projet/media/Pasted image 20230419110557.png",
     "Cours/S6/English/English Lesson 18th of April.md",
     "Cours/S6/management de projet/TD 1.md",
     "Cours/S6/management de projet/Projet Management.md",
-    "Cours/S6/management de projet/P.E.R.T.md",
     "Cours/S6/management de projet/media/Pasted image 20230419101634.png",
     "Cours/S6/management de projet/media/Pasted image 20230419101613.png",
     "Cours/S6/management de projet/media",
@@ -191,12 +211,6 @@
     "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411104403.png",
     "Cours/S6/Programmation Systeme/Signaux.md",
     "Cours/S5/Langage C et système/1 - Introduction.md",
-    "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411102202.png",
-    "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411100235.png",
-    "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411100018.png",
-    "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411093433.png",
-    "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411093040.png",
-    "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411092957.png",
     "TD/S6/Programmation Systemes/td06/Compte rendu TD6.md",
     "Cours/S6/English/English Lesson 27th  March 2023.md",
     "TD/S6/Programmation Systemes/td04/Compte Rendu TD04.md",
@@ -210,7 +224,6 @@
     "Cours/S6/Programmation Systeme/Operating System.md",
     "Cours/S6/POO/Binary Seareech Three.md",
     "Cours/S6/Programmation par évènement/Tâche et Scénario.md",
-    "Cours/S6/Compilation automate/Introduction.md",
-    "Cours/S6/Données numérique/Introduction.md"
+    "Cours/S6/Compilation automate/Introduction.md"
   ]
 }

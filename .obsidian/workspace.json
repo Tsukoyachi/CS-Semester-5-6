@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "969e1d9fe6581b7e",
+        "id": "23d0f670d1a315b7",
         "type": "tabs",
         "children": [
           {
-            "id": "d2e35f0e3a76ba4e",
+            "id": "a1553227c690795f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cours/S6/English/English Lesson 18th of April.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bedb5b6a77219a0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cours/S6/management de projet/TD 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac2967c627fa8042",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cours/S6/management de projet/Projet Management.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/S6/management de projet/Projet Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/S6/management de projet/Projet Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Cours/S6/management de projet/Projet Management.md"
-              }
+              "state": {}
             }
           },
           {
@@ -189,11 +156,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ac2967c627fa8042",
+  "active": "a1553227c690795f",
   "lastOpenFiles": [
+    "Cours/S6/English/English Lesson 18th of April.md",
     "Cours/S6/management de projet/TD 1.md",
     "Cours/S6/management de projet/Projet Management.md",
-    "Cours/S6/English/English Lesson 18th of April.md",
+    "Cours/S6/management de projet/P.E.R.T.md",
+    "Cours/S6/management de projet/media/Pasted image 20230419101634.png",
+    "Cours/S6/management de projet/media/Pasted image 20230419101613.png",
+    "Cours/S6/management de projet/media",
     "Cours/S6/management de projet",
     "Cours/S6/English/English lesson 3th of April.md",
     "Cours/S6/Connaissance Entreprise/Cours 1.md",
@@ -208,7 +179,6 @@
     "TD/S6/Programmation Systemes/td07/tst_signal.o",
     "TD/S6/Programmation Systemes/td07/tst_sigaction.exe",
     "TD/S6/Programmation Systemes/td07/tst_sigaction.o",
-    "TD/S6/Programmation Systemes/td07/tst_ignore.exe",
     "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411104403.png",
     "Cours/S6/Programmation Systeme/Signaux.md",
     "Cours/S5/Langage C et système/1 - Introduction.md",
@@ -218,8 +188,6 @@
     "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411093433.png",
     "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411093040.png",
     "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411092957.png",
-    "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411092435.png",
-    "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411092416.png",
     "TD/S6/Programmation Systemes/td06/Compte rendu TD6.md",
     "Cours/S6/English/English Lesson 27th  March 2023.md",
     "TD/S6/Programmation Systemes/td04/Compte Rendu TD04.md",
@@ -234,8 +202,6 @@
     "Cours/S6/POO/Binary Seareech Three.md",
     "Cours/S6/Programmation par évènement/Tâche et Scénario.md",
     "Cours/S6/Compilation automate/Introduction.md",
-    "Cours/S6/Données numérique/Introduction.md",
-    "Templates/Cours.md",
-    "Cours/S6/Programmation par évènement/Introduction.md"
+    "Cours/S6/Données numérique/Introduction.md"
   ]
 }

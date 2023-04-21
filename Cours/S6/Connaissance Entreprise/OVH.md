@@ -9,8 +9,10 @@
 	- Maillage international (plusieurs datacenter, en france et au canada)
 	- rayonnement internationnal (3e mondial, 1er Europe)
 	- compétitif (prix les plus bas)
-	- Leur engouement pour l'innovation
+	- Leur engouement pour l'innovationissement
+	- motivation et invest
 	- Leur adhocracie qui facilite la prise de décision très rapide et collective
+	- simplicité des produits et des services
 - Weaknesses :
 	- Son manque de personnel
 	- l'instabilité organisationnelle

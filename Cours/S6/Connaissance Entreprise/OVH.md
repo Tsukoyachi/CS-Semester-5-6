@@ -26,6 +26,8 @@
 - Opportunities :
 	- Partenariat avec les écoles
 	- Dévelopment et partage Canada - France (R&D surtout)
+	- Marque qui attire des talents
+	- Demande croissante des clients -> nouveaux produits
 	- 
 - Threats :
 	- La concurrence forte

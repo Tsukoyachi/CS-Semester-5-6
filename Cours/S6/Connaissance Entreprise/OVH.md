@@ -6,9 +6,10 @@
 2. SWOT :
 - Strength :
 	- Son établissement dans plusieurs pays.
+	- rayonnement internationnal (3e mondial)
 	- compétitif (prix les plus bas)
 	- Leur engouement pour l'innovation
-	- Leur adhocracie qui facilite la prise de décision très rapide
+	- Leur adhocracie qui facilite la prise de décision très rapide et collective
 - Weaknesses :
 	- Son manque de personnel
 	- l'instabilité organisationnelle

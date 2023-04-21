@@ -28,7 +28,9 @@
 	- Dévelopment et partage Canada - France (R&D surtout)
 	- Marque qui attire des talents
 	- Demande croissante des clients -> nouveaux produits
-	- 
+	- Devenir leader mondial
+	- Développement international
+	- Créer de nouveaux besoins
 - Threats :
 	- La concurrence forte
 

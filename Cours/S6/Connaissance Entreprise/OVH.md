@@ -4,9 +4,11 @@
 2. SWOT :
 - Strength :
 	- Son établissement dans plusieurs pays.
-	- 
+	- compétitif (prix les plus bas)
+	- Leur engouement pour l'innovation
 - Weaknesses :
 	- Son manque de personnel
+	- l'instabilité organisationnelle
 - Opportunities :
 	- 
 - Threats :

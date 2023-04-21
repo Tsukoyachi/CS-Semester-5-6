@@ -35,6 +35,8 @@
 	- Nouveaux entrants sur le marché en forte croissance
 	- Pas de protection des innovations par des brevets
 	- RGPD non valable partout (défavorable aux US et en chine, on peut donc pas les placer partout)
+	- Niveau d'investissement, course à l'innovation
+	- Manque de diversification (seulement de l'hébergement de données)
 	- 
 1. Stratégies :
 	- globales :

@@ -8,7 +8,7 @@
 	- Son établissement dans plusieurs pays.
 	- compétitif (prix les plus bas)
 	- Leur engouement pour l'innovation
-	- Leur hé
+	- Leur adhocracie qui facilite la prise de décision très rapide
 - Weaknesses :
 	- Son manque de personnel
 	- l'instabilité organisationnelle

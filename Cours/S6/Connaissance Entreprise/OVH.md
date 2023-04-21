@@ -34,8 +34,9 @@
 - Threats :
 	- Nouveaux entrants sur le marché en forte croissance
 	- Pas de protection des innovations par des brevets
+	- RGPD non valable partout (défavorable aux US et en chine, on peut donc pas les placer partout)
 	- 
-3. Stratégies :
+1. Stratégies :
 	- globales :
 		- 
 	- DAS :

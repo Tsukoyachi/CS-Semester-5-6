@@ -42,5 +42,5 @@
 1. Stratégies :
 	- globales :
 		- 
-	- DAS :
+	- DAS (domaine d'activité stratégique) :
 		- 

@@ -3,5 +3,8 @@
 
 2. SWOT :
 - Strength :
+	- Son établissement dans plusieurs pays.
+	- 
 - Weaknesses :
-- 
+- Opportunities :
+- Threats :

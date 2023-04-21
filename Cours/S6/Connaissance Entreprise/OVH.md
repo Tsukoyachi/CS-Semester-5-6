@@ -1,7 +1,7 @@
 1. Justifiez en quoi la logique d'Octave Klaba relève d'une logique entrepreunariale ?
-- Octave Klaba mise plus sur l'innovation que sur un renforcement de ce qu'il a déjà établis, on voit 30% de croissance par an, une création 3 nouveaux datacenters.
 - Ils créent leurs propre filiales au lieu de les acheter.
 - Ils créent de nouveaux datacenter.
+- Ils sont passés de startup à quasiment leader dans le marché du stockage de données avec une très forte croissance ce qui montre également cette logique entreprenariale qui est dû à une prise de décision et de risque d'Octave Klaba.
 
 2. SWOT :
 - Strength :

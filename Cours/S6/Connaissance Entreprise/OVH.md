@@ -6,5 +6,8 @@
 	- Son établissement dans plusieurs pays.
 	- 
 - Weaknesses :
+	- Son manque de personnel
 - Opportunities :
+	- 
 - Threats :
+	- La concurrence forte

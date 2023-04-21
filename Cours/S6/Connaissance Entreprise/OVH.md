@@ -15,4 +15,4 @@
 	- La concurrence forte
 
 3. Stratégies :
-- 
+	-

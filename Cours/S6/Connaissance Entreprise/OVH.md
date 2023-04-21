@@ -22,10 +22,11 @@
 	- Manque de valorisation du développement personnel des employés (peu/pas de promotion)
 	- Manque de crédibilité (plus de B2C qu'autre chose, ex : serveur Minecraft)
 	- Marketing peu/pas développé
-	- Bénéfices réinvestis d'années en années
+	- Bénéfices réinvestis d'année en années
 - Opportunities :
-	- Leur développement massif avec leur recrutement et leur étallement partout en france
 	- Partenariat avec les écoles
+	- Dévelopment et partage Canada - France (R&D surtout)
+	- 
 - Threats :
 	- La concurrence forte
 

@@ -5,8 +5,9 @@
 
 2. SWOT :
 - Strength :
-	- Son établissement dans plusieurs pays.
-	- rayonnement internationnal (3e mondial)
+	- Forte croissance (startup -> leader)
+	- Maillage international (plusieurs datacenter, en france et au canada)
+	- rayonnement internationnal (3e mondial, 1er Europe)
 	- compétitif (prix les plus bas)
 	- Leur engouement pour l'innovation
 	- Leur adhocracie qui facilite la prise de décision très rapide et collective
@@ -15,6 +16,7 @@
 	- l'instabilité organisationnelle
 - Opportunities :
 	- Leur développement massif avec leur recrutement et leur étallement partout en france
+	- Partenariat avec les écoles
 - Threats :
 	- La concurrence forte
 

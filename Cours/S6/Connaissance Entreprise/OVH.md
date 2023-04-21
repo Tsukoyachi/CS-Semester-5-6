@@ -1,5 +1,7 @@
 1. Justifiez en quoi la logique d'Octave Klaba relève d'une logique entrepreunariale ?
 - Octave Klaba mise plus sur l'innovation que sur un renforcement de ce qu'il a déjà établis, on voit 30% de croissance par an, une création 3 nouveaux datacenters.
+- Ils créent leurs propre filiales au lieu de les acheter.
+- Ils créent de nouveaux datacenter.
 
 2. SWOT :
 - Strength :
@@ -15,4 +17,7 @@
 	- La concurrence forte
 
 3. Stratégies :
-	-
+	- globales :
+		- 
+	- DAS :
+		- 

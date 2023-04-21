@@ -10,7 +10,8 @@
 	- rayonnement internationnal (3e mondial, 1er Europe)
 	- compétitif (prix les plus bas)
 	- Leur engouement pour l'innovationissement
-	- motivation et invest
+	- motivation et investissement
+	- sécurisation et non utilisation des données clients
 	- Leur adhocracie qui facilite la prise de décision très rapide et collective
 	- simplicité des produits et des services
 - Weaknesses :

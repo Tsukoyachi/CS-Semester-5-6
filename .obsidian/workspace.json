@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "286183c27d2042ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cours/S6/Connaissance Entreprise/OVH.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/S6/management de projet/PERT piscine dupont.md",
+                "file": "Cours/S6/Connaissance Entreprise/OVH.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/S6/management de projet/PERT piscine dupont.md",
+                "file": "Cours/S6/Connaissance Entreprise/OVH.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/S6/management de projet/PERT piscine dupont.md"
+                "file": "Cours/S6/Connaissance Entreprise/OVH.md"
               }
             }
           },
@@ -177,11 +189,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1e55fcac78ddcc41",
+  "active": "286183c27d2042ff",
   "lastOpenFiles": [
+    "Cours/S6/management de projet/PERT piscine dupont.md",
+    "Cours/S6/Connaissance Entreprise/OVH.md",
+    "Cours/S6/Sans titre",
     "Cours/S6/management de projet/media/Pasted image 20230419115914.png",
     "Cours/S6/management de projet/P.E.R.T.md",
-    "Cours/S6/management de projet/PERT piscine dupont.md",
     "Cours/S6/management de projet/media/Pasted image 20230419112918.png",
     "Cours/S6/management de projet/media/Pasted image 20230419112851.png",
     "Cours/S6/management de projet/media/Pasted image 20230419112825.png",
@@ -204,11 +218,9 @@
     "TD/S6/Programmation Systemes/td07/tst_children.o",
     "TD/S6/Programmation Systemes/td07/tst_children.exe",
     "TD/S6/Programmation Systemes/td07/tst_children.c",
-    "TD/S6/Programmation Systemes/td07/media/Pasted image 20230411110110.png",
     "TD/S6/Programmation Systemes/td07/tst_signal.exe",
     "TD/S6/Programmation Systemes/td07/tst_signal.o",
     "TD/S6/Programmation Systemes/td07/tst_sigaction.exe",
-    "TD/S6/Programmation Systemes/td07/tst_sigaction.o",
     "Cours/S6/Programmation Systeme/Signaux.md",
     "Cours/S5/Langage C et système/1 - Introduction.md",
     "TD/S6/Programmation Systemes/td06/Compte rendu TD6.md",

@@ -37,7 +37,8 @@
 	- RGPD non valable partout (défavorable aux US et en chine, on peut donc pas les placer partout)
 	- Niveau d'investissement, course à l'innovation
 	- Manque de diversification (seulement de l'hébergement de données)
-	- 
+	- Redondance des datacenters, backup des données
+ 
 1. Stratégies :
 	- globales :
 		- 

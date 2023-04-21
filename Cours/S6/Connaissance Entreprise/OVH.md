@@ -10,6 +10,9 @@
 	- Son manque de personnel
 	- l'instabilité organisationnelle
 - Opportunities :
-	- 
+	- Leur développement massif avec leur recrutement et leur étallement partout en france
 - Threats :
 	- La concurrence forte
+
+3. Stratégies :
+- 

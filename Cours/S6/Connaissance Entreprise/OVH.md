@@ -17,6 +17,12 @@
 - Weaknesses :
 	- Son manque de personnel
 	- l'instabilité organisationnelle
+	- Potentiel manque d'xp (Recrutement de junior principalement)
+	- Manque de centralisation de l'info (communication)
+	- Manque de valorisation du développement personnel des employés (peu/pas de promotion)
+	- Manque de crédibilité (plus de B2C qu'autre chose, ex : serveur Minecraft)
+	- Marketing peu/pas développé
+	- Bénéfices réinvestis d'années en années
 - Opportunities :
 	- Leur développement massif avec leur recrutement et leur étallement partout en france
 	- Partenariat avec les écoles

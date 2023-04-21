@@ -32,8 +32,9 @@
 	- Développement international
 	- Créer de nouveaux besoins
 - Threats :
-	- La concurrence forte
-
+	- Nouveaux entrants sur le marché en forte croissance
+	- Pas de protection des innovations par des brevets
+	- 
 3. Stratégies :
 	- globales :
 		- 

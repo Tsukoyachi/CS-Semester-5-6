@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "23d0f670d1a315b7",
+        "id": "b4b927f0f993ffff",
         "type": "tabs",
         "children": [
           {
-            "id": "a1553227c690795f",
+            "id": "6e397d3464f848cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/S6/management de projet/P.E.R.T.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e55fcac78ddcc41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cours/S6/management de projet/PERT piscine dupont.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "286183c27d2042ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cours/S6/Connaissance Entreprise/OVH.md",
+                "file": "Cours/S6/English/English lesson 24th of April.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/S6/Connaissance Entreprise/OVH.md",
+                "file": "Cours/S6/English/English lesson 24th of April.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/S6/Connaissance Entreprise/OVH.md",
+                "file": "Cours/S6/English/English lesson 24th of April.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/S6/Connaissance Entreprise/OVH.md"
+                "file": "Cours/S6/English/English lesson 24th of April.md"
               }
             }
           },
@@ -189,13 +164,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "286183c27d2042ff",
+  "active": "6e397d3464f848cd",
   "lastOpenFiles": [
+    "Cours/S6/English/English lesson 3th of April.md",
+    "Cours/S6/English/English lesson 24th of April.md",
+    "Cours/S6/management de projet/P.E.R.T.md",
     "Cours/S6/management de projet/PERT piscine dupont.md",
     "Cours/S6/Connaissance Entreprise/OVH.md",
     "Cours/S6/Sans titre",
     "Cours/S6/management de projet/media/Pasted image 20230419115914.png",
-    "Cours/S6/management de projet/P.E.R.T.md",
     "Cours/S6/management de projet/media/Pasted image 20230419112918.png",
     "Cours/S6/management de projet/media/Pasted image 20230419112851.png",
     "Cours/S6/management de projet/media/Pasted image 20230419112825.png",
@@ -210,7 +187,6 @@
     "Cours/S6/management de projet/media/Pasted image 20230419101613.png",
     "Cours/S6/management de projet/media",
     "Cours/S6/management de projet",
-    "Cours/S6/English/English lesson 3th of April.md",
     "Cours/S6/Connaissance Entreprise/Cours 1.md",
     "Cours/S6/Connaissance Entreprise/Exercice Fnac-Darty.md",
     "TD/S6/Programmation Systemes/td07/Compte rendu TD7.md",
@@ -235,7 +211,6 @@
     "Cours/S6/Programmation Systeme/Processus VS Thread.md",
     "Cours/S6/Programmation Systeme/Operating System.md",
     "Cours/S6/POO/Binary Seareech Three.md",
-    "Cours/S6/Programmation par évènement/Tâche et Scénario.md",
-    "Cours/S6/Compilation automate/Introduction.md"
+    "Cours/S6/Programmation par évènement/Tâche et Scénario.md"
   ]
 }

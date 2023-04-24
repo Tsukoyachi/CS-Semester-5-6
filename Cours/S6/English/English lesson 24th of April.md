@@ -9,4 +9,5 @@ versatile : polyvalent
 jug : jarre
 damage**s** : dommages et intérêt
 damage : dégâts
-a pound 
+a pound : environ 500 grammes
+a thumb : un pouce

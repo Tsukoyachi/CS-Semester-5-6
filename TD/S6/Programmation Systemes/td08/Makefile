@@ -30,7 +30,7 @@ HTML=$(EXE:.exe=.html)
 	@./villoc/to-html $? 2>/dev/null
 
 # ======================================================================
-all: $(EXE) # $(HTML)
+all: $(EXE) $(HTML)
 
 visu: $(HTML)
 	@for file in $? ; do \

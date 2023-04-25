@@ -155,6 +155,13 @@ void *internal_malloc(size_t nbOctet) {
         NEXT(previous) = NEXT(block);
         return block;
     }
+
+    Header remainingSpace;
+    remainingSpace.info.size = SIZE(block) - nbBlock;
+    remainingSpace.info.ptr = NEXT(block);
+    NEXT(previous) = &remainingSpace;
+    SIZE(block) = nbBlock;
+    return block;
 }
 
 /* ====================================================================== */

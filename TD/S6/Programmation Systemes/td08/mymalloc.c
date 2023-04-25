@@ -142,10 +142,10 @@ void *internal_malloc(size_t nbOctet) {
         }
         else if (block == freep){
             Header *memory = allocate_core(nbBlock);
-            internal_free(memory);
-            NEXT(memory) = NEXT(block);
-            NEXT(block) = memory;
-            block = NEXT(previous);
+            if(memory == NULL){
+                return NULL;
+            }
+            block = memory;
             continue;
         }
         previous = block;

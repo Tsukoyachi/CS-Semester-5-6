@@ -137,15 +137,11 @@ void *internal_malloc(size_t nbOctet) {
     Header *block = NEXT(freep);
     Header *previous = freep;
     while(SIZE(block) < nbBlock){
-        if(SIZE(block) >= nbBlock){
-            break;
-        }
-        else if (block == freep){
+        if (block == freep){
             Header *memory = allocate_core(nbBlock);
             if(memory == NULL){
                 return NULL;
             }
-            block = NEXT(previous);
             continue;
         }
         previous = block;

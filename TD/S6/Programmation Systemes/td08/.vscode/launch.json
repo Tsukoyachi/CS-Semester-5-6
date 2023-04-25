@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(gdb) Launch test-malloc.exe",
+            "name": "(gdb) Launch test-simple.exe",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/test-malloc.exe",
+            "program": "${workspaceFolder}/test-simple.exe",
             "args": ["R", "/etc/passwd", "cat", "-n"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

@@ -128,5 +128,12 @@ Cela facilite les mécanismes de traduction car on peut faire référence direct
 Et cela facilite les mécanismes d'allocation car on peut laisser `quelques pages blanche`.
 
 **Systèmes hybride**
-- Pagination segmentée
-- Segmentation paginée (modèle Linux)
+- Pagination segmentée, dans une page on crée plusieurs segments
+- Segmentation paginée (modèle Linux), dans un segment on crée n pages.
+
+#### Segmentation
+Vue cohérente avec celle de l’utilisateur, l'exemple le plus connu est l'Intel 8086 et ses quatre registres :
+- `CS`, pour `Code Segment` : pointe vers le segment contenant le  programme courant
+- DS, pour Data Segment : pointe vers le segment contenant les  données du programme en cours d'exécution
+- ES, pour Extra Segment : pointe vers le segment dont l'utilisation  est laissée au programmeur
+- 

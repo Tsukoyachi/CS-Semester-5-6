@@ -59,4 +59,13 @@ Ce procédé fonctionnait bien à l'époque mais pose plusieurs inconvénient ma
 
 ### Problème liés à la multiprogrammation
 
-Protection,
+Protection, il faut être capable d'interdire à un processus l'accès en espace mémoire des autres processus et du système d'exploitation  avec :
+- registres de protection : base + limite
+- bits de protection des pages de la mémoire
+
+Translation (Relocation), Un processus doit pouvoir être chargé à n'importe quelle adresse mémoire :
+- Translation des adresses globales lors du chargement du programme en mémoire
+- Utilisation des modes d’adressage relatif à un registre  (pile/instruction/registre de segment)
+
+Allocation/Réallocation, un programme doit obtenir la zone mémoire dont il a besoin si la  
+mémoire est disponible

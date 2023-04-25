@@ -75,3 +75,18 @@ La mémoire disponible peut être insuffisante à un moment donné, on a 3 méca
 1. Interdire la création de nouveau processus (exemple Minix)
 2. Placer certains processus en mémoire secondaire pour libérer de l'espace mémoire en attendant que la charge mémoire diminue -> **Les processus 'swapé' ne sont pas exécutables**
 3. Placer des morceaux de la mémoire des processus en mémoire secondaire : mécanisme de **mémoire virtuelle**
+    Cela nous donne des processus qui sont **partiellement exécutables**.
+
+### Conclusion partielle : problématiques soulevées
+
+Problématiques :
+- Augmentation (plus de mémoire que disponible)
+- Protection/Partage
+- Translation (Relocation)
+- Allocation / Réallocation (problème de fragmentation)
+
+Plusieurs technique sont utilisées pour pallier aux problèmes de la multiprogrammation et au manque de mémoire.
+- Mémoire virtuelle
+	- Utilisation de modes d'adressages relatifs
+	- Translation des adresses (réelles <-> virtuelles)
+	- Pa

@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/test-malloc.exe",
-            "args": ["R', "/etc/passwd", "cat", "-n"],
+            "args": ["R", "/etc/passwd", "cat", "-n"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
@@ -24,10 +24,10 @@
             ]
         },
         {
-            "name": "(gdb) Launch test-mymalloc.exe",
+            "name": "(gdb) Launch test-simple.exe",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/test-mymalloc.exe",
+            "program": "${workspaceFolder}/test-simple.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

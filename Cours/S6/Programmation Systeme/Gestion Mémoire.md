@@ -162,7 +162,6 @@ Pour réaliser cela, on partage l’espace d’adressage du processus et la mém
 ![[Pasted image 20230425085752.png | center]]
 
 ##### Remplacement de Page
-
 Quelle page remplacer lorsqu'une nouvelle page doit monter en mémoire physique ?
 
 Principe d'optimalité (Peter Denning)
@@ -172,4 +171,10 @@ On a donc quelques algorithmes de remplacement de page :
 - FIFO : First In First Out -> Problème de l'anomalie FIFO
 - LRU : Least Recently Used -> Difficile à implémenter
 - NRU : Not Recently Used -> Le plus courant (souvent confondu avec LRU)
-- NFU : Not Frequently Used -> Incrémente un compteu
+- NFU : Not Frequently Used -> Incrémente un compteur à chaque utilisation
+- Aging : Variante de NFU
+
+Gestion par processus ("Working Set")
+- Prédiction des pages utiles de chaque processus
+
+##### Pagination: Conséquence sur la Programmation

@@ -266,5 +266,16 @@ Gestion de l'allocation dynamique :
 
 ### Méthode : carte de bits
 
-Carte de Bits
+Carte de bits :
+- Le tas est subdivisé en bloc de taille fixe
+- On établit "une carte" (un tableau de bits) dont chaque bit représente l'état (libre/alloué) d'un bloc
+  ![[Pasted image 20230425091759.png]]
+- Avantage :
+	- Surcout mémoire raisonnable
+- Inconvénients :
+	- Allocation coûteuse en temps (recherche d’espace libre)
+	- Fragmentation interne: Certains blocs marqués comme occupés ne sont pas totalement utilisés
+- Peu utilisé en pratique
+
+
 

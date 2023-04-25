@@ -67,5 +67,11 @@ Translation (Relocation), Un processus doit pouvoir être chargé à n'importe q
 - Translation des adresses globales lors du chargement du programme en mémoire
 - Utilisation des modes d’adressage relatif à un registre  (pile/instruction/registre de segment)
 
-Allocation/Réallocation, un programme doit obtenir la zone mémoire dont il a besoin si la  
-mémoire est disponible
+Allocation/Réallocation, un programme doit obtenir la zone mémoire dont il a besoin si la mémoire est disponible et modifier ses besoins pendant son exécution.
+
+#### Problème de disponibilité de mémoire
+
+La mémoire disponible peut être insuffisante à un moment donné, on a 3 mécanismes pour gérer ce manque de mémoire :
+1. Interdire la création de nouveau processus (exemple Minix)
+2. Placer certains processus en mémoire secondaire pour libérer de l'espace mémoire en attendant que la charge mémoire diminue -> **Les processus 'swapé' ne sont pas exécutables**
+3. Placer des morceaux de la mémoire des processus en mémoire secondaire : mécanisme de **mémoire virtuelle**

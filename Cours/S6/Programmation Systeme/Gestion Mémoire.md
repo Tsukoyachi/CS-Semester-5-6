@@ -243,7 +243,7 @@ Ex: Linux
 
 ## Introduction TD :
 
-**Cette partie ne fait pas partie du cours mais sert d'introduction au td afin de mieux comprendre le tas (heap) (segment de l'allocation dynamique).**
+Cette partie ne fait pas partie du cours mais sert d'introduction au td afin de mieux comprendre le tas (heap) (segment de l'allocation dynamique).
 
 ### Quelques Rappels
 Allocation statique :
@@ -251,4 +251,20 @@ Allocation statique :
 - Stockage dans la pile (Stack)
 - Allocation en entrant dans la fonction/procédure
 - Libération en sortant de la fonction/procédure
-- 
+- Gérée automatiquement par le compilateur
+
+Allocation dynamique :
+- Stockage dans le tas (heap)
+- Allocation/Libération à la demande du programmeur
+	- malloc/free
+	- new/delete
+
+Gestion de l'allocation dynamique :
+- Bibliothèques standards (malloc/free)
+- Langage lui-même (new/delete)
+- De manière implicite (ramasse-miettes)
+
+### Méthode : carte de bits
+
+Carte de Bits
+

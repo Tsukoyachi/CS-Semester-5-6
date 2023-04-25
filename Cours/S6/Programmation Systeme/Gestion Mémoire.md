@@ -102,5 +102,12 @@ Le matériel et le système d'exploitation assurent automatiquement la montée e
 - On doit disposer d'un mécanisme de traduction entre l'adresse virtuelle et l'adresse physique
 
 #### Traduction des adresses
+Exécution à chaque accès mémoire, la coopération du matériel est donc indispensable.
 
-Exécution 
+MMU (Memory Management Unit) assure la traduction en adresse physique, c'est peu coûteux (coûteux et compliqué si c'est fait au niveau logiciel), et c'est transparant pour les programmes.
+
+Si l'information adressée par l'instruction courante n'est pas en mémoire physique :
+- l'instruction courante est suspendue, de même que le processus qui la contient ; un déroutement est déclenché
+- le système d'exploitation prend la main et fait monter  l'information en mémoire physique
+- lorsque le processus est ordonnancé à nouveau, l'instruction  suspendue est reprise à l'accès mémoire
+

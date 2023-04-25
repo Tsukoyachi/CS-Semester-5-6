@@ -8,3 +8,4 @@ On appelle malloc avec 80 octets, hors on a déjà un espace libre d'une taille 
 
 ## Question 3
 
+Comme le header fait 16 octet on peut insérer au maximum 272 - 16 = 256 octets dans le trou de 272 octets.

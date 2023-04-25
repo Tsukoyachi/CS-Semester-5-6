@@ -89,4 +89,18 @@ Plusieurs technique sont utilisées pour pallier aux problèmes de la multiprogr
 - Mémoire virtuelle
 	- Utilisation de modes d'adressages relatifs
 	- Translation des adresses (réelles <-> virtuelles)
-	- Pa
+	- Pagination
+	- Segmentation
+- Echange sur mémoire secondaire (va et viant 'swap')
+
+## Mémoire Virtuelle
+
+Les adresses machines couvrent un espace plus grand que la mémoire physique, chaque processus peut même disposer de son propre espace d'adressage.
+
+Le matériel et le système d'exploitation assurent automatiquement la montée en mémoire physique des informations utiles à l'exécution courante.
+- La mémoire physique sert de cache à la mémoire virtuelle
+- On doit disposer d'un mécanisme de traduction entre l'adresse virtuelle et l'adresse physique
+
+#### Traduction des adresses
+
+Exécution 

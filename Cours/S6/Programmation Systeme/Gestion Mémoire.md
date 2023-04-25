@@ -149,5 +149,14 @@ Un exemple concret avec la commande `cat /proc/pid/maps` :
 ![[Pasted image 20230425085221.png | center]]
 
 #### Pagination
-La pagination permet d’avoir en mémoire un processus  
-donc les adresses sont non contigües
+La pagination permet d’avoir en mémoire un processus donc les adresses sont non contigües.
+
+Pour réaliser cela, on partage l’espace d’adressage du processus et la mémoire physique en :
+- Cadres de page (frames): mémoire physique découpée en zones de taille fixe, taille en puissance de 2 => entre 512 bytes et 8192 bytes.
+- La mémoire logique est également subdivisée en blocs de la  même taille appelés pages 
+	- Taille pages = Taille cadres
+	- Adresse logique = numéro de page + déplacement dans le page
+- Table des pages: liaison entre numéro de page et cadre de page (une table par processus). On conserve l’emplacement des pages dans une tables de transcodage.
+	- Table de pages: traduit l’adresse logique en adresse physique.
+
+![[Pasted image 20230425085752.png | center]]

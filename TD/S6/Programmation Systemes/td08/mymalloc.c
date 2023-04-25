@@ -109,7 +109,7 @@ static Header *freep = &base;      /* freep pointe sur la 1ère zone libre */
  *  - Appelle internal_free pour ajouter la nouvelle zone à la liste des zones libres
  * Commenter le code obfusqué avant de proposer votre solution
  */
-static void *allocate_core(size_t o_ff0da02c02d81e161f53f59fbf94f724) {
+static Header *allocate_core(size_t o_ff0da02c02d81e161f53f59fbf94f724) {
     d_25f02d83e74b494398384a979fc5905e *o_e885ad26a275a307e21f453748b2f016;
     d_9704fa3dc09c42a7a0bf66eead5b07c8((o_ff0da02c02d81e161f53f59fbf94f724 < d_97961cbeceac434c8b591a95007fa3eb) & !!(o_ff0da02c02d81e161f53f59fbf94f724 < d_97961cbeceac434c8b591a95007fa3eb))
         o_ff0da02c02d81e161f53f59fbf94f724 = d_97961cbeceac434c8b591a95007fa3eb;
@@ -132,7 +132,22 @@ static void *allocate_core(size_t o_ff0da02c02d81e161f53f59fbf94f724) {
  * Commenter le code obfusqué avant de proposer votre solution
  */
 void *internal_malloc(size_t nbOctet) {
-    int nbBloc = nbOctet / sizeof(Header) + (nbOctet % sizeof(Header))? 1 : 0;
+    int nbBlock = BLOCKS_TO_ALLOCATE(nbOctet);
+
+    Header *block = NEXT(freep);
+    while(SIZE(block)){
+        if(SIZE(block) >= nbBlock){
+            break;
+        }
+        block = NEXT(block);
+    }
+    if(!SIZE(block)){
+        Header *memory = allocate_core(nbBlock);
+        NEXT(memory) = NEXT(block);
+        NEXT(block) = memory;
+        block = memory;
+    }
+
 }
 
 /* ====================================================================== */

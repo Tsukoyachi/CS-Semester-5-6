@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6e397d3464f848cd",
+            "id": "600e159a45cd66e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/S6/English/English lesson 24th of April.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19544949d9eaee99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cours/S6/Programmation Systeme/Gestion Mémoire.md",
+                "file": "TD/S6/Programmation Systemes/td08/Compte rendu td8.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/S6/Programmation Systeme/Gestion Mémoire.md",
+                "file": "TD/S6/Programmation Systemes/td08/Compte rendu td8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/S6/Programmation Systeme/Gestion Mémoire.md",
+                "file": "TD/S6/Programmation Systemes/td08/Compte rendu td8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/S6/Programmation Systeme/Gestion Mémoire.md"
+                "file": "TD/S6/Programmation Systemes/td08/Compte rendu td8.md"
               }
             }
           },
@@ -177,8 +164,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "19544949d9eaee99",
+  "active": "600e159a45cd66e1",
   "lastOpenFiles": [
+    "Cours/S6/Programmation Systeme/Gestion Mémoire.md",
+    "TD/S6/Programmation Systemes/td08/Compte rendu td8.md",
     "Cours/S6/Programmation Systeme/media/Pasted image 20230425091759.png",
     "Cours/S6/Programmation Systeme/media/Pasted image 20230425090830.png",
     "Cours/S6/Programmation Systeme/media/Pasted image 20230425090550.png",
@@ -190,13 +179,11 @@
     "Cours/S6/Programmation Systeme/media/Pasted image 20230425081310.png",
     "Cours/S6/Programmation Systeme/media/Pasted image 20230425080634.png",
     "Cours/S6/English/English lesson 24th of April.md",
-    "Cours/S6/Programmation Systeme/Gestion Mémoire.md",
     "Cours/S6/English/English lesson 3th of April.md",
     "Cours/S6/management de projet/P.E.R.T.md",
     "Cours/S6/management de projet/PERT piscine dupont.md",
     "Cours/S6/Connaissance Entreprise/OVH.md",
     "Cours/S6/Sans titre",
-    "Cours/S6/management de projet/media/Pasted image 20230419115914.png",
     "Cours/S6/English/English Lesson 18th of April.md",
     "Cours/S6/management de projet/TD 1.md",
     "Cours/S6/management de projet/Projet Management.md",

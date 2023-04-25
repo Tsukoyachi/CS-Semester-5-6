@@ -53,4 +53,5 @@ Ce procédé fonctionnait bien à l'époque mais pose plusieurs inconvénient ma
 
 ![[Pasted image 20230425081446.png | center]]
 
-- On ne sait pas d'emblée combien de mémoire un
+- On ne sait pas d'emblée combien de mémoire un processus va prendre à cause du mécanisme d'allocation dynamique de C. Donc il faut laisser un peu de place entre les processus pour leur laisser la possibilité de grossir.
+- Le mécanisme de création des processus se place dans le premier trou disponible, sauf que dans cet exemple, le processus 4 laisse de l'espace entre lui et le processus 3, on est témoin ii

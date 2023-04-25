@@ -228,5 +228,27 @@ Inconvénients :
 
 ## Conclusion sur les systèmes et la gestion mémoire
 
-Type de gestionnaires: 
--
+Type de gestionnaires :
+- Système mono-programmé ou multiprogrammé
+- Avec ou sans MMU (traduction matérielle en adresses  physiques)
+- Avec ou sans pagination
+- Avec ou sans segmentation
+- Avec ou sans échange avec la mémoire secondaire (swaping  sur disque dur)
+
+Ex: Linux
+- Système multiprogrammé
+- Avec (Linux vanilla) ou sans MMU (uClinux, arrêté en 2018)
+- Avec Segmentation Paginée
+- Avec ou sans mémoire secondaire (ajout à la demande)
+
+## Introduction TD :
+
+**Cette partie ne fait pas partie du cours mais sert d'introduction au td afin de mieux comprendre le tas (heap) (segment de l'allocation dynamique).**
+
+### Quelques Rappels
+Allocation statique :
+- S'applique aux variables locales
+- Stockage dans la pile (Stack)
+- Allocation en entrant dans la fonction/procédure
+- Libération en sortant de la fonction/procédure
+- 

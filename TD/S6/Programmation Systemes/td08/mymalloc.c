@@ -142,6 +142,7 @@ void *internal_malloc(size_t nbOctet) {
             if(memory == NULL){
                 return NULL;
             }
+            previous = freep;
             block = NEXT(previous);
             continue;
         }

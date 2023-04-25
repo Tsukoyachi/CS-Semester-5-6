@@ -134,6 +134,16 @@ Et cela facilite les mécanismes d'allocation car on peut laisser `quelques page
 #### Segmentation
 Vue cohérente avec celle de l’utilisateur, l'exemple le plus connu est l'Intel 8086 et ses quatre registres :
 - `CS`, pour `Code Segment` : pointe vers le segment contenant le  programme courant
-- DS, pour Data Segment : pointe vers le segment contenant les  données du programme en cours d'exécution
-- ES, pour Extra Segment : pointe vers le segment dont l'utilisation  est laissée au programmeur
-- 
+- `DS`, pour `Data Segment` : pointe vers le segment contenant les  données du programme en cours d'exécution
+- `ES`, pour `Extra Segment` : pointe vers le segment dont l'utilisation  est laissée au programmeur
+- `SS`, pour `Stack Segment` : pointe vers le segment contenant la pile
+
+Association de la protection avec le segment, en associant des *permissions* suivant le segment (lecture seule, écriture seule, ...).
+Cela permet d'éviter les accès illégaux (Segmentation Fault)
+
+Partage de segments entre processus quand deux processus pointent sur la même entrée de la table.
+
+![[Pasted image 20230425085135.png | center]]
+
+Un exemple concret avec la commande `cat /proc/pid/maps` :
+![[Pasted image 20230425085221.png | center]]

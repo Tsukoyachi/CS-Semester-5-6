@@ -54,4 +54,9 @@ Ce procédé fonctionnait bien à l'époque mais pose plusieurs inconvénient ma
 ![[Pasted image 20230425081446.png | center]]
 
 - On ne sait pas d'emblée combien de mémoire un processus va prendre à cause du mécanisme d'allocation dynamique de C. Donc il faut laisser un peu de place entre les processus pour leur laisser la possibilité de grossir.
-- Le mécanisme de création des processus se place dans le premier trou disponible, sauf que dans cet exemple, le processus 4 laisse de l'espace entre lui et le processus 3, on est témoin ii
+- Le mécanisme de création des processus se place dans le premier trou disponible, sauf que dans cet exemple, le processus 4 laisse de l'espace entre lui et le processus 3, en réalité ci l'on laisse ce phénomène s'étendre on va se retrouver avec un gruyère de mémoire, c'est donc au système d'exploitation de s'en occuper, mais tout déplacer est trop coûteux.
+- Quand on va faire le swap in  de processus 2, on va le réinsérer ailleurs, mais comment fait on le déplacement mémoire du processus 2 ?
+
+### Problème liés à la multiprogrammation
+
+Protection,

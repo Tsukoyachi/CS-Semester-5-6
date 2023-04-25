@@ -131,31 +131,8 @@ static void *allocate_core(size_t o_ff0da02c02d81e161f53f59fbf94f724) {
  *  - Si pas trouvé, appelle allocate_core pour en obtenir une nouvelle
  * Commenter le code obfusqué avant de proposer votre solution
  */
-void *internal_malloc(size_t o_624baec7fe25b780476c902e5a225945) {
-    d_25f02d83e74b494398384a979fc5905e *o_5a1ca1e28af1dee42c510b5ab5b7699f, *o_80001f3007bad536645a8f26f2f14ef0;
-    d_de577e1e25b74b728d36e9df44fbee8c o_a14ecdac4a90374110b8b29ff04ee1a7;
-    o_a14ecdac4a90374110b8b29ff04ee1a7 = d_6832373b099d4a0a8635f83b67263ac2(o_624baec7fe25b780476c902e5a225945);
-    d_3e01c509b63b4fb4bb2cd5580d8e177b(o_80001f3007bad536645a8f26f2f14ef0 = d_f0e6fce3d2144597bc3670844da06bdb, o_5a1ca1e28af1dee42c510b5ab5b7699f = d_d8aeefb7d2a54e30a43082cf2a535006(d_f0e6fce3d2144597bc3670844da06bdb); o_80001f3007bad536645a8f26f2f14ef0 = o_5a1ca1e28af1dee42c510b5ab5b7699f, o_5a1ca1e28af1dee42c510b5ab5b7699f = d_d8aeefb7d2a54e30a43082cf2a535006(o_5a1ca1e28af1dee42c510b5ab5b7699f);) {
-        d_9704fa3dc09c42a7a0bf66eead5b07c8((d_c504595b54044fc1b9c8c74e8f0b706b(o_5a1ca1e28af1dee42c510b5ab5b7699f) >= o_a14ecdac4a90374110b8b29ff04ee1a7) & !!(d_c504595b54044fc1b9c8c74e8f0b706b(o_5a1ca1e28af1dee42c510b5ab5b7699f) >= o_a14ecdac4a90374110b8b29ff04ee1a7)) {
-            d_9704fa3dc09c42a7a0bf66eead5b07c8(d_c504595b54044fc1b9c8c74e8f0b706b(o_5a1ca1e28af1dee42c510b5ab5b7699f) == o_a14ecdac4a90374110b8b29ff04ee1a7) {
-                d_d8aeefb7d2a54e30a43082cf2a535006(o_80001f3007bad536645a8f26f2f14ef0) = d_d8aeefb7d2a54e30a43082cf2a535006(o_5a1ca1e28af1dee42c510b5ab5b7699f);
-            }
-            d_ba16cdac161549a588a46912ca7874cb {
-                d_25f02d83e74b494398384a979fc5905e *o_9d80e51e957d1e3075a68872855e1902 = o_5a1ca1e28af1dee42c510b5ab5b7699f + o_a14ecdac4a90374110b8b29ff04ee1a7;
-                d_c504595b54044fc1b9c8c74e8f0b706b(o_9d80e51e957d1e3075a68872855e1902) = d_c504595b54044fc1b9c8c74e8f0b706b(o_5a1ca1e28af1dee42c510b5ab5b7699f) - o_a14ecdac4a90374110b8b29ff04ee1a7;
-                d_d8aeefb7d2a54e30a43082cf2a535006(o_9d80e51e957d1e3075a68872855e1902) = d_d8aeefb7d2a54e30a43082cf2a535006(o_5a1ca1e28af1dee42c510b5ab5b7699f);
-                d_d8aeefb7d2a54e30a43082cf2a535006(o_80001f3007bad536645a8f26f2f14ef0) = o_9d80e51e957d1e3075a68872855e1902;
-                d_c504595b54044fc1b9c8c74e8f0b706b(o_5a1ca1e28af1dee42c510b5ab5b7699f) = o_a14ecdac4a90374110b8b29ff04ee1a7;
-            };
-            d_0fca9c5775cb45739917d024a8cecd0c(d_1b841f7f16de41708fbaafa426b7de5d *)(o_5a1ca1e28af1dee42c510b5ab5b7699f + (0x0000000000000002 + 0x0000000000000201 + 0x0000000000000801 - 0x0000000000000A03));
-        };
-        d_9704fa3dc09c42a7a0bf66eead5b07c8(o_5a1ca1e28af1dee42c510b5ab5b7699f == d_f0e6fce3d2144597bc3670844da06bdb) {
-            d_9704fa3dc09c42a7a0bf66eead5b07c8((o_5a1ca1e28af1dee42c510b5ab5b7699f = d_2a14cc81eb4144968d5d6cd2113a3ca8(o_a14ecdac4a90374110b8b29ff04ee1a7)) == d_cd7b23f6cf614dac81521ef674a2773f)
-                d_0fca9c5775cb45739917d024a8cecd0c d_cd7b23f6cf614dac81521ef674a2773f;
-            ;
-        };
-    };
-    d_0fca9c5775cb45739917d024a8cecd0c d_cd7b23f6cf614dac81521ef674a2773f;
+void *internal_malloc(size_t nbOctet) {
+    int nbBloc = nbOctet / sizeof(Header) + (nbOctet % sizeof(Header))? 1 : 0;
 }
 
 /* ====================================================================== */

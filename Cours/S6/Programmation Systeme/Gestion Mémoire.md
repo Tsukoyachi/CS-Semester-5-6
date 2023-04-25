@@ -101,7 +101,7 @@ Le matériel et le système d'exploitation assurent automatiquement la montée e
 - La mémoire physique sert de cache à la mémoire virtuelle
 - On doit disposer d'un mécanisme de traduction entre l'adresse virtuelle et l'adresse physique
 
-#### Traduction des adresses
+### Traduction des adresses
 Exécution à chaque accès mémoire, la coopération du matériel est donc indispensable.
 
 MMU (Memory Management Unit) assure la traduction en adresse physique, c'est peu coûteux (coûteux et compliqué si c'est fait au niveau logiciel), et c'est transparant pour les programmes.
@@ -111,3 +111,9 @@ Si l'information adressée par l'instruction courante n'est pas en mémoire phys
 - le système d'exploitation prend la main et fait monter  l'information en mémoire physique
 - lorsque le processus est ordonnancé à nouveau, l'instruction  suspendue est reprise à l'accès mémoire
 
+**Voici une illustration de la traduction d'adresses**
+![[Pasted image 20230425083745.png | center]]
+
+### Segmentation et Pagination
+
+La segmentation c'est le fait de séparer la mémoire en segment de **types** différents et de tailles variables, par exemple : `Ce segment va contenir le code de mon programme, ce segment va contenir les données de mon processus.`

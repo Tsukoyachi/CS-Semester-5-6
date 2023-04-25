@@ -160,3 +160,16 @@ Pour réaliser cela, on partage l’espace d’adressage du processus et la mém
 	- Table de pages: traduit l’adresse logique en adresse physique.
 
 ![[Pasted image 20230425085752.png | center]]
+
+##### Remplacement de Page
+
+Quelle page remplacer lorsqu'une nouvelle page doit monter en mémoire physique ?
+
+Principe d'optimalité (Peter Denning)
+- Remplacer la page qui ne sera pas utilisée dans le temps le plus  long, sauf qu'on a pas de boule de cristal donc on ne le sait pas.
+
+On a donc quelques algorithmes de remplacement de page :
+- FIFO : First In First Out -> Problème de l'anomalie FIFO
+- LRU : Least Recently Used -> Difficile à implémenter
+- NRU : Not Recently Used -> Le plus courant (souvent confondu avec LRU)
+- NFU : Not Frequently Used -> Incrémente un compteu

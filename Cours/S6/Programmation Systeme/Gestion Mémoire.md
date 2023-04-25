@@ -117,3 +117,7 @@ Si l'information adressée par l'instruction courante n'est pas en mémoire phys
 ### Segmentation et Pagination
 
 La segmentation c'est le fait de séparer la mémoire en segment de **types** différents et de tailles variables, par exemple : `Ce segment va contenir le code de mon programme, ce segment va contenir les données de mon processus.`
+
+La segmentation on la voit aussi quand on dépasse une zone mémoire alloué avec un pointeur, la fameuse `Segmentation fault`.
+
+La pagination est le fait de séparer la mémoire en bloc de taille fixe que l'on va appeler page, le découpage est aveugle donc contrairement à la segmentation il n'y a pas de sens fonctionnel. Cela facilite les mécanismes de traduction car on peut 

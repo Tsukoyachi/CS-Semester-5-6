@@ -44,5 +44,13 @@ Cela pose un problème pour la gestion de la multiprogrammation.
 Il existe différents modèle de gestion de la mémoire.
 
 #### Partitions fixes
+
 ![[Pasted image 20230425081310.png | center]]
 
+Ce procédé fonctionnait bien à l'époque mais pose plusieurs inconvénient majeurs donc on oublie.
+
+#### Partitions variables
+
+![[Pasted image 20230425081446.png | center]]
+
+- On ne sait pas d'emblée combien de mémoire un

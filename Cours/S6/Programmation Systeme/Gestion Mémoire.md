@@ -32,3 +32,17 @@ Il y a différentes manières de manipuler les adresses :
 
 Donc le programmeur et les processus manipulent des **adresses logique** alors que le système et le matériel manipulent des **adresses physiques**.
 
+### Mémoire Réelle
+
+Contraintes de la mémoire réelle :
+- Les adresses-machines ne référencent que des instructions ou données en mémoire physique.
+- L'ensemble du processus en cours d'exécution doit donc être en mémoire physique.
+- Les adresses doivent être contigües
+
+Cela pose un problème pour la gestion de la multiprogrammation.
+
+Il existe différents modèle de gestion de la mémoire.
+
+#### Partitions fixes
+![[Pasted image 20230425081310.png | center]]
+

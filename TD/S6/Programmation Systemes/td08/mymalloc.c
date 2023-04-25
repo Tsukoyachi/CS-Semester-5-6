@@ -145,6 +145,7 @@ void *internal_malloc(size_t nbOctet) {
     }
     if(!SIZE(block)){
         Header *memory = allocate_core(nbBlock);
+        internal_free(memory);
         NEXT(memory) = NEXT(block);
         NEXT(block) = memory;
         previous = block;

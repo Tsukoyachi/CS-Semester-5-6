@@ -178,3 +178,23 @@ Gestion par processus ("Working Set")
 - Prédiction des pages utiles de chaque processus
 
 ##### Pagination: Conséquence sur la Programmation
+Pagination: abstraction invisible au programmeur mais a des conséquences sur la gestion de la mémoire.
+
+Exemple :
+Imaginons qu'une page ait une taille de 128\*sizeof(int) et qu'un tableau soit stocké ligne par ligne.
+![[Pasted image 20230425090550.png | center]]
+
+Les deux codes suivants ne sont pas équivalents en termes de gestion mémoire (le premier peut nécessiter des swaps) :
+
+1er code :
+```c
+int tab[128][128];
+for(int j=0;j<128;j++){
+	for(int i=0;i<128;i++){
+		tab[i][j] = 0 ;
+	}
+}
+/* parcours les pages */
+```
+
+2e code :

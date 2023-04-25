@@ -26,4 +26,9 @@ C'est une ressource hierarchisée :
 ### Représentation des adresses mémoires
 
 Il y a différentes manières de manipuler les adresses :
-- Code source (pour le programmeur)
+- Code source (pour le programmeur) avec des adresses symbolique, par exemple : `int compteur`
+- Module objet (suite à la compilation) avec des adresses traduites, par exemple : `Le 50e mot depuis le début d'espace mémoire`
+- Module exécutable (suite au chargement) avec des adresses absolues, par exemple : `Par exemple l'emplacement mémoire situé à l'adresse FFF7`
+
+Donc le programmeur et les processus manipulent des **adresses logique** alors que le système et le matériel manipulent des **adresses physiques**.
+

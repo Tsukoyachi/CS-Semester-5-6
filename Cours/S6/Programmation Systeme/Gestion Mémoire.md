@@ -198,3 +198,35 @@ for(int j=0;j<128;j++){
 ```
 
 2e code :
+```c
+int tab[128][128];
+for(int i=0;j<128;j++){
+	for(int j=0;i<128;i++){
+		tab[i][j] = 0 ;
+	}
+}
+/* reste dans une pages */
+```
+
+En terme de performance les deux codes ne seront **pas du tout** identique, bien au contraire.
+
+#### Segmentation x Pagination
+![[Pasted image 20230425090830.png | center]]
+
+### Mémoire Virtuelle:  Avantages et Inconvénients
+
+Avantages :
+- Libération de la contrainte de la taille de l'espace physique
+- Taux de multiprogrammation élevé
+- « Relogeabilité » immédiate
+- Partage de code et de données ; « mapping de fichiers »
+
+Inconvénients :
+- Perte de performances
+- D'autant plus efficace que l'on a plus de mémoire physique
+- Réglage délicat : taille des pages, remplacement
+
+## Conclusion sur les systèmes et la gestion mémoire
+
+Type de gestionnaires: 
+-

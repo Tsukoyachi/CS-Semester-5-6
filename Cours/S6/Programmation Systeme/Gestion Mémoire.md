@@ -147,3 +147,7 @@ Partage de segments entre processus quand deux processus pointent sur la même e
 
 Un exemple concret avec la commande `cat /proc/pid/maps` :
 ![[Pasted image 20230425085221.png | center]]
+
+#### Pagination
+La pagination permet d’avoir en mémoire un processus  
+donc les adresses sont non contigües

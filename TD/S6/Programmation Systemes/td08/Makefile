@@ -12,7 +12,7 @@ CC=gcc
 CFLAGS=-Wall -Wextra -std=gnu99 -g -Wno-unused-variable
 
 # Les sources C (i.e. tous les fichiers C sauf mymalloc.c)
-SRC=$(sort $(filter-out mymalloc.c,$(wildcard *.c)))
+SRC="test-simple.c" #$(sort $(filter-out mymalloc.c,$(wildcard *.c)))
 
 # Les fichiers à produire
 EXE=$(SRC:.c=.exe)

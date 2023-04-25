@@ -166,6 +166,13 @@
   },
   "active": "600e159a45cd66e1",
   "lastOpenFiles": [
+    "TD/S6/Programmation Systemes/td08/mymalloc.o",
+    "TD/S6/Programmation Systemes/td08/test-limit.html",
+    "TD/S6/Programmation Systemes/td08/test.exe",
+    "TD/S6/Programmation Systemes/td08/test-simple.exe",
+    "TD/S6/Programmation Systemes/td08/test-realloc.exe",
+    "TD/S6/Programmation Systemes/td08/test-limit.exe",
+    "TD/S6/Programmation Systemes/td08/test.html",
     "Cours/S6/Programmation Systeme/Gestion Mémoire.md",
     "TD/S6/Programmation Systemes/td08/Compte rendu td8.md",
     "Cours/S6/Programmation Systeme/media/Pasted image 20230425091759.png",
@@ -193,12 +200,6 @@
     "Cours/S6/Connaissance Entreprise/Exercice Fnac-Darty.md",
     "TD/S6/Programmation Systemes/td07/Compte rendu TD7.md",
     "Cours/S6/Connaissance Entreprise",
-    "TD/S6/Programmation Systemes/td07/tst_children.o",
-    "TD/S6/Programmation Systemes/td07/tst_children.exe",
-    "TD/S6/Programmation Systemes/td07/tst_children.c",
-    "TD/S6/Programmation Systemes/td07/tst_signal.exe",
-    "TD/S6/Programmation Systemes/td07/tst_signal.o",
-    "TD/S6/Programmation Systemes/td07/tst_sigaction.exe",
     "Cours/S6/Programmation Systeme/Signaux.md",
     "Cours/S5/Langage C et système/1 - Introduction.md",
     "TD/S6/Programmation Systemes/td06/Compte rendu TD6.md",
@@ -210,7 +211,6 @@
     "TD/S6/Compilation automate/TD4/Compte rendu TD4.md",
     "Cours/S6/Données numérique/Algorithme kNN.md",
     "Cours/S6/Données numérique/Métriques de classification.md",
-    "Cours/S6/Programmation Systeme/Processus VS Thread.md",
-    "Cours/S6/Programmation Systeme/Operating System.md"
+    "Cours/S6/Programmation Systeme/Processus VS Thread.md"
   ]
 }

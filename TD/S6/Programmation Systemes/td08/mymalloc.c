@@ -132,7 +132,7 @@ static Header *allocate_core(size_t o_ff0da02c02d81e161f53f59fbf94f724) {
  * Commenter le code obfusqué avant de proposer votre solution
  */
 void *internal_malloc(size_t nbOctet) {
-    int nbBlock = BLOCKS_TO_ALLOCATE(nbOctet);
+    size_t nbBlock = BLOCKS_TO_ALLOCATE(nbOctet);
 
     Header *block = NEXT(freep);
     Header *previous = freep;

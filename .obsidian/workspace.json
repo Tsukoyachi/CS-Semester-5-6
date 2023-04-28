@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9daf668b8134cf16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cours/S6/Données numérique/Convolution.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TD/S6/Programmation Systemes/td08/Compte rendu td8.md",
+                "file": "Cours/S6/Données numérique/Convolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TD/S6/Programmation Systemes/td08/Compte rendu td8.md",
+                "file": "Cours/S6/Données numérique/Convolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TD/S6/Programmation Systemes/td08/Compte rendu td8.md"
+                "file": "Cours/S6/Données numérique/Convolution.md"
               }
             }
           },
@@ -164,8 +177,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "600e159a45cd66e1",
+  "active": "9daf668b8134cf16",
   "lastOpenFiles": [
+    "Cours/S6/Données numérique/media/Pasted image 20230428101434.png",
+    "TD/S6/Programmation Systemes/td08/Compte rendu td8.md",
+    "Cours/S6/Données numérique/Convolution.md",
     "TD/S6/Programmation Systemes/td08/mymalloc.o",
     "TD/S6/Programmation Systemes/td08/mymalloc.c~",
     "TD/S6/Programmation Systemes/td08/test-realloc.html",
@@ -176,9 +192,7 @@
     "TD/S6/Programmation Systemes/td08/test-realloc.exe",
     "TD/S6/Programmation Systemes/td08/test-limit.exe",
     "TD/S6/Programmation Systemes/td08/test-simple.exe",
-    "TD/S6/Programmation Systemes/td08/test-simple",
     "Cours/S6/Programmation Systeme/Gestion Mémoire.md",
-    "TD/S6/Programmation Systemes/td08/Compte rendu td8.md",
     "Cours/S6/Programmation Systeme/media/Pasted image 20230425091759.png",
     "Cours/S6/Programmation Systeme/media/Pasted image 20230425090830.png",
     "Cours/S6/Programmation Systeme/media/Pasted image 20230425090550.png",
@@ -210,7 +224,6 @@
     "TD/S6/Programmation Systemes/td05/Compte rendu td05.md",
     "TD/S6/Compilation automate/TD4/Compte rendu TD4.md",
     "Cours/S6/Données numérique/Algorithme kNN.md",
-    "Cours/S6/Données numérique/Métriques de classification.md",
-    "Cours/S6/Programmation Systeme/Processus VS Thread.md"
+    "Cours/S6/Données numérique/Métriques de classification.md"
   ]
 }

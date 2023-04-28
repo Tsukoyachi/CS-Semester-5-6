@@ -35,8 +35,8 @@ On continue ce calcul sur chaque case pour obtenir ceci :
 		<th>180</th>
 	</tr>
 	<tr>
-		<th>2</th>
-		<th>1</th>
-		<th>0</th>
-	</tr
+		<th>64</th>
+		<th>161</th>
+		<th>193</th>
+	</tr>
 </table>

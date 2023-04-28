@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "600e159a45cd66e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TD/S6/Programmation Systemes/td08/Compte rendu td8.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9daf668b8134cf16",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"

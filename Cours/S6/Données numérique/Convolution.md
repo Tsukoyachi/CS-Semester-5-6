@@ -30,9 +30,9 @@ On continue ce calcul sur chaque case pour obtenir ceci :
 
 <table style="margin:auto">
 	<tr>
-		<th>2</th>
-		<th>1</th>
-		<th>-2</th>
+		<th>80</th>
+		<th>148</th>
+		<th>180</th>
 	</tr>
 	<tr>
 		<th>2</th>

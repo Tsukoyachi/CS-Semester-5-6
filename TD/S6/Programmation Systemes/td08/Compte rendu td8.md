@@ -1,6 +1,6 @@
 ## Question 1
 
-La struct Data est constitué d'un char et d'un int qui font respectivement 1 octet et 4 octet, donc on demande à malloc d'allouer 5 octets.
+La struct Data est constitué d'un tableau de 100 char et d'un int qui font respectivement 100 octet et 4 octet, donc on demande à malloc d'allouer 104 octets.
 
 ## Question 2
 

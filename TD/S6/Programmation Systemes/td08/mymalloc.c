@@ -93,6 +93,8 @@ typedef union header { /* Header de zone */
 
 #define NEXT(p) ((p)->info.ptr)
 #define SIZE(p) ((p)->info.size)
+#define DATA(p) (((Header *) p) + 1)
+#define HEADER(d) (((Header *) d) - 1)
 
 /* L'unité de découpage de la mémoire est la taille de Header car ça permet de gérer facilement chaînage
    Le programme appelant malloc reçoit un pointeur et utilise la mémoire comme il veut.
@@ -109,92 +111,95 @@ static Header *freep = &base;      /* freep pointe sur la 1ère zone libre */
  *  - Appelle internal_free pour ajouter la nouvelle zone à la liste des zones libres
  * Commenter le code obfusqué avant de proposer votre solution
  */
-static void *allocate_core(size_t o_ff0da02c02d81e161f53f59fbf94f724) {
-    d_25f02d83e74b494398384a979fc5905e *o_e885ad26a275a307e21f453748b2f016;
-    d_9704fa3dc09c42a7a0bf66eead5b07c8((o_ff0da02c02d81e161f53f59fbf94f724 < d_97961cbeceac434c8b591a95007fa3eb) & !!(o_ff0da02c02d81e161f53f59fbf94f724 < d_97961cbeceac434c8b591a95007fa3eb))
-        o_ff0da02c02d81e161f53f59fbf94f724 = d_97961cbeceac434c8b591a95007fa3eb;
-    ;
-    o_e885ad26a275a307e21f453748b2f016 = d_afaf5fd059d94080817053099306ac75(o_ff0da02c02d81e161f53f59fbf94f724 * d_b6e8837c0ef040cfa871d5dcb9dc1f61(d_25f02d83e74b494398384a979fc5905e));
-    d_9704fa3dc09c42a7a0bf66eead5b07c8(o_e885ad26a275a307e21f453748b2f016 == ((d_1b841f7f16de41708fbaafa426b7de5d *)-(0x0000000000000002 + 0x0000000000000201 + 0x0000000000000801 - 0x0000000000000A03)))
-        d_0fca9c5775cb45739917d024a8cecd0c d_cd7b23f6cf614dac81521ef674a2773f;
-    ;
-    d_c504595b54044fc1b9c8c74e8f0b706b(o_e885ad26a275a307e21f453748b2f016) = o_ff0da02c02d81e161f53f59fbf94f724;
-    d_ce25df4bb9ec4b338f519302e17e923b(o_e885ad26a275a307e21f453748b2f016 + (0x0000000000000002 + 0x0000000000000201 + 0x0000000000000801 - 0x0000000000000A03));
-    d_0fca9c5775cb45739917d024a8cecd0c d_f0e6fce3d2144597bc3670844da06bdb;
+static void *allocate_core(size_t size) {
+    size = BLOCKS_TO_ALLOCATE(size);
+    if (size < MIN_ALLOCATION) {
+        size = MIN_ALLOCATION;
+    }
+    size = size * HEADER_SIZE;
+
+    void *p = mysbrk((intptr_t) size);
+    if (p == (void *)-1) {
+        return NULL;
+    }
+
+    Header *header = (Header *)p;
+    SIZE(header) = size;
+    internal_free(header + 1);
+    return (void *)freep;
 }
 
 /* ====================================================================== */
 
-/* 
- * Fonction interne de malloc:
- *  - Cherche la première zone libre de taille suffisante
- *  - Si pas trouvé, appelle allocate_core pour en obtenir une nouvelle
- * Commenter le code obfusqué avant de proposer votre solution
- */
-void *internal_malloc(size_t nbOctet) {
-    size_t nbBlock = BLOCKS_TO_ALLOCATE(nbOctet);
+void *internal_malloc(size_t size) {
+   Header *current, *previous;
+   size = BLOCKS_TO_ALLOCATE(size);
 
-    Header *block = NEXT(freep);
-    Header *previous = freep;
-    while(SIZE(block) < nbBlock){
-        if (block == freep){
-            Header *memory = allocate_core(nbBlock);
-            if(memory == NULL){
+   for(previous = freep,current = NEXT(freep);;previous = current, current = NEXT(current)){
+        if(SIZE(current) >= size) {
+            if(SIZE(current) == size) {
+                NEXT(previous) = NEXT(current);
+            }
+            else {
+                Header *remainingSpace = current+ size;
+                SIZE(remainingSpace) = SIZE(current)-size;
+
+                NEXT(previous) = remainingSpace;
+                NEXT(remainingSpace) = NEXT(current);
+
+                SIZE(current) = size;
+            }
+            return current+1;
+        }
+
+        if(current == freep){
+            current = allocate_core(size);
+            if(current == NULL){
                 return NULL;
             }
-            previous = block;
-            block = NEXT(previous);
-            continue;
         }
-        previous = block;
-        block = NEXT(block);
-    }
-
-    if(SIZE(block) == nbBlock){
-        NEXT(previous) = NEXT(block);
-        return block;
-    }
-
-    Header remainingSpace;
-    remainingSpace.info.size = SIZE(block) - nbBlock;
-    remainingSpace.info.ptr = NEXT(block);
-    block[nbBlock] = remainingSpace;
-    NEXT(previous) = &block[nbBlock];
-    SIZE(block) = nbBlock;
-    return block;
+   }
 }
+
 
 /* ====================================================================== */
 
 /* Libère un bloc de mémoire alloué par malloc() ou calloc() 
  * Commenter le code obfusqué avant de proposer votre solution
  */
-void internal_free(void *o_279d7785802f49a15b5f695ed8f19d8b) {
-    d_25f02d83e74b494398384a979fc5905e *o_e15d2c808b08eba355ee7e110fccd69d, *o_2c9a385d2dd75367e19df9aab65c0dd7, *o_4c6613b3e3aa91a19b2335d21ae5c09d;
-    d_9704fa3dc09c42a7a0bf66eead5b07c8(!o_279d7785802f49a15b5f695ed8f19d8b)
-        d_0fca9c5775cb45739917d024a8cecd0c;
-    ;
-    o_e15d2c808b08eba355ee7e110fccd69d = ((d_25f02d83e74b494398384a979fc5905e *)o_279d7785802f49a15b5f695ed8f19d8b) - (0x0000000000000002 + 0x0000000000000201 + 0x0000000000000801 - 0x0000000000000A03);
-    d_3e01c509b63b4fb4bb2cd5580d8e177b(o_4c6613b3e3aa91a19b2335d21ae5c09d = d_f0e6fce3d2144597bc3670844da06bdb, o_2c9a385d2dd75367e19df9aab65c0dd7 = d_d8aeefb7d2a54e30a43082cf2a535006(d_f0e6fce3d2144597bc3670844da06bdb); o_4c6613b3e3aa91a19b2335d21ae5c09d = o_2c9a385d2dd75367e19df9aab65c0dd7, o_2c9a385d2dd75367e19df9aab65c0dd7 = d_d8aeefb7d2a54e30a43082cf2a535006(o_2c9a385d2dd75367e19df9aab65c0dd7);) {
-        d_9704fa3dc09c42a7a0bf66eead5b07c8(d_d8aeefb7d2a54e30a43082cf2a535006(o_4c6613b3e3aa91a19b2335d21ae5c09d) == d_f0e6fce3d2144597bc3670844da06bdb || (o_2c9a385d2dd75367e19df9aab65c0dd7 > o_e15d2c808b08eba355ee7e110fccd69d) & !!(o_2c9a385d2dd75367e19df9aab65c0dd7 > o_e15d2c808b08eba355ee7e110fccd69d)) {
-            d_4e1c50ae9c1e464c8795360721ed2fd7;
-        };
-    };
-    d_9704fa3dc09c42a7a0bf66eead5b07c8(o_e15d2c808b08eba355ee7e110fccd69d + d_c504595b54044fc1b9c8c74e8f0b706b(o_e15d2c808b08eba355ee7e110fccd69d) == o_2c9a385d2dd75367e19df9aab65c0dd7) {
-        d_c504595b54044fc1b9c8c74e8f0b706b(o_e15d2c808b08eba355ee7e110fccd69d) += d_c504595b54044fc1b9c8c74e8f0b706b(o_2c9a385d2dd75367e19df9aab65c0dd7);
-        d_d8aeefb7d2a54e30a43082cf2a535006(o_e15d2c808b08eba355ee7e110fccd69d) = d_d8aeefb7d2a54e30a43082cf2a535006(o_2c9a385d2dd75367e19df9aab65c0dd7);
+
+void internal_free(void *ptr) {
+    Header *left, *right;
+
+    Header *middle = (Header *)ptr - 1;
+
+    for (left=freep, right= NEXT(left); left<middle && right >middle; left = right, right = NEXT(right)){
+        if(right < left && (middle > left || middle < right)) {
+            //Case where the element to free is between the last element and the first one
+            break;
+        }
     }
-    d_ba16cdac161549a588a46912ca7874cb {
-        d_d8aeefb7d2a54e30a43082cf2a535006(o_e15d2c808b08eba355ee7e110fccd69d) = o_2c9a385d2dd75367e19df9aab65c0dd7;
-    };
-    d_9704fa3dc09c42a7a0bf66eead5b07c8(o_4c6613b3e3aa91a19b2335d21ae5c09d + d_c504595b54044fc1b9c8c74e8f0b706b(o_4c6613b3e3aa91a19b2335d21ae5c09d) == o_e15d2c808b08eba355ee7e110fccd69d) {
-        d_c504595b54044fc1b9c8c74e8f0b706b(o_4c6613b3e3aa91a19b2335d21ae5c09d) += d_c504595b54044fc1b9c8c74e8f0b706b(o_e15d2c808b08eba355ee7e110fccd69d);
-        d_d8aeefb7d2a54e30a43082cf2a535006(o_4c6613b3e3aa91a19b2335d21ae5c09d) = d_d8aeefb7d2a54e30a43082cf2a535006(o_e15d2c808b08eba355ee7e110fccd69d);
+
+    if(middle + SIZE(middle) == right){
+        SIZE(middle) += SIZE(right);
+        NEXT(middle) = NEXT(right);
     }
-    d_ba16cdac161549a588a46912ca7874cb {
-        d_d8aeefb7d2a54e30a43082cf2a535006(o_4c6613b3e3aa91a19b2335d21ae5c09d) = o_e15d2c808b08eba355ee7e110fccd69d;
-    };
+    else {
+        NEXT(middle) = right;
+    }
+
+    if (left + SIZE(left) == middle) {
+        SIZE(left) += SIZE(middle);
+        NEXT(left) = NEXT(middle);
+    } else {
+        NEXT(left) = middle;
+    }
+
+    freep = left;
 }
+
+
+
 
 /* ====================================================================== */
 

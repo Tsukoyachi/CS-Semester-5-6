@@ -35,6 +35,14 @@ void afficher_entier(int valeur,int indent){
 	printf("[Entier:%d]\n",valeur);
 }
 
+void afficher_booleen(int valeur,int indent){
+	for(int i = 0; i < indent; i++){
+	printf(" "); 
+	
+	}
+	printf("[Booleen:%s]\n",(valeur == 1)? "Vrai" : "Faux");
+}
+
 void afficher_variable(char *varname,int indent) {
 	for(int i = 0; i < indent; i++){
 	printf(" "); 
@@ -107,6 +115,8 @@ void afficher_n_exp(n_exp* exp ,int indent){
 		afficher_n_operation(exp->u.operation,indent);
 	} else if (exp->type_exp == i_entier){
 		afficher_entier(exp->u.valeur,indent);
+	} else if (exp->type_exp == i_booleen) { 
+		afficher_booleen(exp->u.valeur,indent);
 	} else if (exp->type_exp == i_lire) {
 		afficher_lire(indent);
 	} else if (exp->type_exp == i_variable) {
@@ -163,6 +173,13 @@ n_exp* creer_n_entier(int valeur){
   n->type_exp = i_entier;
   n->u.valeur = valeur;
   return n;
+}
+
+n_exp* creer_n_booleen(int valeur) {
+	n_exp *n = malloc(sizeof(n_exp));
+	n->type_exp = i_booleen;
+	n->u.valeur = valeur;
+	return n;
 }
 
 n_exp* creer_n_operation(char type_operation,n_exp* exp1,n_exp* exp2){

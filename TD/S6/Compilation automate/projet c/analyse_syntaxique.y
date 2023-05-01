@@ -13,6 +13,7 @@ n_programme* arbre_abstrait;
 
 %union {
     int entier;
+    int booleen;
     char *name;
     n_programme* prog;
     n_l_instructions* l_inst;
@@ -65,113 +66,128 @@ n_programme* arbre_abstrait;
 %type <exp> lire
 %type <exp> expr
 %type <exp> facteur
+%type <exp> somme
 %type <exp> produit
 %type <exp> variable
 %type <exp> fonction
 %type <l_arg> listeArgument
 %type <exp> argument
+%type <exp> booleen
 %%
 
 prog: listeInstructions {
 arbre_abstrait =creer_n_programme($1);
 } 
 
-listeInstructions: instruction {
-$$ =creer_n_l_instructions($1 ,NULL);
-} 
+listeInstructions
+    : instruction {
+        $$ =creer_n_l_instructions($1 ,NULL);
+    } 
+    | listeInstructions: instruction listeInstructions {
+        $$ =creer_n_l_instructions($1 ,$2);
+    } 
+    | instruction: ecrire {
+	    $$ =$1;
+    }
+ecrire
+    : ECRIRE PARENTHESE_OUVRANTE expr PARENTHESE_FERMANTE POINT_VIRGULE {
+	    $$ =creer_n_ecrire($3);
+    }
 
-listeInstructions: instruction listeInstructions {
-$$ =creer_n_l_instructions($1 ,$2);
-} 
+argument
+    : expr {
+        $$ = $1;
+    }
 
-instruction: ecrire {
-	$$ =$1;
-}
+expr
+    : booleen {
+        $$ = $1;
+    }
 
-ecrire: ECRIRE PARENTHESE_OUVRANTE expr PARENTHESE_FERMANTE POINT_VIRGULE {
-	
-	$$ =creer_n_ecrire($3);
-}
+booleen
+    : somme {
+        $$ = $1;
+    }
+    | BOOLEAN {
+        $$ = creer_n_booleen($1);
+    }
+    | produit {
+        $$ = $1;
+    }
+    | facteur {
+        $$ = $1;
+    }
+    | variable {
+        $$ = $1;
+    }
 
-argument : expr {
-    $$ = $1;
-}
+somme
+    : produit {
+        $$ = $1;
+    }
+    | somme PLUS produit {
+        $$ =creer_n_operation('+', $1, $3);
+    }
+    | somme MOINS produit {
+        $$ = creer_n_operation('-',$1, $3);
+    }
 
-expr: expr PLUS produit{
-	$$ =creer_n_operation('+', $1, $3);
-}
+produit
+    : facteur {
+        $$ = $1;
+    }
+    | produit FOIS facteur {
+        $$ =creer_n_operation('*',$1,$3);
+    }
+    | produit DIVISION facteur {
+        $$ =creer_n_operation('/',$1,$3);
+    }
+    | produit MODULO facteur {
+        $$ =creer_n_operation('%',$1,$3);
+    }
+    | MOINS facteur {
+        $$ = creer_n_operation('*',creer_n_entier(-1),$2);
+    }
 
-expr: expr MOINS produit{
-	$$ =creer_n_operation('-', $1, $3);
-}
+facteur
+    : variable {
+        $$ = $1;
+    }
+    | lire {
+        $$ = $1;
+    }
+    | fonction {
+        $$ = $1;
+    }
+    | ENTIER {
+	    $$ = creer_n_entier($1);
+    }
+    | PARENTHESE_OUVRANTE expr PARENTHESE_FERMANTE {
+	    $$ =$2 ;
+    }
 
-expr: expr FOIS facteur{
-	$$ =creer_n_operation('*', $1 , $3);
-}
+lire
+    : LIRE PARENTHESE_OUVRANTE PARENTHESE_FERMANTE {
+        $$ = creer_lire();
+    }
 
-produit : produit FOIS facteur {
-    $$ =creer_n_operation('*',$1,$3);
-}
+variable
+    : IDENTIFIANT {
+        $$ = creer_variable($1);
+    }
 
-produit : produit DIVISION facteur {
-    $$ =creer_n_operation('/',$1,$3);
-}
+fonction
+    : IDENTIFIANT PARENTHESE_OUVRANTE listeArgument PARENTHESE_FERMANTE {
+        $$ = creer_fonction($1,$3);
+    }
 
-produit : produit MODULO facteur {
-    $$ =creer_n_operation('%',$1,$3);
-}
-
-produit : MOINS facteur {
-    $$ = creer_n_operation('*',creer_n_entier(-1),$2);
-}
-
-expr: produit {
-    $$= $1;
-}
-
-produit : facteur {
-    $$ = $1;
-}
-
-facteur : lire {
-    $$ = $1;
-}
-
-facteur : variable {
-    $$ = $1;
-}
-
-facteur : fonction {
-    $$ = $1;
-}
-
-facteur: ENTIER {
-	$$ = creer_n_entier($1);
-}
-
-facteur: PARENTHESE_OUVRANTE expr PARENTHESE_FERMANTE {
-	$$ =$2 ;
-}
-
-lire: LIRE PARENTHESE_OUVRANTE PARENTHESE_FERMANTE {
-    $$ = creer_lire();
-}
-
-variable : IDENTIFIANT {
-    $$ = creer_variable($1);
-}
-
-fonction : IDENTIFIANT PARENTHESE_OUVRANTE listeArgument PARENTHESE_FERMANTE {
-    $$ = creer_fonction($1,$3);
-}
-
-listeArgument : argument {
-    $$ = creer_n_l_argument($1,NULL);
-}
-
-listeArgument : argument VIRGULE listeArgument {
-    $$ = creer_n_l_argument($1,$3);;
-}
+listeArgument
+    : argument {
+        $$ = creer_n_l_argument($1,NULL);
+    }
+    | argument VIRGULE listeArgument {
+        $$ = creer_n_l_argument($1,$3);;
+    }
 
 %%
 

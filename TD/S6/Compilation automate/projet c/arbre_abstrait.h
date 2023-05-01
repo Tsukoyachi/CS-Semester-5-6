@@ -34,7 +34,7 @@ struct n_instruction{
 };
 
 struct n_exp{
-  enum { i_operation,i_entier, i_lire,i_variable,i_fonction } type_exp; // pour le moment une expression  peut-être une opération ou un entier
+  enum { i_operation,i_entier, i_booleen, i_lire,i_variable,i_fonction } type_exp; // pour le moment une expression  peut-être une opération ou un entier
   union{ 
     n_operation* operation;
     int valeur;
@@ -64,6 +64,8 @@ void afficher_n_l_instructions(n_l_instructions* instructions ,int indent);
 void afficher_n_instruction(n_instruction* instruction ,int indent);
 void afficher_n_ecrire(n_ecrire* ecrire,int indent);
 void afficher_n_exp(n_exp* exp ,int indent);
+void afficher_entier(int valeur ,int indent);
+void afficher_booleen(int valeur ,int indent);
 void afficher_n_operation(n_operation* operation ,int indent);
 void afficher_lire(int indent);
 void afficher_variable(char *varname,int indent);
@@ -73,6 +75,7 @@ n_programme* creer_n_programme(n_l_instructions* instructions);
 n_l_instructions* creer_n_l_instructions(n_instruction* instruction ,n_l_instructions* instructions);
 n_instruction* creer_n_ecrire(n_exp* exp);
 n_exp* creer_n_entier(int valeur);
+n_exp* creer_n_booleen(int valeur);
 n_exp* creer_n_operation(char type_operation, n_exp* exp1, n_exp* exp2);
 n_exp* creer_lire();
 n_exp* creer_variable(char *var_name);

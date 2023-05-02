@@ -31,4 +31,12 @@ Il possède plusieurs dénominations :
 - Managed Code (exécuté par une machine virtuelle CLR)
 
 Principales motivations :
-- Re
+- Renforcer la sureté de fonctionnement
+- Lutter contre les fuites mémoires (source principale de bugs en C) -> grâce au Garbage Collector
+- Permet la compilation à la volée (JIT : Just-in-Time)
+
+Nécessite une machine virtuelle pour interpréter le code et le traduire dans le langage du processeur.
+- Dans le cas de Java il faut une JVM
+- Dans le cas de .NET (C#) il faut la CLR (Common Language Runtime)
+- Mais aussi dans d'autres langages : Matlab, ...
+

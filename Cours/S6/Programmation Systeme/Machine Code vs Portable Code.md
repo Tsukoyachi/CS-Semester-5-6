@@ -40,3 +40,5 @@ Nécessite une machine virtuelle pour interpréter le code et le traduire dans l
 - Dans le cas de .NET (C#) il faut la CLR (Common Language Runtime)
 - Mais aussi dans d'autres langages : Matlab, ...
 
+### Bytecode Java pour la JVM
+![[Pasted image 20230502081542.png | center]]

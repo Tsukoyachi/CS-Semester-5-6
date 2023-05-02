@@ -7,5 +7,45 @@ Et de créer une librairie dynamique à partir de l'implémentation en c de l'in
 Ici le makefile possède déjà tout ce qu'il faut :
 
 ```makefile
+#---------------------------------------------------------------------------------
+# Variables
+#---------------------------------------------------------------------------------
+
+JAVA_H=/usr/lib/jvm/java-17-openjdk-amd64
+
+# Compilateur et options
+# ----------------------
+
+CC=g++
+CXXFLAGS=-fpic -Wall -I$(JAVA_H)/include/ -I$(JAVA_H)/include/linux
+
+TARGET=libHelloWorld.so
+SRC=$(wildcard *.cpp)
+OBJ=$(SRC:.cpp=.o)
+H_FILE=$(SRC:.cpp=.h)
+
+#---------------------------------------------------------------------------------
+# Cibles
+#---------------------------------------------------------------------------------
+all: $(TARGET)
+
+$(TARGET): $(OBJ)
+	$(CC) -Wl,-soname,$@ -shared -o $@ $< 
+
+%.o: %.cpp %.h
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+
+clean:
+	rm -f $(TARGET) $(OBJ) \#* *~
 
 ```
+
+Pour pouvoir exécuter le java, étant sous linux il me faut également modifier le LD_LIBRARY_PATH pour pouvoir trouver la bibliothèque, comme ceci :
+`export LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH`
+
+## Exercice 2 :
+
+Ici, il ne suffit que de lancer l'exécution du java compilé précédemment.
+
+![[Pasted image 20230502093629.png | center]]
+

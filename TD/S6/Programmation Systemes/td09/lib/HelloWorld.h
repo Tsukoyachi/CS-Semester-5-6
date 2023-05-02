@@ -15,6 +15,22 @@ extern "C" {
 JNIEXPORT void JNICALL Java_HelloWorld_printCpp
   (JNIEnv *, jclass);
 
+/*
+ * Class:     HelloWorld
+ * Method:    Java_HelloWorld_printStringToCpp
+ * Signature: (Ljava/lang/String;)V
+ */
+JNIEXPORT void JNICALL Java_HelloWorld_Java_1HelloWorld_1printStringToCpp
+  (JNIEnv *, jclass, jstring);
+
+/*
+ * Class:     HelloWorld
+ * Method:    Java_HelloWorld_stringFromCpp
+ * Signature: ()Ljava/lang/String;
+ */
+JNIEXPORT jstring JNICALL Java_HelloWorld_Java_1HelloWorld_1stringFromCpp
+  (JNIEnv *, jclass);
+
 #ifdef __cplusplus
 }
 #endif

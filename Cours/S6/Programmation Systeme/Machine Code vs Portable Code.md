@@ -94,4 +94,22 @@ L’API JNI offre l’accès à la machine virtuelle et son environnement :
 ### Deux grands intérêts
 
 Quand Java appelle C/C++ :
-- Prototypes et co
+- Prototypes et conventions entre les deux langages
+- Chargement dynamique de bibliothèques en Java
+
+Quand du C/C++ accède à l'environnement Java :
+- Lecture/écriture de données d'instance et de classes
+- Invocation de méthodes d'instance et de classes
+- Création d'objet
+- Création de tableaux et de String
+- Levée et filtrage d'exceptions
+- Utilisation des moniteurs (de Hoare)
+- Entrées/sorties Série
+- Création de machine(s) Java
+
+### Quand Java appelle du C/C++
+
+#### Le principe :
+
+![[Pasted image 20230502082936.png | center]]
+

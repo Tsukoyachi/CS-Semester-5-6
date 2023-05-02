@@ -76,3 +76,8 @@ Après cela tout fonctionne.
 ## Exercice 5 :
 
 Ici on déclare la méthode native, non static, qui renvoie un String toString en Java. Ensuite on ajoute son implémentation en C avec un appel simple en Java.
+
+L'api JNI est assez simple en ce qui concerne l'accès à des variables d'un objet.
+- On instancie le jfieldId que l'on va utiliser ensuite
+- On pourra ainsi Get/Set le field à l'aide de l'environnement, de l'id et de la valeur si on set.
+

@@ -3,6 +3,9 @@ import java.lang.management.RuntimeMXBean;
 
 public class exo1 {
     static {
+        System.out.print("Loading Pid native library...");
+        System.loadLibrary("PidLibrary");
+        System.out.println("done.");
     }
 
     public static void main(String args[]) {

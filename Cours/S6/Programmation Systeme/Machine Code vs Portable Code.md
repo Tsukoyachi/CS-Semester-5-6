@@ -41,4 +41,12 @@ Nécessite une machine virtuelle pour interpréter le code et le traduire dans l
 - Mais aussi dans d'autres langages : Matlab, ...
 
 ### Bytecode Java pour la JVM
+
 ![[Pasted image 20230502081542.png | center]]
+\*jvm et non jvvm sur le schéma
+
+Le code source Java est compilé dans un langage intermédiaire (Bytecode), ce code fonctionnera aussi bien sous Unix que sous Windows ou autre, sans aucune modification.
+
+Le Bytecode est transformé en un code machine compréhensible par le processeur de la machine réelle, Java est donc aussi un langage interprété.
+
+L'interprète de la JVM est très élaboré pour être le plus rapide possible, il inclut par exemple un JIT (Just in Time Compiler) qui permet la traduction du Bytecode vers

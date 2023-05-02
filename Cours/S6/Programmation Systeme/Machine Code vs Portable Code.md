@@ -67,8 +67,31 @@ L'interprète de la JVM est très élaboré pour être le plus rapide possible, 
 
 ## Comment rendre du code natif et du p-code interopérable ?
 
+Ici on continue en Java car c'est l'un des langages que l'on a vu au cours de notre formations mais on pourrait le faire dans tous les langages.
+
 ### Pourquoi JNI ?
 
 Le but n'est pas d'avoir à réécrire tout ce qui existe déjà en C ou autre. On souhaite pouvoir faire cohabiter plusieurs langages afin de ne pas recommencer from scratch.
 
-Programmation d’un nouveau périphérique, logiciel de base, Entrées/Sorties, Cartes d’acquisition de commandes 
+Programmation d’un nouveau périphérique, logiciel de base, Entrées/Sorties, Cartes d’acquisition de commandes :
+- Avec l'adressage physique, accès au matériel, aux pilotes de la carte, interruptions...
+
+Développement en C/C++, tout en bénéficiant de l’environnement Java pour des IHM par exemple.
+
+Code natif pour de meilleures performances en temps d'exécution (plus toujours vrai).
+
+Mais ..... portabilité remise en question
+
+### Possibilité de JNI
+
+L’API JNI offre l’accès à la machine virtuelle et son environnement :
+- accès aux variables d’instance, appel de méthodes, chargement d’une classe, création d'instances...
+- Mécanisme de bas-niveau...
+- Exceptions
+- Threads
+- ...
+
+### Deux grands intérêts
+
+Quand Java appelle C/C++ :
+- Prototypes et co

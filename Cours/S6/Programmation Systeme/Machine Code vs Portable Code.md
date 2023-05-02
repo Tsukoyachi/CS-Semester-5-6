@@ -60,3 +60,15 @@ L'interprète de la JVM est très élaboré pour être le plus rapide possible, 
 - CIL : Common Intermediate Language
 	- Equivalent au Bytecode Java
 	- Normalisé par l'ECMA
+	- Language proche de la machine
+	- MSIL : implémentation MS du CIL.
+
+![[Pasted image 20230502082221.png | center]]
+
+## Comment rendre du code natif et du p-code interopérable ?
+
+### Pourquoi JNI ?
+
+Le but n'est pas d'avoir à réécrire tout ce qui existe déjà en C ou autre. On souhaite pouvoir faire cohabiter plusieurs langages afin de ne pas recommencer from scratch.
+
+Programmation d’un nouveau périphérique, logiciel de base, Entrées/Sorties, Cartes d’acquisition de commandes 

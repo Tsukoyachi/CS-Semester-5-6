@@ -14,7 +14,7 @@ JNIEXPORT void JNICALL Java_HelloWorld_printStringToCpp(JNIEnv *env, jclass cl, 
     // Libération de la chaîne C++
     env->ReleaseStringUTFChars(str,cStr);
 }
-JNIEXPORT jstring JNICALL Java_HelloWorld_stringFromCpp(JNIEnv *env, jobject obj)
+JNIEXPORT jstring JNICALL Java_HelloWorld_stringFromCpp(JNIEnv *env, jclass cl)
 {
     // Construction d'une chaîne Java à partir d'une chaîne C/C++
     return env->NewStringUTF("Chaîne en C");

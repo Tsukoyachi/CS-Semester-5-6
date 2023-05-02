@@ -49,3 +49,12 @@ Ici, il ne suffit que de lancer l'exécution du java compilé précédemment.
 
 ![[Pasted image 20230502093629.png | center]]
 
+## Exercice 3 :
+
+On rajoute la déclaration des méthodes natives dans le java ainsi qu'une utilisation simple de ses 2 méthodes.
+```java
+public static native void printStringToCpp(String str);  
+public static native String stringFromCpp();
+```
+
+On compile avec le -h pour générer l'interface et on copie l'implémentation cpp du prof à rajouter dans notre 

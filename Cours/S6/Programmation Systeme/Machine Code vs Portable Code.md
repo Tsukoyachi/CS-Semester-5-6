@@ -49,4 +49,14 @@ Le code source Java est compilé dans un langage intermédiaire (Bytecode), ce c
 
 Le Bytecode est transformé en un code machine compréhensible par le processeur de la machine réelle, Java est donc aussi un langage interprété.
 
-L'interprète de la JVM est très élaboré pour être le plus rapide possible, il inclut par exemple un JIT (Just in Time Compiler) qui permet la traduction du Bytecode vers
+L'interprète de la JVM est très élaboré pour être le plus rapide possible, il inclut par exemple un JIT (Just in Time Compiler) qui permet la traduction du Bytecode vers du code natif seulement lorsque c'est nécessaire (première instanciation d'un classe, boucles...)
+
+### Quelques définitions du monde Microsoft
+
+- CLI : Common Language Infrastructure
+	- L'environnement d'exécution (donc pas seulement la machine virtuelle) basée sur le CLR et le CIL.
+- CLR : Common Language Runtime
+	- La machine virtuelle chargée d'exécuter le portable-code
+- CIL : Common Intermediate Language
+	- Equivalent au Bytecode Java
+	- Normalisé par l'ECMA

@@ -68,3 +68,10 @@ Après cela tout fonctionne.
 Ici on a d'abord besoin de repasser la méthode printStringToCpp en méthode de classe car l'objectif est d'appeler une méthode de classe dans du code cpp.
 
 On retire donc le static en java et on remet jobject obj à la place de jclass cl.
+
+Ensuite dans le code cpp au lieu d'appeler la méthode test nous appellerons la méthode printStringToCpp. Et nous déclarerons la méthode native, non static et void callVoidMethod en Java. Nous l'appellerons en suite tout simplement afin de vérifier son bon fonctionnement.
+
+Après cela tout fonctionne.
+
+## Exercice 5 :
+

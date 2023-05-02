@@ -120,3 +120,16 @@ Quand du C/C++ accède à l'environnement Java :
 5. Exécuter le code java (après avoir rendu la bibliothèque dynamique accessible)
 
 #### Compilation avec javac
+
+1. javac javaVersC.java
+2. Usage du mot clé *native*
+3. Chargement de la bibliothèque (dll/so), dans laquelle sera implémentée le code C de bonjour, avec la méthode loadLibrary de la classe System
+
+![[Pasted image 20230502083510.png | center]]
+
+#### Création du fichier d’entête .h avec javac –h ...
+
+Génération de l'interface ".h" -> `javac -h dir javaVersC.java`
+
+![[Pasted image 20230502083619.png | center]]
+

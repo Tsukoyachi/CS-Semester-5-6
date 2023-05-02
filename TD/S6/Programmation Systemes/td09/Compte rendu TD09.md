@@ -75,3 +75,4 @@ Après cela tout fonctionne.
 
 ## Exercice 5 :
 
+Ici on déclare la méthode native, non static, qui renvoie un String toString en Java. Ensuite on ajoute son implémentation en C avec un appel simple en Java.

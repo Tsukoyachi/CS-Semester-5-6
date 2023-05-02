@@ -33,7 +33,8 @@ public class HelloWorld {
         hello.callJavaMethod();
 
         System.out.println("\nNow let's access, print and modify object field inside c code :");
-        hello.toString();
+        //Ici on l'incrémente également de 1 même si c'est pas conventionnel, le but étant de voir comment on fait les 2
+        printStringToCpp(hello.toString());
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Veuillez appuyer sur Entrée pour terminer le programme...");

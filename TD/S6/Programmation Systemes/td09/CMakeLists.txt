@@ -4,4 +4,4 @@ project(td09)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(td09
-        lib/HelloWorld.cpp)
+        lib/HelloWorld.cpp lib/exo1.cpp)

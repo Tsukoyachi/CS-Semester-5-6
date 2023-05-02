@@ -2,6 +2,8 @@ import java.lang.management.ManagementFactory;
 import java.lang.management.RuntimeMXBean;
 
 public class exo1 {
+    public native static int getPid();
+
     static {
         System.out.print("Loading Pid native library...");
         System.loadLibrary("PidLibrary");
@@ -17,5 +19,8 @@ public class exo1 {
         //Second Method
         long pid2 = ProcessHandle.current().pid();
         System.out.println("Second method PID : "+pid2);
-    }   
+        //Our library
+        long pid3 = getPid();
+        System.out.println("Third method PID :"+pid3);
+    }
 }

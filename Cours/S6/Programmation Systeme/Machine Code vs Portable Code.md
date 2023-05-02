@@ -145,7 +145,11 @@ JNIEXPORT void JNICALL Java_JavaVersC_bonjour (JNIEnv *env, jobject j){
 
 Génération de la dll, (JavaVersC.dll) avec visual C++ :
 
-cl -Ic:\\jdk\\include -Ic:\\jdk\\include\\win32 -LD  
+```
+cl -Ic:\jdk\include -Ic:\jdk\include\win32 -LD  
 JavaVersC.c -FeJavaVersC.dll
+```
 
 Exécution par -> java javaVersC
+
+**à rattraper...**

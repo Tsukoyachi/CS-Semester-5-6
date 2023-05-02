@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b4b927f0f993ffff",
+        "id": "7470c6e56717d0be",
         "type": "tabs",
         "children": [
           {
-            "id": "9daf668b8134cf16",
+            "id": "c88a9cfc384f4cb4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TD/S6/Programmation Systemes/td08/Compte rendu td8.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1980e479f90ff696",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cours/S6/Programmation Systeme/Machine Code vs Portable Code.md",
+                "file": "TD/S6/Programmation Systemes/td09/Compte rendu TD09.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/S6/Programmation Systeme/Machine Code vs Portable Code.md",
+                "file": "TD/S6/Programmation Systemes/td09/Compte rendu TD09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/S6/Programmation Systeme/Machine Code vs Portable Code.md",
+                "file": "TD/S6/Programmation Systemes/td09/Compte rendu TD09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/S6/Programmation Systeme/Machine Code vs Portable Code.md"
+                "file": "TD/S6/Programmation Systemes/td09/Compte rendu TD09.md"
               }
             }
           },
@@ -177,16 +164,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1980e479f90ff696",
+  "active": "c88a9cfc384f4cb4",
   "lastOpenFiles": [
+    "TD/S6/Programmation Systemes/td09/Compte rendu TD09.md",
+    "TD/S6/Programmation Systemes/td09/Makefile",
+    "TD/S6/Programmation Systemes/td09/HelloWorld.java",
+    "TD/S6/Programmation Systemes/td09/lib/Makefile",
+    "TD/S6/Programmation Systemes/td09/lib/HelloWorld.cpp",
+    "TD/S6/Programmation Systemes/td09/lib",
+    "TD/S6/Programmation Systemes/td08/Compte rendu td8.md",
+    "Cours/S6/Programmation Systeme/Machine Code vs Portable Code.md",
     "Cours/S6/Programmation Systeme/media/Pasted image 20230502083738.png",
     "Cours/S6/Programmation Systeme/media/Pasted image 20230502083619.png",
     "Cours/S6/Programmation Systeme/media/Pasted image 20230502083510.png",
     "Cours/S6/Programmation Systeme/media/Pasted image 20230502082936.png",
     "Cours/S6/Programmation Systeme/media/Pasted image 20230502082221.png",
     "Cours/S6/Programmation Systeme/media/Pasted image 20230502081542.png",
-    "TD/S6/Programmation Systemes/td08/Compte rendu td8.md",
-    "Cours/S6/Programmation Systeme/Machine Code vs Portable Code.md",
     "Cours/S6/Données numérique/Convolution.md",
     "TD/S6/Données Numériques/TD6/carreNoir.png",
     "TD/S6/Données Numériques/TD6/TPconv.ipynb",
@@ -195,15 +188,9 @@
     "Cours/S6/Données numérique/media/Pasted image 20230428101434.png",
     "TD/S6/Programmation Systemes/td08/mymalloc.o",
     "TD/S6/Programmation Systemes/td08/mymalloc.c~",
-    "TD/S6/Programmation Systemes/td08/test-realloc.html",
-    "TD/S6/Programmation Systemes/td08/test.html",
-    "TD/S6/Programmation Systemes/td08/test-simple.html",
-    "TD/S6/Programmation Systemes/td08/Makefile~",
-    "TD/S6/Programmation Systemes/td08/test.exe",
     "Cours/S6/Programmation Systeme/Gestion Mémoire.md",
     "Cours/S6/Programmation Systeme/media/Pasted image 20230425091759.png",
     "Cours/S6/Programmation Systeme/media/Pasted image 20230425090830.png",
-    "Cours/S6/Programmation Systeme/media/Pasted image 20230425090550.png",
     "Cours/S6/English/English lesson 24th of April.md",
     "Cours/S6/English/English lesson 3th of April.md",
     "Cours/S6/management de projet/P.E.R.T.md",

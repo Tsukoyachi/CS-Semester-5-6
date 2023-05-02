@@ -61,7 +61,7 @@ static int fib(int n){
     return fib(n-1)+fib(n-2);
 }
 
-JNIEXPORT int JNICALL Java_HelloWorld_fib(JNIEnv *env, jclass cl, int n) {
+JNIEXPORT jint JNICALL Java_HelloWorld_fib(JNIEnv *env, jclass cl, jint n) {
     return fib(n);
 }
 

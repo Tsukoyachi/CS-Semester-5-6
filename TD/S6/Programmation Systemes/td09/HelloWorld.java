@@ -8,6 +8,7 @@ public class HelloWorld {
     public static native void printCpp();
     public static native void printStringToCpp(String str);
     public native String stringFromCpp();
+    public native void callJavaMethod();
 
     static {
         System.out.print("Loading Hello World native library...");
@@ -24,6 +25,9 @@ public class HelloWorld {
         HelloWorld hello = new HelloWorld();
         String generated = hello.stringFromCpp();
         printStringToCpp(generated);
+
+        System.out.println("\nNow let's call a java method directly inside c code :");
+        hello.callJavaMethod();
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Veuillez appuyer sur Entrée pour terminer le programme...");

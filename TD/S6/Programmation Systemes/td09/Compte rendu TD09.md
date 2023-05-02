@@ -57,4 +57,11 @@ public static native void printStringToCpp(String str);
 public static native String stringFromCpp();
 ```
 
-On compile avec le -h pour générer l'interface et on copie l'implémentation cpp du prof à rajouter dans notre 
+On compile avec le -h pour générer l'interface et on copie l'implémentation cpp du prof à rajouter dans notre implémentation déjà existante.
+
+On se heurte cependant à une erreur, dans l'implémentation de stringFromCpp l'un des paramètres était jobject obj, cependant celui-ci n'est utile que lorsque la méthode java n'est pas static, ce qui ne nous intéresse pas vraiment ici. On le remplace donc par un jclass cl pour la rendre static.
+
+Après cela tout fonctionne.
+
+## Exercice 4 :
+

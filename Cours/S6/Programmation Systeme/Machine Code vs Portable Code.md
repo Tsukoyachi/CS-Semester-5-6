@@ -133,3 +133,19 @@ Génération de l'interface ".h" -> `javac -h dir javaVersC.java`
 
 ![[Pasted image 20230502083619.png | center]]
 
+#### Compilation et édition de lien du source C/C++
+
+```C
+#include <stdio.h>
+#include "JavaVersC.h"
+JNIEXPORT void JNICALL Java_JavaVersC_bonjour (JNIEnv *env, jobject j){
+	printf("Java_JavaVersC_bonjour");
+}
+```
+
+Génération de la dll, (JavaVersC.dll) avec visual C++ :
+
+cl -Ic:\\jdk\\include -Ic:\\jdk\\include\\win32 -LD  
+JavaVersC.c -FeJavaVersC.dll
+
+Exécution par -> java javaVersC

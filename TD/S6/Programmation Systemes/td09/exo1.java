@@ -5,8 +5,8 @@ public class exo1 {
     public native static int getPid();
 
     static {
-        System.out.print("Loading Pid native library...");
-        System.loadLibrary("PidLibrary");
+        System.out.print("Loading exo1 native library...");
+        System.loadLibrary("exo1");
         System.out.println("done.");
     }
 

@@ -12,6 +12,7 @@ public class HelloWorld {
     public native String stringFromCpp();
     public native void callJavaMethod();
     public native String toString();
+    public static native int fib(int n);
 
     static {
         System.out.print("Loading Hello World native library...");

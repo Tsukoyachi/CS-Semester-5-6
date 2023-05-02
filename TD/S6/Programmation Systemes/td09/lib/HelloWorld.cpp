@@ -53,3 +53,10 @@ JNIEXPORT jstring JNICALL Java_HelloWorld_toString(JNIEnv *env, jobject obj) {
     // On retourne un objet Java de chaîne de caractères
     return env->NewStringUTF(buffer);
 }
+
+JNIEXPORT int JNICALL Java_HelloWorld_fib(JNIEnv *env, jclass cl, int n) {
+    if (n < 2)
+        return n;
+    else
+        return fib(n-1) + fib(n-2);
+}

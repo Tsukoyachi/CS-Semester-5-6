@@ -113,3 +113,10 @@ Quand du C/C++ accède à l'environnement Java :
 
 ![[Pasted image 20230502082936.png | center]]
 
+1. Ecrire le Code source en Java
+2. Produire le .h (javac -h)
+3. Ecrire le code source C/C++
+4. Générer la bibliothèque dynamique
+5. Exécuter le code java (après avoir rendu la bibliothèque dynamique accessible)
+
+#### Compilation avec javac

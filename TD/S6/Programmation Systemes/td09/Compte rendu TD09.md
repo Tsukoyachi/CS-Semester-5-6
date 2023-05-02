@@ -84,3 +84,7 @@ L'api JNI est assez simple en ce qui concerne l'accès à des variables d'un obj
 ## Exercice 6 :
 
 Ici on ajoute une méthode en java qui sera implémentée en c, cette méthode appelera notre méthode c qui calcul fibonacci. On l'appelle ensuite en c.
+
+Le résultat correspond à nos attentes.
+
+## Exercice 7 :

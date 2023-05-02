@@ -113,3 +113,7 @@ public class exo1 {
 Voici les deux méthodes disponible en Java avant et après Java 9 pour obtenir le PID.
 
 ## Exercice 8 :
+
+On implémente une nouvelle bibliothèque cpp pour faire l'appel à getpid. En java on y accèdera au travers de la méthode getPid que l'on implémente dans cette bibliothèque et le tour est joué.
+
+Cependant il a fallut ajouter cette nouvelle bibliothèque au makefile.

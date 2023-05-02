@@ -81,3 +81,4 @@ L'api JNI est assez simple en ce qui concerne l'accès à des variables d'un obj
 - On instancie le jfieldId que l'on va utiliser ensuite
 - On pourra ainsi Get/Set le field à l'aide de l'environnement, de l'id et de la valeur si on set.
 
+	

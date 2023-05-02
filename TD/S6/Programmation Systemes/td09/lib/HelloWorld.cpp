@@ -54,9 +54,14 @@ JNIEXPORT jstring JNICALL Java_HelloWorld_toString(JNIEnv *env, jobject obj) {
     return env->NewStringUTF(buffer);
 }
 
-JNIEXPORT int JNICALL Java_HelloWorld_fib(JNIEnv *env, jclass cl, int n) {
-    if (n < 2)
-        return n;
-    else
-        return fib(n-1) + fib(n-2);
+static int fib(int n){
+    if(n<2){
+        return 1;
+    }
+    return fib(n-1)+fib(n-2);
 }
+
+JNIEXPORT int JNICALL Java_HelloWorld_fib(JNIEnv *env, jclass cl, int n) {
+    return fib(n);
+}
+

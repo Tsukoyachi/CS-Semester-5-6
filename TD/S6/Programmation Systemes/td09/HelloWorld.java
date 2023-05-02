@@ -37,6 +37,9 @@ public class HelloWorld {
         //Ici on l'incrémente également de 1 même si c'est pas conventionnel, le but étant de voir comment on fait les 2
         printStringToCpp(hello.toString());
 
+        System.out.println("\nLet's try implementing fibonacci in C :");
+        printStringToCpp("Result of fibonacci with n = 5 : "+fib(5));
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Veuillez appuyer sur Entrée pour terminer le programme...");
         sc.nextLine();

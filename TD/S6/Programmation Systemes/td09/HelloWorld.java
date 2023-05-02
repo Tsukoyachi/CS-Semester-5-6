@@ -4,11 +4,14 @@
 import java.util.Scanner;
 
 public class HelloWorld {
+    private int entier = 1;
+
     // Méthodes natives fournies grâce à une bibliothèque
     public static native void printCpp();
     public static native void printStringToCpp(String str);
     public native String stringFromCpp();
     public native void callJavaMethod();
+    public native String toString();
 
     static {
         System.out.print("Loading Hello World native library...");
@@ -28,6 +31,9 @@ public class HelloWorld {
 
         System.out.println("\nNow let's call a java method directly inside c code :");
         hello.callJavaMethod();
+
+        System.out.println("\nNow let's access, print and modify object field inside c code :");
+        hello.toString();
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Veuillez appuyer sur Entrée pour terminer le programme...");

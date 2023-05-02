@@ -65,4 +65,6 @@ Après cela tout fonctionne.
 
 ## Exercice 4 :
 
-	
+Ici on a d'abord besoin de repasser la méthode printStringToCpp en méthode de classe car l'objectif est d'appeler une méthode de classe dans du code cpp.
+
+On retire donc le static en java et on remet jobject obj à la place de jclass cl.

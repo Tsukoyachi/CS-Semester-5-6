@@ -7,7 +7,7 @@ public class HelloWorld {
     // Méthodes natives fournies grâce à une bibliothèque
     public static native void printCpp();
     public static native void printStringToCpp(String str);
-    public static native String stringFromCpp();
+    public native String stringFromCpp();
 
     static {
         System.out.print("Loading Hello World native library...");
@@ -21,7 +21,8 @@ public class HelloWorld {
         HelloWorld.printCpp();
 
         System.out.println("\nLet's generate a string from c :");
-        String generated = stringFromCpp();
+        HelloWorld hello = new HelloWorld();
+        String generated = hello.stringFromCpp();
         printStringToCpp(generated);
 
         Scanner sc = new Scanner(System.in);

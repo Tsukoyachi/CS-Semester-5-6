@@ -278,4 +278,19 @@ Spécifie la commande principale à lancer au démarrage du container
 
 #### Image == Layer
 Chaque layer est une image avec un tag autogénéré.
-Chaque layer stocke les 
+
+Chaque layer stocke les modifications par rapport à l'image sur laquel il est basé
+
+Chaque instruction dans un Dockerfile résulte en un layer  
+(sauf pour les constructions en multi-étapes)  
+
+Les layers sont utilisés pour éviter les informations redondantes  
+
+Les layers permettent de faire une construction incrémentale (comme pour un Makefile, on ne reconstruit que ce qui est nécessaire)
+
+Une terminologie un peu confuse  
+- Quand on parle d’image, on parle généralement d’un ensemble de layers avec un tag attribué par un humain
+
+#### Deep dive into image
+![[Pasted image 20230509092707.png | center]]
+

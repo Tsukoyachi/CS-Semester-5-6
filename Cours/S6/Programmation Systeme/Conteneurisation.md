@@ -124,5 +124,18 @@ Ce mécanisme va empêcher d'effectuer certains appels système lorsque l'on en 
 - Les Cgroups vont limiter l'accès aux ressources.
 - Les Namespaces : virtualise l'accès aux ressources.
 - Seccomp : limite les accès aux appels systèmes
-- Politique de contrôle d'accès obligatoire (MAC: Mandatory  
-Access Control, i.e. type AppArmor)
+- Politique de contrôle d'accès obligatoire (MAC: Mandatory Access Control, i.e. type AppArmor)
+- Conteneurs sans racine
+
+### Interface utilisateur
+
+Ces différentes fonctionnalités (chroot, namespace, cgroups, seccomp, ...) sont offertes par le noyau et accessible par /sys depuis l'espace utilisateur.
+
+Besoin d'interface utilisateur pour faciliter la manipulation des conteneurs.
+Il existe différentes interfaces :
+- LXC : API bas niveau
+- LXD : API haut niveau
+- Podman: moteur de conteneur sans daemon
+- CRI-O: optimisé pour Kubernetes
+- containerd: std indus simple et robuste
+- 

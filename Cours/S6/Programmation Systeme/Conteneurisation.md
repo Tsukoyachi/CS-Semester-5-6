@@ -26,19 +26,19 @@ Exemple avec Docker, LXC, Podman, runC, containerd, ...
 ### Virtualisation et Hyperviseur
 
 Hyperviseur : Moniteur de la machine virtuelle
-![[Pasted image 20230509081124.png]]
+![[Pasted image 20230509081124.png | center]]
 
 Un hyperviseur est une plate-forme de virtualisation qui permet à plusieurs systèmes d’exploitation de fonctionner en parallèle dans une seule machine physique.
 
 ### Machine virtuelle vs Conteneurisation
 
 Machine Virtuelle :
-![[Pasted image 20230509081950.png]]
+![[Pasted image 20230509081950.png | center]]
 
 On va pouvoir simuler une machine physique, de les exécuter sous forme de VM qui elles même auront un OS. Mais ne pourrait on pas se passer de ce deuxième OS ?
 
 Conteneurisation :
-![[Pasted image 20230509082052.png]]
+![[Pasted image 20230509082052.png | center]]
 
 Légèreté et isolation pour l'exécution de processus.
 
@@ -54,4 +54,20 @@ On aura aussi quelque chose qui marchera sur toute machine possédant un noyau L
 Pour windows, cela fonctionne grâce à WSL (windows subsystem linux).
 Pour Mac on y reviendra plus tard.
 
-### Histoire de la technologie des cont
+### Histoire de la technologie des conteneurs
+
+![[Pasted image 20230509083031.png | center]]
+
+### Besoins pour mettre en oeuvre l'isolation des conteneurs
+
+- On doit isoler le système de fichier
+Pour cela on va utiliser `chroot` afin de changer de racine de répertoire.
+
+- Namespace
+Pour donner une vue sur une ressource globale partagée (entre tous les processus)
+
+- Cgroups
+Création de groupes de processus et gestion des droits.
+
+- Seccomp
+Séd

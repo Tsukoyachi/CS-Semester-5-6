@@ -314,5 +314,13 @@ Chaque layer est identifié par un tag qui peut être :
 		- ...
 
 #### Optimiser vos Images Docker en taille
-Pour minimiser la taille de l'image il faut se rappeler qu'il ne faut installer uniquement les paquets nécessaire à l'exécution.
-- Ne pas conserver les package nécessaires à la compilation
+- Pour minimiser la taille de l'image il faut se rappeler qu'il ne faut installer uniquement les paquets nécessaire à l'exécution.
+	- Ne pas conserver les package nécessaires à la compilation
+	- On peut également utiliser les constructeurs multi-niveaux (faire une image pour construire une image)
+- Ne pas conserver le cache d'installation des paquets
+	- Dans le même RUN, faire la mise à jour, installation et nettoyage
+- Ne copier que les fichiers nécessaire en utiliser un .dockerignore (similaire à un .gitignore)
+
+Minimiser le nombre de layer
+- Ne pas faire n commandes RUN, mais une qui regroupe les commandes
+- La compression des layers sera aussi plus efficace

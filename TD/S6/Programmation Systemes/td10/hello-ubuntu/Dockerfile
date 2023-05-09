@@ -1,5 +1,3 @@
 FROM ubuntu:22.04
-COPY ./hello/ .
-WORKDIR hello
-RUN make
+COPY hello/hello.exe .
 CMD ["./hello"]

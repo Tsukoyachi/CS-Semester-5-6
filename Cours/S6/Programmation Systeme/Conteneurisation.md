@@ -35,10 +35,14 @@ Un hyperviseur est une plate-forme de virtualisation qui permet à plusieurs sys
 Machine Virtuelle :
 ![[Pasted image 20230509081950.png]]
 
+- On va pouvoir simuler une machine physique, de les exécuter sous forme de vm.
+
 Conteneurisation :
 - Légèreté et isolation pour l'exécution de processus.
 ![[Pasted image 20230509082052.png]]
 
 On constatera que le conteneur offre déjà un gain en terme de taille, une vm c'est plusieurs giga octets alors que pour un conteneur on parlera en mega octets.
 
-On aura aussi quelque chose qui marchera sur toute machine possédant un noyau Linux. Mais commen
+On aura aussi quelque chose qui marchera sur toute machine possédant un noyau Linux.
+Pour windows, cela fonctionne grâce à WSL (windows subsystem linux).
+Pour Mac on y reviendra plus tard.

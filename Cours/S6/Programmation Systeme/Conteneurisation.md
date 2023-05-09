@@ -28,4 +28,4 @@ Exemple avec Docker, LXC, Podman, runC, containerd, ...
 Hyperviseur : Moniteur de la machine virtuelle
 ![[Pasted image 20230509081124.png]]
 
-
+Un hyperviseur est une plate-forme de virtualisation qui permet à plusieurs systèmes d’exploitation de fonctionner en parallèle dans une seule machine physique.

@@ -39,4 +39,6 @@ Conteneurisation :
 - Légèreté et isolation pour l'exécution de processus.
 ![[Pasted image 20230509082052.png]]
 
-On constatera que le conteneur offre déjà un gain en terme de taille, une vm c'est plusieurs Go
+On constatera que le conteneur offre déjà un gain en terme de taille, une vm c'est plusieurs giga octets alors que pour un conteneur on parlera en mega octets.
+
+On aura aussi quelque chose qui marchera sur toute machine possédant un noyau Linux. Mais commen

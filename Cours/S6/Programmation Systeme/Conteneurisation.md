@@ -209,4 +209,7 @@ C'est un fichier décrivant les étapes de construction d'une image docker const
 - `INSTRUCTION arguments`
 [Document de référence](https://docs.docker.com/engine/reference/builder/)
 
-Une image se créer **forcé**
+Une image se créer **forcément** à partir d'une image existante, donc un dockerfile commencera forcément par une instruction `FROM` :
+- `FROM <Image de base>`
+- Initialisation de la construction (obligatoire/première instruction)
+- quelques images de base récupé

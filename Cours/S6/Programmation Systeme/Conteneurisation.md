@@ -349,3 +349,14 @@ Minimiser l’espace de stockage hôte utilisé
 
 ### Docker Conteneur
 ![[Pasted image 20230509095124.png | center]]
+
+#### Cycle de vie
+![[Pasted image 20230509095155.png | center]]
+
+#### Commandes gérant le Cycle de vie d’un conteneur
+![[Pasted image 20230509095243.png | center]]
+
+#### Lancer un processus dans un conteneur
+![[Pasted image 20230509095416.png | center]]
+
+### Do

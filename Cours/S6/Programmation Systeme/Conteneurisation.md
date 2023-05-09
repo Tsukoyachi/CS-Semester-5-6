@@ -138,4 +138,20 @@ Il existe différentes interfaces :
 - Podman: moteur de conteneur sans daemon
 - CRI-O: optimisé pour Kubernetes
 - containerd: std indus simple et robuste
-- 
+- Docker: utilise runC (initialement LXC)
+
+#### Open Container Initiative (OCI)
+
+[OCI](https://opencontainers.org/): Projet de la Linux Foundation
+
+Afin que personne ne puisse avoir le monopole des conteneurs, on a des normes qui existe pour la virtualisation par isolation au niveau des systèmes d'exploitation.
+
+Deux spécifications (toujours en évolution):  
+- Runtime-spec: spécification de l’exécution  
+	- [RunC](https://github.com/opencontainers/runc) (utilisé par Docker): Go: 80%, Shell: 15%, C: 5%  
+		- CLI pour la création et l'exécution de conteneurs sur Linux conformément à la spécification OCI  
+	- RailCar : Rust: 99%, Shell: 1%  
+		-  Implémentation Rust de la spécification OCI runtime  
+-  [Image-spec](https://github.com/opencontainers/image-spec): spécification du format de sauvegarde  
+
+Plus de 13 implémentations différentes des conteneurs en 2016

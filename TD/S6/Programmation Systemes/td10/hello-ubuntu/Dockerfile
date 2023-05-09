@@ -1,3 +1,3 @@
 FROM ubuntu:22.04
-COPY hello/hello.exe .
+COPY hello.exe .
 CMD ["./hello"]

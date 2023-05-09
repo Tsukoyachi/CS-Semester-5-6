@@ -114,8 +114,15 @@ On possède toute une API au niveau du noyau Linux pour ça :
 Filtre devant tous les syscall  
 -  Bloque à l’entrée de l’appel système  
 -  Réalise à base de BPF (Berkeley Packet Filters)  
-
 Utilisé à partir de libseccomp  
 -  Autoriser uniquement les appels systèmes que l’on souhaite  
+Permet de rendre moins vulnérable le système.
 
-Permet de rendre moins vulnérable le système
+Ce mécanisme va empêcher d'effectuer certains appels système lorsque l'on en a pas le droit.
+
+#### Sécurité
+- Les Cgroups vont limiter l'accès aux ressources.
+- Les Namespaces : virtualise l'accès aux ressources.
+- Seccomp : limite les accès aux appels systèmes
+- Politique de contrôle d'accès obligatoire (MAC: Mandatory  
+Access Control, i.e. type AppArmor)

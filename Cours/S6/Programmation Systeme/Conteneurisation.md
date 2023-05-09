@@ -292,5 +292,16 @@ Une terminologie un peu confuse
 - Quand on parle d’image, on parle généralement d’un ensemble de layers avec un tag attribué par un humain
 
 #### Deep dive into image
+Explorer les layers d’une image: [dive](https://github.com/wagoodman/dive)
 ![[Pasted image 20230509092707.png | center]]
 
+(ici hello doit être un exécutable en c parce qu'on a que ça et qui doit être static car on a pas les bibliothèques ici)
+
+#### Tag
+Chaque layer est identifié par un tag qui peut être :
+- Autogénéré
+	- Version courte : `c28b9c2faac4070`
+	- Version longue : `c28b9c2faac407005d4d657e49f372fb3579a47dd4e4d87d13e29edd1c912d5c`
+- Nom donné par son auteur
+	- `[<repository>/]<name>[:<tag>]`
+	- 

@@ -324,3 +324,7 @@ Chaque layer est identifié par un tag qui peut être :
 Minimiser le nombre de layer
 - Ne pas faire n commandes RUN, mais une qui regroupe les commandes
 - La compression des layers sera aussi plus efficace
+
+Pour minimiser la taille de l'image on peut utiliser des distributions particulières :
+- Alpine est très efficace, utilise busybox (et musl libc, une version compacte de la librairie c qui fait 10ko au lieu de 1,5 mo), son image fait 2 à 3Mio
+- Mais certaines fois, Alpine ne peut pas être utilisé

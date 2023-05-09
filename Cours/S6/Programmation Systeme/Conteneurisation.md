@@ -98,4 +98,16 @@ Le but va être de masquer des infos du système au conteneur, on ne va récupé
 
 #### Cgroups
 
-*What you c*
+*What you can use*
+Limiter les ressources utilisées par un conteneur (groupe de processus).
+Contrôle fin de l'allocation, de la priorisation, du refus et de la gestion des ressources du système.
+
+![[Pasted image 20230509084310.png | center]]
+
+Ce mécanisme va empêcher un processus de demander trop de ressources, si jamais celui-ci viole cette limite il se fait tuer.
+
+##### Cgroups controllers
+
+On possède toute une API au niveau du noyau Linux pour ça :
+
+![[Pasted image 20230509084504.png | center]]

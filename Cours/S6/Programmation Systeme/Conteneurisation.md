@@ -333,4 +333,11 @@ Pour minimiser la taille de l'image on peut utiliser des distributions particuli
 
 Minimiser l’espace de stockage hôte utilisé
 - Utiliser les mêmes versions de l’image de base si plusieurs  containers
-- 
+- Réutiliser une image existante pour en construire une nouvelle  cela permet de minimiser le nombre de layer à stocker
+
+#### Optimiser le développement de vos images
+![[Pasted image 20230509094621.png | center]]
+
+#### Optimiser la construction de vos images
+![[Pasted image 20230509094649.png | center]]
+

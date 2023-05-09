@@ -327,4 +327,10 @@ Minimiser le nombre de layer
 
 Pour minimiser la taille de l'image on peut utiliser des distributions particulières :
 - Alpine est très efficace, utilise busybox (et musl libc, une version compacte de la librairie c qui fait 10ko au lieu de 1,5 mo), son image fait 2 à 3Mio
-- Mais certaines fois, Alpine ne peut pas être utilisé
+- Mais certaines fois, Alpine ne peut pas être utilisé parce que le code qui ne compile pas ou core dump avec musl
+- Utiliser debian-slim (image de base d’environ 20Mio)
+- Utiliser [distroless](https://github.com/GoogleContainerTools/distroless)
+
+Minimiser l’espace de stockage hôte utilisé
+- Utiliser les mêmes versions de l’image de base si plusieurs  containers
+- 

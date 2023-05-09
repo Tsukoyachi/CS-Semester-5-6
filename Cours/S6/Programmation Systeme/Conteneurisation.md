@@ -181,3 +181,24 @@ Conteneur (instance):
 ### Images et registres
 ![[Pasted image 20230509090316.png | center]]
 
+### Docker CLI
+![[Pasted image 20230509090340.png | center]]
+
+### Définition de Docker
+
+Docker est une plateforme qui permet d'empaqueter nos applications dans des exécutables déployables appelés conteneurs, avec toutes les bibliothèques et dépendances nécessaires au système d'exploitation
+
+![[Pasted image 20230509090431.png | center]]
+
+### Mise en place de Docker sur d'autres OS que Linux
+
+La conteneurisation repose sur des mécanismes proposés par le noyau  
+- Aujourd’hui, seul le noyau Linux propose ces mécanismes  
+- Mais pas le noyau Windows NT ou le noyau Mac OS...  
+Comment cela peut fonctionner sous d’autres OS que Linux ?...  
+- Docker Desktop sous Windows ou Mac
+
+#### Illustration de Docker sous Windows
+
+![[Pasted image 20230509090616.png | center]]
+

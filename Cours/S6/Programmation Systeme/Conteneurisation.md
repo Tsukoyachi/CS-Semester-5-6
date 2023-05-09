@@ -255,3 +255,27 @@ Spécifie les options à ENTRYPOINT
 
 - `ENTRYPOINT ["cmd"]  `
 Spécifie la commande principale à lancer au démarrage du container
+
+`LABEL <key>=<value> ...`
+- Ajoute des métadonnées à l’image
+
+`USER <user>[:<group>]`
+- Définit l’utilisateur courant (change de root)
+
+`EXPOSE port[/protocol]`
+- Port sur lequel le container sera à l’écoute des connexions
+
+`VOLUME ["path"]`
+- Créer un point de montage
+
+`STOPSIGNAL <signal>`
+- Définit le signal qui sera envoyé au conteneur pour le quitter
+
+`HEALTHCHECK [options] CMD <command> | NONE`
+- Vérifie l'état du conteneur en exécutant une commande à l'intérieur du conteneur
+
+### Docker Image
+
+#### Image == Layer
+Chaque layer est une image avec un tag autogénéré.
+Chaque layer stocke les 

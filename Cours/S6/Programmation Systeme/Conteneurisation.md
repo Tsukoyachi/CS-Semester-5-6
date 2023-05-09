@@ -89,4 +89,13 @@ On va utiliser chroot pour changer de racine de système de fichier :
 
 #### Container Namespace
 
-*What *
+*What you can see*
+Un conteneur namespace va envelopper une ressource système globale dans une abstraction qui donne aux conteneurs d'un namespace l'impression d'avoir leur propre instance isolées de la ressource globale.
+
+![[Pasted image 20230509084210.png | center]]
+
+Le but va être de masquer des infos du système au conteneur, on ne va récupérer que certaines informations.
+
+#### Cgroups
+
+*What you c*

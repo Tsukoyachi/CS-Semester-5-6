@@ -165,4 +165,19 @@ C'est une plateforme de conteneurisation qui permet de créer/déployer/exécute
 Il se base sur plusieurs éléments :
 - Moteur Docker : Permet de créer/gérer les conteneurs et utilise le noyau Linux pour isoler les ressources.
 - Images Docker : Système de fichiers, contient le code, les bibliothèques, les fichiers de configuration, les dépendances
-- Conteneurs D
+- Conteneurs Docker : instance en cours d’exécution d’une image, créer à partir d'une image. Léger et démarrage rapide (plus rapide qu’une VM)
+- Registres Docker : dépôt où stocker les images Docker. Il peut être public ou privé.
+- API: manipulation des images, conteneurs, ...
+
+### Images vs Conteneurs
+Dockerfile (patron/modèle):  
+-  Instructions pour construire une image  
+Image (classe):  
+-  Système de fichiers constitué d’un ensemble de strates (layers)  
+Conteneur (instance):  
+-  Une instance en cours d’exécution d’une image
+![[Pasted image 20230509090245.png | center]]
+
+### Images et registres
+![[Pasted image 20230509090316.png | center]]
+

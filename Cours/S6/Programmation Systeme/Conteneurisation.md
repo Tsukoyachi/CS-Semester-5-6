@@ -29,3 +29,14 @@ Hyperviseur : Moniteur de la machine virtuelle
 ![[Pasted image 20230509081124.png]]
 
 Un hyperviseur est une plate-forme de virtualisation qui permet à plusieurs systèmes d’exploitation de fonctionner en parallèle dans une seule machine physique.
+
+### Machine virtuelle vs Conteneurisation
+
+Machine Virtuelle :
+![[Pasted image 20230509081950.png]]
+
+Conteneurisation :
+- Légèreté et isolation pour l'exécution de processus.
+![[Pasted image 20230509082052.png]]
+
+On constatera que le conteneur offre déjà un gain en terme de taille, une vm c'est plusieurs Go

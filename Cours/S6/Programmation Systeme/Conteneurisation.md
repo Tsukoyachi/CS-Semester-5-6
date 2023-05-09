@@ -150,8 +150,19 @@ Deux spécifications (toujours en évolution):
 - Runtime-spec: spécification de l’exécution  
 	- [RunC](https://github.com/opencontainers/runc) (utilisé par Docker): Go: 80%, Shell: 15%, C: 5%  
 		- CLI pour la création et l'exécution de conteneurs sur Linux conformément à la spécification OCI  
-	- RailCar : Rust: 99%, Shell: 1%  
+	- [RailCar](https://github.com/oracle/railcar) : Rust: 99%, Shell: 1%  
 		-  Implémentation Rust de la spécification OCI runtime  
 -  [Image-spec](https://github.com/opencontainers/image-spec): spécification du format de sauvegarde  
 
 Plus de 13 implémentations différentes des conteneurs en 2016
+
+## Docker
+
+![[Pasted image 20230509085844.png | center]]
+
+C'est une plateforme de conteneurisation qui permet de créer/déployer/exécuter des applications.
+
+Il se base sur plusieurs éléments :
+- Moteur Docker : Permet de créer/gérer les conteneurs et utilise le noyau Linux pour isoler les ressources.
+- Images Docker : Système de fichiers, contient le code, les bibliothèques, les fichiers de configuration, les dépendances
+- Conteneurs D

@@ -70,4 +70,13 @@ Pour donner une vue sur une ressource globale partagée (entre tous les processu
 Création de groupes de processus et gestion des droits.
 
 - Seccomp
-Séd
+Sécurité autour des appels systèmes.
+
+Ses fonctionnalités sont founies par le noyau (via des appels systèmes) :
+- Syscall : API des fonctionnalités mises à disposition par le noyau
+- Actuellement (6.3) : [plus d'infos ici](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/arch/x86/entry/syscalls?h=v6.3)
+- Bascule entre le « User Space » et le « Kernel Space »
+- Cf slide 14 et 15 du cours « Processus et Threads »
+
+#### chroot
+

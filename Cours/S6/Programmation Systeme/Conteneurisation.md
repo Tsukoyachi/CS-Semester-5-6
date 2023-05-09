@@ -359,4 +359,18 @@ Minimiser l’espace de stockage hôte utilisé
 #### Lancer un processus dans un conteneur
 ![[Pasted image 20230509095416.png | center]]
 
-### Do
+### Docker Networking
+
+**Partie non présente dans mon obsidian, go voir les slides de cours à partir de la slide 45/63** [ici](https://lms.univ-cotedazur.fr/2022/pluginfile.php/475789/mod_resource/content/3/10%20Conteneurisation.pdf)
+
+### Docker Volume
+
+**Partie non présente dans mon obsidian, go voir les slides de cours à partir de la slide 51/63** [ici](https://lms.univ-cotedazur.fr/2022/pluginfile.php/475789/mod_resource/content/3/10%20Conteneurisation.pdf)
+
+### Quelques principes de sécurité
+
+**Partie non présente dans mon obsidian, go voir les slides de cours à partir de la slide 57/63** [ici](https://lms.univ-cotedazur.fr/2022/pluginfile.php/475789/mod_resource/content/3/10%20Conteneurisation.pdf)
+
+### Conclusion
+
+**Partie non présente dans mon obsidian, go voir les slides de cours à partir de la slide 61/63** [ici](https://lms.univ-cotedazur.fr/2022/pluginfile.php/475789/mod_resource/content/3/10%20Conteneurisation.pdf)

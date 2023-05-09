@@ -341,3 +341,11 @@ Minimiser l’espace de stockage hôte utilisé
 #### Optimiser la construction de vos images
 ![[Pasted image 20230509094649.png | center]]
 
+#### Cross compiler sur votre station de travail
+![[Pasted image 20230509094857.png | center]]
+
+#### Multi arch Manifest
+![[Pasted image 20230509095022.png | center]]
+
+### Docker Conteneur
+![[Pasted image 20230509095124.png | center]]

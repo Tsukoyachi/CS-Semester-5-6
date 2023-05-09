@@ -104,10 +104,18 @@ Contrôle fin de l'allocation, de la priorisation, du refus et de la gestion des
 
 ![[Pasted image 20230509084310.png | center]]
 
-Ce mécanisme va empêcher un processus de demander trop de ressources, si jamais celui-ci viole cette limite il se fait tuer.
+Ce mécanisme va empêcher un processus de demander trop de ressources, si jamais celui-ci viole cette limite il se fait tuer ainsi que tout son conteneur.
 
 ##### Cgroups controllers
-
 On possède toute une API au niveau du noyau Linux pour ça :
-
 ![[Pasted image 20230509084504.png | center]]
+
+#### Seccomp
+Filtre devant tous les syscall  
+-  Bloque à l’entrée de l’appel système  
+-  Réalise à base de BPF (Berkeley Packet Filters)  
+
+Utilisé à partir de libseccomp  
+-  Autoriser uniquement les appels systèmes que l’on souhaite  
+
+Permet de rendre moins vulnérable le système

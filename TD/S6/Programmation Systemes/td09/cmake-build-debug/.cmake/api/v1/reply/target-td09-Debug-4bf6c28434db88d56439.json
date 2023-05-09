@@ -89,13 +89,6 @@
 				0,
 				1
 			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
-				2
-			]
 		}
 	],
 	"sources" : 
@@ -111,11 +104,6 @@
 			"compileGroupIndex" : 0,
 			"path" : "lib/exo1.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "lib/exo1.h",
-			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

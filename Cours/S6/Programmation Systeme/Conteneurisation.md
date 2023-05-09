@@ -202,3 +202,11 @@ Comment cela peut fonctionner sous d’autres OS que Linux ?...
 
 ![[Pasted image 20230509090616.png | center]]
 
+### Dockerfile
+
+C'est un fichier décrivant les étapes de construction d'une image docker constitué des éléments suivants : 
+- `# Comment`
+- `INSTRUCTION arguments`
+[Document de référence](https://docs.docker.com/engine/reference/builder/)
+
+Une image se créer **forcé**

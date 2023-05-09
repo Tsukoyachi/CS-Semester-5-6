@@ -80,3 +80,13 @@ Ses fonctionnalités sont founies par le noyau (via des appels systèmes) :
 
 #### chroot
 
+![[Pasted image 20230509083627.png | center]]
+
+On va utiliser chroot pour changer de racine de système de fichier :
+- Ce mécanisme permet de sécuriser un serveur web par exemple en masquant le reste de l'arborescence de fichier à de potentiels attaquant
+- Le plus vieux mécanisme (1979)
+- N’avoir accès qu’à une partie du système de fichiers (FS) pour un processus
+
+#### Container Namespace
+
+*What *

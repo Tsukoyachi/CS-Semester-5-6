@@ -304,4 +304,15 @@ Chaque layer est identifié par un tag qui peut être :
 	- Version longue : `c28b9c2faac407005d4d657e49f372fb3579a47dd4e4d87d13e29edd1c912d5c`
 - Nom donné par son auteur
 	- `[<repository>/]<name>[:<tag>]`
-	- 
+	- Exemples :
+		- hello-world
+		- alpine:latest
+		- alpine:3.17.3
+		- python:3.11.3-bullseye
+		- python:3.11.3-alpine3.17
+		- ubiquarium/wol-http:latest
+		- ...
+
+#### Optimiser vos Images Docker en taille
+Pour minimiser la taille de l'image il faut se rappeler qu'il ne faut installer uniquement les paquets nécessaire à l'exécution.
+- Ne pas conserver les package nécessaires à la compilation

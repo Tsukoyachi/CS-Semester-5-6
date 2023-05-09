@@ -221,12 +221,37 @@ Commande docker pour construire l'image :
 	- `docker build -t [<repository>/]<name>[:<tag>] .`
 
 Voici une liste de quelques instructions utiles :
+
 `FROM [option] <name>[:<tags>] [AS <name>]`
 - Initialise la construction à partir d'une image de base
+
 `ENV <key>=<value>`
 - Définit des variables d'environnement pour le container
+
 `ARG <var>[=<value>]`
 - Définit des variables pour la construction (peut être modifié lors du build)
+
 `WORKDIR <path>`
 - Equivalent à cd (avec création si nécessaire
 - Commandes successives relatives à ce répertoire
+
+`RUN <cmd args> | RUN ["cmd« , "arg1", "arg2"]`
+- Exécute une commande dans un Shell Unix
+
+`ADD ou COPY [options] <src> <dest>`
+- Ajoute des fichiers locaux à l’host dans l’image
+
+Point d’entrée / commande
+- Définir la commande à lancer au démarrage du conteneur
+- CMD et/ou ENTRYPOINT
+[Comprendre l'interaction entre CMD et ENTRYPOINT](https://docs.docker.com/engine/reference/builder/#understand-how-cmd-and-entrypoint-interact)
+
+CMD et ENTRYPOINT  
+-  `CMD ["cmd", "arg1", "arg2"]  `
+Spécifie la commande à lancer au démarrage du container  
+
+-  `CMD ["arg1", "arg2"]  `
+Spécifie les options à ENTRYPOINT  
+
+- `ENTRYPOINT ["cmd"]  `
+Spécifie la commande principale à lancer au démarrage du container

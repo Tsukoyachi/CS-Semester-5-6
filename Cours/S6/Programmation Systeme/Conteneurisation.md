@@ -218,4 +218,15 @@ Commande docker pour construire l'image :
 - `docker build [<options>] <path> | <url> | -`
 - Exemples :
 	- `docker build . | docker build - < Dockerfile`
-	- 
+	- `docker build -t [<repository>/]<name>[:<tag>] .`
+
+Voici une liste de quelques instructions utiles :
+`FROM [option] <name>[:<tags>] [AS <name>]`
+- Initialise la construction à partir d'une image de base
+`ENV <key>=<value>`
+- Définit des variables d'environnement pour le container
+`ARG <var>[=<value>]`
+- Définit des variables pour la construction (peut être modifié lors du build)
+`WORKDIR <path>`
+- Equivalent à cd (avec création si nécessaire
+- Commandes successives relatives à ce répertoire

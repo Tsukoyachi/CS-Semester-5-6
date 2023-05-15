@@ -7,5 +7,4 @@
 - Dyson's sphere
 - Moving planet, repairing ozone layer of earth
 - Cloning
-- Teleportation
 - 

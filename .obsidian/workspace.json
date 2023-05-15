@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TD/S6/Programmation Systemes/td10.md",
+                "file": "Cours/S6/English/Future Technology.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TD/S6/Programmation Systemes/td10.md",
+                "file": "Cours/S6/English/Future Technology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TD/S6/Programmation Systemes/td10.md",
+                "file": "Cours/S6/English/Future Technology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TD/S6/Programmation Systemes/td10.md"
+                "file": "Cours/S6/English/Future Technology.md"
               }
             }
           },
@@ -199,6 +199,8 @@
   },
   "active": "7ee58a022c26214d",
   "lastOpenFiles": [
+    "TD/S6/Programmation Systemes/td10.md",
+    "Cours/S6/English/Future Technology.md",
     "TD/S6/Programmation Systemes/td10/node/package-lock.json",
     "TD/S6/Programmation Systemes/td10/node/node_modules/qs/README.md",
     "TD/S6/Programmation Systemes/td10/node/node_modules/qs/LICENSE.md",
@@ -216,7 +218,6 @@
     "TD/S6/Programmation Systemes/td10/node/node_modules/debug/src",
     "TD/S6/Programmation Systemes/td10/node/node_modules/debug/CHANGELOG.md",
     "TD/S6/Programmation Systemes/td10/node/node_modules/qs/dist/qs.js",
-    "TD/S6/Programmation Systemes/td10/node/node_modules/qs/dist",
     "TD/S6/Programmation Systemes/td10/node/node_modules/cookie/SECURITY.md",
     "TD/S6/Programmation Systemes/td10/node/node_modules/depd/Readme.md",
     "TD/S6/Programmation Systemes/td10/node/node_modules/finalhandler/SECURITY.md",
@@ -234,7 +235,6 @@
     "TD/S6/Programmation Systemes/td10/node/node_modules/fresh/HISTORY.md",
     "TD/S6/Programmation Systemes/td10/node/node_modules/http-errors/README.md",
     "TD/S6/Programmation Systemes/td10/node/node_modules/on-finished/README.md",
-    "TD/S6/Programmation Systemes/td10/node/node_modules/methods/HISTORY.md",
     "TD/S6/Programmation Systemes/media/Pasted image 20230509113512.png",
     "TD/S6/Programmation Systemes/media/Pasted image 20230509113120.png",
     "TD/S6/Programmation Systemes/media/Pasted image 20230509112450.png",

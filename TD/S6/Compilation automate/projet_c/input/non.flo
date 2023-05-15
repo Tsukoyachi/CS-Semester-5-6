@@ -1,0 +1,3 @@
+ecrire(non Faux);
+ecrire(non Vrai);
+ecrire(non (Vrai ou Faux));

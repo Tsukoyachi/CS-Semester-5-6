@@ -1,0 +1,3 @@
+entier t;
+ecrire(t);
+t = 5;

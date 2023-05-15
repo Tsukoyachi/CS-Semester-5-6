@@ -1,0 +1,4 @@
+ecrire(Vrai ou Faux);
+ecrire(Faux ou Faux);
+ecrire(Vrai ou Vrai);
+ecrire(Faux ou Vrai);

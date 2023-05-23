@@ -1,1 +1,1 @@
-FROM curl
+FROM curl:latest

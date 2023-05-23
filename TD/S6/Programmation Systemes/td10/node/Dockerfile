@@ -19,8 +19,5 @@ COPY . .
 # Expose le port sur lequel l'applcation écoute
 EXPOSE 8080
 
-#Créer les volumes
-VOLUME [ "/etc/timezone:/etc/timezone:ro","/etc/localdate:/etc/localdate:ro" ]
-
 # Démarre l'application
 CMD ["npm", "start"]

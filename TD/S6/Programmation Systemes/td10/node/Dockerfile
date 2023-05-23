@@ -5,7 +5,7 @@ FROM node:18.16.0-alpine3.17
 WORKDIR /app
 
 # Copie les fichiers package.json et package-lock.json (s'il existe)
-COPY package*.json .
+COPY --chown=node:node package*.json .
 
 # Installe les dépendance de l'application
 RUN npm install --omit=dev
@@ -17,7 +17,7 @@ RUN apk --no-cache add musl-locales tzdata
 USER node
 
 # Copie l'application
-COPY . .
+COPY --chown=node:node . .
 
 # Expose le port sur lequel l'applcation écoute
 EXPOSE 8080

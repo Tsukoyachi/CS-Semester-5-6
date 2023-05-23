@@ -1,0 +1,12 @@
+
+f	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€Ş¡î
+k	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îòöúÿÿÿÿ
+=
+java:S1700""Rename field "connectedComponents"(ê…©Ğÿÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÚÃ¼îøÿÿÿÿ
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(‡Üø»üÿÿÿÿ
+S	java:S106F"9Replace this use of System.out or System.err by a logger.(şûÊşÿÿÿÿ
+S	java:S106J"9Replace this use of System.out or System.err by a logger.(‡Üø»üÿÿÿÿ
+S	java:S106K"9Replace this use of System.out or System.err by a logger.(şûÊşÿÿÿÿ
+I
+java:S11448".Remove this unused private "setNumber" method.(¨ÃÑÁûÿÿÿÿ

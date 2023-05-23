@@ -42,9 +42,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c50f0ce21fd0a029",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.8"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -197,7 +207,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7ee58a022c26214d",
+  "active": "c50f0ce21fd0a029",
   "lastOpenFiles": [
     "TD/S6/Programmation Systemes/td10.md",
     "Cours/S6/English/Future Technology.md",

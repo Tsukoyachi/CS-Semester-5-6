@@ -1,5 +1,5 @@
 # Image de base légère de Node.js
-FROM node:18.14.1
+FROM node:18.16.0-alpine3.17
 
 # Créé un répertoire de travail pour l'application et s'y déplace
 WORKDIR /app

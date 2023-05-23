@@ -19,8 +19,5 @@ USER node
 # Copie l'application
 COPY --chown=node:node . .
 
-# Expose le port sur lequel l'applcation écoute
-EXPOSE 8080
-
 # Démarre l'application
 CMD ["npm", "start"]

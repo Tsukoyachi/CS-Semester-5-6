@@ -4,7 +4,7 @@ build:
 	docker build -t node-app .
 
 run:
-	docker run -p 8888:8080 -e TZ=Europe/Paris --user node --network mynetwork node-app
+	docker run -e TZ=Europe/Paris --user node --network mynetwork node-app
 
 clean:
 	docker images -a | grep none | awk '{ print $$3; }' | xargs -t 2>/dev/null docker rmi

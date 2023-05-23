@@ -17,6 +17,10 @@ RUN apk add tzdata
 # Copie l'application
 COPY . .
 
+# Copie les fichiers relatifs au fuseau horaire
+COPY /etc/timezone /etc/timezone
+COPY /etc/localtime /etc/localtime
+
 # Expose le port sur lequel l'applcation écoute
 EXPOSE 8080
 

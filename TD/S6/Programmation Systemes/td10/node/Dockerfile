@@ -11,8 +11,7 @@ COPY package*.json .
 RUN npm install --omit=dev
 
 # Installe les dépendances musl-locales et tzdata pour le fuseau horaire
-RUN apk --no-cache add musl-locales
-RUN apk --no-cache add tzdata
+RUN apk --no-cache add musl-locales tzdata
 
 # Copie l'application
 COPY . .

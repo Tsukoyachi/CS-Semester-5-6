@@ -19,5 +19,7 @@ COPY . .
 # Expose le port sur lequel l'applcation écoute
 EXPOSE 8080
 
+ENV TZ=Europe/Paris
+
 # Démarre l'application
 CMD ["npm", "start"]

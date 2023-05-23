@@ -5,6 +5,7 @@ FROM node:18.16.0-alpine3.17
 WORKDIR /app
 
 # Créé un user par défaut
+RUN useradd -ms /bin/bash newUser
 USER newUser
 
 # Copie les fichiers package.json et package-lock.json (s'il existe)

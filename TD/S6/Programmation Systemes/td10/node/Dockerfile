@@ -11,14 +11,17 @@ COPY package*.json .
 RUN npm install --omit=dev
 
 # Installe les dépendances musl-locales et tzdata pour le fuseau horaire
-RUN apk add musl-locales
-RUN apk add tzdata
+RUN apk --nocache add musl-locales
+RUN apk --nocache add tzdata
 
 # Copie l'application
 COPY . .
 
 # Expose le port sur lequel l'applcation écoute
 EXPOSE 8080
+
+#Créer les volumes
+VOLUME [ "/etc/timezone:/etc/timezone:ro","/etc/localdate:/etc/localdate:ro" ]
 
 # Démarre l'application
 CMD ["npm", "start"]

@@ -1,2 +1,2 @@
 FROM alpine/curl:latest
-CMD ["curl","http://localhost:8080"]
+CMD ["curl","http://172.17.0.1:8888"]

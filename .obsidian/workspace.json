@@ -47,9 +47,11 @@
             "id": "c50f0ce21fd0a029",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.2.8"
+                "file": "TD/S6/Programmation Systemes/td10/td10.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -128,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/S6/English/Future Technology.md",
+                "file": "TD/S6/Programmation Systemes/td10/td10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/S6/English/Future Technology.md",
+                "file": "TD/S6/Programmation Systemes/td10/td10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/S6/English/Future Technology.md"
+                "file": "TD/S6/Programmation Systemes/td10/td10.md"
               }
             }
           },
@@ -207,9 +209,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c50f0ce21fd0a029",
+  "active": "3ed2038ec5459906",
   "lastOpenFiles": [
-    "TD/S6/Programmation Systemes/td10.md",
+    "TD/S6/Programmation Systemes/td10/td10.md",
     "Cours/S6/English/Future Technology.md",
     "TD/S6/Programmation Systemes/td10/node/package-lock.json",
     "TD/S6/Programmation Systemes/td10/node/node_modules/qs/README.md",

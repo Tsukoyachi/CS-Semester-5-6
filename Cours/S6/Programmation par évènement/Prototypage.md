@@ -20,4 +20,4 @@ L'ergonomie se mesure à l'aide de plusieurs critères :
 
 ## Activité de prototypage
 
-Le 
+La démarche centrée utilisateur est une activité de prototypage (voir [UCD])

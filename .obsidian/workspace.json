@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4a02f1f130b3ccb5",
+        "id": "65d4556de3476500",
         "type": "tabs",
         "children": [
           {
-            "id": "4de1323d0d8e5b48",
+            "id": "baf516a87a8aa66c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -172,9 +172,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4de1323d0d8e5b48",
+  "active": "baf516a87a8aa66c",
   "lastOpenFiles": [
     "Cours/S6/Programmation par évènement/User Centered Design.md",
+    "User.md",
     "Cours/S6/Programmation par évènement/Prototypage.md",
     "Cours/S6/Programmation par évènement/Personnas.md",
     "Cours/S6/Programmation par évènement/Tâche et Scénario.md",
@@ -218,7 +219,6 @@
     "TD/S6/Programmation Systemes/td10/node/node_modules/path-to-regexp/Readme.md",
     "TD/S6/Programmation Systemes/td10/node/node_modules/accepts/README.md",
     "TD/S6/Programmation Systemes/td10/node/node_modules/encodeurl/HISTORY.md",
-    "TD/S6/Programmation Systemes/td10/node/node_modules/content-type/README.md",
-    "TD/S6/Programmation Systemes/td10/node/node_modules/cookie-signature/Readme.md"
+    "TD/S6/Programmation Systemes/td10/node/node_modules/content-type/README.md"
   ]
 }

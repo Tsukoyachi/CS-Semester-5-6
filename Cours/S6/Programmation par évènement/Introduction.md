@@ -57,7 +57,7 @@ Plusieurs dimensions qui vont décrire plus finement ce que va vivre l'utilisate
 - Stimulation : Est ce que le produit stimule l'utilisateur, créer de la connaissance, de l'opportunité, des idées.
 -  Identification : Est ce que l'utilisateur se reconnait dans le produit ou dans le besoin auquel celui-ci répond.
 - Sens et Valeur : Est ce que le produit à du sens, de la valeur.
-- "*Relatedness*" :
+- "*Relatedness*" : ?
 
 Un exemple avec contexte :
 • "I am passing by at this park every Sunday and this bench has not been repaired for weeks (**Identification**). It is time now to report that, so it will get fixed. It is not really a problem or unsafe, but the bench is simply not usable in the current state (**Meaning and Value**). It seems important now to make sure that the appropriate person is informed about that bench (**Social relatedness**), I think I should use the application to report the incident, because I want to be a good citizen (**Identification**). 

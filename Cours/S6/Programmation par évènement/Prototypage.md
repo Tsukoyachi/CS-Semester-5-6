@@ -13,4 +13,7 @@ L'ergonomie se mesure à l'aide de plusieurs critères :
 4. Adaptabilité
 5. Gestion des erreurs (Prévention d'erreur lors de l'utilisation par un utilisateur, le système empêche l'utilisateur d'effectuer une action interdite)
 6. Signifiance des codes et dénomination (Les termes employés sont clairs)
-7. Homogénéité et cohérence ()
+7. Homogénéité et cohérence (L'interface doit être à peu près homogène pour que l'utilisateur ne soit pas perdu d'une vue à l'autre de l'IHM)
+8. Compatibilité
+
+##

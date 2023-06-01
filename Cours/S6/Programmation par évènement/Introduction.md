@@ -25,17 +25,21 @@ Savoir coder ne suffit pas, il faut que ce que l'on implémente corresponde aux 
 
 Il faut donc être capable de justifier les décisions prises.
 
+Pour cela on conçois et on fait une maquette qui nous permettra d'avoir des feedbacks, et via plusieurs itérations on fixera les critères que devra respecter notre produit.
+
+
 ![[Pasted image 20230214141431.png | center]]
 
 ## Ergonomie (Usability)
 
-L'un des critères à prendre en compte lors de la conception d'une **bonne**
-IHM.
+Il s'agit de l'un des critères à prendre en compte lors de la conception d'une **bonne** IHM.
 
 Pour cela on a le schéma de Nielsen qui résume bien :
 
 ![[Pasted image 20230214141751.png | center]]
 
+L'ergonomie se résume en deux point principaux :
+1. La simplicité d'utilisation, l'intuitivité est 
 
 L'ergonomie c'est :
 - Est ce que le système est simple à prendre en main

@@ -38,5 +38,5 @@ Une méthode plutôt connue est "**l'overlapping funnel**" de Paul Laseau qui es
 
 ### Pourquoi faire du prototypage ?
 
-- Nécessite peu de compétences technique
-- 
+- Nécessite *peu* de compétences technique (En particulier pour les aspects visuel !)
+- Les prototypes favorisent la communication

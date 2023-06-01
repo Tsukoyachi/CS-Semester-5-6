@@ -39,7 +39,8 @@ Pour cela on a le schéma de Nielsen qui résume bien :
 ![[Pasted image 20230214141751.png | center]]
 
 L'ergonomie se résume en deux point principaux :
-1. La simplicité d'utilisation, l'intuitivité est 
+1. La simplicité d'utilisation, une personne peut trouver une interface intuitive alors qu'une autre personne ne comprendra pas. Le but à atteindre est que peut importe l'action souhaité par l'utilisateur, il soit capable rapidement de voir le chemin à suivre pour exécuter celle-ci.
+2. La transparance du système, si un logique est en cours d'exécution, l'utilisateur doit être au courant. Il ne doit pas douter sur le fait qu'une action soit en cours ou non. Si l'on 
 
 L'ergonomie c'est :
 - Est ce que le système est simple à prendre en main

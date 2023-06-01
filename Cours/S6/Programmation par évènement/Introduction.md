@@ -54,9 +54,9 @@ Quel type d'expérience la personne va vivre ?
 Plusieurs dimensions qui vont décrire plus finement ce que va vivre l'utilisateur :
 - Visuel/Esthétique : Est ce que c'est beau ou pas ?
 - Emotionnelle : Est ce que je vais m'énerver ou être dégoûté ou être content en voyant l'interface.
-- Stimulation : 
--  Identification :
-- Sens et Valeur :
+- Stimulation : Est ce que le produit stimule l'utilisateur, créer de la connaissance, de l'opportunité, des idées.
+-  Identification : Est ce que l'utilisateur se reconnait dans le produit ou dans le besoin auquel celui-ci répond.
+- Sens et Valeur : Est ce que le produit à du sens, de la valeur.
 - "*Relatedness*" :
 
 Un exemple avec contexte :

@@ -1,3 +1,5 @@
+## Introduction
+
 Pour créer un système interactif, il faut que celui-ci soit utile et utilisable.
 
 Un système est utile s'il répond aux contraintes fonctionnelles et opérationnelles.
@@ -16,4 +18,6 @@ L'ergonomie se mesure à l'aide de plusieurs critères :
 7. Homogénéité et cohérence (L'interface doit être à peu près homogène pour que l'utilisateur ne soit pas perdu d'une vue à l'autre de l'IHM)
 8. Compatibilité
 
-##
+## Activité de prototypage
+
+Le 

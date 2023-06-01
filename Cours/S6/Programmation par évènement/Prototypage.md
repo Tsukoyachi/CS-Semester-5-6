@@ -44,8 +44,12 @@ Une méthode plutôt connue est "**l'overlapping funnel**" de Paul Laseau qui es
 - Et surtout c'est **économique**, un prototype ne va quasiment rien coûter et peu se faire très rapidement. C'est donc un vrai moyen de cibler des objectifs précis à court terme.
 - C'est aussi un moyen de justifier certain choix en gardant des traces de ce qui a été fait au préalable.
 
-#### Maquettage papier/video
+### Maquettage papier/video
 
 - Ici le but est de parler de l'aspect utilisabilité et non de l'aspect esthétique.
 - Cela permet également de mieux cerner nos utilisateurs et de ne pas se mettre à leurs place car étant développeur (ou presque) on a tendance à surestimer la difficulté de réalisation d'une tâche.
-- La matériel est très accessible, ici on parle de dessins sur papier, de 
+- La matériel est très accessible, ici on parle de dessins sur papier, de photocopie et autre outil de base de dessins tel que stylo, crayon de couleurs...
+- Et le gain est réel car on ne testera pas l'utilisateur au final mais l'interface en elle même.
+![[Pasted image 20230601175928.png | center]]
+
+### Types de 

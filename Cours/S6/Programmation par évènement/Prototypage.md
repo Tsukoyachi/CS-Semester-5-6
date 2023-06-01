@@ -7,3 +7,6 @@ Un produit est utilisable s'il est facile à découvrir et à utiliser.
 L'IHM se doit également d'être ergonomique, cela signifie qu'elle facilite le travail d'un ou plusieurs individus tout en étant utilisable avec un maximum de confort.
 
 L'ergonomie se mesure à l'aide de plusieurs critères :
+1. Guidage (l'utilisateur est accompagné correctement pour remplir une tâche).
+2. Charge de travail ()
+3. 

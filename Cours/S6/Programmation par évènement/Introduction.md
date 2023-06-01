@@ -41,7 +41,9 @@ Pour cela on a le schéma de Nielsen qui résume bien :
 L'ergonomie se résume en quelques point principaux :
 1. **La simplicité d'utilisation**, une personne peut trouver une interface intuitive alors qu'une autre personne ne comprendra pas. Le but à atteindre est que peut importe l'action souhaité par l'utilisateur, il soit capable rapidement de voir le chemin à suivre pour exécuter celle-ci.
 2. **La transparance du système**, si un logique est en cours d'exécution, l'utilisateur doit être au courant. Il ne doit pas douter sur le fait qu'une action soit en cours ou non. Si l'on charge un fichier, avoir une animation de chargement rassure l'utilisateur puisqu'il sait que sa demande est en cours de traîtement.
-3. **Les retours d'informations**, le système doit avertir l'utilisateur afin de l'empêcher d'exécuter des informations interdites. Imaginons que celui-ci remplisse un formulaire mais qu'il rentre une informations incorrectes. Une bonne IHM le préviendra 
+3. **Les retours d'informations**, le système doit avertir l'utilisateur afin de l'empêcher d'exécuter des informations interdites. Imaginons que celui-ci remplisse un formulaire mais qu'il rentre une informations incorrectes. Une bonne IHM le préviendra et bloquera son action tant que le problème n'est pas résolu, en mettant en avant l'élément à corriger.
+
+Ses points sont cruciaux car le marché est compétitif, il y a toujours d'autres solution pour répondre à un problème donné. Une **mauvaise IHM** provoquerait donc un **rejet des utilisateurs** et une **perte de crédibilité**.
 
 **A ne pas confonde avec l'expérience utilisateur (UX)**.
 

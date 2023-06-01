@@ -76,7 +76,7 @@ Par exemple, pour faire une tasse de thé :
 
 Cet exemple n'est pas parfait, en effet entre 1.2 et 1.3 on ne demande pas d'allumer le gaz. Et au début on ne précise pas pour combien de personne on fait du thé.
 
-Ce modèle de tâche permet de voir le process du côté d'un utilisateur, il est important de ne pas mélanger cette vue et celle qu'un développeur aura pour la logique du code.
+Ce modèle de tâche permet de voir le processus du côté d'un utilisateur, il est important de ne pas mélanger cette vue et celle qu'un développeur aura pour la logique du code.
 
 Pour cette logique on a ce que l'on appelle des **structures fonctionnelles**, c'est une vue un peu base de donnée, voici un exemple :
 ![[Pasted image 20230228143222.png | center]]

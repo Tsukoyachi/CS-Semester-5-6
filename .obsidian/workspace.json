@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/S6/Programmation par évènement/User Centered Design.md",
+                "file": "Cours/S6/Programmation par évènement/Tâche et Scénario.md",
                 "mode": "preview",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/S6/Programmation par évènement/User Centered Design.md",
+                "file": "Cours/S6/Programmation par évènement/Tâche et Scénario.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/S6/Programmation par évènement/User Centered Design.md",
+                "file": "Cours/S6/Programmation par évènement/Tâche et Scénario.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/S6/Programmation par évènement/User Centered Design.md"
+                "file": "Cours/S6/Programmation par évènement/Tâche et Scénario.md"
               }
             }
           },
@@ -174,6 +174,7 @@
   },
   "active": "da724efb2fae7917",
   "lastOpenFiles": [
+    "Cours/S6/Programmation par évènement/User Centered Design.md",
     "Cours/S6/Programmation par évènement/Prototypage.md",
     "Cours/S6/Programmation par évènement/media/Pasted image 20230601183236.png",
     "Cours/S6/Programmation par évènement/media/Pasted image 20230601183100.png",
@@ -182,7 +183,6 @@
     "Cours/S6/Programmation par évènement/media/Pasted image 20230601180620.png",
     "Cours/S6/Programmation par évènement/media/Pasted image 20230601175928.png",
     "Cours/S6/Programmation par évènement/media/Pasted image 20230601144431.png",
-    "Cours/S6/Programmation par évènement/User Centered Design.md",
     "[.md",
     "User.md",
     "Cours/S6/Programmation par évènement/Personnas.md",

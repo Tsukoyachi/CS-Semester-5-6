@@ -51,6 +51,7 @@ Le principe d'une maquette c'est qu'elle est **jetable** que ce soit par vous ou
 - Le développement par itération reste également une solution pérenne puisque ce mode de fonctionnement permet de coller au mieux aux besoins client/métier via des feed-back à chacune d'entre elles.
 - Et surtout c'est **économique**, un prototype ne va quasiment rien coûter et peu se faire très rapidement. C'est donc un vrai moyen de cibler des objectifs précis à court terme.
 - C'est aussi un moyen de justifier certain choix en gardant des traces de ce qui a été fait au préalable.
+- Il y a aussi une partie estimation de coût/complexité/délai parce que l'on peut discuter de la solution dès cette partie que ça soit avec le client ou au sein de l'IT.
 
 Le mécanisme d'annotation est également très efficace, il permet d'ajouter des informations de plusieurs type tel que l'ajout de détails :
 ![[Pasted image 20230601183100.png |center]]

@@ -55,7 +55,11 @@ Le principe d'une maquette c'est qu'elle est **jetable** que ce soit par vous ou
 Le mécanisme d'annotation est également très efficace, il permet d'ajouter des informations de plusieurs type tel que l'ajout de détails :
 ![[Pasted image 20230601183100.png |center]]
 
-### Maquettage papier/video
+Il permet également de planifier les tâches exécutés lors d'une interaction :
+![[Pasted image 20230601183236.png | center]]
+
+
+### Maquettage papier/vidéo
 
 - Ici le but est de parler de l'aspect utilisabilité et non de l'aspect esthétique.
 - Cela permet également de mieux cerner nos utilisateurs et de ne pas se mettre à leurs place car étant développeur (ou presque) on a tendance à surestimer la difficulté de réalisation d'une tâche.

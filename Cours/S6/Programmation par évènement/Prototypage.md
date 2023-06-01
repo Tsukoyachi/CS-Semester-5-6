@@ -25,3 +25,8 @@ La démarche centrée utilisateur est une activité de prototypage (voir [[User 
 ### Parlons du design
 
 La problématique réside dans la résolution du besoin tout en préservant un certain niveau de qualité.
+
+Une méthode plutôt connue est "l'overlapping funnel" de Paul Laseau :
+1. 
+
+![[Pasted image 20230601144431.png | center]]

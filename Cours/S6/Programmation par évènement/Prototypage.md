@@ -35,3 +35,8 @@ Une méthode plutôt connue est "**l'overlapping funnel**" de Paul Laseau qui es
 **Attention : Il est important de différencier options de design et évolution de prototypes !**
 - Une option de design -> Effectuer un choix
 - Une évolution de prototype -> amélioration/raffinage d'une option de design
+
+### Pourquoi faire du prototypage ?
+
+- Nécessite peu de compétences technique
+- 

@@ -42,4 +42,10 @@ Une méthode plutôt connue est "**l'overlapping funnel**" de Paul Laseau qui es
 - Les prototypes favorisent la communication puisque souvent une maquette va demander des compétences multidisciplinaires.
 - Le développement par itération reste également une solution pérenne puisque ce mode de fonctionnement permet de coller au mieux aux besoins client/métier via des feed-back à chacune d'entre elles.
 - Et surtout c'est **économique**, un prototype ne va quasiment rien coûter et peu se faire très rapidement. C'est donc un vrai moyen de cibler des objectifs précis à court terme.
-- C'est aussi un
+- C'est aussi un moyen de justifier certain choix en gardant des traces de ce qui a été fait au préalable.
+
+#### Maquettage papier/video
+
+- Ici le but est de parler de l'aspect utilisabilité et non de l'aspect esthétique.
+- Cela permet également de mieux cerner nos utilisateurs et de ne pas se mettre à leurs place car étant développeur (ou presque) on a tendance à surestimer la difficulté de réalisation d'une tâche.
+- La matériel est très accessible, ici on parle de dessins sur papier, de 

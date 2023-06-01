@@ -11,4 +11,5 @@ L'ergonomie se mesure à l'aide de plusieurs critères :
 2. Charge de travail (le nombre d’interactions requises pour effectuer une action est faible)
 3. Contrôle explicite
 4. Adaptabilité
-5. Gestion des erreurs (Prévention d'erreur lors de )
+5. Gestion des erreurs (Prévention d'erreur lors de l'utilisation par un utilisateur, le système empêche l'utilisateur d'effectuer une action interdite)
+6. Signifiance des codes et dénomination (Les termes employés sont simples)

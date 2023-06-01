@@ -38,20 +38,9 @@ Pour cela on a le schéma de Nielsen qui résume bien :
 
 ![[Pasted image 20230214141751.png | center]]
 
-L'ergonomie se résume en deux point principaux :
-1. La simplicité d'utilisation, une personne peut trouver une interface intuitive alors qu'une autre personne ne comprendra pas. Le but à atteindre est que peut importe l'action souhaité par l'utilisateur, il soit capable rapidement de voir le chemin à suivre pour exécuter celle-ci.
-2. La transparance du système, si un logique est en cours d'exécution, l'utilisateur doit être au courant. Il ne doit pas douter sur le fait qu'une action soit en cours ou non. Si l'on 
-
-L'ergonomie c'est :
-- Est ce que le système est simple à prendre en main
-	- Que ce passe t'il si j'appuie sur ce bouton ?
-	- Pourquoi je suis là ?
-	- Ah oui... ça marche comme ça...
-	- Gauche pour revenir en arrière et Droite pour continuer ? Ou est ce que c'est à l'envers.
-- Peu importe ce que je fais le système ne doit pas planter
-	- Qu'est ce qu'il se passe actuellement sur ce système
-	- Pourquoi rien ne se passe ? Est ce que le système à planter ?
-	- Pourquoi je ne pas pas faire ça comme ça ? Je pensais vraiment que le système le suporterait...
+L'ergonomie se résume en quelques point principaux :
+1. **La simplicité d'utilisation**, une personne peut trouver une interface intuitive alors qu'une autre personne ne comprendra pas. Le but à atteindre est que peut importe l'action souhaité par l'utilisateur, il soit capable rapidement de voir le chemin à suivre pour exécuter celle-ci.
+2. **La transparance du système**, si un logique est en cours d'exécution, l'utilisateur doit être au courant. Il ne doit pas douter sur le fait qu'une action soit en cours ou non. Si l'on charge un fichier, avoir une animation de chargement rassure l'utilisateur puisqu'il sait que sa demande est en cours de traîtement.
 
 **A ne pas confonde avec l'expérience utilisateur (UX)**.
 

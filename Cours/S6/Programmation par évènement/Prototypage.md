@@ -27,7 +27,11 @@ La démarche centrée utilisateur est une activité de prototypage (voir [[User 
 La problématique réside dans la résolution du besoin tout en préservant un certain niveau de qualité.
 
 Une méthode plutôt connue est "**l'overlapping funnel**" de Paul Laseau qui est un processus de prise de décision:
-1. On commence par une phase d'élaboration qui permet de chercher de nouvelles opportunités/idées/prototypes
-2. Vient alors une phase de prise de décision aucours de laquel on va faire des choix qui vont nous permettre de nous fixer des objectifs afin de répondre aux besoins/contraintes.
+1. On commence par une phase d'élaboration qui permet de chercher de nouvelles opportunités/idées et de faire des prototypes.
+2. Vient alors une phase de prise de décision au cours de laquelle on va faire des choix et raffiner des solutions qui vont nous permettre de nous fixer des objectifs afin de répondre aux besoins/contraintes.
 
 ![[Pasted image 20230601144431.png | center]]
+
+**Attention : Il est important de différencier options de design et évolution de prototypes !**
+- Une option de design -> Effectuer un choix
+- Une évolution de prototype -> amélioration/raffinage d'une option de design

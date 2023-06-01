@@ -36,6 +36,10 @@ Une méthode plutôt connue est "**l'overlapping funnel**" de Paul Laseau qui es
 - Une option de design -> Effectuer un choix
 - Une évolution de prototype -> amélioration/raffinage d'une option de design
 
+### Terminologie sur les maquettes
+
+On parle de maquettes **haut ou basse fidélité** selon le niveau de détail utilisé, qui peut varier du schéma grossier jusqu'au dessin précis et détaillé.
+
 ### Pourquoi faire du prototypage ?
 
 - Nécessite *peu* de compétences technique (En particulier pour les aspects visuel !)
@@ -52,4 +56,3 @@ Une méthode plutôt connue est "**l'overlapping funnel**" de Paul Laseau qui es
 - Et le gain est réel car on ne testera pas l'utilisateur au final mais l'interface en elle même.
 ![[Pasted image 20230601175928.png | center]]
 
-### Types de 

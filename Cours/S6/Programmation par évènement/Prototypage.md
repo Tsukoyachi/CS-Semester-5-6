@@ -52,6 +52,8 @@ Le principe d'une maquette c'est qu'elle est **jetable** que ce soit par vous ou
 - Et surtout c'est **économique**, un prototype ne va quasiment rien coûter et peu se faire très rapidement. C'est donc un vrai moyen de cibler des objectifs précis à court terme.
 - C'est aussi un moyen de justifier certain choix en gardant des traces de ce qui a été fait au préalable.
 
+Le mécanisme d'annotation est également très efficace, il permet 
+
 ### Maquettage papier/video
 
 - Ici le but est de parler de l'aspect utilisabilité et non de l'aspect esthétique.
@@ -62,4 +64,8 @@ Le principe d'une maquette c'est qu'elle est **jetable** que ce soit par vous ou
 
 ## Magicien d'Oz
 
-C'est une méthode de prototypage plutôt connues visant à effectuer une démons
+C'est une méthode de prototypage plutôt connues visant à effectuer une démonstration de test en effectuant à la main les interactions voulues par le testeur.
+
+Imaginons que le testeur/client fasse un clic (avec son doigt), le démonstrateur va alors superposer une autre feuille sur la feuille qui était montrée au client afin de simuler une interaction.
+
+Plusieurs exemple de très bonne qualité sont trouvable en ligne sur YouTube pour visualiser ce que cela peut donner.

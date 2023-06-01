@@ -8,5 +8,7 @@ L'IHM se doit également d'être ergonomique, cela signifie qu'elle facilite le 
 
 L'ergonomie se mesure à l'aide de plusieurs critères :
 1. Guidage (l'utilisateur est accompagné correctement pour remplir une tâche).
-2. Charge de travail ()
-3. 
+2. Charge de travail (le nombre d’interactions requises pour effectuer une action est faible)
+3. Contrôle explicite
+4. Adaptabilité
+5. Gestion des erreurs (Prévention d'erreur lors de )

@@ -40,6 +40,10 @@ Une méthode plutôt connue est "**l'overlapping funnel**" de Paul Laseau qui es
 
 On parle de maquettes **haut ou basse fidélité** selon le niveau de détail utilisé, qui peut varier du schéma grossier jusqu'au dessin précis et détaillé.
 
+Le principe d'une maquette c'est qu'elle est **jetable** que ce soit par vous ou le client. Par exemple lors d'une discussion pour illustrer un propos il est possible de faire un schéma sur lequel on va gribouiller, discuter et peut être garder ou jeter.
+
+![[Pasted image 20230601180620.png | center]]
+
 ### Pourquoi faire du prototypage ?
 
 - Nécessite *peu* de compétences technique (En particulier pour les aspects visuel !)
@@ -56,3 +60,6 @@ On parle de maquettes **haut ou basse fidélité** selon le niveau de détail ut
 - Et le gain est réel car on ne testera pas l'utilisateur au final mais l'interface en elle même.
 ![[Pasted image 20230601175928.png | center]]
 
+## Magicien d'Oz
+
+C'est une méthode de prototypage plutôt connues visant à effectuer une démons

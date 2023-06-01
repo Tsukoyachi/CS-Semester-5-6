@@ -1,4 +1,4 @@
-INPUT = exemple1 exemple2 division_simple modulo soustraction lire booleen or non
+INPUT = exemple1 exemple2 division_simple modulo soustraction lire booleen or non division_modulo egalite different superieur inferieur inferieur_ou_egal superieur_ou_egal ex_comparaison
 
 assembleur_vers_exercutable: main generation_code_nasm
 	for a in $(INPUT); do echo "Assemblage: " $${a}; nasm -f elf -g -F dwarf output/$${a}.nasm; ld -m elf_i386 -o output/$${a} output/$${a}.o; rm output/$${a}.o; done;

@@ -1,0 +1,3 @@
+ecrire(1 >= 15);
+ecrire(15 >= 15);
+ecrire(15 >= 1);

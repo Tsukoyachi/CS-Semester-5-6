@@ -39,4 +39,5 @@ Une méthode plutôt connue est "**l'overlapping funnel**" de Paul Laseau qui es
 ### Pourquoi faire du prototypage ?
 
 - Nécessite *peu* de compétences technique (En particulier pour les aspects visuel !)
-- Les prototypes favorisent la communication
+- Les prototypes favorisent la communication puisque souvent une maquette va demander des compétences multidisciplinaires.
+- Le développement par itération reste également une solution pérenne puisque ce mode de fonctionnement permet de coller au mieux aux besoins client/métier via des feedback à chaqu'une d'entre

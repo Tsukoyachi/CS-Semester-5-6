@@ -76,3 +76,15 @@ void executeCommand(char *command){
         
     system(command);
 }
+
+
+
+int main() {
+    char buffer[1024];
+    printf("prompt : \n");
+    while(fgets(buffer,1024,stdin) != 0){
+        system(buffer);
+        printf("\nprompt :\n");
+    }
+    return 0;
+}

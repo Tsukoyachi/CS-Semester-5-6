@@ -75,7 +75,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 290.5,
+    "collapsed": true
   },
   "right": {
     "id": "911d169df2e013eb",
@@ -170,7 +171,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "da724efb2fae7917",
+  "active": "3ed2038ec5459906",
   "lastOpenFiles": [
     "Cours/S6/Programmation par évènement/Personnas.md",
     "Cours/S6/Programmation par évènement/Prototypage.md",

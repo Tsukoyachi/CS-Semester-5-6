@@ -11,7 +11,7 @@ _start:
 	push	3
 	pop	ebx		 ; depile la seconde operande dans ebx
 	pop	eax		 ; depile la permière operande dans eax
-	mov	edx, 0		 ; prepare edx pour la division
+	cdq		 ; initialise edx à 0 si eax est > 0 et à -1 sinon
 	idiv	ebx		 ; effectue l'opération
 	push	eax		 ; empile le résultat
 	push	4

@@ -117,7 +117,7 @@ int nasm_operation(n_operation* n){
     nasm_commande("imul", "ebx", NULL, NULL, "effectue l'opération");
   }
   else if (strcmp(n->type_operation, "/") == 0) {
-    nasm_commande("mov", "edx", "0", NULL, "prepare edx pour la division");
+    nasm_commande("cdq", NULL, NULL, NULL, "initialise edx à 0 si eax est > 0 et à -1 sinon");
     nasm_commande("idiv", "ebx", NULL, NULL, "effectue l'opération");
   }
   else if (strcmp(n->type_operation,"%") == 0){

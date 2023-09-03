@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/S5/Langage C et système/9 - Classe de stockage, qualificateur et zone mémoire.md",
+                "file": "Cours/S5/Langage C et système/8 - make & Makefile.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5,
-    "collapsed": true
+    "width": 290.5
   },
   "right": {
     "id": "911d169df2e013eb",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/S5/Langage C et système/9 - Classe de stockage, qualificateur et zone mémoire.md",
+                "file": "Cours/S5/Langage C et système/8 - make & Makefile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/S5/Langage C et système/9 - Classe de stockage, qualificateur et zone mémoire.md",
+                "file": "Cours/S5/Langage C et système/8 - make & Makefile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/S5/Langage C et système/9 - Classe de stockage, qualificateur et zone mémoire.md"
+                "file": "Cours/S5/Langage C et système/8 - make & Makefile.md"
               }
             }
           },
@@ -175,6 +174,7 @@
   },
   "active": "e5eb5d4cff39808c",
   "lastOpenFiles": [
+    "Cours/S5/Langage C et système/9 - Classe de stockage, qualificateur et zone mémoire.md",
     "Mobilité étranger.md",
     "Back to school.md",
     "Cours/S6/Programmation par évènement/User Centered Design.md",
@@ -219,7 +219,6 @@
     "TD/S6/Programmation Systemes/td10/node/node_modules/debug/CHANGELOG.md",
     "TD/S6/Programmation Systemes/td10/node/node_modules/cookie/SECURITY.md",
     "TD/S6/Programmation Systemes/td10/node/node_modules/depd/Readme.md",
-    "TD/S6/Programmation Systemes/td10/node/node_modules/finalhandler/SECURITY.md",
-    "TD/S6/Programmation Systemes/td10/node/node_modules/content-disposition/README.md"
+    "TD/S6/Programmation Systemes/td10/node/node_modules/finalhandler/SECURITY.md"
   ]
 }

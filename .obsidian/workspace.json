@@ -168,8 +168,7 @@
       "graph:Ouvrir la vue graphique": false,
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "command-palette:Ouvrir la palette de commandes": false
     }
   },
   "active": "e5eb5d4cff39808c",
